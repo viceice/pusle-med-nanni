@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/grunt-task",
     "development": [ "changed:copy" ],
-    "static": [ "copy", "autoprefixer", "uglify", "cssmin" ],
+    "static": [ "copy", "uglify", "cssmin" ],
     "default": [ "copy" ]
 }

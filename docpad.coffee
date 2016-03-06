@@ -77,7 +77,6 @@ docpadConfig = {
       env = docpad.getConfig().env or 'development'
 
       # Perform the grunt `min` task
-      # https://github.com/gruntjs/grunt/blob/0.3-stable/docs/task_min.md
       command = [gruntPath, env]
 
       # Execute
@@ -85,6 +84,10 @@ docpadConfig = {
 
       # Chain
       @
+      
+  environments:
+    static:
+      outPath: 'out'
 }
 
 # Export the DocPad Configuration

@@ -71,6 +71,9 @@
     <Content Include="src\static\images\slides\image9.png" />
     <Content Include="src\partials\menu.html" />
     <Content Include="src\static\js\main.js" />
+    <Content Include="grunt-cfg\autoprefixer.json" />
+    <Content Include="grunt-cfg\cssmin.json" />
+    <Content Include="grunt-cfg\uglify.json" />
     <None Include="src\render\about\index.html.md" />
     <Content Include="src\render\contact\index.html" />
     <Content Include="src\render\css\metro.css.less" />

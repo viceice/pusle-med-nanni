@@ -46,7 +46,6 @@
     <Content Include="grunt-cfg\copy.js" />
     <Content Include="Gruntfile.js" />
     <Content Include="src\layouts\default.html.vash" />
-    <Content Include="src\partials\sidebar.html" />
     <Content Include="src\static\images\favicon.ico" />
     <Content Include="src\static\images\logo.png" />
     <Content Include="src\static\images\slides\image1.png" />

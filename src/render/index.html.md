@@ -4,7 +4,7 @@ layout: "default"
 menuOrder: 0
 ---
 
-Willkommen auf der Bastelseite von "Pussle med Nanni".
+Willkommen auf der Bastelseite von "Pusle med Nanni".
 
 Diese Seite befindet sich gerade im Aufbau.
 

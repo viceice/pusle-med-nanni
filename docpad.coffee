@@ -87,7 +87,7 @@ docpadConfig = {
       
   environments:
     static:
-      outPath: 'out'
+      outPath: 'build'
 }
 
 # Export the DocPad Configuration

@@ -1,10 +1,9 @@
-// ReSharper disable UseOfImplicitGlobalInFunctionScope
 
 module.exports = function (grunt) {
     if (grunt.option("time"))
         require("time-grunt")(grunt);
 
-    var bs = grunt.file.readJSON("./bower_components/bootstrap/grunt/configBridge.json", { encoding: "utf8" });
+    //var bs = grunt.file.readJSON("./bower_components/bootstrap/grunt/configBridge.json", { encoding: "utf8" });
 	var path = require('path');
 
     require("load-grunt-config")(grunt, {
@@ -31,4 +30,10 @@ module.exports = function (grunt) {
     });
 
     process.title = "grunt:" + grunt.config("package.name");
+
+    grunt.registerTask("static", function () {
+        grunt.config("path.bin", "build/")
+        grunt.task.run(["_static"]);
+    });
+
 }

@@ -1,0 +1,21 @@
+﻿---
+title: "Bilder"
+layout: "default"
+menuOrder: 3
+---
+
+<div class="tile-container">
+
+    @getCollection("samples").toJSON().forEach(function(img){
+    <div class="tile"  data-role="tile">
+        <div class="tile-content">
+            <div class="image-container">
+                <div class="frame">
+                    <img src="@img.url" data-role="fitImage" data-format="square">
+                </div>
+            </div>
+        </div>
+    </div>
+    })
+
+</div>

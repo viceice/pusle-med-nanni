@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB1D2B72-A6A7-4318-989D-B033C862C6B5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="grunt-cfg\copy.js" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="src\layouts\default.html.vash" />
+    <Content Include="src\partials\sidebar.html" />
+    <Content Include="src\static\images\favicon.ico" />
+    <Content Include="src\static\images\logo.png" />
+    <Content Include="src\static\images\slides\image1.png" />
+    <Content Include="src\static\images\slides\image10.jpeg" />
+    <Content Include="src\static\images\slides\image11.jpeg" />
+    <Content Include="src\static\images\slides\image12.jpeg" />
+    <Content Include="src\static\images\slides\image13.jpg" />
+    <Content Include="src\static\images\slides\image14.jpeg" />
+    <Content Include="src\static\images\slides\image15.jpeg" />
+    <Content Include="src\static\images\slides\image16.jpeg" />
+    <Content Include="src\static\images\slides\image17.jpeg" />
+    <Content Include="src\static\images\slides\image18.jpeg" />
+    <Content Include="src\static\images\slides\image19.png" />
+    <Content Include="src\static\images\slides\image2.png" />
+    <Content Include="src\static\images\slides\image20.png" />
+    <Content Include="src\static\images\slides\image21.png" />
+    <Content Include="src\static\images\slides\image3.jpeg" />
+    <Content Include="src\static\images\slides\image4.jpeg" />
+    <Content Include="src\static\images\slides\image5.png" />
+    <Content Include="src\static\images\slides\image6.png" />
+    <Content Include="src\static\images\slides\image7.jpeg" />
+    <Content Include="src\static\images\slides\image8.jpeg" />
+    <Content Include="src\static\images\slides\image9.png" />
+    <Content Include="src\partials\menu.html" />
+    <Content Include="src\static\js\main.js" />
+    <None Include="src\render\about\index.html.md" />
+    <Content Include="src\render\contact\index.html" />
+    <Content Include="src\render\css\metro.css.less" />
+    <Content Include="src\render\css\font-awesome.css.less" />
+    <Content Include="src\render\css\style.css.less" />
+    <Content Include="src\render\blog\index.html.md" />
+    <None Include="src\render\index.html.md" />
+    <None Include="src\render\topics\index.html.vash" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bower.json" />
+    <Content Include="docpad.coffee" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="grunt-cfg\aliases.json" />
+    <Content Include="grunt-cfg\sync.json" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49942</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49942/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

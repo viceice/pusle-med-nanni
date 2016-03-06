@@ -1,0 +1,17 @@
+{
+    "options": {
+        "preserveComments": "some"
+    },
+    "bin": {
+        "files": [
+            {
+                "cwd": "<%= path.js %>",
+                "src": [ "**/*.js" ],
+                "dest": "<%= path.js %>",
+                "ext": ".js",
+                "expand": true,
+                "extDot": "last"
+            }
+        ]
+    }
+}

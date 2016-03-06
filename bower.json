@@ -1,0 +1,15 @@
+{
+  "name": "pusle-med-nanni",
+  "version": "0.1.0",
+  "authors": [
+    "Michael Kriese <michael.kriese@gmx.de>"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0",
+    "Yamm3": "yamm3#~1.1.0",
+    "waypoints": "~4.0.0"
+  }
+}

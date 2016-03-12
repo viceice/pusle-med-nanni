@@ -111,9 +111,8 @@
     <Content Include="src\render\css\font-awesome.css.less" />
     <Content Include="src\render\css\style.css.less" />
     <Content Include="src\render\blog\index.html.md" />
-    <None Include="src\render\index.html.md" />
+    <None Include="src\render\index.html.vash" />
     <Content Include="src\render\naehen\index.html" />
-    <None Include="src\render\topics\index.html.vash" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />

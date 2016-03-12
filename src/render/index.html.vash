@@ -1,14 +1,17 @@
-﻿---
-title: "Bilder"
-layout: "default"
-menuOrder: 3
-menuHidden: true
 ---
+title: "Willkommen"
+layout: "default"
+menuOrder: 0
+---
+
+Willkommen auf der Bastelseite von "Pusle med Nanni".
+
+Diese Seite befindet sich gerade im Aufbau.
 
 <div class="tile-container">
 
     @getCollection("samples").toJSON().forEach(function(img){
-    <div class="tile"  data-role="tile">
+    <div class="tile" data-role="tile">
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">

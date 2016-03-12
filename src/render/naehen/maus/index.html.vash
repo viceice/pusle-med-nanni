@@ -31,7 +31,7 @@ menuOrder: 9
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/naehen/maus/verschiedene-01.jpg">
+                    <img src="@getTile('images/naehen/maus/verschiedene-01.jpg')">
                 </div>
                 <div class="tile-label">
                     Verschiedene Mäuse

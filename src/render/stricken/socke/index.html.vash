@@ -12,7 +12,7 @@ menuOrder: 3
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/socke/eine-tile.jpg">
+                    <img src="@getTile('/images/stricken/socke/eine-tile.jpg')">
                 </div>
                 <div class="tile-label">
                     Eine Chipsocke
@@ -24,7 +24,7 @@ menuOrder: 3
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/socke/mehrere-tile.jpg">
+                    <img src="@getTile('/images/stricken/socke/mehrere.jpg')">
                 </div>
                 <div class="tile-label">
                     Mehrere Chipsocken
@@ -36,7 +36,7 @@ menuOrder: 3
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/socke/karten-tile.jpg">
+                    <img src="@getTile('/images/stricken/socke/karten.jpg')">
                 </div>
                 <div class="tile-label">
                     Karten

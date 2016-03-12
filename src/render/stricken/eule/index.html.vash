@@ -32,7 +32,7 @@ menuOrder: 1
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/eule/braune-tile.jpg">
+                    <img src="@getTile('/images/stricken/eule/braune.jpg')">
                 </div>
                 <div class="tile-label">
                     Braun gestreifte Eulen
@@ -44,7 +44,7 @@ menuOrder: 1
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/eule/blau-tile.jpg">
+                    <img src="@getTile('/images/stricken/eule/blau.jpg')">
                 </div>
                 <div class="tile-label">
                     Blaue Eule
@@ -56,7 +56,7 @@ menuOrder: 1
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/eule/tuerkis.jpg">
+                    <img src="@getTile('/images/stricken/eule/tuerkis.jpg')">
                 </div>
                 <div class="tile-label">
                     Türkise Eule
@@ -68,7 +68,7 @@ menuOrder: 1
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/eule/rosa-tile.jpg">
+                    <img src="@getTile('/images/stricken/eule/rosa-tile.jpg')">
                 </div>
                 <div class="tile-label">
                     Rosa Eule
@@ -80,7 +80,7 @@ menuOrder: 1
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/eule/rosa-pink-tile.jpg">
+                    <img src="@getTile('/images/stricken/eule/rosa-pink.jpg')">
                 </div>
                 <div class="tile-label">
                     Rosa und pinke Eule

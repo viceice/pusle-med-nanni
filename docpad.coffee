@@ -45,6 +45,9 @@ docpadConfig = {
       # Merge the document keywords with the site keywords
       @site.keywords.concat(@document.keywords or []).join(', ')
 
+    getTile: ->
+      @getThumbnail.apply(@, arguments).replace(/\\/gi, '/')
+
     groupMenu: (pages) ->
       grps = pages.reduce((res, cur) ->
         (res[cur.meta.group or ''] or= []).push(cur)
@@ -84,10 +87,17 @@ docpadConfig = {
 
       # Chain
       @
-      
+
   environments:
     static:
       outPath: 'build'
+
+  plugins:
+    imagin:
+      presets:
+        'default':
+            w: 310
+            h: 310
 }
 
 # Export the DocPad Configuration

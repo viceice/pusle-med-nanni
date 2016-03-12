@@ -31,7 +31,7 @@ keywords: Flowerball, Blumenkugel, Fleurogami, Deko
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/papier/kugel/verschiedene-01.jpg">
+                    <img src="@getTile('/images/papier/kugel/verschiedene-01.jpg')">
                 </div>
                 <div class="tile-label">
                     Verschiedene Kugeln
@@ -43,7 +43,7 @@ keywords: Flowerball, Blumenkugel, Fleurogami, Deko
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/papier/kugel/sweet-kiss-01.jpg">
+                    <img src="@getTile('/images/papier/kugel/sweet-kiss-01.jpg')">
                 </div>
                 <div class="tile-label">
                     Teekanne: Sweet Kiss
@@ -55,7 +55,7 @@ keywords: Flowerball, Blumenkugel, Fleurogami, Deko
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/papier/kugel/heisse-liebe-01.jpg">
+                    <img src="@getTile('/images/papier/kugel/heisse-liebe-01.jpg')">
                 </div>
                 <div class="tile-label">
                     Teekanne: Heiße Liebe

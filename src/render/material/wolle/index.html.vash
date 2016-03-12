@@ -27,7 +27,7 @@ keywords: Fransenwolle, Fransengarn
                     <div class="tile-content">
                         <div class="image-container">
                             <div class="frame">
-                                <img src="/images/material/wolle/fransenwolle-farben-eulen.jpg">
+                                <img src="@getTile('/images/material/wolle/fransenwolle-farben-eulen.jpg')">
                             </div>
                             <div class="tile-label">
                                 Eulen aus Fransenwolle
@@ -39,7 +39,7 @@ keywords: Fransenwolle, Fransengarn
                     <div class="tile-content">
                         <div class="image-container">
                             <div class="frame">
-                                <img src="/images/material/wolle/fransenwolle-farben-huehner.jpg">
+                                <img src="@getTile('/images/material/wolle/fransenwolle-farben-huehner.jpg')">
                             </div>
                             <div class="tile-label">
                                 Hühner aus Fransenwolle

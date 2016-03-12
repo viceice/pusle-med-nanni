@@ -28,7 +28,7 @@ menuOrder: 2
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/huhn/creme.jpg">
+                    <img src="@getTile('/images/stricken/huhn/creme.jpg')">
                 </div>
                 <div class="tile-label">
                     Creme-farbene Hühner
@@ -40,7 +40,7 @@ menuOrder: 2
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/huhn/gelb-glitzer.jpg">
+                    <img src="@getTile('/images/stricken/huhn/gelb-glitzer.jpg')">
                 </div>
                 <div class="tile-label">
                     Gelb-glitzernes Huhn
@@ -52,7 +52,7 @@ menuOrder: 2
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/huhn/sonnen-gelb.jpg">
+                    <img src="@getTile('/images/stricken/huhn/sonnen-gelb.jpg')">
                 </div>
                 <div class="tile-label">
                     Sonnengelb Hühner
@@ -64,7 +64,7 @@ menuOrder: 2
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/huhn/hell-gelb.jpg">
+                    <img src="@getTile('/images/stricken/huhn/hell-gelb.jpg')">
                 </div>
                 <div class="tile-label">
                     Hellgelbes Huhn
@@ -76,7 +76,7 @@ menuOrder: 2
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/huhn/rosa.jpg">
+                    <img src="@getTile('/images/stricken/huhn/rosa.jpg')">
                 </div>
                 <div class="tile-label">
                     Rosa Huhn
@@ -88,7 +88,7 @@ menuOrder: 2
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="/images/stricken/huhn/lachs.jpg">
+                    <img src="@getTile('/images/stricken/huhn/lachs.jpg')">
                 </div>
                 <div class="tile-label">
                     Lachs-farbenes Huhn

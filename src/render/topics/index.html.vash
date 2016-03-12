@@ -2,6 +2,7 @@
 title: "Bilder"
 layout: "default"
 menuOrder: 3
+menuHidden: true
 ---
 
 <div class="tile-container">

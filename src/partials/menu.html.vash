@@ -1,0 +1,41 @@
+﻿<div class="app-bar fixed-top orange" data-role="appbar">
+    <div class="container">
+        <a class="app-bar-element branding" href="/">
+            <img src="/images/logo.png" style="height: 28px; display: inline-block; margin-right: 10px;" />
+            Pusle med Nanni
+        </a>
+
+        <span class="app-bar-divider"></span>
+
+        <ul class="app-bar-menu">
+            @menuItems.forEach(function(page){
+            @if(page.children) {
+            <li class="@(page.state? ' active' : '')">
+                <a class="dropdown-toggle">@page.title</a>
+                <ul class="d-menu" data-role="dropdown">
+                    @groupMenu(page.children).forEach(function(group){
+                    @group.pages.forEach(function(subpage){
+                    <li><a href="@subpage.url">@subpage.title</a></li>
+                    })
+                    })
+                </ul>
+            </li>
+            } else {
+            <li class="@(page.state? 'active' : '')">
+                <a href="@page.url">@page.title</a>
+            </li>
+            }
+            })
+        </ul>
+
+        <div class="app-bar-pullbutton automatic"></div>
+
+        <ul class="app-bar-menu place-right">
+            <li>
+                <a href="/about">
+                    Impressum
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

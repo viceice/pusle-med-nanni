@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="header">
-        @partial("menu.html", false)
+        @partial("menu.html.vash", {menuItems: generateMenu(document.url, "html")})
     </div>
 
     <div class="container content">

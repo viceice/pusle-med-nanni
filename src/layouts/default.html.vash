@@ -26,6 +26,6 @@
         <h1>@document.title</h1>
         @html.raw(content)
     </div>
-    @html.raw(getBlock("scripts").add(["/js/jquery.js", "/js/jquery.waypoints.js", "/js/metro.js"]).toHTML())
+    @html.raw(getBlock("scripts").add(["/js/jquery.js", "/js/jquery.waypoints.js", "/js/metro.js", "/js/main.js"]).toHTML())
 </body>
 </html>

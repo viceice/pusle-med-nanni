@@ -16,3 +16,11 @@
 //        $(".navbar-pmn").removeClass("navbar-fixed-top");
 //    }
 //}, { offset: 75 });
+
+
+$("body").on("click", ".open-image tile, .open-image tile-large", function () {
+    var src = $(this).find(".img").attr("src");
+
+    if (src)
+        window.open(src.replace("-tile", ""));
+})

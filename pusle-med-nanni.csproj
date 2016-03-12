@@ -46,6 +46,35 @@
     <Content Include="grunt-cfg\copy.js" />
     <Content Include="Gruntfile.js" />
     <Content Include="src\layouts\default.html.vash" />
+    <Content Include="src\render\naehen\taschen\index.html" />
+    <Content Include="src\render\papier\index.html" />
+    <Content Include="src\render\papier\kugel\index.html" />
+    <Content Include="src\render\papier\stern\index.html" />
+    <Content Include="src\render\haekeln\tiere\index.html" />
+    <Content Include="src\render\haekeln\muetze\index.html" />
+    <Content Include="src\render\haekeln\index.html" />
+    <Content Include="src\render\stricken\eule\index.html" />
+    <Content Include="src\render\stricken\huhn\index.html" />
+    <Content Include="src\render\stricken\index.html" />
+    <Content Include="src\render\stricken\socke\index.html" />
+    <Content Include="src\render\stricken\loop\index.html" />
+    <Content Include="src\render\material\sonstiges\index.html" />
+    <Content Include="src\render\material\wolle\index.html" />
+    <Content Include="src\render\material\papier\index.html" />
+    <Content Include="src\render\material\filz\index.html" />
+    <Content Include="src\render\material\jersey\index.html" />
+    <Content Include="src\render\material\index.html" />
+    <Content Include="src\render\material\baumwolle\index.html" />
+    <Content Include="src\render\naehen\halatasche\index.html" />
+    <Content Include="src\render\naehen\maus\index.html" />
+    <Content Include="src\render\naehen\kotuch\index.html" />
+    <Content Include="src\render\naehen\herz\index.html" />
+    <Content Include="src\render\naehen\huhn\index.html" />
+    <Content Include="src\render\naehen\utensilo\index.html" />
+    <Content Include="src\render\naehen\kotuebox\index.html" />
+    <Content Include="src\render\naehen\brille\index.html" />
+    <Content Include="src\render\naehen\tatueta\index.html" />
+    <Content Include="src\render\naehen\beanie\index.html" />
     <Content Include="src\static\images\favicon.ico" />
     <Content Include="src\static\images\logo.png" />
     <Content Include="src\static\images\slides\image1.png" />
@@ -69,7 +98,7 @@
     <Content Include="src\static\images\slides\image7.jpeg" />
     <Content Include="src\static\images\slides\image8.jpeg" />
     <Content Include="src\static\images\slides\image9.png" />
-    <Content Include="src\partials\menu.html" />
+    <None Include="src\partials\menu.html.vash" />
     <Content Include="src\static\js\main.js" />
     <Content Include="grunt-cfg\autoprefixer.json" />
     <Content Include="grunt-cfg\cssmin.json" />
@@ -81,6 +110,7 @@
     <Content Include="src\render\css\style.css.less" />
     <Content Include="src\render\blog\index.html.md" />
     <None Include="src\render\index.html.md" />
+    <Content Include="src\render\naehen\index.html" />
     <None Include="src\render\topics\index.html.vash" />
   </ItemGroup>
   <ItemGroup>

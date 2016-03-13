@@ -74,8 +74,8 @@
     <Content Include="src\render\naehen\kotuch\index.html" />
     <Content Include="src\render\naehen\herz\index.html" />
     <Content Include="src\render\naehen\huhn\index.html" />
-    <Content Include="src\render\naehen\utensilo\index.html" />
-    <Content Include="src\render\naehen\kotuebox\index.html" />
+    <None Include="src\render\naehen\utensilo\index.html.vash" />
+    <None Include="src\render\naehen\kotuebox\index.html.vash" />
     <Content Include="src\render\naehen\brille\index.html" />
     <Content Include="src\render\naehen\tatueta\index.html" />
     <Content Include="src\render\naehen\beanie\index.html" />
@@ -85,7 +85,15 @@
     <Content Include="src\static\images\material\sonstiges\teekanne-01.jpg" />
     <Content Include="src\static\images\material\wolle\fransenwolle-farben-eulen.jpg" />
     <Content Include="src\static\images\material\wolle\fransenwolle-farben-huehner.jpg" />
+    <Content Include="src\static\images\naehen\kotuebox\rosalie-01.jpg" />
     <Content Include="src\static\images\naehen\maus\verschiedene-01.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\box-01.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\box-02.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\box-03.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\blumen-blau-01.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\blumen-rot-grau-01.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\gruen-01.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\patchwork-rosa-gruen-01.jpg" />
     <Content Include="src\static\images\papier\kugel\heisse-liebe-01.jpg" />
     <Content Include="src\static\images\papier\kugel\sweet-kiss-01.jpg" />
     <Content Include="src\static\images\papier\kugel\verschiedene-01.jpg" />

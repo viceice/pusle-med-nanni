@@ -1,0 +1,28 @@
+﻿---
+title: "Kosmetiktücherbox"
+layout: "default"
+menuOrder: 4
+---
+
+<div class="grid">
+    <div class="row cells2">
+        <div class="cell">
+            <p>
+                Ein hübscher Überzug für Kosmetiktücherboxen.
+            </p>
+        </div>
+        <div class="cell">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 22,5x11,5x6,5cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/baumwolle">Baumwolle Rosalie</a> von Ikea</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="tile-container">
+    @partial('tile', {src: 'naehen/kotuebox/rosalie-01', label:'Rosalie' })
+</div>
+

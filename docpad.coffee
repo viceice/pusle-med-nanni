@@ -46,9 +46,9 @@ docpadConfig = {
       @site.keywords.concat(@document.keywords or []).join(', ')
 
     getTile: ->
-      src = arguments[0].replace(/^\/?images\//, "")
+      src = arguments[0]
       if(src.search(/^\/?images/) == -1)
-        src = "images/" + src + ".jpg"
+        arguments[0] = "images/" + src + ".jpg"
       @getThumbnail.apply(@, arguments).replace(/\\/gi, '/')
 
     groupMenu: (pages) ->

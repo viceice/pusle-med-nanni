@@ -27,6 +27,12 @@
         @html.raw(content)
     </div>
 
+    <div class="footer">
+        <div class="container">
+            <p class="fg-grayLight">Geändert am: @getPreparedDate()</p>
+        </div>
+    </div>
+
 
     <div id="preview" data-role="dialog"
          data-overlay="true"

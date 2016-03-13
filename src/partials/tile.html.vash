@@ -1,8 +1,8 @@
-﻿<div class="@(model.size || 'tile-large') @(model.fg || '')" data-role="tile" data-href="@getTile('images/' + src + '.jpg', 'full')">
+﻿<div class="@(model.size || 'tile-large') @(model.fg || '')" data-role="tile" data-href="@getTile(src, 'full')">
     <div class="tile-content">
         <div class="image-container">
             <div class="frame">
-                <img src="@getTile('images/' + src + '.jpg', model.size || 'tile-large')">
+                <img src="@getTile(src, model.size || 'tile-large')">
             </div>
             @if(model.overlay){
             <div class="image-overlay">

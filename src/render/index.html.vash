@@ -15,7 +15,7 @@ Diese Seite befindet sich gerade im Aufbau.
         <div class="tile-content">
             <div class="image-container">
                 <div class="frame">
-                    <img src="@img.url" data-role="fitImage" data-format="square">
+                    <img src="@getTile(img.url, 'tile')">
                 </div>
             </div>
         </div>

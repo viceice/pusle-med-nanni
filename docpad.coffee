@@ -98,6 +98,16 @@ docpadConfig = {
         'default':
             w: 310
             h: 310
+        'tile':
+            w: 150
+            h: 150
+        'tile-large':
+            w: 310
+            h: 310
+        'full':
+            w: 1024
+            h: 1024
+
 }
 
 # Export the DocPad Configuration

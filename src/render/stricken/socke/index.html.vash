@@ -7,41 +7,8 @@ menuOrder: 3
     Eine Idee war die Chipsocken als Geschenkkarte zu gestalten.
 </p>
 
-<div class="tile-conatiner open-image">
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/socke/eine-tile.jpg')">
-                </div>
-                <div class="tile-label">
-                    Eine Chipsocke
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/socke/mehrere.jpg')">
-                </div>
-                <div class="tile-label">
-                    Mehrere Chipsocken
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/socke/karten.jpg')">
-                </div>
-                <div class="tile-label">
-                    Karten
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="tile-container">
+    @partial('tile', {src: 'stricken/socke/eine', label: 'Eine Chipsocke' })
+    @partial('tile', {src: 'stricken/socke/mehrere', label: 'Verschiedene Chipsocken' })
+    @partial('tile', {src: 'stricken/socke/karten', label: 'Chipsocke als Karte' })
 </div>

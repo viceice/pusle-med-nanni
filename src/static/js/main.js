@@ -18,9 +18,13 @@
 //}, { offset: 75 });
 
 
-$("body").on("click", ".open-image tile, .open-image tile-large", function () {
-    var src = $(this).find(".img").attr("src");
+$("body").on("click", "div[data-role=tile]", function () {
+    var src = $(this).data("href");
 
-    if (src)
-        window.open(src.replace("-tile", ""));
+    if (!src)
+        return;
+
+    var dlg = $("#preview");
+    dlg.find("img.dlg-preview").attr("src", src);
+    dlg.data("dialog").open();
 })

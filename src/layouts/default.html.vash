@@ -19,13 +19,23 @@
 </head>
 <body>
     <div class="header">
-        @partial("menu.html.vash", {menuItems: generateMenu(document.url, "html")})
+        @partial("menu", {menuItems: generateMenu(document.url, "html")})
     </div>
 
     <div class="container content">
         <h1>@document.title</h1>
         @html.raw(content)
     </div>
+
+
+    <div id="preview" data-role="dialog"
+         data-overlay="true"
+         data-overlay-click-close="true"
+         data-overlay-color="op-dark"
+         data-close-button="true">
+        <img class="dlg-preview"/>
+    </div>
+
     @html.raw(getBlock("scripts").add(["/js/jquery.js", "/js/jquery.waypoints.js", "/js/metro.js", "/js/main.js"]).toHTML())
 </body>
 </html>

@@ -22,31 +22,9 @@ keywords: Fransenwolle, Fransengarn
             </p>
         </div>
         <div class="cell">
-            <div class="tile-conatiner open-image">
-                <div class="tile">
-                    <div class="tile-content">
-                        <div class="image-container">
-                            <div class="frame">
-                                <img src="@getTile('/images/material/wolle/fransenwolle-farben-eulen.jpg')">
-                            </div>
-                            <div class="tile-label">
-                                Eulen aus Fransenwolle
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tile">
-                    <div class="tile-content">
-                        <div class="image-container">
-                            <div class="frame">
-                                <img src="@getTile('/images/material/wolle/fransenwolle-farben-huehner.jpg')">
-                            </div>
-                            <div class="tile-label">
-                                Hühner aus Fransenwolle
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="tile-container open-image">
+                @partial('tile', {src: 'material/wolle/fransenwolle-farben-eulen', size: 'tile' })
+                @partial('tile', {src: 'material/wolle/fransenwolle-farben-huehner', size: 'tile' })
             </div>
         </div>
     </div>

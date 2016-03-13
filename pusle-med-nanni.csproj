@@ -43,6 +43,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="grunt-cfg\copy.js" />
     <Content Include="Gruntfile.js" />
     <Content Include="src\layouts\default.html.vash" />
@@ -50,6 +51,7 @@
     <Content Include="src\render\material\fleece\index.html" />
     <Content Include="src\render\naehen\taschen\index.html" />
     <Content Include="src\render\papier\index.html" />
+    <Content Include="src\partials\tile.html.vash" />
     <None Include="src\render\papier\kugel\index.html.vash" />
     <Content Include="src\render\papier\stern\index.html" />
     <Content Include="src\render\haekeln\tiere\index.html" />
@@ -77,8 +79,16 @@
     <Content Include="src\render\naehen\brille\index.html" />
     <Content Include="src\render\naehen\tatueta\index.html" />
     <Content Include="src\render\naehen\beanie\index.html" />
+    <Content Include="src\static\googlec119728a2bc5e78e.html" />
     <Content Include="src\static\images\favicon.ico" />
     <Content Include="src\static\images\logo.png" />
+    <Content Include="src\static\images\material\sonstiges\teekanne-01.jpg" />
+    <Content Include="src\static\images\material\wolle\fransenwolle-farben-eulen.jpg" />
+    <Content Include="src\static\images\material\wolle\fransenwolle-farben-huehner.jpg" />
+    <Content Include="src\static\images\naehen\maus\verschiedene-01.jpg" />
+    <Content Include="src\static\images\papier\kugel\heisse-liebe-01.jpg" />
+    <Content Include="src\static\images\papier\kugel\sweet-kiss-01.jpg" />
+    <Content Include="src\static\images\papier\kugel\verschiedene-01.jpg" />
     <Content Include="src\static\images\slides\image1.png" />
     <Content Include="src\static\images\slides\image10.jpeg" />
     <Content Include="src\static\images\slides\image11.jpeg" />
@@ -101,6 +111,20 @@
     <Content Include="src\static\images\slides\image8.jpeg" />
     <Content Include="src\static\images\slides\image9.png" />
     <None Include="src\partials\menu.html.vash" />
+    <Content Include="src\static\images\stricken\eule\blau.jpg" />
+    <Content Include="src\static\images\stricken\eule\braune.jpg" />
+    <Content Include="src\static\images\stricken\eule\rosa-pink.jpg" />
+    <Content Include="src\static\images\stricken\eule\rosa.jpg" />
+    <Content Include="src\static\images\stricken\eule\tuerkis.jpg" />
+    <Content Include="src\static\images\stricken\huhn\creme.jpg" />
+    <Content Include="src\static\images\stricken\huhn\gelb-glitzer.jpg" />
+    <Content Include="src\static\images\stricken\huhn\hell-gelb.jpg" />
+    <Content Include="src\static\images\stricken\huhn\lachs.jpg" />
+    <Content Include="src\static\images\stricken\huhn\rosa.jpg" />
+    <Content Include="src\static\images\stricken\huhn\sonnen-gelb.jpg" />
+    <Content Include="src\static\images\stricken\socke\eine.jpg" />
+    <Content Include="src\static\images\stricken\socke\karten.jpg" />
+    <Content Include="src\static\images\stricken\socke\mehrere.jpg" />
     <Content Include="src\static\js\main.js" />
     <Content Include="grunt-cfg\autoprefixer.json" />
     <Content Include="grunt-cfg\cssmin.json" />

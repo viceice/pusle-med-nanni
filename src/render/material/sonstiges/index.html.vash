@@ -21,19 +21,8 @@ menuOrder: 20
             </p>
         </div>
         <div class="cell">
-            <div class="tile-conatiner open-image">
-                <div class="tile" data-role="tile">
-                    <div class="tile-content">
-                        <div class="image-container">
-                            <div class="frame">
-                                <img src="@getTile('/images/material/sonstiges/teekanne-01.jpg')">
-                            </div>
-                            <div class="image-overlay">
-                                Geordnete Teekuvert von Teekanne und anderen
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="tile-container">
+                @partial('tile', {src: 'material/sonstiges/teekanne-01', size:'tile' })
             </div>
         </div>
     </div>

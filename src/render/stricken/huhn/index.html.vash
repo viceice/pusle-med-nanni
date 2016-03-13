@@ -23,78 +23,12 @@ menuOrder: 2
     </div>
 </div>
 
-<div class="tile-conatiner open-image">
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/huhn/creme.jpg')">
-                </div>
-                <div class="tile-label">
-                    Creme-farbene Hühner
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/huhn/gelb-glitzer.jpg')">
-                </div>
-                <div class="tile-label">
-                    Gelb-glitzernes Huhn
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/huhn/sonnen-gelb.jpg')">
-                </div>
-                <div class="tile-label">
-                    Sonnengelb Hühner
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/huhn/hell-gelb.jpg')">
-                </div>
-                <div class="tile-label">
-                    Hellgelbes Huhn
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/huhn/rosa.jpg')">
-                </div>
-                <div class="tile-label">
-                    Rosa Huhn
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/huhn/lachs.jpg')">
-                </div>
-                <div class="tile-label">
-                    Lachs-farbenes Huhn
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="tile-container">
+    @partial('tile', {src: 'stricken/huhn/creme', label: 'Creme-farbene Hühner' })
+    @partial('tile', {src: 'stricken/huhn/gelb-glitzer', label: 'Gelb-glitzernes Huhn' })
+    @partial('tile', {src: 'stricken/huhn/sonnen-gelb', label: 'Sonnengelbe Hühner' })
+    @partial('tile', {src: 'stricken/huhn/hell-gelb', label: 'Hellgelbes Huhn' })
+    @partial('tile', {src: 'stricken/huhn/rosa', label: 'Rosa Huhn' })
+    @partial('tile', {src: 'stricken/huhn/lachs', label: 'Lachs-farbenes Huhn' })
 </div>
 

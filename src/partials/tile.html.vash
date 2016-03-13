@@ -1,0 +1,19 @@
+﻿<div class="@(model.size || 'tile-large') @(model.fg || '')" data-role="tile" data-href="@getTile('images/' + src + '.jpg', 'full')">
+    <div class="tile-content">
+        <div class="image-container">
+            <div class="frame">
+                <img src="@getTile('images/' + src + '.jpg', model.size || 'tile-large')">
+            </div>
+            @if(model.overlay){
+            <div class="image-overlay">
+                @model.overlay
+            </div>
+            }
+        </div>
+        @if(model.label){
+        <div class="tile-label op-grayLighter @(model.labelCss || '')">
+            @model.label
+        </div>
+        }
+    </div>
+</div>

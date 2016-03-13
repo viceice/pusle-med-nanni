@@ -27,65 +27,10 @@ menuOrder: 1
     </div>
 </div>
 
-<div class="tile-conatiner open-image">
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/eule/braune.jpg')">
-                </div>
-                <div class="tile-label">
-                    Braun gestreifte Eulen
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/eule/blau.jpg')">
-                </div>
-                <div class="tile-label">
-                    Blaue Eule
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/eule/tuerkis.jpg')">
-                </div>
-                <div class="tile-label">
-                    Türkise Eule
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/eule/rosa-tile.jpg')">
-                </div>
-                <div class="tile-label">
-                    Rosa Eule
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/stricken/eule/rosa-pink.jpg')">
-                </div>
-                <div class="tile-label">
-                    Rosa und pinke Eule
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="tile-container">
+    @partial('tile', {src: 'stricken/eule/braune', label: 'Braun gestreifte Eulen' })
+    @partial('tile', {src: 'stricken/eule/blau', label: 'Blaue Eule' })
+    @partial('tile', {src: 'stricken/eule/tuerkis', label: 'Türkise Eule' })
+    @partial('tile', {src: 'stricken/eule/rosa', label: 'Rosa Eule' })
+    @partial('tile', {src: 'stricken/eule/rosa-pink', label: 'Rosa und pinke Eule' })
 </div>

@@ -26,17 +26,6 @@ menuOrder: 9
     </div>
 </div>
 
-<div class="tile-conatiner open-image">
-    <div class="tile-large fg-white" data-role="tile">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('images/naehen/maus/verschiedene-01.jpg')">
-                </div>
-                <div class="tile-label">
-                    Verschiedene Mäuse
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="tile-container">
+    @partial('tile', {src: 'naehen/maus/verschiedene-01', label:'Verschiedene Mäuse' })
 </div>

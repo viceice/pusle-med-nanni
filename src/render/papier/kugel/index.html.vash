@@ -27,40 +27,7 @@ keywords: Flowerball, Blumenkugel, Fleurogami, Deko
 </div>
 
 <div class="tile-conatiner open-image">
-    <div class="tile-large" data-role="tile">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/papier/kugel/verschiedene-01.jpg')">
-                </div>
-                <div class="tile-label">
-                    Verschiedene Kugeln
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large fg-white" data-role="tile">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/papier/kugel/sweet-kiss-01.jpg')">
-                </div>
-                <div class="tile-label">
-                    Teekanne: Sweet Kiss
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="tile-large" data-role="tile">
-        <div class="tile-content">
-            <div class="image-container">
-                <div class="frame">
-                    <img src="@getTile('/images/papier/kugel/heisse-liebe-01.jpg')">
-                </div>
-                <div class="tile-label">
-                    Teekanne: Heiße Liebe
-                </div>
-            </div>
-        </div>
-    </div>
+    @partial('tile', {src: 'papier/kugel/verschiedene-01', label: 'Verschiedene Kugeln' })
+    @partial('tile', {src: 'papier/kugel/sweet-kiss-01', label: 'Teekanne: Sweet Kiss', labelCss: 'op-grayLighter' })
+    @partial('tile', {src: 'papier/kugel/heisse-liebe-01', label: 'Teekanne: Heiße Liebe' })
 </div>

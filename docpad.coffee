@@ -10,13 +10,14 @@ docpadConfig = {
       title: "Pusle med Nanni"
       # The website description (for SEO)
       description: """
-        Pusle med Nanni.
+        Willkommen bei pusle med Nanni.
         """
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-
+        Nähen, Stricken, Häkeln, Basteln
         """
+      author: "Susanne Kriese"
 
     # -----------------------------
     # Helper Functions

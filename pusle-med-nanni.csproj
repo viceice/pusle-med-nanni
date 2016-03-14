@@ -52,6 +52,7 @@
     <Content Include="src\render\naehen\taschen\index.html" />
     <Content Include="src\render\papier\index.html" />
     <Content Include="src\partials\tile.html.vash" />
+    <Content Include="doc\logo.xcf" />
     <None Include="src\render\papier\kugel\index.html.vash" />
     <Content Include="src\render\papier\stern\index.html" />
     <Content Include="src\render\haekeln\tiere\index.html" />
@@ -76,7 +77,7 @@
     <Content Include="src\render\naehen\huhn\index.html" />
     <None Include="src\render\naehen\utensilo\index.html.vash" />
     <None Include="src\render\naehen\kotuebox\index.html.vash" />
-    <Content Include="src\render\naehen\brille\index.html" />
+    <None Include="src\render\naehen\brille\index.html.vash" />
     <Content Include="src\render\naehen\tatueta\index.html" />
     <Content Include="src\render\naehen\beanie\index.html" />
     <Content Include="src\static\googlec119728a2bc5e78e.html" />
@@ -85,8 +86,15 @@
     <Content Include="src\static\images\material\sonstiges\teekanne-01.jpg" />
     <Content Include="src\static\images\material\wolle\fransenwolle-farben-eulen.jpg" />
     <Content Include="src\static\images\material\wolle\fransenwolle-farben-huehner.jpg" />
+    <Content Include="src\static\images\naehen\beanie\rot-01.jpg" />
+    <Content Include="src\static\images\naehen\brille\piraten-01.jpg" />
+    <Content Include="src\static\images\naehen\brille\rot-01.jpg" />
+    <Content Include="src\static\images\naehen\herz\blumen-blau-braun-01.jpg" />
+    <Content Include="src\static\images\naehen\huhn\bunt-01.jpg" />
     <Content Include="src\static\images\naehen\kotuebox\rosalie-01.jpg" />
     <Content Include="src\static\images\naehen\maus\verschiedene-01.jpg" />
+    <Content Include="src\static\images\naehen\tasche\kaffe-01.jpg" />
+    <Content Include="src\static\images\naehen\tasche\schoki-01.jpg" />
     <Content Include="src\static\images\naehen\utensilo\box-01.jpg" />
     <Content Include="src\static\images\naehen\utensilo\box-02.jpg" />
     <Content Include="src\static\images\naehen\utensilo\box-03.jpg" />
@@ -95,32 +103,36 @@
     <Content Include="src\static\images\naehen\utensilo\etui\gruen-01.jpg" />
     <Content Include="src\static\images\naehen\utensilo\etui\patchwork-rosa-gruen-01.jpg" />
     <Content Include="src\static\images\papier\kugel\heisse-liebe-01.jpg" />
+    <Content Include="src\static\images\papier\kugel\salbei-01.jpg" />
     <Content Include="src\static\images\papier\kugel\sweet-kiss-01.jpg" />
+    <Content Include="src\static\images\papier\kugel\tuerkischer-apfel-01.jpg" />
     <Content Include="src\static\images\papier\kugel\verschiedene-01.jpg" />
-    <Content Include="src\static\images\slides\image1.png" />
-    <Content Include="src\static\images\slides\image10.jpeg" />
-    <Content Include="src\static\images\slides\image11.jpeg" />
-    <Content Include="src\static\images\slides\image12.jpeg" />
-    <Content Include="src\static\images\slides\image13.jpg" />
-    <Content Include="src\static\images\slides\image14.jpeg" />
-    <Content Include="src\static\images\slides\image15.jpeg" />
-    <Content Include="src\static\images\slides\image16.jpeg" />
-    <Content Include="src\static\images\slides\image17.jpeg" />
-    <Content Include="src\static\images\slides\image18.jpeg" />
-    <Content Include="src\static\images\slides\image19.png" />
-    <Content Include="src\static\images\slides\image2.png" />
-    <Content Include="src\static\images\slides\image20.png" />
-    <Content Include="src\static\images\slides\image21.png" />
-    <Content Include="src\static\images\slides\image3.jpeg" />
-    <Content Include="src\static\images\slides\image4.jpeg" />
-    <Content Include="src\static\images\slides\image5.png" />
-    <Content Include="src\static\images\slides\image6.png" />
-    <Content Include="src\static\images\slides\image7.jpeg" />
-    <Content Include="src\static\images\slides\image8.jpeg" />
-    <Content Include="src\static\images\slides\image9.png" />
+    <Content Include="src\static\images\home\image1.png" />
+    <Content Include="src\static\images\home\image10.jpeg" />
+    <Content Include="src\static\images\home\image11.jpeg" />
+    <Content Include="src\static\images\home\image12.jpeg" />
+    <Content Include="src\static\images\home\image13.jpg" />
+    <Content Include="src\static\images\home\image14.jpeg" />
+    <Content Include="src\static\images\home\image15.jpeg" />
+    <Content Include="src\static\images\home\image16.jpeg" />
+    <Content Include="src\static\images\home\image17.jpeg" />
+    <Content Include="src\static\images\home\image18.jpeg" />
+    <Content Include="src\static\images\home\image19.png" />
+    <Content Include="src\static\images\home\image2.png" />
+    <Content Include="src\static\images\home\image20.png" />
+    <Content Include="src\static\images\home\image21.png" />
+    <Content Include="src\static\images\home\image3.jpeg" />
+    <Content Include="src\static\images\home\image4.jpeg" />
+    <Content Include="src\static\images\home\image5.png" />
+    <Content Include="src\static\images\home\image6.png" />
+    <Content Include="src\static\images\home\image7.jpeg" />
+    <Content Include="src\static\images\home\image8.jpeg" />
+    <Content Include="src\static\images\home\image9.png" />
     <None Include="src\partials\menu.html.vash" />
     <Content Include="src\static\images\stricken\eule\blau.jpg" />
     <Content Include="src\static\images\stricken\eule\braune.jpg" />
+    <Content Include="src\static\images\stricken\eule\bunt-01.jpg" />
+    <Content Include="src\static\images\stricken\eule\bunt-02.jpg" />
     <Content Include="src\static\images\stricken\eule\rosa-pink.jpg" />
     <Content Include="src\static\images\stricken\eule\rosa.jpg" />
     <Content Include="src\static\images\stricken\eule\tuerkis.jpg" />
@@ -156,7 +168,10 @@
     <Content Include="grunt-cfg\aliases.json" />
     <Content Include="grunt-cfg\sync.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="src\documents\" />
+    <Folder Include="src\files\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />

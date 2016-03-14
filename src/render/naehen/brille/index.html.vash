@@ -23,3 +23,8 @@ menuOrder: 3
         </div>
     </div>
 </div>
+
+<div class="tile-container">
+    @partial('tile', {src: 'naehen/brille/rot-01', label:'Rote Schlafbrille', size: 'tile' })
+    @partial('tile', {src: 'naehen/brille/piraten-01', label:'Piratenschlafbrille', size: 'tile' })
+</div>

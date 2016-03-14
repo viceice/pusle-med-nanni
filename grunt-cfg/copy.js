@@ -24,7 +24,8 @@ module.exports = function (grunt, options) {
                 "src": [
                     "bower_components/jquery/dist/jquery.js",
                     "bower_components/metro/build/js/metro.js",
-                    "bower_components/waypoints/lib/jquery.waypoints.js"
+                    "bower_components/waypoints/lib/jquery.waypoints.js",
+                    "bower_components/cookieconsent2/cookieconsent.js"
                 ],
                 "dest": "<%= path.js %>"
             }

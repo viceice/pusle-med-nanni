@@ -10,6 +10,7 @@
     "bootstrap": "~3.3.6",
     "font-awesome": "fontawesome#~4.5.0",
     "Yamm3": "yamm3#~1.1.0",
-    "waypoints": "~4.0.0"
+    "waypoints": "~4.0.0",
+    "cookieconsent2": "^1.0.10"
   }
 }

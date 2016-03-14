@@ -53,6 +53,7 @@
     <Content Include="src\render\papier\index.html" />
     <Content Include="src\partials\tile.html.vash" />
     <Content Include="doc\logo.xcf" />
+    <Content Include="src\render\css\cc.css.less" />
     <None Include="src\render\papier\kugel\index.html.vash" />
     <Content Include="src\render\papier\stern\index.html" />
     <Content Include="src\render\haekeln\tiere\index.html" />

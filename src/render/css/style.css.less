@@ -13,37 +13,20 @@ img.dlg-preview {
     width: 900px;
 }
 
-@media screen and (max-height: 900px) {
-    img.dlg-preview {
-        height: 800px;
-        width: 800px;
+.dlg-preview(@size) {
+    @media screen {
+        @media (max-height: @size), (max-width: @size) {
+            img.dlg-preview {
+                height: @size - 100px;
+                width: @size - 100px;
+            }
+        }
     }
 }
 
-@media screen and (max-height: 800px) {
-    img.dlg-preview {
-        height: 700px;
-        width: 700px;
-    }
-}
-
-@media screen and (max-height: 700px) {
-    img.dlg-preview {
-        height: 600px;
-        width: 600px;
-    }
-}
-
-@media screen and (max-height: 600px) {
-    img.dlg-preview {
-        height: 500px;
-        width: 500px;
-    }
-}
-
-@media screen and (max-height: 500px) {
-    img.dlg-preview {
-        height: 400px;
-        width: 400px;
-    }
-}
+.dlg-preview(900px);
+.dlg-preview(800px);
+.dlg-preview(700px);
+.dlg-preview(600px);
+.dlg-preview(500px);
+.dlg-preview(400px);

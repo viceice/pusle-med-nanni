@@ -36,7 +36,7 @@
         </div>
     </div>
 
-    <div id="preview" data-role="dialog"
+    <div id="preview" style="visibility:hidden" data-role="dialog"
          data-overlay="true"
          data-overlay-click-close="true"
          data-overlay-color="op-dark"

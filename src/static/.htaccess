@@ -1,0 +1,6 @@
+ErrorDocument 503 /error/503.html
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/error/[0-9]+\.html$
+RewriteCond %{REQUEST_URI} !^/(css|js|fonts|images)/
+RewriteRule .* - [R=503,L]

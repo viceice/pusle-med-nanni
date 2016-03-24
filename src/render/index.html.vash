@@ -7,9 +7,8 @@ keywords: Nähen, Stricken, Häkeln, Basteln
 <p>
     Willkommen auf der Bastelseite von "Pusle med Nanni".
 </p>
-<p>
-    <span class="mif-info"></span> Diese Seite befindet sich gerade im Aufbau.
-</p>
+
+@partial('work', false)
 
 <div class="tile-container">
     @partial('tile', {src: 'naehen/kotuebox/rosalie-01', label:'Tücherbox', size: 'tile' })

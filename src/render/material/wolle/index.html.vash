@@ -1,9 +1,11 @@
-﻿---
+---
 title: "Wolle"
 layout: "default"
 menuOrder: 4
 keywords: Fransenwolle, Fransengarn
 ---
+
+@partial('work', false)
 
 <p>
     Zum Stricken und Häkeln werden verschiedene Wollarten genutzt.

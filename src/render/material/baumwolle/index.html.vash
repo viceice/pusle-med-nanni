@@ -1,0 +1,43 @@
+---
+title: "Baumwolle"
+layout: "default"
+menuOrder: 1
+---
+
+@partial('work', false)
+
+
+<p>
+    Die Baumwolle ....
+</p>
+<p>
+    Sie wird zum Nähen von <!--<a href="/stricken/eule">Eulen</a>--> ... und ... verwendet.
+</p>
+
+<div class="">
+    @partial('tiles', {title: '100 weiß creme', path: 'material/baumwolle/100 weiß creme', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '200 gelb-orange', path: 'material/baumwolle/200 gelb-orange', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '300 rot', path: 'material/baumwolle/300 rot', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '400 rosa pink', path: 'material/baumwolle/400 rosa pink', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '500 lila', path: 'material/baumwolle/500 lila', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '600 blau', path: 'material/baumwolle/600 blau', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '700 grün', path: 'material/baumwolle/700 grün', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '800 braun', path: 'material/baumwolle/800 braun', size: 'tile' })
+</div>
+<div class="">
+    @partial('tiles', {title: '900 grau schwarz', path: 'material/baumwolle/900 grau schwarz', size: 'tile' })
+</div>

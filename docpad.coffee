@@ -2,6 +2,7 @@
 # http://docpad.org/docs/config
 
 moment = require('moment')
+_ = require('lodash')
 
 # Define the DocPad Configuration
 docpadConfig = {
@@ -24,6 +25,9 @@ docpadConfig = {
 
     getPreparedDate: ->
       moment(@document.date).format('DD.MM.YYYY HH:mm:ss')
+
+    _ : ->
+      _
 
     # Get the prepared site/document title
     # Often we would like to specify particular formatting to our page's title
@@ -69,6 +73,8 @@ docpadConfig = {
   collections:
     pages: ->
       @getCollection("html").findAllLive({isPage:true}, [{order:1}])
+    images: ->
+      @getCollection("files").findAllLive({url: $startsWith: '/images'}, [{url:1}])
     samples: ->
       @getFilesAtPath({relativeOutPath: 'images\\slides'})
 

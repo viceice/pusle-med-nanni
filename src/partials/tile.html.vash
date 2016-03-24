@@ -1,4 +1,4 @@
-﻿<div class="@(model.size || 'tile-large') @(model.fg || '')" data-role="tile" data-href="@getTile(src, 'full')">
+<div class="@(model.size || 'tile-large') @(model.fg || '')" data-role="tile" data-href="@getTile(src, 'full')">
     <div class="tile-content">
         <div class="image-container">
             <div class="frame">

@@ -1,4 +1,4 @@
-﻿<div class="app-bar fixed-top orange" data-role="appbar">
+<div class="app-bar fixed-top orange" data-role="appbar">
     <div class="container">
         <a class="app-bar-element branding" href="/">
             <img src="/images/logo.png" style="height: 28px; display: inline-block; margin-right: 10px;" />

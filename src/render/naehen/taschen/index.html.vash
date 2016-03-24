@@ -1,0 +1,86 @@
+---
+title: "Kaffeetüten- und Schoki-Tasche"
+layout: "default"
+menuOrder: 1
+---
+
+<div class="flex-grid">
+    <div class="row">
+        <h3 id="kaffee">Kaffeetütentasche</h3>
+    </div>
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Meine erste Kaffeetütentasche bekam ich von „meinem“ Taxifahrer geschenkt, der mich 30 Tage lang zur Strahlenklinik fuhr. Ich hatte gerade meine Blumenkugelbastelei wiederentdeckt und die lange Zeit der Autofahrt genutzt, um basteln. Das erzählte er seinen Kollegen und eine von ihnen nähte diese Taschen.
+            </p>
+            <p>
+                Dann ging die Suche nach leeren Kaffeetüten los. Man braucht 4 Stück für eine Tasche.
+            </p>
+            <p>
+                Die Kordeln habe ich aus Fadengardienen (bei meiner Schwester wurde um dekoriert 😉) selber gehäkelt.
+            </p>
+            <p>
+                Die Größe der Tasche von Tassimo und den anderen Kaffeesorten hängt von der Originalgröße der Kaffeetüte ab und wie groß man den Boden haben möchte.
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 30x35x15cm oder ca. 25x28x10cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/sonstiges#kaffeetuete">Kaffeetüten</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <div class="tile-container">
+                @partial('tile', {src: 'naehen/tasche/kaffee/Kaffee', label:'Kaffee' })
+                @partial('tile', {src: 'naehen/tasche/kaffee/Bellarom Classico', label:'Bellarom Classico', size: 'tile' })
+                @partial('tile', {src: 'naehen/tasche/kaffee/Moreno Bio Caffe Crema', label:'Moreno Bio Caffe Crema', size: 'tile' })
+                @partial('tile', {src: 'naehen/tasche/kaffee/Moreno Caffe Crema', label:'Moreno Caffe Crema', size: 'tile' })
+                @partial('tile', {src: 'naehen/tasche/kaffee/Tassimo-hinten', label:'Tassimo hinten', size: 'tile' })
+                @partial('tile', {src: 'naehen/tasche/kaffee/Tassimo-vorn', label:'Tassimo vorn', size: 'tile' })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h3 id="schoki">Schokitasche</h3>
+    </div>
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Auf der Suche nach einer Nähanleitung für die Kaffeetütentaschen fand ich die vielen Varianten für Schokitaschen. Unendliche Weiten… Sorten von Schokolade, aber Milka ist unsere Lieblingssorte.
+            </p>
+            <p>
+                Da man wieder 4 Stück braucht, ist das Material der Tasche eine Sünde. Meine sind alle innen mit Crispy Joghurt. Ich verrate aber nicht, wer die Naschkatze ist, sonst bekomme ich ja kein Nachschub.
+            </p>
+            <p>
+                Mein Prototyp, der leider nicht so gelungen ist, steht an meiner Nähmaschine als Utensilo.
+            </p>
+            <p>
+                Eine garantiert kalorienarme Versuchung.
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 18x18x10cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/sonstiges#schokoladenpapier">Schokoladenpapier</a> von Milka</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <div class="tile-container">
+                @partial('tile', {src: 'naehen/tasche/schoki/Milka', label:'Milka' })
+                @partial('tile', {src: 'naehen/tasche/schoki/Ganze Haselnüsse', label:'Ganze Haselnüsse', size: 'tile' })
+                @partial('tile', {src: 'naehen/tasche/schoki/Crispy Joghurt', label:'Crispy Joghurt', size: 'tile' })
+                @partial('tile', {src: 'naehen/tasche/schoki/Noisette', label:'Noisette', size: 'tile' })
+                @partial('tile', {src: 'naehen/tasche/schoki/Schoko&Keks', label:'Schoko&Keks', size: 'tile' })
+            </div>
+        </div>
+    </div>
+</div>
+

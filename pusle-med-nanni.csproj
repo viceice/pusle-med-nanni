@@ -51,6 +51,7 @@
     <Content Include="src\render\material\polyester\index.html" />
     <Content Include="src\render\material\fleece\index.html" />
     <Content Include="src\partials\tiles.html.vash" />
+    <Content Include="src\static\robots.txt" />
     <None Include="src\render\naehen\taschen\index.html.vash" />
     <Content Include="src\render\papier\index.html" />
     <Content Include="src\partials\tile.html.vash" />
@@ -61,6 +62,7 @@
     <Content Include="src\render\haekeln\tiere\index.html" />
     <Content Include="src\render\haekeln\muetze\index.html" />
     <Content Include="src\render\haekeln\index.html" />
+    <Content Include="src\render\sitemap.xml.vash" />
     <None Include="src\render\stricken\eule\index.html.vash" />
     <None Include="src\render\stricken\huhn\index.html.vash" />
     <Content Include="src\render\stricken\index.html" />

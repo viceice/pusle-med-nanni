@@ -1,0 +1,4 @@
+﻿User-Agent: *
+Disallow: /m
+Disallow: /mobile
+Sitemap: http://pusle-med-nanni.de/sitemap.xml

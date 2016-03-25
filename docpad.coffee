@@ -8,6 +8,8 @@ _ = require('lodash')
 docpadConfig = {
   templateData:
     site:
+      url: "http://pusle-med-nanni.de"
+
       title: "Pusle med Nanni"
       # The website description (for SEO)
       description: """
@@ -74,9 +76,9 @@ docpadConfig = {
     pages: ->
       @getCollection("html").findAllLive({isPage:true}, [{order:1}])
     images: ->
-      @getCollection("files").findAllLive({url: $startsWith: '/images'}, [{url:1}])
-    samples: ->
-      @getFilesAtPath({relativeOutPath: 'images\\slides'})
+      @getCollection("files").findAllLive({ url: $startsWith: '/images' }, [{url:1}])
+    sitemap: ->
+      @getCollection("html").findAllLive({ url: /^\/(?!(google|error))/i, ignored: false }, [{url:1}])
 
   events:
     # Write After
@@ -102,6 +104,9 @@ docpadConfig = {
     static:
       outPath: 'build'
 
+  enabledPlugins:
+    sitemap: false
+
   plugins:
     imagin:
       presets:
@@ -117,7 +122,8 @@ docpadConfig = {
         'full':
             w: 1024
             h: 1024
-
+    sitemap:
+        collectionName: 'sitemap'
 }
 
 # Export the DocPad Configuration

@@ -1,0 +1,31 @@
+---
+layout: "default"
+title: "Ladetasche für Handy und Smartphone"
+description: "Eine Tasche zum Aufbewahren von Handys und Smartphones während sie aufgeladen werden"
+keywords: "Nähen, Handy, Smartphone, Tasche"
+menuTitle: "Handyladetasche"
+menuOrder: 10
+---
+
+<div class="flex-grid">
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Was ist denn das? Ich fand eine Nähanleitung in einem Buch. Also erstmals das Internet gefragt und siehe da, eine neue Nähidee für meine wunderschönen <a href="/material/baumwolle">Baumwollstoffe</a>.
+</p>
+            <p>
+                Hello Kitty für meine Nichte und Ikea- Kråkris für uns. Endlich liegt das Handy zum Laden nicht irgendwo rum. Unsere Steckdosen sind noch in alter Bauweise kurz über dem Boden, aber in den Neubauten findest du sie oft unter den Lichtschaltern.
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 13,5 x 6,5cm bis 17,5 x 8,5cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/baumwolle">Baumwolle</a>, <a href="/material/polyester">Polyester</a> von Ikea</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+@partial('tiles', {path: 'naehen/tasche/handy', size: 'tile' })

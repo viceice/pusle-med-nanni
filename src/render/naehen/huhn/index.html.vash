@@ -1,0 +1,41 @@
+---
+layout: "default"
+title: "Lustige Stoffhühner"
+description: "Lustige Stoffhühner zur Dekoration."
+keywords: "Nähen, Huhn, Hühner, Stoffhühner"
+menuTitle: "Stoffhuhn"
+menuOrder: 6
+---
+
+
+<div class="flex-grid">
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Zeit zum Umdekorieren!!! Der Frühling ist da.
+            </p>
+            <p>
+                Last es mal lustig gackern.
+                Sitzend auf der Fensterbank, im Körbchen oder fliegend am Strauß, am Fenster oder an der Tür, Einzeln oder als Girlande.
+                Diese süßen Stoffhühner passen das ganze Jahr in eure Deko.
+                Stellt euch eine witzige Hühnerschar zusammen.
+                Immer als kleines Geschenk oder Mitbringsel für liebe Freunde geeignet.
+            </p>
+            <p>
+                Viele meiner <a href="/material/baumwolle">Stoffe</a> habe ich nur für meine Hühner gekauft.
+                Es ist immer eine neue Herausforderung auf dem Stoffmarkt neue kleingemusterte Stoffe zu finden.
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 4 x 5cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/baumwolle">Baumwolle</a>, Holzperlen, Wolle, Zwirn</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+@partial('tiles', {path: 'naehen/huhn', size: 'tile' })
+

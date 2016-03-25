@@ -1,17 +1,39 @@
-﻿---
-title: "Schlafbrille"
+---
 layout: "default"
+title: "Schlafbrille"
+description: "Maximaler Lichtschutzfaktor mit einer nach lavendel duftenden Schlafbrille"
+keywords: "Nähen, Schlafbrille, Lavendel"
 menuOrder: 3
 ---
 
-<div class="grid">
-    <div class="row cells2">
+<div class="flex-grid">
+    <div class="row cell-auto-size">
         <div class="cell">
             <p>
-                Maximaler Lichtschutzfaktor mit einer nach lavendel duftenden Schlafbrille.
+                Wer braucht eine Schlafbrille? Ich!!
+            </p>
+            <p>
+                In meinem früheren Leben war ich Schichtarbeiter und musste auch am Tage schlafen.
+            </p>
+            <p>
+                Jetzt bin ich befristeter EU-Rentner und muss meinen Mittagsschlaf haben. Ohne Pausen geht nichts mehr.
+            </p>
+            <p>
+                Da Lavendel beruhigend wirken soll und in meinem Garten wächst, war eine neue Nähidee geboren.
+            </p>
+            <p>
+                Schaut euch mal meine <a href="/material/baumwolle">Baumwollstoffe</a> an.
+                Da ist für jeden die passende Farbe und Muster dabei.
+                Dank dem Holländerstoffmarkt findet man immer das passende Schrägband zum Stoff.
+            </p>
+            <p>
+                Und es hilft wirklich! Ein bisschen reiben an der Brille und der Lavendelduft entströmt.
+            </p>
+            <p>
+                Wünsche einen guten und erholsamen Schlaf.
             </p>
         </div>
-        <div class="cell">
+        <div class="cell size4">
             <dl class="horizontal">
                 <dt>Größe</dt>
                 <dd>Ca. 21x10cm</dd>
@@ -24,7 +46,5 @@ menuOrder: 3
     </div>
 </div>
 
-<div class="tile-container">
-    @partial('tile', {src: 'naehen/brille/rot-01', label:'Rote Schlafbrille', size: 'tile' })
-    @partial('tile', {src: 'naehen/brille/piraten-01', label:'Piratenschlafbrille', size: 'tile' })
-</div>
+@partial('tiles', {path: 'naehen/brille', size: 'tile' })
+

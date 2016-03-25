@@ -15,13 +15,12 @@ menuOrder: 0
     @partial('tile', {src: 'stricken/eule/bunt-01', label:'Bunte Eule', size: 'tile' })
     @partial('tile', {src: 'stricken/eule/bunt-02', label:'Gelb-braune Eule', size: 'tile' })
     @partial('tile', {src: 'stricken/eule/rosa-pink', label:'Rosa-pinke Eule', size: 'tile' })
-    @partial('tile', {src: 'naehen/brille/rot-01', label:'Rote Schlafbrille', size: 'tile' })
-    @partial('tile', {src: 'naehen/brille/piraten-01', label:'Piratenschlafbrille', size: 'tile' })
     @partial('tile', {src: 'naehen/herz/blumen-blau-braun-01', label:'Kirschkernherz', size: 'tile' })
-    @partial('tile', {src: 'naehen/huhn/bunt-01', label:'Stoffhühner', size: 'tile' })
+    @partial('tile', {src: 'naehen/huhn/Mit Ei (bunt)', label:'Stoffhühner', size: 'tile' })
     @partial('tile', {src: 'naehen/tasche/kaffe-01', label:'Kaffeetaschen', size: 'tile' })
     @partial('tile', {src: 'naehen/tasche/schoki-01', label:'Schokitaschen', size: 'tile' })
     @partial('tile', {src: 'papier/kugel/salbei-01', label:'Salbei', size: 'tile' })
     @partial('tile', {src: 'papier/kugel/tuerkischer-apfel-01', label:'Türkischer Apfel', size: 'tile' })
 
 </div>
+@partial('tiles', {path: 'home', size: 'tile' })

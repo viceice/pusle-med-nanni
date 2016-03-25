@@ -5,6 +5,6 @@
 }
 <div class="tile-container">
     @getCollection("images").findAllLive({ url: { $startsWith: '/images/' + model.path}}).toJSON().forEach(function(img) {
-        @partial('tile', {src: img.url.toLowerCase(), label: img.basename, size: model.size || 'tile' })
+        @partial('tile', {src: img.url.toLowerCase(), label: img.basename.replace(/^\d+_/, ""), size: model.size || 'tile' })
     })
 </div>

@@ -1,6 +1,8 @@
+@if (model.title){
 <h4>
    @model.title
 </h4>
+}
 <div class="tile-container">
     @getCollection("images").findAllLive({ url: { $startsWith: '/images/' + model.path}}).toJSON().forEach(function(img) {
         @partial('tile', {src: img.url.toLowerCase(), label: img.basename, size: model.size || 'tile' })

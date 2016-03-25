@@ -1,0 +1,34 @@
+---
+layout: "default"
+title: "Beanie"
+description: "Eine Beanie in superleichter Qualität"
+keywords: "Nähen, Beanie, Perücke"
+menuTitle: "Beanie"
+menuOrder: 1
+---
+
+@partial('work', false)
+
+<div class="flex-grid">
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Eine Beanie in superleichter Qualität.
+            </p>
+            <p>
+                Weicher hautfreundlicher <a href="/material/jersey">Jersey</a> in &quot;100&quot; verschiedenen Mustern und Farben.
+                Sehr gut geeignet für eine haarlose Zeit, als Ersatz für eine Perücke (Selbst getestet!!)
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <!--<dt>Größe</dt>
+                <dd>Ca. 30x35x15cm oder ca. 25x28x10cm</dd>-->
+                <dt>Material</dt>
+                <dd><a href="/material/jersey">Jersey</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+@partial('tiles', {path: 'naehen/beanie', size: 'tile' })

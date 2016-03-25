@@ -48,6 +48,7 @@
     <Content Include="Gruntfile.js" />
     <Content Include="src\layouts\default.html.vash" />
     <Content Include="src\partials\work.html" />
+    <Content Include="src\render\error\404.html" />
     <Content Include="src\render\material\polyester\index.html" />
     <Content Include="src\render\material\fleece\index.html" />
     <Content Include="src\partials\tiles.html.vash" />

@@ -17,9 +17,8 @@ docpadConfig = {
         """
 
       # The website keywords (for SEO) separated by commas
-      keywords: """
-        Nähen, Stricken, Häkeln, Basteln
-        """
+      keywords: """Nähen, Stricken, Häkeln, Basteln"""
+
       author: "Susanne Kriese"
 
     # -----------------------------
@@ -37,20 +36,18 @@ docpadConfig = {
     getPreparedTitle: ->
       # if we have a document title, then we should use that and suffix the site's title onto it
       if @document.title
-          "#{@document.title} | #{@site.title}"
+          @document.title
       # if our document does not have its own title, then we should just use the site's title
       else
           @site.title
 
     # Get the prepared site/document description
     getPreparedDescription: ->
-      # if we have a document description, then we should use that, otherwise use the site's description
       @document.description or @site.description
 
     # Get the prepared site/document keywords
     getPreparedKeywords: ->
-      # Merge the document keywords with the site keywords
-      @site.keywords.concat(@document.keywords or []).join(', ')
+      @document.keywords or @site.keywords
 
     getTile: ->
       src = arguments[0]
@@ -73,12 +70,11 @@ docpadConfig = {
   localeCode: 'de'
 
   collections:
-    pages: ->
-      @getCollection("html").findAllLive({isPage:true}, [{order:1}])
-    images: ->
-      @getCollection("files").findAllLive({ url: $startsWith: '/images' }, [{url:1}])
     sitemap: ->
-      @getCollection("html").findAllLive({ url: /^\/(?!(google|error))/i, ignored: false }, [{url:1}])
+      @getCollection("html").findAllLive({ url: /^\/(?!(google|error))/i, ignored: false }, [{ url: 1 }])
+
+    images: ->
+      @getCollection("files").findAllLive({ url: $startsWith: '/images' }, [{ url: 1 }])
 
   events:
     # Write After
@@ -104,9 +100,6 @@ docpadConfig = {
     static:
       outPath: 'build'
 
-  enabledPlugins:
-    sitemap: false
-
   plugins:
     imagin:
       presets:
@@ -122,8 +115,6 @@ docpadConfig = {
         'full':
             w: 1024
             h: 1024
-    sitemap:
-        collectionName: 'sitemap'
 }
 
 # Export the DocPad Configuration

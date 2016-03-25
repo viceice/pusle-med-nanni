@@ -7,9 +7,7 @@
 
         <ul class="app-bar-menu">
             @menuItems.forEach(function(page){
-            @if(page.url == "/googlec119728a2bc5e78e.html")
-                @return
-            @else if(page.children) {
+            if(page.children) {
             <li class="@(page.state? ' active' : '')">
                 <a class="dropdown-toggle">@page.title</a>
                 <ul class="d-menu" data-role="dropdown">

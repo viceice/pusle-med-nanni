@@ -1,4 +1,5 @@
 ErrorDocument 503 /error/503.html
+ErrorDocument 404 /error/404.html
 
 RewriteEngine On
 RewriteCond %{REQUEST_URI} !^/error/[0-9]+\.html$

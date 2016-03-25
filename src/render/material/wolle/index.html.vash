@@ -2,7 +2,7 @@
 title: "Wolle"
 layout: "default"
 menuOrder: 4
-keywords: Fransenwolle, Fransengarn
+keywords: "Fransenwolle, Fransengarn"
 ---
 
 @partial('work', false)

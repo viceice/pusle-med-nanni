@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link href="/images/favicon.ico" rel="shortcut icon">
+    <link href="/favicon.ico" rel="shortcut icon">
     <title>@getPreparedTitle()</title>
     <meta name="description" content="@getPreparedDescription()" />
     <meta name="keywords" content="@getPreparedKeywords()" />
@@ -26,7 +26,7 @@
     </div>
 
     <div class="container content">
-        <h1>@document.title</h1>
+        <h1>@getPreparedTitle()</h1>
         @html.raw(content)
     </div>
 

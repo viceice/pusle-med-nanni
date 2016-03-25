@@ -1,0 +1,12 @@
+---
+title: "Test"
+layout: "default"
+menuHidden: true
+ignore: true
+---
+
+<ul>
+    @getCollection("files").findAllLive({ url: /^\/images\//i }, [{ url: 1 }]).toJSON().forEach(function(file){
+    <li>@file.url</li>
+    })
+</ul>

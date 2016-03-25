@@ -34,12 +34,7 @@ docpadConfig = {
     # Often we would like to specify particular formatting to our page's title
     # we can apply that formatting here
     getPreparedTitle: ->
-      # if we have a document title, then we should use that and suffix the site's title onto it
-      if @document.title
-          @document.title
-      # if our document does not have its own title, then we should just use the site's title
-      else
-          @site.title
+      @document.title or @site.title
 
     # Get the prepared site/document description
     getPreparedDescription: ->
@@ -74,7 +69,7 @@ docpadConfig = {
       @getCollection("html").findAllLive({ url: /^\/(?!(google|error))/i, ignored: false }, [{ url: 1 }])
 
     images: ->
-      @getCollection("files").findAllLive({ url: $startsWith: '/images' }, [{ url: 1 }])
+      @getCollection("files").findAllLive({ url: /^\/images\//i }, [{ url: 1 }])
 
   events:
     # Write After

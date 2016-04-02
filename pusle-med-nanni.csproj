@@ -191,6 +191,7 @@
     <Content Include="src\static\images\papier\kugel\salbei-01.jpg" />
     <Content Include="src\static\images\papier\kugel\tuerkischer-apfel-01.jpg" />
     <Content Include="src\static\robots.txt" />
+    <Content Include="src\layouts\ebay-ka.html.vash" />
     <None Include="src\render\naehen\taschen\index.html.vash" />
     <Content Include="src\render\papier\index.html" />
     <Content Include="src\partials\tile.html.vash" />

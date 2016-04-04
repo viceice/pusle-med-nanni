@@ -2,7 +2,7 @@
     <div class="tile-content">
         <div class="image-container">
             <div class="frame">
-                <img src="@getTile(src, model.size || 'tile-large')">
+                <img src="@getTile(src, model.size || 'tile-large')" alt="@model.label">
             </div>
             @if(model.overlay){
             <div class="image-overlay">

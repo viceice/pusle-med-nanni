@@ -1,7 +1,7 @@
 ---
 title: "Kaffeetüten- und Schoki-Tasche"
 layout: "default"
-menuOrder: 1
+order: 1
 ---
 
 <div class="flex-grid">

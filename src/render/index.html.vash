@@ -1,6 +1,6 @@
 ---
-layout: "default"
-menuOrder: 0
+layout: "base"
+hidden: false
 ---
 <p>
     Willkommen auf der Bastelseite von "Pusle med Nanni".

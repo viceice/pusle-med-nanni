@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Blumenkugel"
 layout: "default"
-menuOrder: 1
+order: 1
 keywords: Flowerball, Blumenkugel, Fleurogami, Deko
 ---
 <div class="grid">

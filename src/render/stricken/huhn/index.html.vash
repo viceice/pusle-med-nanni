@@ -1,8 +1,8 @@
 ---
 layout: "default"
 title: "Gestrickte kuschlig-weiche Hühner"
-menuTitle: "Huhn"
-menuOrder: 2
+menu: "Huhn"
+order: 2
 ---
 <div class="grid">
     <div class="row cells2">

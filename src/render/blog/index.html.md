@@ -2,8 +2,8 @@
 title: "Blog"
 layout: "default"
 ignored: true
-menuHidden: true
-menuOrder: 5
+hidden: true
+order: 5
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

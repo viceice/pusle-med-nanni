@@ -1,0 +1,29 @@
+---
+layout: "ebay-ka"
+title: "Utensilo für Strick- und Häkelnadeln"
+stitle: "Nadelrolle, Stricknadeletui"
+menu: "Stricknadelutensilo"
+order: 2
+---
+<div class="flex-grid">
+    <div class="row cell-auto-size">
+        <div class="cell">
+            Ein Utensilo zur Aufbewahrung deiner Strick- und Häkelnadeln.
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>ca. 29-30x21–29cm aufgeklappt, 1 oder 2 Reihen Fächer unterschiedlicher Breite</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/baumwolle">Baumwolle</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+ @partial('tiles', {path: 'naehen/utensilo/etui', size: 'tile' })
+<div class="tile-container">
+    @partial('tile', {src: 'naehen/utensilo/etui/blumen-rot-grau-01', label:'Blumen rot-grau' })
+    @partial('tile', {src: 'naehen/utensilo/etui/gruen-01', label:'Grün' })
+    @partial('tile', {src: 'naehen/utensilo/etui/blumen-blau-01', label:'blaue Blumen' })
+    @partial('tile', {src: 'naehen/utensilo/etui/patchwork-rosa-gruen-01', label:'Patchwork rosa-grün' })
+</div>

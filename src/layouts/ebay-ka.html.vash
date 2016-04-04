@@ -4,8 +4,10 @@ layout: "default"
 
 @html.raw(content)
 
+@if(document.ebay){
 <p>
     Wenn dir gefällt, was du siehst, dann findest du mich bei <a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=11886451" target="_blank" rel="external">eBay Kleinanzeigen</a>:
     <h5>@document.ebay.title</h5>
     Anzeigennummer: @document.ebay.links.join(", ")
 </p>
+}

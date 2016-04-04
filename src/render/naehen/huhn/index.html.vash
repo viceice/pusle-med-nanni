@@ -3,8 +3,8 @@ layout: "default"
 title: "Lustige Stoffhühner"
 description: "Lustige Stoffhühner zur Dekoration."
 keywords: "Nähen, Huhn, Hühner, Stoffhühner"
-menuTitle: "Stoffhuhn"
-menuOrder: 6
+menu: "Stoffhuhn"
+order: 6
 ---
 
 

@@ -1,0 +1,19 @@
+@{ function menuGenBc(menuItem){
+    @if(menuItem.active) {
+<li>
+    @if(menuItem.current){
+        @menuItem.title
+    } else {
+        <a href="@menuItem.url.replace(/index\.\w*$/g, '')">@menuItem.title</a>
+    }
+</li>
+        if(menuItem.children){
+            @menuItem.children.forEach(menuGenBc)
+        }
+    }
+}}
+
+<ul class="breadcrumbs">
+    <li><a href="/"><span class="icon mif-home"></span></a></li>
+    @menuItems.forEach(menuGenBc)
+</ul>

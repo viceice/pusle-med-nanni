@@ -3,7 +3,7 @@ layout: "default"
 title: "Schlafbrille"
 description: "Maximaler Lichtschutzfaktor mit einer nach lavendel duftenden Schlafbrille"
 keywords: "Nähen, Schlafbrille, Lavendel"
-menuOrder: 3
+order: 3
 ---
 
 <div class="flex-grid">

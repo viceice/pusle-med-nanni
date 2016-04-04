@@ -192,11 +192,15 @@
     <Content Include="src\static\images\papier\kugel\tuerkischer-apfel-01.jpg" />
     <Content Include="src\static\robots.txt" />
     <Content Include="src\layouts\ebay-ka.html.vash" />
+    <Content Include="src\layouts\base.html.vash" />
+    <Content Include="src\partials\breadcrumb.html.vash" />
     <None Include="src\render\naehen\taschen\index.html.vash" />
     <Content Include="src\render\papier\index.html" />
     <Content Include="src\partials\tile.html.vash" />
     <Content Include="doc\logo.xcf" />
     <Content Include="src\render\css\cc.css.less" />
+    <Content Include="src\render\naehen\utensilo\Etui\index.html.vash" />
+    <Content Include="src\render\naehen\utensilo\Box\index.html.vash" />
     <None Include="src\render\papier\kugel\index.html.vash" />
     <Content Include="src\render\papier\stern\index.html" />
     <Content Include="src\render\haekeln\tiere\index.html" />
@@ -220,7 +224,7 @@
     <Content Include="src\render\naehen\kotuch\index.html" />
     <Content Include="src\render\naehen\herz\index.html" />
     <None Include="src\render\naehen\huhn\index.html.vash" />
-    <None Include="src\render\naehen\utensilo\index.html.vash" />
+    <Content Include="src\render\naehen\utensilo\index.html" />
     <None Include="src\render\naehen\kotuebox\index.html.vash" />
     <None Include="src\render\naehen\brille\index.html.vash" />
     <Content Include="src\render\naehen\tatueta\index.html" />

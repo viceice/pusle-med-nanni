@@ -1,8 +1,9 @@
 ---
 title: "Impressum"
-layout: "default"
-menuHidden: true
+layout: "base"
+hidden: true
 ---
+# Impressum
 
 ## Angaben gemäß § 5 TMG:
 

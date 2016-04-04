@@ -2,9 +2,9 @@
 layout: "ebay-ka"
 title: "Beanie"
 description: "Eine Beanie in superleichter Qualität"
-keywords: "Nähen, Beanie, Perücke"
-menuTitle: "Beanie"
-menuOrder: 1
+keywords: "Nähen, Beanie, Perücke, Mütze"
+menu: "Beanie"
+order: 1
 ebay:
     title: "Beanie Mütze leichter Baumwolljersey verschiedene Farben -Muster"
     links: 
@@ -15,15 +15,15 @@ ebay:
 <div class="flex-grid">
     <div class="row cell-auto-size">
         <div class="cell">
-            Eine Beanie in superleichter Qualität. Weicher hautfreundlicher Jersey in &quot;100&quot; verschiedenen Mustern und Farben.
+            Eine Beanie in superleichter Qualität. Weicher hautfreundlicher <a href="/material/jersey">Jersey</a> in &quot;100&quot; verschiedenen Mustern und Farben.
             Sehr gut geeignet für eine haarlose Zeit, als Ersatz für eine Perücke (Selbst getestet!!)
         </div>
         <div class="cell size4">
             <dl class="horizontal">
-                <dt>Größe</dt>
-                <dd>Ca. 13,5 x 6,5 cm bis 17,5 x 8,5 cm</dd>
+                <!--<dt>Größe</dt>
+                <dd>Ca. 13,5 x 6,5 cm bis 17,5 x 8,5 cm</dd>-->
                 <dt>Material</dt>
-                <dd><a href="/material/baumwolle">Baumwolle</a></dd>
+                <dd><a href="/material/jersey">Jersey</a></dd>
             </dl>
         </div>
     </div>

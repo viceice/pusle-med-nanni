@@ -1,3 +1,20 @@
+---
+cacheable: true
+---
+@{ function menuGen(menuItem){
+<li>
+    @if(menuItem.children) {
+    <a class="dropdown-toggle">@menuItem.title</a>
+    <ul class="d-menu" data-role="dropdown">
+        @menuItem.children.forEach(menuGen)
+    </ul>
+    } else {
+    <a href="@menuItem.url.replace(/index\.\w*$/g, '')">@menuItem.title</a>
+    }
+</li>
+}
+}
+
 <div class="app-bar fixed-top orange" data-role="appbar">
     <div class="container">
         <a class="app-bar-element branding" href="/">
@@ -6,24 +23,7 @@
         </a>
 
         <ul class="app-bar-menu">
-            @menuItems.forEach(function(page){
-            if(page.children) {
-            <li class="@(page.state? ' active' : '')">
-                <a class="dropdown-toggle">@page.title</a>
-                <ul class="d-menu" data-role="dropdown">
-                    @groupMenu(page.children).forEach(function(group){
-                    @group.pages.forEach(function(subpage){
-                    <li><a href="@subpage.url">@subpage.title</a></li>
-                    })
-                    })
-                </ul>
-            </li>
-            } else {
-            <li class="@(page.state? 'active' : '')">
-                <a href="@page.url">@page.title</a>
-            </li>
-            }
-            })
+            @menuItems.sort(function(a,b){ return a.order - b.order; }).forEach(menuGen)
         </ul>
 
         <div class="app-bar-pullbutton automatic"></div>

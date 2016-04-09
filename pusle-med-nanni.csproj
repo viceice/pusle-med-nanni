@@ -188,6 +188,11 @@
     <Content Include="src\static\images\naehen\tasche\handy\Hello Kitty.jpg" />
     <Content Include="src\static\images\naehen\tasche\handy\Für meine Mutti.jpg" />
     <Content Include="src\static\images\naehen\tasche\handy\Hello Kitty im Einsatz.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW 308-302.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW 505-506-507.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW 602-607.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW 606-604-605.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW lila.jpg" />
     <Content Include="src\static\images\papier\kugel\salbei-01.jpg" />
     <Content Include="src\static\images\papier\kugel\tuerkischer-apfel-01.jpg" />
     <Content Include="src\static\robots.txt" />
@@ -255,10 +260,10 @@
     <Content Include="src\static\images\naehen\utensilo\box-01.jpg" />
     <Content Include="src\static\images\naehen\utensilo\box-02.jpg" />
     <Content Include="src\static\images\naehen\utensilo\box-03.jpg" />
-    <Content Include="src\static\images\naehen\utensilo\etui\blumen-blau-01.jpg" />
-    <Content Include="src\static\images\naehen\utensilo\etui\blumen-rot-grau-01.jpg" />
-    <Content Include="src\static\images\naehen\utensilo\etui\gruen-01.jpg" />
-    <Content Include="src\static\images\naehen\utensilo\etui\patchwork-rosa-gruen-01.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW 610-611.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW 305-306-309.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\BW Grün 705.jpg" />
+    <Content Include="src\static\images\naehen\utensilo\etui\Patchwork rosa-grün.jpg" />
     <Content Include="src\static\images\papier\kugel\heisse-liebe-01.jpg" />
     <Content Include="src\static\images\home\070_Salbei.jpg" />
     <Content Include="src\static\images\papier\kugel\sweet-kiss-01.jpg" />

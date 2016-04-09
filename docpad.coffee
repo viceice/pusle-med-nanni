@@ -62,6 +62,9 @@ docpadConfig = {
         res
       )
 
+     getTiles: (path) ->
+        @getCollection("images").findAll({ url: new RegExp('/images/' + path, 'i')}).toJSON()
+
   localeCode: 'de'
 
   collections:

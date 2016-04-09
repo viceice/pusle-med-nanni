@@ -4,7 +4,7 @@
 </h4>
 }
 <div class="tile-container">
-    @getCollection("images").findAllLive({ url: { $startsWith: '/images/' + model.path}}).toJSON().forEach(function(img) {
-        @partial('tile', {src: img.url.toLowerCase(), label: img.basename.replace(/^\d+_/, ""), size: model.size || 'tile' })
+    @getTiles(path).forEach(function(img) {
+        @partial('tile', false, { getTile: getTile, src: img.url, label: img.basename.replace(/^\d+_/, ""), size: model.size || 'tile' })
     })
 </div>

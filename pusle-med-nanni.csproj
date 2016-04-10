@@ -58,6 +58,7 @@
     <Content Include="src\static\images\Häkeln\Mütze\002 Zipfelmütze.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\003 Zipfelmütze.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\004 Zipfelmütze.jpg" />
+    <Content Include="src\static\images\material\baumwolle\100 weiß creme\BW 110.jpg" />
     <Content Include="src\static\images\material\baumwolle\100 weiß creme\BW-101.JPG" />
     <Content Include="src\static\images\material\baumwolle\100 weiß creme\BW-102.JPG" />
     <Content Include="src\static\images\material\baumwolle\100 weiß creme\BW-103.JPG" />
@@ -84,6 +85,7 @@
     <Content Include="src\static\images\material\baumwolle\300 rot\BW-307.JPG" />
     <Content Include="src\static\images\material\baumwolle\300 rot\BW-308.JPG" />
     <Content Include="src\static\images\material\baumwolle\300 rot\BW-309.JPG" />
+    <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 411.jpg" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW-402.JPG" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW-403.JPG" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW-404.JPG" />
@@ -93,11 +95,18 @@
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW-408.JPG" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW-409.JPG" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW-410.JPG" />
+    <Content Include="src\static\images\material\baumwolle\500 lila\BW 502.jpg" />
+    <Content Include="src\static\images\material\baumwolle\500 lila\BW 503.jpg" />
+    <Content Include="src\static\images\material\baumwolle\500 lila\BW 506.jpg" />
+    <Content Include="src\static\images\material\baumwolle\500 lila\BW 509.jpg" />
+    <Content Include="src\static\images\material\baumwolle\500 lila\BW 510.jpg" />
+    <Content Include="src\static\images\material\baumwolle\500 lila\BW 511.jpg" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW-501.JPG" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW-504.JPG" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW-505.JPG" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW-507.JPG" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW-508.JPG" />
+    <Content Include="src\static\images\material\baumwolle\600 blau\BW 614.jpg" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW-601.JPG" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW-602.JPG" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW-603.JPG" />
@@ -123,6 +132,9 @@
     <Content Include="src\static\images\material\baumwolle\800 braun\BW-802.JPG" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW-803.JPG" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW-804.JPG" />
+    <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW 906.jpg" />
+    <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW 907.jpg" />
+    <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW 908.jpg" />
     <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW-901.JPG" />
     <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW-902.JPG" />
     <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW-903.JPG" />
@@ -172,6 +184,8 @@
     <Content Include="src\static\images\Nähen\brille\BW-902-602.JPG" />
     <Content Include="src\static\images\Nähen\brille\BW-weinrot.JPG" />
     <Content Include="src\static\images\Nähen\herz\BW 108.jpg" />
+    <Content Include="src\static\images\Nähen\herz\BW 303-301 SET.jpg" />
+    <Content Include="src\static\images\Nähen\herz\BW 303-301.jpg" />
     <Content Include="src\static\images\Nähen\herz\BW 404-405.jpg" />
     <Content Include="src\static\images\Nähen\herz\BW 804.jpg" />
     <Content Include="src\static\images\Nähen\huhn\Bunte Hühnerschar.jpg" />
@@ -204,6 +218,7 @@
     <Content Include="src\static\images\Nähen\tasche\handy\Für meine Mutti.jpg" />
     <Content Include="src\static\images\Nähen\tasche\handy\Hello Kitty im Einsatz.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 204.jpg" />
+    <Content Include="src\static\images\Nähen\Tatüta\BW 303-301.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 308.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 608.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 609.jpg" />

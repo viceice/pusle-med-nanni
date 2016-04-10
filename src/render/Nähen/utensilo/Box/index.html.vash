@@ -20,13 +20,6 @@ order: 0
             </dl>
         </div>
     </div>
-    <div class="row cell-auto-size">
-        <div class="cell">
-            <div class="tile-container">
-                @partial('tile', {src: 'naehen/utensilo/box-01', label:'Kråkris groß und klein' })
-                @partial('tile', {src: 'naehen/utensilo/box-02', label:'Kråkris Seite' })
-                @partial('tile', {src: 'naehen/utensilo/box-03', label:'Kråkris oben' })
-            </div>
-        </div>
-    </div>
 </div>
+
+@partial('tiles', { path: document.relativeDirPath })

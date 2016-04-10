@@ -37,5 +37,4 @@ order: 6
     </div>
 </div>
 
-@partial('tiles', {path: 'naehen/huhn', size: 'tile' })
-
+@partial('tiles', { path: document.relativeDirPath })

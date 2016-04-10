@@ -22,7 +22,4 @@ order: 4
     </div>
 </div>
 
-<div class="tile-container">
-    @partial('tile', {src: 'naehen/kotuebox/rosalie-01', label:'Rosalie' })
-</div>
-
+@partial('tiles', { path: document.relativeDirPath })

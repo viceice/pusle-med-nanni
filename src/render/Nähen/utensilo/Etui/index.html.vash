@@ -25,4 +25,5 @@ ebay:
         </div>
     </div>
 </div>
- @partial('tiles', {path: 'naehen/utensilo/etui', size: 'tile' })
+
+@partial('tiles', { path: document.relativeDirPath })

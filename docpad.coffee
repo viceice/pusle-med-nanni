@@ -63,7 +63,7 @@ docpadConfig = {
       )
 
      getTiles: (path) ->
-        @getCollection("images").findAll({ url: new RegExp('/images/' + path, 'i')}).toJSON()
+        @getCollection("images").findAll({ url: new RegExp('/images/' + path.replace(/\\/gi, "/"), 'i')}).toJSON()
 
   localeCode: 'de'
 

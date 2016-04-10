@@ -28,4 +28,4 @@ order: 10
     </div>
 </div>
 
-@partial('tiles', {path: 'naehen/tasche/handy', size: 'tile' })
+@partial('tiles', {path: 'Nähen/tasche/handy', size: 'tile' })

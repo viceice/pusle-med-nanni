@@ -7,9 +7,9 @@ menu: "Beanie"
 order: 1
 ebay:
     title: "Beanie Mütze leichter Baumwolljersey verschiedene Farben -Muster"
-    links: 
+    links:
         - "417834004"
-    
+
 ---
 
 <div class="flex-grid">
@@ -29,4 +29,4 @@ ebay:
     </div>
 </div>
 
-@partial('tiles', {path: 'naehen/beanie', size: 'tile' })
+@partial('tiles', { path: document.relativeDirPath })

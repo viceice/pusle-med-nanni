@@ -34,14 +34,7 @@ order: 1
     </div>
     <div class="row cell-auto-size">
         <div class="cell">
-            <div class="tile-container">
-                @partial('tile', {src: 'naehen/tasche/kaffee/Kaffee', label:'Kaffee' })
-                @partial('tile', {src: 'naehen/tasche/kaffee/Bellarom Classico', label:'Bellarom Classico', size: 'tile' })
-                @partial('tile', {src: 'naehen/tasche/kaffee/Moreno Bio Caffe Crema', label:'Moreno Bio Caffe Crema', size: 'tile' })
-                @partial('tile', {src: 'naehen/tasche/kaffee/Moreno Caffe Crema', label:'Moreno Caffe Crema', size: 'tile' })
-                @partial('tile', {src: 'naehen/tasche/kaffee/Tassimo-hinten', label:'Tassimo hinten', size: 'tile' })
-                @partial('tile', {src: 'naehen/tasche/kaffee/Tassimo-vorn', label:'Tassimo vorn', size: 'tile' })
-            </div>
+            @partial('tiles', { path: 'Nähen/Tasche/Kaffee' })
         </div>
     </div>
     <div class="row">
@@ -73,13 +66,7 @@ order: 1
     </div>
     <div class="row cell-auto-size">
         <div class="cell">
-            <div class="tile-container">
-                @partial('tile', {src: 'naehen/tasche/schoki/Milka', label:'Milka' })
-                @partial('tile', {src: 'naehen/tasche/schoki/Ganze Haselnüsse', label:'Ganze Haselnüsse', size: 'tile' })
-                @partial('tile', {src: 'naehen/tasche/schoki/Crispy Joghurt', label:'Crispy Joghurt', size: 'tile' })
-                @partial('tile', {src: 'naehen/tasche/schoki/Noisette', label:'Noisette', size: 'tile' })
-                @partial('tile', {src: 'naehen/tasche/schoki/Schoko&Keks', label:'Schoko&Keks', size: 'tile' })
-            </div>
+            @partial('tiles', { path: 'Nähen/Tasche/Schoki' })
         </div>
     </div>
 </div>

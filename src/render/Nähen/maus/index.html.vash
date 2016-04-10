@@ -26,6 +26,4 @@ order: 9
     </div>
 </div>
 
-<div class="tile-container">
-    @partial('tile', {src: 'naehen/maus/verschiedene-01', label:'Verschiedene Mäuse' })
-</div>
+@partial('tiles', { path: document.relativeDirPath })

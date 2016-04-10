@@ -1,26 +1,31 @@
 ---
 layout: "ebay-ka"
-title: "Kosmetiktücherbox"
-order: 4
+title: "Kirschkernherz"
+description: "Kirschkernkissen - Herz"
+keywords: "Nähen, Kirschkernkissen, Herz"
+menu: "Kirschkernherz"
+order: 7
 ebay:
-    title: "Kosmetiktücherbox"
+    title: "Kirschkernkissen - Herz"
     links:
-        - "445402297"
+        - "137302689"
 ---
 
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
             <p>
-                Ein hübscher Überzug für Kosmetiktücherboxen.
+                ...
             </p>
         </div>
         <div class="cell">
             <dl class="horizontal">
                 <dt>Größe</dt>
-                <dd>Ca. 22,5x11,5x6,5cm</dd>
+                <dd>Ca. 25x23cm</dd>
                 <dt>Material</dt>
-                <dd><a href="/material/baumwolle">Baumwolle</a> von Ikea</dd>
+                <dd><a href="/Material/Baumwolle">Baumwolle</a></dd>
+                <dt>Füllung</dt>
+                <dd>Ca. 350g Kirschkerne</dd>
             </dl>
         </div>
     </div>

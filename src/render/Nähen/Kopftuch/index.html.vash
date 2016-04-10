@@ -1,26 +1,26 @@
 ---
 layout: "ebay-ka"
-title: "Kosmetiktücherbox"
-order: 4
+title: "Kinderkopftuch"
+stitle: "Stirnband"
+menu: "Kopftuch"
+order: 8
 ebay:
-    title: "Kosmetiktücherbox"
+    title: "Kinderkopftuch Stirnband"
     links:
-        - "445402297"
+        - "445397514"
 ---
 
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Ein hübscher Überzug für Kosmetiktücherboxen.
-            </p>
+            ...
         </div>
         <div class="cell">
             <dl class="horizontal">
                 <dt>Größe</dt>
-                <dd>Ca. 22,5x11,5x6,5cm</dd>
+                <dd>Kopfumfang  Ca. 48 - 54cm</dd>
                 <dt>Material</dt>
-                <dd><a href="/material/baumwolle">Baumwolle</a> von Ikea</dd>
+                <dd><a href="/material/baumwolle">Baumwolle</a>, Gummiband</dd>
             </dl>
         </div>
     </div>

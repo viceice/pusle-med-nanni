@@ -1,8 +1,12 @@
 ---
-layout: "default"
+layout: "ebay-ka"
 title: "Gestrickte kuschlig-weiche Hühner"
 menu: "Huhn"
 order: 2
+ebay:
+    title: "Huhn handgestrickt kuschlig Deko"
+    links:
+        - "188474755"
 ---
 <div class="grid">
     <div class="row cells2">
@@ -24,12 +28,5 @@ order: 2
     </div>
 </div>
 
-<div class="tile-container">
-    @partial('tile', {src: 'stricken/huhn/creme', label: 'Creme-farbene Hühner' })
-    @partial('tile', {src: 'stricken/huhn/gelb-glitzer', label: 'Gelb-glitzernes Huhn' })
-    @partial('tile', {src: 'stricken/huhn/sonnen-gelb', label: 'Sonnengelbe Hühner' })
-    @partial('tile', {src: 'stricken/huhn/hell-gelb', label: 'Hellgelbes Huhn' })
-    @partial('tile', {src: 'stricken/huhn/rosa', label: 'Rosa Huhn' })
-    @partial('tile', {src: 'stricken/huhn/lachs', label: 'Lachs-farbenes Huhn' })
-</div>
+@partial('tiles', { path: document.relativeDirPath })
 

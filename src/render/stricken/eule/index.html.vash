@@ -1,7 +1,12 @@
 ---
+layout: "ebay-ka"
 title: "Eule"
-layout: "default"
 order: 1
+ebay:
+    title: "Eule kuschlig handgestrickt Fransenwolle"
+    links:
+        - "391178848"
+        - "309719861"
 ---
 
 <div class="grid">
@@ -27,10 +32,4 @@ order: 1
     </div>
 </div>
 
-<div class="tile-container">
-    @partial('tile', {src: 'stricken/eule/braune', label: 'Braun gestreifte Eulen' })
-    @partial('tile', {src: 'stricken/eule/blau', label: 'Blaue Eule' })
-    @partial('tile', {src: 'stricken/eule/tuerkis', label: 'Türkise Eule' })
-    @partial('tile', {src: 'stricken/eule/rosa', label: 'Rosa Eule' })
-    @partial('tile', {src: 'stricken/eule/rosa-pink', label: 'Rosa und pinke Eule' })
-</div>
+@partial('tiles', { path: document.relativeDirPath })

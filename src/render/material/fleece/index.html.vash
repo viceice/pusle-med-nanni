@@ -4,11 +4,11 @@ layout: "default"
 order: 3
 ---
 <p>
-    Kråkris, wer Ikea liebt, kennt dieses Stoffmuster.
-    Da gibt es als Kissen, Decke und Bettwäsche.
+    KrÃ¥kris, wer Ikea liebt, kennt dieses Stoffmuster.
+    Da gibt es als Kissen, Decke und BettwÃ¤sche.
 </p><p>
-    Passen dazu gibt es von mir <a href="/Nähen/Utensilo">Utensilo</a> und <a href="/Nähen/Taschen/Handy">Handyladestationstasche</a>.
-    Andere Accessoires kann ich gern für euch nähen.
+    Passen dazu gibt es von mir <a href="/NÃ¤hen/Utensilo">Utensilo</a> und <a href="/NÃ¤hen/Taschen/Handy">Handyladestationstasche</a>.
+    Andere Accessoires kann ich gern fÃ¼r euch nÃ¤hen.
 </p>
 
 @partial('mtiles', { path: document.relativeDirPath })

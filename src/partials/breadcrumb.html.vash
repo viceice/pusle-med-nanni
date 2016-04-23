@@ -4,7 +4,7 @@
     @if(menuItem.current){
         @menuItem.title
     } else {
-        <a href="@menuItem.url.replace(/index\.\w*$/g, '')">@menuItem.title</a>
+        <a href="@menuItem.url.replace(/index\.\w+$/g, '')">@menuItem.title</a>
     }
 </li>
         if(menuItem.children){

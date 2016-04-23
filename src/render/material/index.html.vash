@@ -4,4 +4,4 @@ layout: "default"
 order: 10
 ---
 
-<span class="mif-info"></span> In Arbeit.
+@partial('sub', false, { tree: tree("sitemap", document) })

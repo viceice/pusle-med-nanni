@@ -1,0 +1,34 @@
+---
+title: "Kaffeetütentasche"
+layout: "default"
+order: 1
+---
+
+<div class="flex-grid">
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Meine erste Kaffeetütentasche bekam ich von &quotmeinem&quot Taxifahrer geschenkt, der mich 30 Tage lang zur Strahlenklinik fuhr. Ich hatte gerade meine Blumenkugelbastelei wiederentdeckt und die lange Zeit der Autofahrt genutzt, um basteln. Das erzählte er seinen Kollegen und eine von ihnen nähte diese Taschen.
+            </p>
+            <p>
+                Dann ging die Suche nach leeren Kaffeetüten los. Man braucht 4 Stück für eine Tasche.
+            </p>
+            <p>
+                Die Kordeln habe ich aus Fadengardienen (bei meiner Schwester wurde um dekoriert 😉) selber gehäkelt.
+            </p>
+            <p>
+                Die Größe der Tasche von Tassimo und den anderen Kaffeesorten hängt von der Originalgröße der Kaffeetüte ab und wie groß man den Boden haben möchte.
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 30x35x15cm oder ca. 25x28x10cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/sonstiges#kaffeetuete">Kaffeetüten</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+@partial('tiles', { path: document.relativeDirPath })

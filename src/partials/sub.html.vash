@@ -1,0 +1,18 @@
+@{ function menuGenBc(menuItem){
+    @if(menuItem.active) {
+        @if(menuItem.current) {
+
+            @menuItem.children.forEach(function(page){
+        <li><a href="@page.url.replace(/index\.\w+$/g, '')">@page.title</a></li>
+            })
+        } else {
+            if(menuItem.children){
+                @menuItem.children.forEach(menuGenBc)
+            }
+        }
+    }
+}}
+
+<ul class="simple-list dark-bullet">
+    @tree.forEach(menuGenBc)
+</ul>

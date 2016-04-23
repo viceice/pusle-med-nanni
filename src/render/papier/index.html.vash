@@ -1,8 +1,7 @@
 ---
-title: "Taschen"
+title: "Papier"
 layout: "default"
-order: 1
+order: 4
 ---
-
 
 @partial('sub', false, { tree: tree("sitemap", document) })

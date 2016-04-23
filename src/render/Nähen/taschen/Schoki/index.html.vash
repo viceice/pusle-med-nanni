@@ -1,0 +1,35 @@
+---
+title: "Schoki-Tasche"
+layout: "default"
+order: 2
+---
+
+<div class="flex-grid">
+
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Auf der Suche nach einer Nähanleitung für die Kaffeetütentaschen fand ich die vielen Varianten für Schokitaschen. Unendliche Weiten… Sorten von Schokolade, aber Milka ist unsere Lieblingssorte.
+            </p>
+            <p>
+                Da man wieder 4 Stück braucht, ist das Material der Tasche eine Sünde. Meine sind alle innen mit Crispy Joghurt. Ich verrate aber nicht, wer die Naschkatze ist, sonst bekomme ich ja kein Nachschub.
+            </p>
+            <p>
+                Mein Prototyp, der leider nicht so gelungen ist, steht an meiner Nähmaschine als Utensilo.
+            </p>
+            <p>
+                Eine garantiert kalorienarme Versuchung.
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 18x18x10cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/sonstiges#schokoladenpapier">Schokoladenpapier</a> von Milka</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+@partial('tiles', { path: document.relativeDirPath })

@@ -9,4 +9,4 @@ order: 3
     Dank verschiedener Bastelpackungen gibt es den Filz auch in vielen schönen Farben.
     Da ist für jedes Buch das passende Lesezeichen dabei.
 </p>
-@partial('tiles', { path: document.relativeDirPath })
+@partial('mtiles', { path: document.relativeDirPath })

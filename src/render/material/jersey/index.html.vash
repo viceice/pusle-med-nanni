@@ -17,4 +17,4 @@ order: 2
     Die leichten Jersey Stoffe kann man sogar bei über 30°C tragen, an kälteren Tagen habe ich einfach eine dicke aus <a href="/Material/Fleece">Fleece</a> (natürlich selbst genäht) darunter getragen.
 </p>
 
-@partial('tiles', { path: document.relativeDirPath })
+@partial('mtiles', { path: document.relativeDirPath })

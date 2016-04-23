@@ -9,7 +9,7 @@ hidden: false
 <div class="flex-grid">
     <div class="row cell-auto-size">
         <div class="cell">
-            @partial('tiles', {path: 'home', size: 'tile' })
+            @partial('mtiles', {path: 'home', size: 'tile' })
         </div>
         <div class="cell size4 h-card">
             <div class="image-container" style="float:right">

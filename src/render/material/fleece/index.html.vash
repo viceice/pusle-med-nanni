@@ -11,4 +11,4 @@ order: 3
     Andere Accessoires kann ich gern für euch nähen.
 </p>
 
-@partial('tiles', { path: document.relativeDirPath })
+@partial('mtiles', { path: document.relativeDirPath })

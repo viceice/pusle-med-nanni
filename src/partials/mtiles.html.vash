@@ -1,0 +1,11 @@
+@if (model.title){
+<h4>
+    @model.title
+</h4>
+}
+
+<div class="tile-container">
+    @getTiles(model.path).forEach(function(img) {
+        @partial('tile', false, { getTile: getTile, src: img.url, label: img.basename.replace(/^\d+_/, ""), size: model.size || 'tile' })
+    })
+</div>

@@ -54,7 +54,7 @@
     <Content Include="src\static\images\home\001_Tücherbox.jpg" />
     <Content Include="src\static\images\home\040_Kirschkernherz.jpg" />
     <Content Include="src\static\images\home\050_Stoffhühner.jpg" />
-    <Content Include="src\static\images\home\009_Kinder-Rucksäcke.jpeg" />
+    <Content Include="src\static\images\home\009_Kinder-Rucksäcke.jpg" />
     <Content Include="src\static\images\home\002_Set für Schnupfnasen.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\001 Zipfelmütze.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\002 Zipfelmütze.jpg" />
@@ -155,8 +155,9 @@
     <Content Include="src\partials\work.html" />
     <Content Include="src\render\error\404.html" />
     <Content Include="src\render\material\polyester\index.html" />
+    <Content Include="doc\tmpl.gitignore" />
     <None Include="src\render\material\fleece\index.html.vash" />
-    <Content Include="src\partials\tiles.html.vash" />
+    <Content Include="src\partials\mtiles.html.vash" />
     <Content Include="src\static\images\Nähen\beanie\blau-1.jpg" />
     <Content Include="src\static\images\Nähen\beanie\blau-2.jpg" />
     <Content Include="src\static\images\Nähen\beanie\braun-1.jpg" />

@@ -18,7 +18,7 @@ keywords: "Fransenwolle, Fransengarn, Bändchengarn"
            ...
         </div>
         <div class="cell">
-            @partial('tiles', { path: "Material/Wolle/Bändchengarn" })
+            @partial('mtiles', { path: "Material/Wolle/Bändchengarn" })
         </div>
     </div>
 
@@ -35,7 +35,7 @@ keywords: "Fransenwolle, Fransengarn, Bändchengarn"
 
         </div>
         <div class="cell">
-            @partial('tiles', { path: "Material/Wolle/Flower Color" })
+            @partial('mtiles', { path: "Material/Wolle/Flower Color" })
         </div>
     </div>
 
@@ -54,7 +54,7 @@ keywords: "Fransenwolle, Fransengarn, Bändchengarn"
             </p>
         </div>
         <div class="cell">
-            @partial('tiles', { path: "Material/Wolle/Fransenwolle" })
+            @partial('mtiles', { path: "Material/Wolle/Fransenwolle" })
         </div>
     </div>
 </div>

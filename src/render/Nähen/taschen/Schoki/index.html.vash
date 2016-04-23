@@ -32,4 +32,4 @@ order: 2
     </div>
 </div>
 
-@partial('tiles', { path: document.relativeDirPath })
+@partial('mtiles', { path: document.relativeDirPath })

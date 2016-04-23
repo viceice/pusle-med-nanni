@@ -38,4 +38,4 @@ ebay:
     </div>
 </div>
 
-@partial('tiles', { path: document.relativeDirPath })
+@partial('mtiles', { path: document.relativeDirPath })

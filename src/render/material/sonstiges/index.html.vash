@@ -46,7 +46,7 @@ order: 20
                     <div class="tile-content">
                         <div class="image-container">
                             <div class="frame">
-                                <img src="@getTile('/images/material/sonstiges/teekanne-01.jpg')">
+                                <img src="@@getTile('/images/material/sonstiges/teekanne-01.jpg')">
                             </div>
                             <div class="image-overlay">
                                 Geordnete Teekuvert von Teekanne und anderen
@@ -77,7 +77,7 @@ order: 20
                     <div class="tile-content">
                         <div class="image-container">
                             <div class="frame">
-                                <img src="@getTile('/images/material/sonstiges/teekanne-01.jpg')">
+                                <img src="@@getTile('/images/material/sonstiges/teekanne-01.jpg')">
                             </div>
                             <div class="image-overlay">
                                 Geordnete Teekuvert von Teekanne und anderen

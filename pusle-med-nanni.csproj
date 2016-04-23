@@ -58,6 +58,7 @@
     <Content Include="src\static\images\Häkeln\Mütze\002 Zipfelmütze.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\003 Zipfelmütze.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\004 Zipfelmütze.jpg" />
+    <Content Include="src\static\images\ich.jpg" />
     <Content Include="src\static\images\material\baumwolle\100 weiß creme\BW 110.jpg" />
     <Content Include="src\static\images\material\baumwolle\100 weiß creme\BW-101.JPG" />
     <Content Include="src\static\images\material\baumwolle\100 weiß creme\BW-102.JPG" />

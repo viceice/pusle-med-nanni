@@ -11,6 +11,6 @@ RedirectMatch "^/haekeln/(.*)" "/Häkeln/$2"
 
 
 # Wartung
-RewriteCond %{REQUEST_URI} !^/error/[0-9]+\.html$
-RewriteCond %{REQUEST_URI} !^/(css|js|fonts|images)/
-RewriteRule .* - [R=503,L]
+#RewriteCond %{REQUEST_URI} !^/error/[0-9]+\.html$
+#RewriteCond %{REQUEST_URI} !^/(css|js|fonts|images)/
+#RewriteRule .* - [R=503,L]

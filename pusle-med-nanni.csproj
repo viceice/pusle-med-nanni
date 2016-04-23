@@ -50,10 +50,12 @@
     <Content Include="src\static\images\home\021_Gelb-braune Eule.jpg" />
     <Content Include="src\static\images\home\010_Chipsocken.jpg" />
     <Content Include="src\static\images\home\022_Rosa-pinke Eule.jpg" />
-    <Content Include="src\static\images\home\002_Utensilo Ikea.jpg" />
+    <Content Include="src\static\images\home\003_Utensilo Ikea.jpg" />
     <Content Include="src\static\images\home\001_Tücherbox.jpg" />
     <Content Include="src\static\images\home\040_Kirschkernherz.jpg" />
     <Content Include="src\static\images\home\050_Stoffhühner.jpg" />
+    <Content Include="src\static\images\home\009_Kinder-Rucksäcke.jpeg" />
+    <Content Include="src\static\images\home\002_Set für Schnupfnasen.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\001 Zipfelmütze.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\002 Zipfelmütze.jpg" />
     <Content Include="src\static\images\Häkeln\Mütze\003 Zipfelmütze.jpg" />
@@ -223,6 +225,12 @@
     <Content Include="src\static\images\Nähen\Taschen\Handy\Hello Kitty.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Handy\Für meine Mutti.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Handy\Hello Kitty im Einsatz.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 104-702.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 104-orange.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 105-grün.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 110-509.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 110-orange.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 105-301.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 204.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 303-301.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 308.jpg" />
@@ -330,6 +338,7 @@
     <Content Include="src\partials\breadcrumb.html.vash" />
     <Content Include="src\partials\sub.html.vash" />
     <None Include="src\render\Nähen\taschen\index.html.vash" />
+    <Content Include="src\render\Nähen\taschen\Rucksack\index.html.vash" />
     <None Include="src\render\papier\index.html.vash" />
     <Content Include="src\partials\tile.html.vash" />
     <Content Include="doc\logo.xcf" />
@@ -436,7 +445,6 @@
     <Folder Include="src\documents\" />
     <Folder Include="src\files\" />
     <Folder Include="src\render\Nähen\halatasche\" />
-    <Folder Include="src\static\images\Nähen\Taschen\Rucksack\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

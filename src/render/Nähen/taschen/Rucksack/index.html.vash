@@ -1,0 +1,37 @@
+---
+title: "Rucksack"
+layout: "default"
+order: 4
+---
+
+<div class="flex-grid">
+    <div class="row cell-auto-size">
+        <div class="cell">
+            <p>
+                Kleiner Rucksack für kleine Rücken. Ideal als Sportbeutel, Turnbeutel oder Kita-Rucksack. Auch für die nötigsten Sachen für den Besuch bei Oma ist genug Platz in diesem Rucksack.
+            </p>
+            <p>
+                Außenstoffe, Futterstoff und Kordel sind aus <a href="/material/Baumwolle">Baumwolle</a> genäht und waschbar. Innen sind 2 kleine Taschen eingenäht.
+            </p>
+            <p>
+                Der Beutel ist sehr leicht, weich und flexibel für die kleinen Rücken.
+            </p>
+            <p>
+                Jeder Kinderturnbeutel ist in liebevoller Handarbeit hergestellt und ein Unikat.
+            </p>
+            <p>
+                Eine tolle <abbr title="do it yourself">DIY</abbr> Anleitung fand ich bei: <a href="http://fraufadenschein.de" rel="external">Frau Fadenschein</a>.
+            </p>
+        </div>
+        <div class="cell size4">
+            <dl class="horizontal">
+                <dt>Größe</dt>
+                <dd>Ca. 30x30cm</dd>
+                <dt>Material</dt>
+                <dd><a href="/material/Baumwolle">Baumwolle</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+@partial('tiles', { path: document.relativeDirPath })

@@ -12,7 +12,20 @@ ebay:
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            ...
+            <p>
+                Mal ehrlich, es hat doch jeder – zumindest jede Frau – immer ein Päckchen Papiertaschentücher in der Tasche, oder?
+                Und wenn man die dort eine Weile herumgetragen hat, dann klebt der Verschluss nicht mehr, die Seiten der Verpackung gehen auf,
+                die Taschentücher sehen schmuddelig aus und das ganze wird einfach unansehnlich.
+            </p>
+            <p>
+                Ein super leichtes und schnelles Projekt. Sehr anfängergeeignet und süchtig machend.
+            </p>
+            <p>
+                Eine tolle Anleitung findest du bei <i class="fa fa-youtube" title="YouTube"></i> von <b>congabaeren</b>:
+            </p>
+            <p class="align-center">
+                TatüTa &quot;Das Original&quot; - Taschentüchertasche nähen, Anleitung DIY
+            </p>
         </div>
         <div class="cell">
             <dl class="horizontal">

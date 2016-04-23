@@ -151,7 +151,7 @@
     <Content Include="src\partials\work.html" />
     <Content Include="src\render\error\404.html" />
     <Content Include="src\render\material\polyester\index.html" />
-    <Content Include="src\render\material\fleece\index.html" />
+    <None Include="src\render\material\fleece\index.html.vash" />
     <Content Include="src\partials\tiles.html.vash" />
     <Content Include="src\static\images\Nähen\beanie\blau-1.jpg" />
     <Content Include="src\static\images\Nähen\beanie\blau-2.jpg" />
@@ -343,11 +343,11 @@
     <None Include="src\render\material\sonstiges\index.html.vash" />
     <None Include="src\render\material\wolle\index.html.vash" />
     <Content Include="src\render\material\papier\index.html" />
-    <Content Include="src\render\material\filz\index.html" />
-    <Content Include="src\render\material\jersey\index.html" />
+    <None Include="src\render\material\filz\index.html.vash" />
+    <None Include="src\render\material\jersey\index.html.vash" />
     <None Include="src\render\material\index.html.vash" />
     <None Include="src\render\material\baumwolle\index.html.vash" />
-    <None Include="src\render\Nähen\halatasche\index.html.vash" />
+    <None Include="src\render\Nähen\taschen\Handy\index.html.vash" />
     <None Include="src\render\Nähen\maus\index.html.vash" />
     <None Include="src\render\Nähen\Kopftuch\index.html.vash" />
     <None Include="src\render\Nähen\herz\index.html.vash" />
@@ -426,6 +426,7 @@
   <ItemGroup>
     <Folder Include="src\documents\" />
     <Folder Include="src\files\" />
+    <Folder Include="src\render\Nähen\halatasche\" />
     <Folder Include="src\static\images\Nähen\Taschen\Rucksack\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

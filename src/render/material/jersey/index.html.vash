@@ -1,0 +1,20 @@
+---
+title: "Jersey"
+layout: "default"
+order: 2
+---
+
+<p>
+    Schon vor meiner Erkrankung habe ich gern genäht und der Holländer Stoffmarkt hat mir immer wieder zu neuen Ideen verholfen.
+    Der Kauf einer Overlook-Nähmaschine macht die Näherei nun einfacher.
+</p><p>
+    Ein erster Versuch waren meine <a href="/Nähen/Beanie">Beanie</a>.
+    Die ich passend zu meinen Oberteilen nach einem tollen Schnitt von <strong>Mamu Design</strong> (IMKE Damen-Schnittmuster: Bluse, Top, Kleid, Tunika) genäht habe.
+</p><p>
+    Alle 3 Wochen zur Behandlung im Krankenhaus wurde ich mit einer neuen Beanie bewundert.
+    Ich hatte mich entschieden, keine Perücke zu tragen, aber ohne Haare auf dem Kopf  war es selbst nachts oft kalt 😊.
+</p><p>
+    Die leichten Jersey Stoffe kann man sogar bei über 30°C tragen, an kälteren Tagen habe ich einfach eine dicke aus <a href="/Material/Fleece">Fleece</a> (natürlich selbst genäht) darunter getragen.
+</p>
+
+@partial('tiles', { path: document.relativeDirPath })

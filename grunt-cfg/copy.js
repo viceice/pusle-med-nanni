@@ -28,6 +28,13 @@ module.exports = function (grunt, options) {
                     "bower_components/cookieconsent2/cookieconsent.js"
                 ],
                 "dest": "<%= path.js %>"
+            },
+            {
+                "flatten": true,
+                "src": [
+                    "doc/*.gitignore",
+                ],
+                "dest": "<%= path.bin %>.gitignore"
             }
             ]
         }

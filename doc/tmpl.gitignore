@@ -1,0 +1,6 @@
+---
+outPath: '.gitignore'
+---
+
+/images/**/*.jpg
+!/images/**/*.thumb_*.jpg

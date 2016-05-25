@@ -46,6 +46,11 @@
     <Content Include=".gitignore" />
     <Content Include="grunt-cfg\copy.js" />
     <Content Include="Gruntfile.js" />
+    <Content Include="src\partials\Flohmarkt.html" />
+    <Content Include="src\static\images\Flohmarkt\Smile Big Sale.png" />
+    <Content Include="src\static\images\Flohmarkt\Smile Eat.png" />
+    <Content Include="src\static\images\Flohmarkt\Smile Finger.png" />
+    <Content Include="src\static\images\Flohmarkt\Smile Garage Sale.png" />
     <Content Include="src\static\images\home\020_Bunte Eule.jpg" />
     <Content Include="src\static\images\home\021_Gelb-braune Eule.jpg" />
     <Content Include="src\static\images\home\010_Chipsocken.jpg" />

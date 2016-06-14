@@ -84,6 +84,9 @@
     <Content Include="src\static\images\material\baumwolle\200 gelb-orange\BW 206.JPG" />
     <Content Include="src\static\images\material\baumwolle\200 gelb-orange\BW 207.JPG" />
     <Content Include="src\static\images\material\baumwolle\200 gelb-orange\BW 208.JPG" />
+    <Content Include="src\static\images\material\baumwolle\200 gelb-orange\BW 209.jpg" />
+    <Content Include="src\static\images\material\baumwolle\200 gelb-orange\BW 210.jpg" />
+    <Content Include="src\static\images\material\baumwolle\200 gelb-orange\BW 211.jpg" />
     <Content Include="src\static\images\material\baumwolle\300 rot\BW 301.JPG" />
     <Content Include="src\static\images\material\baumwolle\300 rot\BW 302.JPG" />
     <Content Include="src\static\images\material\baumwolle\300 rot\BW 303.JPG" />
@@ -104,6 +107,7 @@
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 408.JPG" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 409.JPG" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 410.JPG" />
+    <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 414.jpg" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW 502.jpg" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW 503.jpg" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW 506.jpg" />
@@ -130,6 +134,8 @@
     <Content Include="src\static\images\material\baumwolle\600 blau\BW 611.JPG" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW 612.JPG" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW 613.JPG" />
+    <Content Include="src\static\images\material\baumwolle\600 blau\BW 616.jpg" />
+    <Content Include="src\static\images\material\baumwolle\600 blau\BW 617.jpg" />
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 701.JPG" />
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 702.JPG" />
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 703.JPG" />
@@ -138,10 +144,12 @@
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 706.JPG" />
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 707.JPG" />
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 708.JPG" />
+    <Content Include="src\static\images\material\baumwolle\700 grün\BW 709.jpg" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW 801.JPG" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW 802.JPG" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW 803.JPG" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW 804.JPG" />
+    <Content Include="src\static\images\material\baumwolle\800 braun\BW 805.jpg" />
     <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW 906.jpg" />
     <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW 907.jpg" />
     <Content Include="src\static\images\material\baumwolle\900 grau schwarz\BW 908.jpg" />
@@ -451,6 +459,15 @@
     <Folder Include="src\documents\" />
     <Folder Include="src\files\" />
     <Folder Include="src\render\Nähen\halatasche\" />
+    <Folder Include="src\static\images\material\Jersey\100 weiß creme\" />
+    <Folder Include="src\static\images\material\Jersey\200 gelb orange\" />
+    <Folder Include="src\static\images\material\Jersey\300 rot\" />
+    <Folder Include="src\static\images\material\Jersey\400 pink rosa\" />
+    <Folder Include="src\static\images\material\Jersey\500 lila\" />
+    <Folder Include="src\static\images\material\Jersey\600 blau\" />
+    <Folder Include="src\static\images\material\Jersey\700 grün\" />
+    <Folder Include="src\static\images\material\Jersey\800 braun\" />
+    <Folder Include="src\static\images\material\Jersey\900 grau schwarz\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

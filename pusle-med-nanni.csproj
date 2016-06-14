@@ -242,9 +242,17 @@
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 104-702.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 104-orange.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 105-grün.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 110 orange.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 110-509.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 110-orange.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 105-301.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 414-702.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\BW 805-802.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 203 BW 201.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 203 BW 301.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 401 BW pink.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 402 BW pink.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 803 BW grün.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 204.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 303-301.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 308.jpg" />

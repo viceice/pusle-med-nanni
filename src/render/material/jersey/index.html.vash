@@ -21,13 +21,13 @@ order: 2
     @partial('mtiles', {title: '100 weiß creme', path: 'material/Jersey/100 weiß creme', size: 'tile' })
 </div>
 <div class="">
-    @partial('mtiles', {title: '200 gelb-orange', path: 'material/Jersey/200 gelb-orange', size: 'tile' })
+    @partial('mtiles', {title: '200 gelb orange', path: 'material/Jersey/200 gelb orange', size: 'tile' })
 </div>
 <div class="">
     @partial('mtiles', {title: '300 rot', path: 'material/Jersey/300 rot', size: 'tile' })
 </div>
 <div class="">
-    @partial('mtiles', {title: '400 rosa pink', path: 'material/Jersey/400 rosa pink', size: 'tile' })
+    @partial('mtiles', {title: '400 rosa pink', path: 'material/Jersey/400 pink rosa ', size: 'tile' })
 </div>
 <div class="">
     @partial('mtiles', {title: '500 lila', path: 'material/Jersey/500 lila', size: 'tile' })

@@ -96,6 +96,9 @@
     <Content Include="src\static\images\material\baumwolle\300 rot\BW 307.JPG" />
     <Content Include="src\static\images\material\baumwolle\300 rot\BW 308.JPG" />
     <Content Include="src\static\images\material\baumwolle\300 rot\BW 309.JPG" />
+    <Content Include="src\static\images\material\baumwolle\300 rot\BW 310.jpg" />
+    <Content Include="src\static\images\material\baumwolle\300 rot\BW 311.jpg" />
+    <Content Include="src\static\images\material\baumwolle\300 rot\BW 312.jpg" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 411.jpg" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 413.jpg" />
     <Content Include="src\static\images\material\baumwolle\400 rosa pink\BW 402.JPG" />
@@ -119,6 +122,7 @@
     <Content Include="src\static\images\material\baumwolle\500 lila\BW 505.JPG" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW 507.JPG" />
     <Content Include="src\static\images\material\baumwolle\500 lila\BW 508.JPG" />
+    <Content Include="src\static\images\material\baumwolle\500 lila\BW 513.jpg" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW 614.jpg" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW 615.jpg" />
     <Content Include="src\static\images\material\baumwolle\600 blau\BW 601.JPG" />
@@ -145,6 +149,8 @@
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 707.JPG" />
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 708.JPG" />
     <Content Include="src\static\images\material\baumwolle\700 grün\BW 709.jpg" />
+    <Content Include="src\static\images\material\baumwolle\700 grün\BW 710.jpg" />
+    <Content Include="src\static\images\material\baumwolle\700 grün\BW 711.jpg" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW 801.JPG" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW 802.JPG" />
     <Content Include="src\static\images\material\baumwolle\800 braun\BW 803.JPG" />
@@ -174,6 +180,7 @@
     <Content Include="src\static\images\material\Jersey\400 pink rosa\J 403.jpg" />
     <Content Include="src\static\images\material\Jersey\400 pink rosa\J 404.jpg" />
     <Content Include="src\static\images\material\Jersey\400 pink rosa\J 405.jpg" />
+    <Content Include="src\static\images\material\Jersey\400 pink rosa\J 409.jpg" />
     <Content Include="src\static\images\material\Jersey\500 lila\J 501.jpg" />
     <Content Include="src\static\images\material\Jersey\500 lila\J 502.jpg" />
     <Content Include="src\static\images\material\Jersey\500 lila\J 503.jpg" />
@@ -181,6 +188,7 @@
     <Content Include="src\static\images\material\Jersey\600 blau\J 602.jpg" />
     <Content Include="src\static\images\material\Jersey\600 blau\J 603.jpg" />
     <Content Include="src\static\images\material\Jersey\600 blau\J 604.jpg" />
+    <Content Include="src\static\images\material\Jersey\600 blau\J 605.jpg" />
     <Content Include="src\static\images\material\Jersey\700 grün\J 701.jpg" />
     <Content Include="src\static\images\material\Jersey\700 grün\J 702.jpg" />
     <Content Include="src\static\images\material\Jersey\700 grün\J 703.jpg" />
@@ -192,6 +200,7 @@
     <Content Include="src\static\images\material\Jersey\900 grau schwarz\J 902.jpg" />
     <Content Include="src\static\images\material\Jersey\900 grau schwarz\J 903.jpg" />
     <Content Include="src\static\images\material\Jersey\900 grau schwarz\J 904.jpg" />
+    <Content Include="src\static\images\material\Jersey\900 grau schwarz\J 907.jpg" />
     <Content Include="src\static\images\material\sonstiges\teekanne-01.jpg" />
     <Content Include="src\static\images\material\wolle\Bändchengarn\lachs.jpg" />
     <Content Include="src\static\images\material\wolle\Flower Color\04.jpg" />
@@ -287,6 +296,9 @@
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 401 BW pink.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 402 BW pink.jpg" />
     <Content Include="src\static\images\Nähen\Taschen\Rucksack\J 803 BW grün.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\J Kühe -schwarz.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\LEO.jpg" />
+    <Content Include="src\static\images\Nähen\Taschen\Rucksack\Pirat-schwarz.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 204.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 303-301.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 308.jpg" />
@@ -299,6 +311,7 @@
     <Content Include="src\static\images\Nähen\Tatüta\BW 804-802.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW 904-301.jpg" />
     <Content Include="src\static\images\Nähen\Tatüta\BW rot.jpg" />
+    <Content Include="src\static\images\Nähen\utensilo\etui\BW 301-303.jpg" />
     <Content Include="src\static\images\Nähen\utensilo\etui\BW 308-302.jpg" />
     <Content Include="src\static\images\Nähen\utensilo\etui\BW 413.jpg" />
     <Content Include="src\static\images\Nähen\utensilo\etui\BW 505-506-507.jpg" />

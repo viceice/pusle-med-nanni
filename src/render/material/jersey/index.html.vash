@@ -27,7 +27,7 @@ order: 2
     @partial('mtiles', {title: '300 rot', path: 'material/Jersey/300 rot', size: 'tile' })
 </div>
 <div class="">
-    @partial('mtiles', {title: '400 rosa pink', path: 'material/Jersey/400 pink rosa ', size: 'tile' })
+    @partial('mtiles', {title: '400 rosa pink', path: 'material/Jersey/400 rosa pink', size: 'tile' })
 </div>
 <div class="">
     @partial('mtiles', {title: '500 lila', path: 'material/Jersey/500 lila', size: 'tile' })

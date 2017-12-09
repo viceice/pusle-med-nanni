@@ -17,7 +17,7 @@ docpadConfig = {
         """
 
       # The website keywords (for SEO) separated by commas
-      keywords: """Nähen, Stricken, Häkeln, Basteln"""
+      keywords: """NÃ¤hen, Stricken, HÃ¤keln, Basteln"""
 
       author: "Susanne Kriese"
 
@@ -82,14 +82,13 @@ docpadConfig = {
       safeps = require('safeps')
       docpad = @docpad
       rootPath = docpad.getConfig().rootPath
-      gruntPath = 'grunt.cmd'
       env = docpad.getConfig().env or 'development'
 
       # Perform the grunt `min` task
-      command = [gruntPath, env]
+      command = ['grunt', env]
 
       # Execute
-      safeps.spawn(command, {cwd:rootPath,output:true}, next)
+      safeps.spawn(command, { stdio: 'inherit', shell: true, safe: false }, next)
 
       # Chain
       @

@@ -13,7 +13,7 @@ hidden: false
             @partial('mtiles', {path: 'home', size: 'tile' })
         </div>
         <div class="cell size4">
-            @*partial('Flohmarkt', false) *@
+            @partial('Flohmarkt', false)
             <div class="h-card">
                 <div class="image-container" style="float:right">
                     <div class="frame">

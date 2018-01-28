@@ -33,6 +33,7 @@
     "start": "docpad run",
     "docker": "docker run -it -v %cd%:/usr/src/app --rm -w /usr/src/app node:carbon yarn",
     "docpad": "docpad",
-    "grunt": "grunt"
+    "grunt": "grunt",
+    "build": "docpad generate --env static"
   }
 }

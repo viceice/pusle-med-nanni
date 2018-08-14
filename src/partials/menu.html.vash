@@ -1,7 +1,4 @@
----
-cacheable: true
----
-@{ function menuGen(menuItem){
+--- cacheable: true --- @{ function menuGen(menuItem){
 <li>
     @if(menuItem.children) {
     <a class="dropdown-toggle">@menuItem.title</a>
@@ -12,14 +9,12 @@ cacheable: true
     <a href="@menuItem.url.replace(/index\.\w*$/g, '')">@menuItem.title</a>
     }
 </li>
-}
-}
+} }
 
 <div class="app-bar fixed-top orange" data-role="appbar">
     <div class="container">
         <a class="app-bar-element branding" href="/">
-            <img src="/images/logo.png" style="height: 28px; display: inline-block; margin-right: 10px;" />
-            Pusle med Nanni
+            <img src="/images/logo.png" style="height: 28px; display: inline-block; margin-right: 10px;" /> Pusle med Nanni
         </a>
 
         <ul class="app-bar-menu">
@@ -29,6 +24,11 @@ cacheable: true
         <div class="app-bar-pullbutton automatic"></div>
 
         <ul class="app-bar-menu place-right">
+            <li>
+                <a href="/privacy">
+                    Datenschutz
+                </a>
+            </li>
             <li>
                 <a href="/about">
                     Impressum

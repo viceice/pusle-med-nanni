@@ -10,7 +10,7 @@ hidden: false
 <div class="flex-grid">
     <div class="row cell-auto-size">
         <div class="cell">
-            @partial('mtiles', {path: 'home', size: 'tile' })
+            @* partial('mtiles', {path: 'home', size: 'tile' }) *@
         </div>
         <div class="cell size4">
             @partial('Flohmarkt', false)

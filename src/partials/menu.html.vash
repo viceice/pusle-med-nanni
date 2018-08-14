@@ -1,4 +1,8 @@
---- cacheable: true --- @{ function menuGen(menuItem){
+---
+cacheable: true
+---
+
+@{ function menuGen(menuItem){
 <li>
     @if(menuItem.children) {
     <a class="dropdown-toggle">@menuItem.title</a>
@@ -9,7 +13,7 @@
     <a href="@menuItem.url.replace(/index\.\w*$/g, '')">@menuItem.title</a>
     }
 </li>
-} }
+}}
 
 <div class="app-bar fixed-top orange" data-role="appbar">
     <div class="container">

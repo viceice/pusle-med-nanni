@@ -1,0 +1,17 @@
+image: node:carbon-alpine
+
+variables:
+  - YARN_CACHE_FOLDER: .yarn-cache
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .yarn-cache
+
+before_script:
+  - yarn install --pure-lockfile
+
+build:
+  script:
+    - yarn build

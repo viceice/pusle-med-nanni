@@ -33,7 +33,7 @@ build:
   script:
     - yarn build
   artifacts:
-    path:
+    paths:
       - build/
 #    - docker build -t "pusle-med-nanni/www:${CI_COMMIT_REF_SLUG}" .
 

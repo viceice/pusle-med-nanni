@@ -9,8 +9,10 @@ cache:
   paths:
     - node_modules/
     - .yarn-cache
+    - bower_components/
 
 before_script:
+  - apk add --no-cache git
   - yarn install --pure-lockfile
   - npx bower install --allow-root
 

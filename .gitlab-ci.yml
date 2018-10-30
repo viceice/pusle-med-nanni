@@ -12,6 +12,7 @@ cache:
 
 before_script:
   - yarn install --pure-lockfile
+  - npx bower install
 
 build:
   tags:

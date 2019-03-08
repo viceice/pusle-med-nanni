@@ -13,8 +13,9 @@ hidden: false
             @partial('mtiles', {path: 'home', size: 'tile' })
         </div>
         <div class="cell size4">
+            @partial('Aboreum', false)
             @* partial('Flohmarkt', false) *@
-            @partial('KunstHandwerkerMarkt', false)
+            @* partial('KunstHandwerkerMarkt', false) *@
             <div class="h-card">
                 <div class="image-container" style="float:right">
                     <div class="frame">

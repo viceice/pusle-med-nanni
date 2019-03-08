@@ -95,7 +95,7 @@ docpadConfig = {
 
   environments:
     static:
-      outPath: 'build'
+      outPath: 'public'
 
   plugins:
     imagin:

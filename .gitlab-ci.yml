@@ -35,11 +35,10 @@ build:
     - npx bower install --allow-root
   script:
     - yarn build
-    - find build/images/ -type f -iname '*.jpg' -not -name '*.thumb*' -delete
+    - find public/images/ -type f -iname '*.jpg' -not -name '*.thumb*' -delete
   artifacts:
     paths:
-      - build/
-#    - docker build -t "pusle-med-nanni/www:${CI_COMMIT_REF_SLUG}" .
+      - public/
 
 deploy_dev:
   stage: deploy

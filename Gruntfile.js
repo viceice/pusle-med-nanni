@@ -32,7 +32,7 @@ module.exports = function (grunt) {
     process.title = "grunt:" + grunt.config("package.name");
 
     grunt.registerTask("static", function () {
-        grunt.config("path.bin", "build/")
+        grunt.config("path.bin", "dist/")
         grunt.task.run(["_static"]);
     });
 

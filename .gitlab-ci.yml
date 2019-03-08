@@ -84,6 +84,8 @@ deploy_prod:
 
 pages:
   stage: deploy
+  script:
+    - echo 'dummy'
   artifacts:
     paths:
       - public

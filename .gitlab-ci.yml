@@ -14,16 +14,17 @@ build:
       - node_modules/
       - .yarn-cache
       - bower_components/
+      - dist/
   before_script:
     - apk add --no-cache graphicsmagick git
     - yarn install --pure-lockfile
     - npx bower install --allow-root
   script:
     - yarn build
-    - find public/images/ -type f -iname '*.jpg' -not -name '*.thumb*' -delete
+    - find dist/images/ -type f -iname '*.jpg' -not -name '*.thumb*' -delete
   artifacts:
     paths:
-      - public
+      - dist
 
 deploy_dev:
   image: registry.kriese.eu/jobs/docker/rsync
@@ -32,7 +33,7 @@ deploy_dev:
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:
-    - rsync -aPhh --chmod=D775,F664 --delete ./public/ --exclude-from=.rsyncignore gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.${CI_ENVIRONMENT_SLUG}/
+    - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.${CI_ENVIRONMENT_SLUG}/
   environment:
     name: dev
     url: https://dev.pusle-med-nanni.de
@@ -46,7 +47,7 @@ deploy_prod:
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:
-    - rsync -aPhh --chmod=D775,F664 --delete ./public/ --exclude-from=.rsyncignore gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.dev/
+    - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.dev/
   environment:
     name: prod
     url: https://www.pusle-med-nanni.de
@@ -57,7 +58,7 @@ deploy_prod:
 pages:
   stage: deploy
   script:
-    - echo 'dummy'
+    - mv dist public
   artifacts:
     paths:
       - public

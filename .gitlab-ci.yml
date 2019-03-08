@@ -1,0 +1,61 @@
+image: node:lts-alpine
+
+stages:
+  - build
+  - deploy
+
+variables:
+    YARN_CACHE_FOLDER: '.yarn-cache'
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .yarn-cache
+    - bower_components/
+
+before_script:
+  - apk add --no-cache git graphicsmagick openssh-client rsync
+
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+
+  - ssh-keyscan vps577063 >> ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
+
+  - yarn install --pure-lockfile
+  - npx bower install --allow-root
+
+build:
+    stage: build
+    script:
+        - yarn build
+    artifacts:
+        paths:
+            - build/
+#    - docker build -t "pusle-med-nanni/www:${CI_COMMIT_REF_SLUG}" .
+
+deploy_dev:
+  stage: deploy
+  script:
+    - echo 'TODO'
+  #    - rsync -rtl --partial --delete build/  gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.dev/
+  environment:
+    name: dev
+    url: https://dev.pusle-med-nanni.de
+  only:
+    - master
+
+deploy_prod:
+  stage: deploy
+  script:
+    - echo 'TODO'
+#   - rsync -rtl --partial --delete build/  gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.www/
+  environment:
+    name: prod
+    url: https://www.pusle-med-nanni.de
+  when: manual
+  only:
+    - master

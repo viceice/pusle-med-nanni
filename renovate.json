@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "config:base",
-    ":assignAndReview(kriese)"
-  ],
-  "automergeType": "branch"
+    "extends": ["config:base", ":assignAndReview(kriese)"],
+    "automergeType": "branch",
+    "semanticCommits": true
 }

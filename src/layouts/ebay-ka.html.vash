@@ -2,12 +2,12 @@
 layout: "default"
 ---
 
-@html.raw(content)
+@html.raw(model.content)
 
-@if(document.ebay){
+@if(model.document.ebay){
 <p>
     Wenn dir gefällt, was du siehst, dann findest du mich bei <a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=11886451" target="_blank" rel="external">eBay Kleinanzeigen</a>:
-    <h5>@document.ebay.title</h5>
-    Anzeigennummer: @document.ebay.links.join(", ")
+    <h5>@model.document.ebay.title</h5>
+    Anzeigennummer: @model.document.ebay.links.join(", ")
 </p>
 }

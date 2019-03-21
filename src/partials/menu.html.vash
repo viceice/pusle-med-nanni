@@ -22,7 +22,7 @@ cacheable: true
         </a>
 
         <ul class="app-bar-menu">
-            @menuItems.sort(function(a,b){ return a.order - b.order; }).forEach(menuGen)
+            @model.menuItems.sort(function(a,b){ return a.order - b.order; }).forEach(menuGen)
         </ul>
 
         <div class="app-bar-pullbutton automatic"></div>

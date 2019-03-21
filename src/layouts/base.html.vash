@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link href="/favicon.ico" rel="shortcut icon">
-    <title>@getPreparedTitle()</title>
-    <meta name="description" content="@getPreparedDescription()" />
-    <meta name="keywords" content="@getPreparedKeywords()" />
-    <meta name="author" content="@site.author" />
-    @html.raw(getBlock("meta").toHTML())
-    @html.raw(getBlock("styles").add(["/css/metro.css", "/css/font-awesome.css", "/css/style.css"]).toHTML())
+    <title>@model.getPreparedTitle()</title>
+    <meta name="description" content="@model.getPreparedDescription()" />
+    <meta name="keywords" content="@model.getPreparedKeywords()" />
+    <meta name="author" content="@model.site.author" />
+    @html.raw(model.getBlock("meta").toHTML())
+    @html.raw(model.getBlock("styles").add(["/css/metro.css", "/css/font-awesome.css", "/css/style.css"]).toHTML())
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -22,16 +22,16 @@
 </head>
 <body>
     <div class="header">
-        @partial("menu", false, { partial: partial, menuItems: tree("sitemap", document) })
+        @model.partial("menu", false, { partial: model.partial, menuItems: model.tree("sitemap", model.document) })
     </div>
 
     <div class="container content">
-        @html.raw(content)
+        @html.raw(model.content)
     </div>
 
     <div class="footer">
         <div class="container">
-            <p class="fg-grayLight">Geändert am: @getPreparedDate()</p>
+            <p class="fg-grayLight">Geändert am: @model.getPreparedDate()</p>
         </div>
     </div>
 
@@ -43,6 +43,6 @@
         <img class="dlg-preview"/>
     </div>
 
-    @html.raw(getBlock("scripts").add(["/js/jquery.js", "/js/jquery.waypoints.js", "/js/metro.js", "/js/main.js"]).toHTML())
+    @html.raw(model.getBlock("scripts").add(["/js/jquery.js", "/js/jquery.waypoints.js", "/js/metro.js", "/js/main.js"]).toHTML())
 </body>
 </html>

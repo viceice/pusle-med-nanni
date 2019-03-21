@@ -10,16 +10,16 @@ hidden: false
 <div class="flex-grid">
     <div class="row cell-auto-size">
         <div class="cell">
-            @partial('mtiles', {path: 'home', size: 'tile' })
+            @model.partial('mtiles', {path: 'home', size: 'tile' })
         </div>
         <div class="cell size4">
-            @partial('Aboreum', false)
-            @* partial('Flohmarkt', false) *@
-            @* partial('KunstHandwerkerMarkt', false) *@
+            @model.partial('Aboreum', false)
+            @* model.partial('Flohmarkt', false) *@
+            @* model.partial('KunstHandwerkerMarkt', false) *@
             <div class="h-card">
                 <div class="image-container" style="float:right">
                     <div class="frame">
-                        <img src="@getTile('ich','tile')" alt="Susanne Kriese" class="u-photo" />
+                        <img src="@model.getTile('ich','tile')" alt="Susanne Kriese" class="u-photo" />
                     </div>
                 </div>
                 <h3>Über mich</h3>

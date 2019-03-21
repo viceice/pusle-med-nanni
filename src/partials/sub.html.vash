@@ -14,5 +14,5 @@
 }}
 
 <ul class="simple-list dark-bullet">
-    @tree.forEach(menuGenBc)
+    @model.tree.forEach(menuGenBc)
 </ul>

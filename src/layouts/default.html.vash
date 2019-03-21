@@ -2,10 +2,10 @@
 layout: "base"
 ---
 <h1>
-    @getPreparedTitle()
-    @if(document.stitle){
-    <small>@document.stitle</small>
+    @model.getPreparedTitle()
+    @if(model.document.stitle){
+    <small>@model.document.stitle</small>
     }
 </h1>
-@partial("breadcrumb", false, {menuItems: tree("sitemap", document)})
-@html.raw(content)
+@model.partial("breadcrumb", false, {menuItems: model.tree("sitemap", model.document)})
+@html.raw(model.content)

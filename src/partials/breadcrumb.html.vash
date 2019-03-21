@@ -15,5 +15,5 @@
 
 <ul class="breadcrumbs">
     <li><a href="/"><span class="icon mif-home"></span></a></li>
-    @menuItems.forEach(menuGenBc)
+    @model.menuItems.forEach(menuGenBc)
 </ul>

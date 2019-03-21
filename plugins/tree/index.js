@@ -83,13 +83,14 @@ class Tree {
 }
 
 class TreePlugin extends BasePlugin {
+
     get name() {
         return 'tree';
     }
 
     extendTemplateData(options) {
-        var docpad = this.docpad,
-            templateData = options.templateData;
+        const { docpad } = this;
+        const { templateData } = options;
 
         templateData.tree = function(collection, context, includeRoot) {
             if (collection === null) {

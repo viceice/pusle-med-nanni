@@ -42,9 +42,8 @@ class Imagin extends BasePlugin {
         return 'imagin';
     }
 
-    constructor() {
-        super(...arguments);
-        this.config = {
+    get initialConfig() {
+        return {
             presets: {
                 default: {
                     q: 85,
@@ -99,15 +98,19 @@ class Imagin extends BasePlugin {
             imageMagick: false,
             extensions: ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'],
         };
+    }
 
+    constructor(...args) {
+        super(...args);
         this.thumbnailsToGenerateLength = 0;
         this.thumbnailsToGenerate = {};
     }
 
-    extendTemplateData({ templateData }) {
+    extendTemplateData(options) {
         //Prepare
         const { docpad, config } = this;
         const me = this;
+        const { templateData } = options;
 
         templateData.getThumbnail = function(src, ...args) {
             // return a thumbnail url, generating the image if necessary

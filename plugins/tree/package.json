@@ -1,0 +1,53 @@
+{
+  "name": "docpad-plugin-tree",
+  "version": "3.0.0",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "navigation",
+    "tree"
+  ],
+  "author": {
+    "name": "Kasper Isager",
+    "email": "kasperisager@gmail.com",
+    "url": "https://github.com/kasperisager"
+  },
+  "contributors": [
+    {
+      "name": "Becky Van Bussel",
+      "email": "beckyvanbussel@gmail.com",
+      "url": "https://github.com/beckyvb"
+    },
+    {
+      "name": "Michael Kriese",
+      "email": "michael.kriesse@gmx.de",
+      "url": "https://github.com/viceice"
+    }
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "dependencies": {
+    "docpad-baseplugin": "1.0.3",
+    "underscore": "1.9.1",
+    "underscore.string": "3.3.5"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "editions": [
+    {
+      "description": "esnext source code with require for modules",
+      "directory": "",
+      "entry": "index.js",
+      "syntaxes": [
+        "javascript",
+        "esnext",
+        "require"
+      ],
+      "engines": {
+        "node": ">=10",
+        "browsers": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "docpad-plugin-imagin",
+  "version": "3.0.0",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "image",
+    "resize",
+    "thumbnail"
+  ],
+  "author": "Almero Digital Marketing (http://almero.com)",
+  "contributors": [
+    {
+      "name": "Michael Kriese",
+      "email": "michael.kriesse@gmx.de",
+      "url": "https://github.com/viceice"
+    }
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "dependencies": {
+    "docpad-baseplugin": "1.0.3",
+    "eachr": "3.2.0",
+    "extendr": "3.4.1",
+    "fs-extra": "7.0.1",
+    "gm": "1.23.1",
+    "taskgroup": "5.3.0"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "editions": [
+    {
+      "description": "esnext source code with require for modules",
+      "directory": "./",
+      "entry": "index.js",
+      "syntaxes": [
+        "javascript",
+        "esnext",
+        "require"
+      ],
+      "engines": {
+        "node": ">=10",
+        "browsers": false
+      }
+    }
+  ]
+}

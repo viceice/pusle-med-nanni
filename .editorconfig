@@ -17,5 +17,5 @@ max_line_length = 160
 max_line_length = off
 trim_trailing_whitespace = false
 
-[*.{json.yml}]
+[*.{json,yml}]
 indent_size = 2

@@ -6,4 +6,5 @@ obj/
 bin/
 .vs/
 build/
+dist/
 desktop.ini

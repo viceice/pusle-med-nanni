@@ -13,7 +13,7 @@ hidden: false
             @model.partial('mtiles', {path: 'home', size: 'tile' })
         </div>
         <div class="cell size4">
-            @model.partial('Aboreum', false)
+            @* model.partial('Aboreum', false) *@
             @* model.partial('Flohmarkt', false) *@
             @* model.partial('KunstHandwerkerMarkt', false) *@
             <div class="h-card">

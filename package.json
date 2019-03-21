@@ -18,6 +18,14 @@
   "engines": {
     "node": ">=10"
   },
+  "dependencies": {
+    "cookieconsent": "3.1.0",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "metro-ui": "3.0.15",
+    "metro4": "4.2.39",
+    "waypoints": "4.0.1"
+  },
   "devDependencies": {
     "docpad": "6.82.5",
     "docpad-plugin-consolidate": "2.3.0",

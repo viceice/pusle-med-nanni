@@ -547,6 +547,11 @@ consolidate@~0.15.1:
   dependencies:
     bluebird "^3.1.1"
 
+cookieconsent@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/cookieconsent/-/cookieconsent-3.1.0.tgz#2c718b304d0e71a6e0d159cac8adf4205fdca152"
+  integrity sha512-FhkOAzZdIVqg7UfPjymgJBA7ZeEjrMgO8RWh+1Z130K7TlJDNnIORMulvqmt66SPyfrUnFB3SYJ55/7EvEcSEA==
+
 core-js@^2.5.7:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
@@ -1019,6 +1024,11 @@ findup-sync@~0.3.0:
   dependencies:
     glob "~5.0.0"
 
+font-awesome@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
+
 forever-agent@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
@@ -1455,6 +1465,11 @@ joycon@^2.1.2:
   resolved "https://registry.yarnpkg.com/joycon/-/joycon-2.2.4.tgz#ac4119d2673dfaa89b41efe5d6d670208e348bc6"
   integrity sha512-Z4G7ZPovoSfAHCSEKznWV4IjyyUxzTY78Sgtr8inbnRxaZMAQGwqNJ46BDwcH3WgIwk0Xt1kpCsC/DFAioRtBA==
 
+jquery@3.3.1, jquery@>=3.3.1:
+  version "3.3.1"
+  resolved "https://pkg.visualon.de/npm/vo-npm/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha1-lYzinoHJeQ8xvneS311NlfxX+8o=
+
 js-base64@~2.1.8:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -1665,6 +1680,18 @@ meow@^3.3.0:
     read-pkg-up "^1.0.1"
     redent "^1.0.0"
     trim-newlines "^1.0.0"
+
+metro-ui@3.0.15:
+  version "3.0.15"
+  resolved "https://registry.yarnpkg.com/metro-ui/-/metro-ui-3.0.15.tgz#d8096f9688f59d1081c8111c2e64ac4999ce8aa7"
+  integrity sha1-2Alvloj1nRCByBEcLmSsSZnOiqc=
+
+metro4@4.2.39:
+  version "4.2.39"
+  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.2.39.tgz#cc6c2e676559b481d3a30b969c213d663ccbb34c"
+  integrity sha512-0gh6Z5mPyhKq5ooMENq5mtJoS6oSy+pbkof8sqIxiQiksmfoOJlcww8cOK6nRGztbxwo19GVGD0exy6Fm2D/Cw==
+  dependencies:
+    jquery ">=3.3.1"
 
 millisecond@~0.1.2:
   version "0.1.2"
@@ -2563,6 +2590,11 @@ watchr@^4.0.1:
     safefs "^4.1.0"
     scandirectory "^3.0.1"
     taskgroup "^5.0.1"
+
+waypoints@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/waypoints/-/waypoints-4.0.1.tgz#09979a0573810b29627cba4366a284a062ec69c8"
+  integrity sha1-CZeaBXOBCylifLpDZqKEoGLsacg=
 
 which@^1.2.9, which@~1.3.0:
   version "1.3.1"

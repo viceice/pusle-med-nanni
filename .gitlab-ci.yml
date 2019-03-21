@@ -45,7 +45,7 @@ deploy_prod:
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:
-    - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.dev/
+    - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.www/
   environment:
     name: prod
     url: https://www.pusle-med-nanni.de

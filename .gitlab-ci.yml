@@ -13,7 +13,6 @@ build:
     paths:
       - node_modules/
       - .yarn-cache
-      - bower_components/
       - dist/
   before_script:
     - apk add --no-cache graphicsmagick git

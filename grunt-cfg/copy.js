@@ -24,11 +24,11 @@ module.exports = function(grunt, options) {
                     src: ['node_modules/jquery/dist/jquery.js', 'node_modules/metro-ui/build/js/metro.js', 'node_modules/waypoints/lib/jquery.waypoints.js'],
                     dest: '<%= path.js %>',
                 },
-                {
-                    flatten: true,
-                    src: ['doc/*.gitignore'],
-                    dest: '<%= path.bin %>.gitignore',
-                },
+                // {
+                //     flatten: true,
+                //     src: ['doc/*.gitignore'],
+                //     dest: '<%= path.bin %>.gitignore',
+                // },
             ],
         },
     };

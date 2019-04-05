@@ -16,5 +16,5 @@ hidden: true
     <br />
     <span class="fa fa-fw fa-phone" title="Telefon"></span> <a href="tel:+493387531151" class="p-tel">033875 31151</a>
     <br />
-    <span class="fa fa-fw fa-envelope" title="E-Mail"></span> <a href="mailto:info@pussle-med-nanni.de" class="u-email">info@pusle-med-nanni.de</a>
+    <span class="fa fa-fw fa-envelope" title="E-Mail"></span> <a href="mailto:info@pusle-med-nanni.de" class="u-email">info@pusle-med-nanni.de</a>
 </address>

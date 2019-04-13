@@ -23,7 +23,7 @@
     "font-awesome": "4.7.0",
     "jquery": "3.4.0",
     "metro-ui": "3.0.15",
-    "metro4": "4.2.39",
+    "metro4": "4.2.40",
     "waypoints": "4.0.1"
   },
   "devDependencies": {

@@ -1510,15 +1510,10 @@ joycon@^2.1.2:
   resolved "https://registry.yarnpkg.com/joycon/-/joycon-2.2.4.tgz#ac4119d2673dfaa89b41efe5d6d670208e348bc6"
   integrity sha512-Z4G7ZPovoSfAHCSEKznWV4IjyyUxzTY78Sgtr8inbnRxaZMAQGwqNJ46BDwcH3WgIwk0Xt1kpCsC/DFAioRtBA==
 
-jquery@3.4.1:
+jquery@3.4.1, jquery@^3.4.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
   integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
-
-jquery@>=3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-  integrity sha1-lYzinoHJeQ8xvneS311NlfxX+8o=
 
 js-base64@~2.1.8:
   version "2.1.9"
@@ -1748,12 +1743,12 @@ metro-ui@3.0.15:
   resolved "https://registry.yarnpkg.com/metro-ui/-/metro-ui-3.0.15.tgz#d8096f9688f59d1081c8111c2e64ac4999ce8aa7"
   integrity sha1-2Alvloj1nRCByBEcLmSsSZnOiqc=
 
-metro4@4.2.41:
-  version "4.2.41"
-  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.2.41.tgz#984d416bd6bed16641850f54f4cb67c13474bd65"
-  integrity sha512-2y8oMzVjKgOubgIhgXkBuSfFMijbB/i1zSt9XcSSu9dSmCHbgwRsUmMo8K39kR5SF5HQYqVTNogYD4JuUg8/IA==
+metro4@4.2.42:
+  version "4.2.42"
+  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.2.42.tgz#b4404565e7bb4c1fd45f1e8cc18abfa1d6526447"
+  integrity sha512-ct1SRni1zfU7dI9K3PpJaa5JZSL0JiXejKUt0zP6+X+mEsHXoStfaH/Fe3pSGZ9Ult6ojLXbfjVmRv9MOdh0/Q==
   dependencies:
-    jquery ">=3.3.1"
+    jquery "^3.4.0"
 
 millisecond@~0.1.2:
   version "0.1.2"

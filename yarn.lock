@@ -1074,10 +1074,10 @@ forwarded-for@~1.0.1:
   resolved "https://registry.yarnpkg.com/forwarded-for/-/forwarded-for-1.0.1.tgz#e7da4814025168ffc0a10d3ff79e1415f46af469"
   integrity sha1-59pIFAJRaP/AoQ0/954UFfRq9Gk=
 
-fs-extra@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
-  integrity sha1-TxicRKoSO4lfcigE9V6iPq3DSOk=
+fs-extra@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.0.0.tgz#3660bea66719e3a3c46bf7a4b1249fb658db3f0c"
+  integrity sha512-3hU7dzpfqG+A7gloPULls7j9mKDzpCyMOTBvQS0lZfqVfjA6/m0AkLXq0O1vnfP5roXjjL1DuUGKapr8vJWmQw==
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"

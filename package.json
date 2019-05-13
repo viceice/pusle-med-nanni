@@ -43,7 +43,7 @@
     "grunt-sync-pkg": "0.1.2",
     "load-grunt-config": "1.0.2",
     "moment": "2.24.0",
-    "prettier": "1.17.0",
+    "prettier": "1.17.1",
     "safeps": "7.0.1",
     "vash": "0.12.6"
   },

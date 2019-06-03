@@ -1743,10 +1743,10 @@ metro-ui@3.0.15:
   resolved "https://registry.yarnpkg.com/metro-ui/-/metro-ui-3.0.15.tgz#d8096f9688f59d1081c8111c2e64ac4999ce8aa7"
   integrity sha1-2Alvloj1nRCByBEcLmSsSZnOiqc=
 
-metro4@4.2.43:
-  version "4.2.43"
-  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.2.43.tgz#90f6bf90265889ba63dc3dac52bc104b2fcfc04c"
-  integrity sha512-x6qOpVoIvTYk25YjxVh9D6SpfKwhd03TM01DZxW20hJ27ZAoLMERQxeLZ2xz4bTCF0DiaR8iOKhJBVJT/Bwfgw==
+metro4@4.2.44:
+  version "4.2.44"
+  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.2.44.tgz#7111a5b70f94b29c59c4e740fc34bdd3ca1c0823"
+  integrity sha512-rYFAlY3tMPZV4afCegWOxplN74rvKJF6b5+xSmoR8QwK66OMiQN1VF1kuSHTXUgF0yp0ILFibCw+Vuu3LGccKQ==
   dependencies:
     jquery "^3.4.0"
 

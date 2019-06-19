@@ -1,11 +1,12 @@
-
 stages:
   - build
   - deploy
 
 .deploy:
-  image: registry.kriese.eu/jobs/docker/rsync
+  image: registry.kriese.eu/jobs/docker/base
   stage: deploy
+  tags:
+  - tinc
   before_script:
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null

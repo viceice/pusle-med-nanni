@@ -43,6 +43,7 @@
         <img class="dlg-preview"/>
     </div>
 
-    @html.raw(model.getBlock("scripts").add(["/js/jquery.js", "/js/jquery.waypoints.js", "/js/metro.js", "/js/main.js"]).toHTML())
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3,npm/jquery-migrate@3,npm/waypoints@4/lib/jquery.waypoints.min.js"></script>
+    @html.raw(model.getBlock("scripts").add(["/js/metro.js", "/js/main.js"]).toHTML())
 </body>
 </html>

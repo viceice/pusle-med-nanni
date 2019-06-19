@@ -11,7 +11,7 @@ stages:
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:
-    - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063:/opt/docker/html/de.pusle-med-nanni.${CI_ENVIRONMENT_SLUG}/
+    - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063.ovh.net:/opt/docker/html/de.pusle-med-nanni.${CI_ENVIRONMENT_SLUG}/
   only:
     - master
 

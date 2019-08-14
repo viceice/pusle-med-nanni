@@ -190,12 +190,10 @@ async-limiter@~1.0.0:
   resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
   integrity sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
 
-async@^2.0.0:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.6.1.tgz#b245a23ca71930044ec53fa46aa00a3e87c6a610"
-  integrity sha512-fNEiL2+AZt6AlAw/29Cr0UDe4sRAHCpEHh54WMz+Bb7QfNcFw4h3loofyJpLeQs4Yx7yuqu/2dLgM5hKOs6HlQ==
-  dependencies:
-    lodash "^4.17.10"
+async@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.1.0.tgz#42b3b12ae1b74927b5217d8c0016baaf62463772"
+  integrity sha512-4vx/aaY6j/j3Lw3fbCHNWP0pPaTCew3F6F3hYyl/tHs/ndmV1q7NW9T5yuJ2XAGwdQrP+6Wu20x06U4APo/iQQ==
 
 async@~1.5.2:
   version "1.5.2"
@@ -1198,12 +1196,12 @@ grunt-autoprefixer@3.0.4:
     diff "~1.3.0"
     postcss "^4.1.11"
 
-grunt-changed@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/grunt-changed/-/grunt-changed-2.0.1.tgz#14ac4b2c0ac4d8ec71648010a408d82cdf7ca371"
-  integrity sha512-z7RCzCTl6e3kOqCAIOeie7LspGt34lSQ/czG4PXojgCeEEw16HtPoMTb6LlBBfxJpyoncH9aFvs6HIcpxtC++w==
+grunt-changed@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/grunt-changed/-/grunt-changed-3.0.0.tgz#7679d4b8437170cb98edf009f970b18f9969230e"
+  integrity sha512-Eyrc7w/BVSyZw7q2S2voWBw/Iub58ZuWpC8i+EnsVIIPx61dDqX1aZMvtaMrP9NuIuSHSoOLN31nL06+5cB7sQ==
   dependencies:
-    async "^2.0.0"
+    async "^3.1.0"
     mkdirp "^0.5.1"
     rimraf "^2.5.1"
 

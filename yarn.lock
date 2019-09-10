@@ -1635,10 +1635,10 @@ less@^3.7.0:
     request "^2.83.0"
     source-map "~0.6.0"
 
-load-grunt-config@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/load-grunt-config/-/load-grunt-config-3.0.0.tgz#93a4e7bf07742120316917e680f26641b465e338"
-  integrity sha512-4S2HhbhbbKRaS57sx6WRoGuZtagJsZuBgk/54xyU64UTySjBW7n70A5Xop6aCYsDcLWZqe5NXyCdid/AmkcxlQ==
+load-grunt-config@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/load-grunt-config/-/load-grunt-config-3.0.1.tgz#08e33098aa73c95ddfab577b7580d758060ae07a"
+  integrity sha512-kFzYN8roBa+owMyGlEKyui6JzWpM1tMH8xn0AejiLgXAT4Kh275cPwin7GjNrKZKul8viWK0Caa6OaUJLXXpkA==
   dependencies:
     cson "5.1.0"
     glob "7.1.4"

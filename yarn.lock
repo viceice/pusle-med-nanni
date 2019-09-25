@@ -1765,10 +1765,10 @@ metro-ui@3.0.15:
   resolved "https://registry.yarnpkg.com/metro-ui/-/metro-ui-3.0.15.tgz#d8096f9688f59d1081c8111c2e64ac4999ce8aa7"
   integrity sha1-2Alvloj1nRCByBEcLmSsSZnOiqc=
 
-metro4@4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.3.0.tgz#e3c91c738a5d8b710b89dca53b2fc6a38f5e59dc"
-  integrity sha512-0NH1ulbofQzqg0HwOBxxlA7ezIxV7AZYCllmICMdgOvovtiRHVVzCOHDgw7uO4AS1WKeKRqew/TfqAAAiRtDsg==
+metro4@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.3.1.tgz#327acb6f225446ce06a08840809e5101a082fe4f"
+  integrity sha512-yLuXQOOJpop9EJ7zlFlCTmkpJvGsHMEqo5SEb/MSBLFh3SrX21XUolT+DxtS9IFPWqQvBIGy7L0BjLTp3UGHmA==
 
 millisecond@~0.1.2:
   version "0.1.2"

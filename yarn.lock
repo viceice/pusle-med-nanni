@@ -2711,10 +2711,10 @@ vary@~1.1.0:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vash@0.12.6:
-  version "0.12.6"
-  resolved "https://registry.yarnpkg.com/vash/-/vash-0.12.6.tgz#f21db661813bf4d55bc4b2ab24043f4346a4088b"
-  integrity sha512-mzduaVh83JFOXAVjEUBiUE1NN85hOhY08+Tz5vioFYLYePVngZ5N+mmzognAbuCYoh6VtMU25crspEJUFGB7ig==
+vash@0.12.9:
+  version "0.12.9"
+  resolved "https://registry.yarnpkg.com/vash/-/vash-0.12.9.tgz#fedd0386310ac28847158bf13b2bf770b7b1f7dd"
+  integrity sha512-vKjdpILmFPTSlnuyf5vqoOU3g6E8A8AIQbr6PhbPSWkHHa4k3nF175kmrkhbIJSdhk3L8mrdwWxVh/6T3iTyLg==
   dependencies:
     commander "~1.1.1"
     debug "^2.2.0"

@@ -45,7 +45,7 @@
     "moment": "2.24.0",
     "prettier": "1.18.2",
     "safeps": "7.0.1",
-    "vash": "0.12.6"
+    "vash": "0.12.9"
   },
   "workspaces": [
     "plugins/imagin",

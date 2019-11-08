@@ -954,7 +954,15 @@ extendible@0.1.x:
   resolved "https://registry.yarnpkg.com/extendible/-/extendible-0.1.1.tgz#e2a37ed87129fb4f9533e8a8d7506230a539c905"
   integrity sha1-4qN+2HEp+0+VM+io11BiMKU5yQU=
 
-extendr@3.4.1, extendr@^3.2.0, extendr@^3.3.0:
+extendr@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/extendr/-/extendr-3.5.0.tgz#43463e396d4e41f9fb1a52695fd1d306aa4dbc82"
+  integrity sha512-7zpVbnnZy91J4k916ZGwpys56DEgJc/prTXDiqCYe/Mud5pqdVsSc9mG/U6sz3lQEvHs81i8Zi7whsFwifhZyw==
+  dependencies:
+    editions "^2.2.0"
+    typechecker "^4.7.0"
+
+extendr@^3.2.0, extendr@^3.3.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/extendr/-/extendr-3.4.1.tgz#628e1c3407a3408b909a86e54dc28ee8c1be572c"
   integrity sha512-xcdwhNFctt6U7XVBYgB35YG/CZFOZUZw+OCNiMPsgbENLlajgrZLVV6bgS/9zLHnY7s5nW6nJZcNrBvq033l1w==

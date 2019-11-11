@@ -2073,10 +2073,10 @@ predefine@0.1.x:
   dependencies:
     extendible "0.1.x"
 
-prettier@1.18.2:
-  version "1.18.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
-  integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
+prettier@1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 pretty-bytes@^3.0.0:
   version "3.0.1"
@@ -2324,17 +2324,6 @@ safefs@^4.1.0:
   dependencies:
     editions "^1.1.1"
     graceful-fs "^4.1.4"
-
-safeps@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/safeps/-/safeps-8.0.0.tgz#704ecc3263833ff1a9c785b6f960cb6831388ed2"
-  integrity sha512-Bwl1INqYoYmkeXL6ymLl7ILP8/mAjZMVohDgKJBo/HszjVuBmPLK2IpPa2ytEACrGctTvcsjRVqDCgY+XW2cSw==
-  dependencies:
-    editions "^2.2.0"
-    extract-opts "^3.3.1"
-    safefs "^4.1.0"
-    taskgroup "^5.3.0"
-    typechecker "^4.8.0"
 
 safeps@8.0.0:
   version "8.0.0"

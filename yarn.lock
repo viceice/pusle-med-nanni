@@ -2573,10 +2573,10 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-taskgroup@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-6.0.0.tgz#edf17549d0190f92b9dd199ae3b90d354e654f40"
-  integrity sha512-15qJ0V1FpxPY6vL7bOvDT/VsouySSmpGbx9iWuY2O6itYV9HpRlXT2LOJkaUftUGSVarVtIpOUGAuTQuD15YCQ==
+taskgroup@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-6.1.0.tgz#569fa63996594f8a66fe4ee25d07a4d2efdd0038"
+  integrity sha512-+cWiBm3Wx7RB1g54CqhmL6ftpPwBztyxOQQoJmjR4Vh16xDoHyeulP/yfxZVXjeyjSephPVEKBbWqpYM1gPklA==
   dependencies:
     ambi "3.2.0"
     eachr "^3.2.0"

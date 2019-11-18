@@ -20,7 +20,7 @@
   "main": "./index.js",
   "dependencies": {
     "docpad-baseplugin": "1.0.3",
-    "eachr": "3.3.0",
+    "eachr": "4.1.0",
     "extendr": "4.0.0",
     "fs-extra": "8.1.0",
     "gm": "1.23.1",

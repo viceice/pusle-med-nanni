@@ -791,13 +791,12 @@ duplexer@^0.1.1:
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
   integrity sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=
 
-eachr@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/eachr/-/eachr-3.3.0.tgz#11f7287be7d31d6b99947fe0d8a79de99ac2a469"
-  integrity sha512-yKWuGwOE283CTgbEuvqXXusLH4VBXnY2nZbDkeWev+cpAXY6zCIADSPLdvfkAROc0t8S4l07U1fateCdEDuuvg==
+eachr@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/eachr/-/eachr-4.1.0.tgz#c1af8923427329b104f8e31210ed358f949b0b4d"
+  integrity sha512-EHOObj2ygRLAWaQ4MASUBl28L0ZhoNTUekkrrF6GVgEdfnBG7PIW5wnsJqkDdgS37VykIdKd7OqigO2Lb97ueg==
   dependencies:
-    editions "^2.2.0"
-    typechecker "^4.9.0"
+    typechecker "^4.10.0"
 
 eachr@^3.1.0, eachr@^3.2.0:
   version "3.2.0"
@@ -2735,13 +2734,6 @@ typechecker@^4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-4.8.0.tgz#d73592e84c808b0b93b48431e98f9a95b129e9e0"
   integrity sha512-TjffTvOgY4JUHE2FU6fYB/C5+NkERPEoB/JmcZSiVP0s/dykDtFfErlH8xSgH2DnnLDgnE+HMjh5zpCseg0liQ==
-  dependencies:
-    editions "^2.2.0"
-
-typechecker@^4.9.0:
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-4.9.0.tgz#e00a0102f858571c7c5cb8af7f440695decae334"
-  integrity sha512-gN9+YYaQ9N8JZpCHJq0z1thokA5UfpzF3NbCJzJbM/vW7XtEZ5QyGE7I0RrBUEaLHDUf/MUXlmVpnVBDfE6AoQ==
   dependencies:
     editions "^2.2.0"
 

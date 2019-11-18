@@ -968,7 +968,7 @@ extendible@0.1.x:
   resolved "https://registry.yarnpkg.com/extendible/-/extendible-0.1.1.tgz#e2a37ed87129fb4f9533e8a8d7506230a539c905"
   integrity sha1-4qN+2HEp+0+VM+io11BiMKU5yQU=
 
-extendr@4.0.0:
+extendr@4.0.0, extendr@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/extendr/-/extendr-4.0.0.tgz#8d6fcddc254154a52f841711291c4e7601967c72"
   integrity sha512-GJXzEj9Jjuf2sGOkwy2IBBMtjA3I5WF2F/plN9eVy/aPdYnZ4gK4E2YcUdA2UohRUD6uFERHHP8VGSYPhIxeIA==
@@ -2351,6 +2351,13 @@ safefs@5.2.0:
   dependencies:
     graceful-fs "^4.2.3"
 
+safefs@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/safefs/-/safefs-5.2.0.tgz#cda656c52caf17c890222dcdb871aa5ce59ed168"
+  integrity sha512-c5UbkGu/JNVOao87kYp3eJHi3IweRq5BeYsGEgL9U0fEE22tmNnFx1fNghaDBrN+/30HRo/e3hVJjL8hOyTNTw==
+  dependencies:
+    graceful-fs "^4.2.3"
+
 safefs@^3.1.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/safefs/-/safefs-3.2.2.tgz#8170c1444d7038e08caea05a374fae2fa349e15c"
@@ -2376,6 +2383,16 @@ safeps@8.0.0:
     safefs "^4.1.0"
     taskgroup "^5.3.0"
     typechecker "^4.8.0"
+
+safeps@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/safeps/-/safeps-9.0.0.tgz#ab44a77945bd5aafaf0a99d0b109027cfc289bc5"
+  integrity sha512-58RAd9Y5pTLjM9V5xVbPvrcuXfAuyo6eZPC0J4G43q2nNUNT5+2urkU1ao59zrdXfjlpVcQiGSPcKxgX36wQUg==
+  dependencies:
+    extract-opts "^4.0.0"
+    safefs "5.2.0"
+    taskgroup "6.1.0"
+    typechecker "^4.11.0"
 
 safeps@9.0.0:
   version "9.0.0"
@@ -2627,6 +2644,17 @@ taskgroup@6.1.0:
     safeps "8.0.0"
     unbounded "^1.2.0"
 
+taskgroup@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-6.2.0.tgz#c255c4098763fcc9ec0849762f1d229acabc88c3"
+  integrity sha512-o2Kq5KGj+NLfDeRDL/0zj70mwkJXOGvvkVp2e2xhmC/ZSou+XtSJ62/aAiFsHlHUkj1QCVKA1e9stdOG4eh5wg==
+  dependencies:
+    ambi "3.2.0"
+    eachr "^4.1.0"
+    extendr "^4.0.0"
+    safeps "9.0.0"
+    unbounded "^1.3.0"
+
 taskgroup@^4.0.5:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-4.3.1.tgz#7de193febd768273c457730497024d512c27915a"
@@ -2786,6 +2814,13 @@ unbounded@^1.2.0:
   integrity sha512-D/ENuBtxxwhxEiSXHgHwM/UXsDRuXz7JwqBQ54zrbaqmbmSWPvsGMzslr5mEftsDo1KOfl7vEIXGCamWBlAT6Q==
   dependencies:
     editions "^2.1.3"
+
+unbounded@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/unbounded/-/unbounded-1.3.0.tgz#eb8de64d092d6b9a85023ed1623b06891474f99d"
+  integrity sha512-RWVCkvcoItljlNTz0iTdBQU6bDj+slVLNaWN7d6DXgH02FfYrz8ytcJ4OPW8b0HqmCehwufJHOIzjHWrQUXBvg==
+  dependencies:
+    editions "^2.2.0"
 
 underscore.string@3.3.5, underscore.string@~3.3.4:
   version "3.3.5"

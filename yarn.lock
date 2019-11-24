@@ -791,7 +791,7 @@ duplexer@^0.1.1:
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
   integrity sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=
 
-eachr@4.1.0:
+eachr@4.1.0, eachr@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/eachr/-/eachr-4.1.0.tgz#c1af8923427329b104f8e31210ed358f949b0b4d"
   integrity sha512-EHOObj2ygRLAWaQ4MASUBl28L0ZhoNTUekkrrF6GVgEdfnBG7PIW5wnsJqkDdgS37VykIdKd7OqigO2Lb97ueg==
@@ -805,13 +805,6 @@ eachr@^3.1.0, eachr@^3.2.0:
   dependencies:
     editions "^1.1.1"
     typechecker "^4.3.0"
-
-eachr@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/eachr/-/eachr-4.1.0.tgz#c1af8923427329b104f8e31210ed358f949b0b4d"
-  integrity sha512-EHOObj2ygRLAWaQ4MASUBl28L0ZhoNTUekkrrF6GVgEdfnBG7PIW5wnsJqkDdgS37VykIdKd7OqigO2Lb97ueg==
-  dependencies:
-    typechecker "^4.10.0"
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -1822,10 +1815,10 @@ metro-ui@3.0.15:
   resolved "https://registry.yarnpkg.com/metro-ui/-/metro-ui-3.0.15.tgz#d8096f9688f59d1081c8111c2e64ac4999ce8aa7"
   integrity sha1-2Alvloj1nRCByBEcLmSsSZnOiqc=
 
-metro4@4.3.3:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.3.3.tgz#1e7342858f1be612bc54dd24f2b95f81dd8ddbcd"
-  integrity sha512-xrCvanUO+yYh05q/Hb5SOd5YuA5DesyPwPa1u1DhmiUzjMVbmpLHd4pSM8IXUwsOwfB+GhS5vwPIohOWfJfo9w==
+metro4@4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.3.4.tgz#407dd6fffe979aa861fd6e149d3886a8c1da44b2"
+  integrity sha512-We4iKsWho0k46eGxLbgjcHT4jl+3CCHvgqAkVyJIoAV8yDCq2yLwy4X8vIOnzauyDc6Enp7EJOFBPGyk7BllYg==
 
 millisecond@~0.1.2:
   version "0.1.2"
@@ -2351,13 +2344,6 @@ safefs@5.2.0:
   dependencies:
     graceful-fs "^4.2.3"
 
-safefs@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/safefs/-/safefs-5.2.0.tgz#cda656c52caf17c890222dcdb871aa5ce59ed168"
-  integrity sha512-c5UbkGu/JNVOao87kYp3eJHi3IweRq5BeYsGEgL9U0fEE22tmNnFx1fNghaDBrN+/30HRo/e3hVJjL8hOyTNTw==
-  dependencies:
-    graceful-fs "^4.2.3"
-
 safefs@^3.1.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/safefs/-/safefs-3.2.2.tgz#8170c1444d7038e08caea05a374fae2fa349e15c"
@@ -2383,16 +2369,6 @@ safeps@8.0.0:
     safefs "^4.1.0"
     taskgroup "^5.3.0"
     typechecker "^4.8.0"
-
-safeps@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/safeps/-/safeps-9.0.0.tgz#ab44a77945bd5aafaf0a99d0b109027cfc289bc5"
-  integrity sha512-58RAd9Y5pTLjM9V5xVbPvrcuXfAuyo6eZPC0J4G43q2nNUNT5+2urkU1ao59zrdXfjlpVcQiGSPcKxgX36wQUg==
-  dependencies:
-    extract-opts "^4.0.0"
-    safefs "5.2.0"
-    taskgroup "6.1.0"
-    typechecker "^4.11.0"
 
 safeps@9.0.0:
   version "9.0.0"

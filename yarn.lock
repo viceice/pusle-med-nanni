@@ -953,7 +953,7 @@ extendible@0.1.x:
   resolved "https://registry.yarnpkg.com/extendible/-/extendible-0.1.1.tgz#e2a37ed87129fb4f9533e8a8d7506230a539c905"
   integrity sha1-4qN+2HEp+0+VM+io11BiMKU5yQU=
 
-extendr@4.3.0:
+extendr@4.3.0, extendr@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/extendr/-/extendr-4.3.0.tgz#ef72646ac8f05a89eceea080837256056f09c5d9"
   integrity sha512-dItKsxlvr88XmYDHehqN6eVX3DPxLAqj5nyAGsaSqJ74jyvStEg5LV2bT84w/+TiI/eXuevZqbYPrqGRFKSaTw==
@@ -2365,7 +2365,7 @@ safefs@^5.4.0:
   dependencies:
     graceful-fs "^4.2.3"
 
-safeps@9.3.0:
+safeps@9.3.0, safeps@^9.3.0:
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/safeps/-/safeps-9.3.0.tgz#6d47bcdf4a8ec347d71ea768c8cd1f1daa6e1666"
   integrity sha512-yrrv0AO4j3+ULwUy8OfbnbtPZCHTfcfDIh3TMzHcqgfX+WWYHGPobbLlEviDHeSk7T8uG3lDr02U+z1vp6SVYQ==
@@ -2609,16 +2609,16 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-taskgroup@6.4.0, taskgroup@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-6.4.0.tgz#dac1f5d816bbe1cf6ddfdc493c6fb65125411685"
-  integrity sha512-JwIGY+pt4PoahrUvHihp0SE3/PT+/0Mk6tlY/rxngvkfnFL3sULRK4w/wpO3oaPRH1hTXkW048oc5BhL7lcCxw==
+taskgroup@6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-6.5.0.tgz#96c3e666edf1a4494915f818a31ace8268a621ae"
+  integrity sha512-7ZWRY392GRgEld1as3Zo4gt1p0m8yeyPlAEJ01wyupurGmrXKqTT0Vkz5WhToDE2H99Y6tVXM9X6EILq8zumTg==
   dependencies:
     ambi "3.2.0"
-    eachr "^4.4.0"
-    extendr "^4.2.0"
-    safeps "^9.1.0"
-    unbounded "^2.1.0"
+    eachr "^4.5.0"
+    extendr "^4.3.0"
+    safeps "^9.3.0"
+    unbounded "^2.2.0"
 
 taskgroup@^4.0.5:
   version "4.3.1"
@@ -2649,6 +2649,17 @@ taskgroup@^6.3.0:
     extendr "^4.1.0"
     safeps "^9.1.0"
     unbounded "^2.0.0"
+
+taskgroup@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-6.4.0.tgz#dac1f5d816bbe1cf6ddfdc493c6fb65125411685"
+  integrity sha512-JwIGY+pt4PoahrUvHihp0SE3/PT+/0Mk6tlY/rxngvkfnFL3sULRK4w/wpO3oaPRH1hTXkW048oc5BhL7lcCxw==
+  dependencies:
+    ambi "3.2.0"
+    eachr "^4.4.0"
+    extendr "^4.2.0"
+    safeps "^9.1.0"
+    unbounded "^2.1.0"
 
 text-hex@1.0.x:
   version "1.0.0"
@@ -2777,6 +2788,11 @@ unbounded@^2.0.0, unbounded@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/unbounded/-/unbounded-2.1.0.tgz#1c4395c4b4d43fb1f1266166e242bb526d864949"
   integrity sha512-0drKMxltFaBXZF9gthIURTSzzr2xZzu45UgMigEt9VDpZfBwtbEuPU5lm2FqPB0QdajHnZ7u2gzlQ9JFIfv5lg==
+
+unbounded@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/unbounded/-/unbounded-2.3.0.tgz#80bfdbb2f448b61b4992b4fef8f4f6d35c50c459"
+  integrity sha512-gjT7NZ8g29UDlB1nrFVLWs1A2tRP3rSyCdvX2Vu185SI1PGmhjcxaCfVh64Oaz6rKBCrXwhTQD56/m+ox4FPKA==
 
 underscore.string@3.3.5, underscore.string@~3.3.4:
   version "3.3.5"

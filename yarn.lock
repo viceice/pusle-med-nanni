@@ -791,12 +791,12 @@ duplexer@^0.1.1:
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
   integrity sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=
 
-eachr@4.4.0, eachr@^4.3.0, eachr@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/eachr/-/eachr-4.4.0.tgz#9f6de4ad2e7282f300c0605f23c8b5beba119ac5"
-  integrity sha512-QiydM49YD8Mql/wMH8KsDmpjhnkQYBHUDa2J9d0WN6KG1H+uubi7exDaNsI0aPo9MeROODXkTAwf2Ss5+fP9jw==
+eachr@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/eachr/-/eachr-4.5.0.tgz#495eb3aab6a41811da1e04e510424df32075cf04"
+  integrity sha512-9I664RWp6p8jvcHZIwo7bWaiSaUmA1wNSLKwNZEiaYjqiTARq3cGjyRiIunsopZv4QMmX3T5Hs17QoPAzdYxfg==
   dependencies:
-    typechecker "^5.1.0"
+    typechecker "^6.2.0"
 
 eachr@^3.1.0, eachr@^3.2.0:
   version "3.2.0"
@@ -805,6 +805,13 @@ eachr@^3.1.0, eachr@^3.2.0:
   dependencies:
     editions "^1.1.1"
     typechecker "^4.3.0"
+
+eachr@^4.3.0, eachr@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/eachr/-/eachr-4.4.0.tgz#9f6de4ad2e7282f300c0605f23c8b5beba119ac5"
+  integrity sha512-QiydM49YD8Mql/wMH8KsDmpjhnkQYBHUDa2J9d0WN6KG1H+uubi7exDaNsI0aPo9MeROODXkTAwf2Ss5+fP9jw==
+  dependencies:
+    typechecker "^5.1.0"
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -2693,6 +2700,11 @@ typechecker@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-5.1.0.tgz#a12cdbb00064ed57492ea63c1ba65008b807038d"
   integrity sha512-twSCHDQ9a38Sq0KR8bQOuF+jtv/7kz/C7SjfJt4gVYyy1BK5xm/0XUCZIm97LrAGMGKQuTBeGpuwErY6MORrQQ==
+
+typechecker@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-6.2.0.tgz#41eff1fc2c1f14a65043671d2790bc3f612c0c11"
+  integrity sha512-nbEbtF2bfijlJ8Iu/nF22T3oQjJpVenQOq/Feii8Dsrb0VU7E8UBmRPydUvsXReywMu39pyAa51BL7+91qE5fQ==
 
 uglify-js@^2.6.2:
   version "2.8.29"

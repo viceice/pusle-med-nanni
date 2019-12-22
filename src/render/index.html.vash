@@ -14,7 +14,7 @@ hidden: false
         </div>
         <div class="cell size4">
             @* model.partial('Aboreum', false) *@
-            @model.partial('Flohmarkt', false)
+            @* model.partial('Flohmarkt', false) *@
             @* model.partial('KunstHandwerkerMarkt', false) *@
             <div class="h-card">
                 <div class="image-container" style="float:right">

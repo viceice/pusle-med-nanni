@@ -21,7 +21,7 @@
   "dependencies": {
     "docpad-baseplugin": "1.0.3",
     "eachr": "4.5.0",
-    "extendr": "4.3.0",
+    "extendr": "5.0.0",
     "fs-extra": "9.0.0",
     "gm": "1.23.1",
     "taskgroup": "6.5.0"

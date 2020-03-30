@@ -28,7 +28,7 @@
   "main": "./index.js",
   "dependencies": {
     "docpad-baseplugin": "1.0.3",
-    "underscore": "1.9.2",
+    "underscore": "1.10.1",
     "underscore.string": "3.3.5"
   },
   "engines": {

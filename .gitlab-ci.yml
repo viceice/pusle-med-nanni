@@ -3,6 +3,7 @@ stages:
   - deploy
 
 .deploy:
+  interruptible: true
   image: registry.kriese.eu/jobs/docker/base
   stage: deploy
   before_script:
@@ -14,6 +15,7 @@ stages:
     - master
 
 build:
+  interruptible: true
   stage: build
   image: node:lts-alpine
   variables:

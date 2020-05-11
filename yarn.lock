@@ -2319,17 +2319,7 @@ safefs@^5.4.0, safefs@^5.5.0:
   dependencies:
     graceful-fs "^4.2.3"
 
-safeps@9.3.0, safeps@^9.3.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/safeps/-/safeps-9.3.0.tgz#6d47bcdf4a8ec347d71ea768c8cd1f1daa6e1666"
-  integrity sha512-yrrv0AO4j3+ULwUy8OfbnbtPZCHTfcfDIh3TMzHcqgfX+WWYHGPobbLlEviDHeSk7T8uG3lDr02U+z1vp6SVYQ==
-  dependencies:
-    extract-opts "^4.3.0"
-    safefs "^5.4.0"
-    taskgroup "^6.4.0"
-    typechecker "^6.2.0"
-
-safeps@^10.0.0:
+safeps@10.0.0, safeps@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.0.0.tgz#a404c719a10e6ce59d6677825a8451dd56008632"
   integrity sha512-SscyGx281Nfj/xwYaCSJUlt2KISHnqpBxKVekKDSziwPBUC0OiiMPWJ4mrGnHIeRqJvYrjWyawLtFd0shsf4Xg==
@@ -2370,6 +2360,16 @@ safeps@^9.1.0:
     safefs "^5.3.0"
     taskgroup "^6.3.0"
     typechecker "^5.1.0"
+
+safeps@^9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/safeps/-/safeps-9.3.0.tgz#6d47bcdf4a8ec347d71ea768c8cd1f1daa6e1666"
+  integrity sha512-yrrv0AO4j3+ULwUy8OfbnbtPZCHTfcfDIh3TMzHcqgfX+WWYHGPobbLlEviDHeSk7T8uG3lDr02U+z1vp6SVYQ==
+  dependencies:
+    extract-opts "^4.3.0"
+    safefs "^5.4.0"
+    taskgroup "^6.4.0"
+    typechecker "^6.2.0"
 
 "safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"

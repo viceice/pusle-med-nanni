@@ -44,7 +44,7 @@
     "load-grunt-config": "3.0.1",
     "moment": "2.26.0",
     "prettier": "2.0.5",
-    "safeps": "10.0.0",
+    "safeps": "10.1.0",
     "vash": "0.13.0"
   },
   "workspaces": [

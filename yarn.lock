@@ -973,6 +973,13 @@ extendr@^3.2.2:
     editions "^1.3.3"
     typechecker "^4.4.1"
 
+extendr@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.4.0.tgz#5c76c62bb207b9671c11fae9784a709b9468df56"
+  integrity sha512-sbG511wVz484n2efgjP5+vQsAzLmV7bvgp7o6/fwSlj1zIraI3qMsSm+Fu3OS+NFfNFJ6olTk5DcmHTUo1FeXA==
+  dependencies:
+    typechecker "^7.3.0"
+
 external-editor@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-3.0.3.tgz#5866db29a97826dbe4bf3afd24070ead9ea43a27"
@@ -2290,22 +2297,22 @@ safefs@^4.1.0:
     editions "^1.1.1"
     graceful-fs "^4.1.4"
 
-safefs@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/safefs/-/safefs-6.1.0.tgz#bdb4a115044fa4b87e3fb158aefc473b33cd561d"
-  integrity sha512-d8PaLN/E3E5ntxV3+MNigKU+er1XZ6oNftbLRY1g38/NHAztEAxSWwuYUYJXSO7yGug/0MgvciTmhilNbpWPGg==
+safefs@^6.2.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/safefs/-/safefs-6.3.0.tgz#a4dfa3cb60f96f3239adf71f6191556f9e8c14ae"
+  integrity sha512-6I8ZFs1qAb7AziHDmP+GkyrsIvvfXjGL+yImxBSbhQ8E8ZnknebnOQN8xTGwaMW1DneMV4TgHLvdDhvb0RMjvw==
   dependencies:
     graceful-fs "^4.2.4"
 
-safeps@10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.1.0.tgz#524d527a2a575389d69e245cac5e1ca771a54694"
-  integrity sha512-Ev8cNaDYKGpJQQb/Uj/YtLZPshrv8MaDb6cuUNm+AxxXjBN5NOY3pZF+ZivlFSqO5KiZz4MuyvinBowsXm0+6w==
+safeps@10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.3.0.tgz#dc4cbd5ff6739fe18a2527aa36cd6fb460930681"
+  integrity sha512-3LGGqPJpix5aNS/jdcUzHtNW+KwBXirEdsvhBXTCaYQLV39d9pzBL8l75CH+9dHlEnLAEU9LVp2FynYpljbG0w==
   dependencies:
     extract-opts "^4.3.0"
-    safefs "^6.0.0"
-    taskgroup "^7.3.0"
-    typechecker "^7.0.0"
+    safefs "^6.2.0"
+    taskgroup "^7.5.0"
+    typechecker "^7.3.0"
 
 safeps@^6.0.2:
   version "6.4.0"
@@ -2531,7 +2538,7 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-taskgroup@7.4.0, taskgroup@^7.3.0:
+taskgroup@7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.4.0.tgz#1b2c5bcecb8f674b74a9824d1b5ca5f2f347915f"
   integrity sha512-xYZKei69BQkTKQct24tm57gvD1SGsdiOupkD3uNdAPFLpq0eB9pVAvTTxYRkOtPU8yaeB/+GYhQrI7oBx7gcMg==
@@ -2559,6 +2566,16 @@ taskgroup@^5.0.0, taskgroup@^5.0.1, taskgroup@^5.3.0:
     editions "^1.3.4"
     extendr "^3.2.2"
     unbounded "^1.1.0"
+
+taskgroup@^7.5.0:
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.6.0.tgz#43cef5bffc9425f9af37587a5fe94985699ab635"
+  integrity sha512-NAmj9+nAviS682WE32AFPADEj9FJSntYDKGgm0JUnt+De2GD6P363iGKO6YWnx1df7pQ6lI7CZrmzMcpFfJ20g==
+  dependencies:
+    ambi "3.2.0"
+    eachr "^4.5.0"
+    extendr "^5.4.0"
+    unbounded "^3.2.0"
 
 text-hex@1.0.x:
   version "1.0.0"
@@ -2648,6 +2665,11 @@ typechecker@^7.0.0:
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.0.0.tgz#7e6a1fe24be339ab412212d97ce29a0afe6ae9b4"
   integrity sha512-ZCrFdtqmB2EaHUOkfdVwCVr43mECsPdzTgEwlWI+GCmPBW2gjVHU2HgXI/ci4nLGbfAIUIWDKSYgseUTh4RBqw==
 
+typechecker@^7.3.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.4.0.tgz#5a817e7a02e51f7e8b64b9341c22ec2553354fe2"
+  integrity sha512-Wpf6xlQImH9qNdjtAhlz7fkfEzSDpDOnSrggxKmRrFTJFQMV2NL15SS7b6tWXrC6yUYyuQE/dT2iR4QfjV/l+w==
+
 uglify-js@^3.5.0:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.5.1.tgz#29cb91e76c9941899bc74b075ad0e6da9250abd5"
@@ -2682,6 +2704,11 @@ unbounded@^3.0.0:
   integrity sha512-8csrT0unWywljd+/LPAEORdYJKnFl7l1XKYOF2rCq2AM+0LCzYAvxQT6qOY8n6zhHpPAWkKOWHeiXkyNfdGjJA==
   dependencies:
     editions "^2.3.0"
+
+unbounded@^3.2.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/unbounded/-/unbounded-3.3.0.tgz#e0126cca22b1566af3c2b7df851cdc32fa86ceae"
+  integrity sha512-He5JA5WueLeMpFt610HDTrZo08gdHgzhNNjUGj3kaJj5r+969szLx1MNXif1NjFlmV5UGERhoJT2P2rTYFOuDA==
 
 underscore.string@3.3.5, underscore.string@~3.3.4:
   version "3.3.5"

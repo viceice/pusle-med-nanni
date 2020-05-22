@@ -949,13 +949,12 @@ extendible@0.1.x:
   resolved "https://registry.yarnpkg.com/extendible/-/extendible-0.1.1.tgz#e2a37ed87129fb4f9533e8a8d7506230a539c905"
   integrity sha1-4qN+2HEp+0+VM+io11BiMKU5yQU=
 
-extendr@5.2.0, extendr@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.2.0.tgz#e3b23837bdacdecafbb57ebecd3a3a1d26a79d0d"
-  integrity sha512-cEN3OkHX70F3MuTGBZdC9OTb6y0wIPQWf9QnPWVER+/exhK50F/wD2GWZRjmdxHL/2adD0Ko+pY9G9+1vnmu7A==
+extendr@5.4.0, extendr@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.4.0.tgz#5c76c62bb207b9671c11fae9784a709b9468df56"
+  integrity sha512-sbG511wVz484n2efgjP5+vQsAzLmV7bvgp7o6/fwSlj1zIraI3qMsSm+Fu3OS+NFfNFJ6olTk5DcmHTUo1FeXA==
   dependencies:
-    editions "^3.0.0"
-    typechecker "^7.0.0"
+    typechecker "^7.3.0"
 
 extendr@^3.2.0, extendr@^3.3.0:
   version "3.4.1"
@@ -973,12 +972,13 @@ extendr@^3.2.2:
     editions "^1.3.3"
     typechecker "^4.4.1"
 
-extendr@^5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.4.0.tgz#5c76c62bb207b9671c11fae9784a709b9468df56"
-  integrity sha512-sbG511wVz484n2efgjP5+vQsAzLmV7bvgp7o6/fwSlj1zIraI3qMsSm+Fu3OS+NFfNFJ6olTk5DcmHTUo1FeXA==
+extendr@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.2.0.tgz#e3b23837bdacdecafbb57ebecd3a3a1d26a79d0d"
+  integrity sha512-cEN3OkHX70F3MuTGBZdC9OTb6y0wIPQWf9QnPWVER+/exhK50F/wD2GWZRjmdxHL/2adD0Ko+pY9G9+1vnmu7A==
   dependencies:
-    typechecker "^7.3.0"
+    editions "^3.0.0"
+    typechecker "^7.0.0"
 
 external-editor@^3.0.3:
   version "3.0.3"

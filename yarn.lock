@@ -923,12 +923,12 @@ extendible@0.1.x:
   resolved "https://registry.yarnpkg.com/extendible/-/extendible-0.1.1.tgz#e2a37ed87129fb4f9533e8a8d7506230a539c905"
   integrity sha1-4qN+2HEp+0+VM+io11BiMKU5yQU=
 
-extendr@5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.5.0.tgz#973e4d7c2a1f0fd76ec1156e282cf7c6d967f6dc"
-  integrity sha512-X+8DHBXYIwMi87BM+SXE0+7znw6OTgVN75lc/aIZzg7O1gbubARJ/u9okpHiL89A7xDb+SGxGW6Kk09Jq65FOw==
+extendr@5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.6.0.tgz#08da0a202731bf177604799d5e4efd2900a05812"
+  integrity sha512-Pq8P7fRHbkdXsjCAnOR/FIcstKQNjXUO8tzOrC29yJv/37AfJrgLx2ob10ejWDl+U5dAd6+yo9PcuacKde118w==
   dependencies:
-    typechecker "^7.4.0"
+    typechecker "^7.5.0"
 
 extendr@^3.2.0, extendr@^3.3.0:
   version "3.4.1"
@@ -2618,10 +2618,15 @@ typechecker@^6.2.0:
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-6.2.0.tgz#41eff1fc2c1f14a65043671d2790bc3f612c0c11"
   integrity sha512-nbEbtF2bfijlJ8Iu/nF22T3oQjJpVenQOq/Feii8Dsrb0VU7E8UBmRPydUvsXReywMu39pyAa51BL7+91qE5fQ==
 
-typechecker@^7.3.0, typechecker@^7.4.0:
+typechecker@^7.3.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.4.0.tgz#5a817e7a02e51f7e8b64b9341c22ec2553354fe2"
   integrity sha512-Wpf6xlQImH9qNdjtAhlz7fkfEzSDpDOnSrggxKmRrFTJFQMV2NL15SS7b6tWXrC6yUYyuQE/dT2iR4QfjV/l+w==
+
+typechecker@^7.5.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.5.0.tgz#7e70c7e8d5ea6fc7b2ba626ab91d87578c2e306e"
+  integrity sha512-3rN7f/Tx7Ydg72sFl8Lrbl6sx4YGljmU/CVNr9Df6lRikYxd3H1HK03j+ZqE7ZS2WWOOn0YOACziAT8r+9O0fw==
 
 uglify-js@^3.5.0:
   version "3.5.1"

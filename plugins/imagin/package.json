@@ -24,7 +24,7 @@
     "extendr": "5.6.0",
     "fs-extra": "9.0.1",
     "gm": "1.23.1",
-    "taskgroup": "7.6.0"
+    "taskgroup": "7.8.0"
   },
   "engines": {
     "node": ">=10"

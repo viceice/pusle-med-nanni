@@ -2263,22 +2263,22 @@ safefs@^4.1.0:
     editions "^1.1.1"
     graceful-fs "^4.1.4"
 
-safefs@^6.4.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/safefs/-/safefs-6.5.0.tgz#a8931c71925c0ac127743b0ccc6154283d07b0f3"
-  integrity sha512-Y52L2x92P2jXqrkPqjEliIq602TjCzivaUy01gBdu8TzSjt/ms3vt5cE8EwvlTb6tueurVzfEcSWoxrq49HTfg==
+safefs@^6.5.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/safefs/-/safefs-6.6.0.tgz#20c3bc65dd80c622b24d7449d7d06ff16bac9b3a"
+  integrity sha512-ZykMp78hDp3UqXTJjt29ji8m3Ri8bomcnIk6mwc1DcbXrnTIpQiHOQoWLtuZhkLYD6YHuB66Qa3eg6/RJ7MKMw==
   dependencies:
     graceful-fs "^4.2.4"
 
-safeps@10.5.0:
-  version "10.5.0"
-  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.5.0.tgz#7b9c821dd2a759541d42bc4df5e684ff2bebb6aa"
-  integrity sha512-bgrNivnR7BHhapVjkTlZrDXbzJgpdGneLxc0SbxpJsqno9nFQtoEF1vQrwsFYnH4JjmPWA8s8HdeKVmbZkYG2A==
+safeps@10.6.0:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.6.0.tgz#fe6e715f764dfe79522537573dd80f9004ab5f2f"
+  integrity sha512-FmwYjl2hXt80Szkykt5jBsIci+N4GjvlvcOHyLfpYSFhbQkw53gWTDaa6X720fR7tNcqYDAsKkAV78xlOs6jUQ==
   dependencies:
     extract-opts "^4.3.0"
-    safefs "^6.4.0"
-    taskgroup "^7.7.0"
-    typechecker "^7.5.0"
+    safefs "^6.5.0"
+    taskgroup "^7.8.0"
+    typechecker "^7.6.0"
 
 safeps@^6.0.2:
   version "6.4.0"
@@ -2499,7 +2499,7 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-taskgroup@7.8.0, taskgroup@^7.7.0:
+taskgroup@7.8.0, taskgroup@^7.8.0:
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.8.0.tgz#7073f997c8c01533d72aa90878f56a377fc3b74a"
   integrity sha512-xL8/AuQpTcRUYtRiMjoOoS3+OPvgDIenOf+00BjXaSjdOEDJ7WWTKzUqsIqx2d6qNdqm31bnCBDGYNFmXFCJ8g==
@@ -2615,6 +2615,11 @@ typechecker@^7.5.0:
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.5.0.tgz#7e70c7e8d5ea6fc7b2ba626ab91d87578c2e306e"
   integrity sha512-3rN7f/Tx7Ydg72sFl8Lrbl6sx4YGljmU/CVNr9Df6lRikYxd3H1HK03j+ZqE7ZS2WWOOn0YOACziAT8r+9O0fw==
+
+typechecker@^7.6.0:
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.6.0.tgz#0f05eb048d9c6881ed3886abf08006d583762d1d"
+  integrity sha512-GA3zunbYzM2T5+IRk7z/g85Aqo8bXGrITU5TDh51WJoGPdfuIsyLzWvqBMdW5NxsVxDJgEYxY/xaWRkZoDfBsQ==
 
 uglify-js@^3.5.0:
   version "3.5.1"

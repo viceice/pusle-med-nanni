@@ -2291,12 +2291,11 @@ safefs@^4.1.0:
     editions "^1.1.1"
     graceful-fs "^4.1.4"
 
-safeps@10.7.0:
-  version "10.7.0"
-  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.7.0.tgz#a6289090b2434c0e2b61b65aeef86da46b232eb0"
-  integrity sha512-zdLlXGjCbHROsDKnR8XwSWsod+cpbVPfA6JLP3TbjBGFuxQYYdGJiXrGSlGWP9yqiQPX/lbnhG6KH/O2Ic9R5w==
+safeps@10.8.0:
+  version "10.8.0"
+  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.8.0.tgz#86acdf10ad4b2adc3294bd71f3860d7dc5b5824c"
+  integrity sha512-gKsPBWmXz3FA7S1P1eitc7IhA1xbXXGmABs/BiT/HdcIWv4NWX9/W1QXy8+FUxzHKSzB8cV5tKlrot1XJDeMFw==
   dependencies:
-    editions "3.5.0"
     extract-opts "^4.3.0"
     safefs "6.4.0"
     taskgroup "7.7.0"

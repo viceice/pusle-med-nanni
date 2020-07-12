@@ -2129,10 +2129,10 @@ metro-ui@3.0.15:
   resolved "https://registry.yarnpkg.com/metro-ui/-/metro-ui-3.0.15.tgz#d8096f9688f59d1081c8111c2e64ac4999ce8aa7"
   integrity sha1-2Alvloj1nRCByBEcLmSsSZnOiqc=
 
-metro4@4.3.9:
-  version "4.3.9"
-  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.3.9.tgz#a0dd459257aa8f97c622a7534c8d7f77d56d2e93"
-  integrity sha512-UhlSK5yHSfTL6pI0e9a2vhdUZpkp1DDDWr6kMfUAzeSCycUa2XgdwnJtw1EiaCKWxOpBLusCkRqWGo0RQK17ow==
+metro4@4.3.10:
+  version "4.3.10"
+  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.3.10.tgz#f51664ae8ca42996282258924c8257fd93d60ee6"
+  integrity sha512-d5RemGbJDmVjskPe1Cnfm1CMefa4ABlOyzL5lSarxYkSUUXiBTxsyZw4S6S0s7pFgI9UYessoGQb1I+GjwHAlg==
 
 micromatch@^3.0.4:
   version "3.1.10"

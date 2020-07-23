@@ -1,9 +1,6 @@
 {
-    "extends": [
-        "config:base",
-        ":assignAndReview(kriese)",
-        ":masterIssue"
-    ],
-    "automergeType": "branch",
-    "semanticCommits": true
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "shared/renovate-config"
+  ]
 }

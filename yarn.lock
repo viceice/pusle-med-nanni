@@ -46,7 +46,7 @@ ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ambi@3, ambi@3.2.0, ambi@^3.1.1:
+ambi@3.2.0, ambi@^3.1.1:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ambi/-/ambi-3.2.0.tgz#13b45fcf6845465f652137f80176322e911b70d6"
   integrity sha512-nj5sHLPFd7u2OLmHdFs4DHt3gK6edpNw35hTRIKyI/Vd2Th5e4io50rw1lhmCdUNO2Mm4/4FkHmv6shEANAWcw==
@@ -1081,13 +1081,6 @@ extendr@^3.2.2:
   dependencies:
     editions "^1.3.3"
     typechecker "^4.4.1"
-
-extendr@^5.10.0:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.10.0.tgz#0c3afd261220eace50ec66394ce0f643073134ed"
-  integrity sha512-F1rkARf8rc5nuzljYD6lBE5O1kzTFkb5p6ir+mC1S0cRqiKG6AYgcKQEHmqAqA9EDDFJdnmW+S36R4J+XNl8pA==
-  dependencies:
-    typechecker "7.10.0"
 
 external-editor@^3.0.3:
   version "3.0.3"
@@ -3062,15 +3055,15 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-taskgroup@7.12.0:
-  version "7.12.0"
-  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.12.0.tgz#002dc8ba3031f2c553d60aaa42511bff06038033"
-  integrity sha512-xXMrDo/ayRXV4AP5TazfDm5Ly9dctQLZzqMgezTmaU1C7ArliyFyvf5uBNshkE/wdw/EIOurmRqyVTKOzp3azQ==
+taskgroup@7.13.0, taskgroup@^7.12.0:
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.13.0.tgz#e011a28d98047d02f17326985a0be5f6344e06b9"
+  integrity sha512-wVqt9CFK7oyY7gTXUaz8nnJQnM+uxtdaHMb0T0GDaYOqUtlriARyS8/daHCWB3j4on9YQHsjQLUdwdnwy5pSiw==
   dependencies:
-    ambi "3"
+    ambi "3.2.0"
     eachr "^4.5.0"
-    extendr "^5.10.0"
-    unbounded "3.7.0"
+    extendr "^5.12.0"
+    unbounded "^3.8.0"
 
 taskgroup@^4.0.5:
   version "4.3.1"
@@ -3090,16 +3083,6 @@ taskgroup@^5.0.0, taskgroup@^5.0.1, taskgroup@^5.3.0:
     editions "^1.3.4"
     extendr "^3.2.2"
     unbounded "^1.1.0"
-
-taskgroup@^7.12.0:
-  version "7.13.0"
-  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.13.0.tgz#e011a28d98047d02f17326985a0be5f6344e06b9"
-  integrity sha512-wVqt9CFK7oyY7gTXUaz8nnJQnM+uxtdaHMb0T0GDaYOqUtlriARyS8/daHCWB3j4on9YQHsjQLUdwdnwy5pSiw==
-  dependencies:
-    ambi "3.2.0"
-    eachr "^4.5.0"
-    extendr "^5.12.0"
-    unbounded "^3.8.0"
 
 text-hex@1.0.x:
   version "1.0.0"
@@ -3185,11 +3168,6 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-typechecker@7.10.0:
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.10.0.tgz#774e3dca5b4d328bcf843e382f794ad9a5b6fce4"
-  integrity sha512-e7yzPyPe1FGiyt8YwvxsZcR5/BI/RjRkfSQ9S0ilCBYFPED7qQ09dN0mpq6MlM67Vo+zRbfXc6ghYNYwBpQoaw==
-
 typechecker@^4.0.1, typechecker@^4.5.0, typechecker@^4.6.0, typechecker@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-4.7.0.tgz#5249f427358f45b7250c4924fd4d01ed9ba435e9"
@@ -3234,11 +3212,6 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
-
-unbounded@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/unbounded/-/unbounded-3.7.0.tgz#c1f8c97b5d173e7e7a1ff0349da00269c6fd9662"
-  integrity sha512-gqIxGgyzb1krnJHGk2BkGUlDTDJRvogqi05hsWKyie0m67Hihqe3yYmeEnnPnQKI8tC4b3NR9/JjF3fWR4G/Kw==
 
 unbounded@^1.1.0:
   version "1.1.0"

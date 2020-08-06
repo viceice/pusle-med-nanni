@@ -2,5 +2,19 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "shared/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "paths": [
+        "plugins/*/package.json"
+      ],
+      "extends": [
+        ":automergeMinor",
+        "schedule:nonOfficeHours"
+      ],
+      "automergeType": "pr",
+      "dependencyDashboardApproval": false,
+      "updateNotScheduled": false
+    }
   ]
 }

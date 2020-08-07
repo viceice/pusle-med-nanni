@@ -759,7 +759,17 @@ docmatter@^1.0.0:
   dependencies:
     editions "^2.1.3"
 
-docpad-baseplugin@1.0.3, docpad-baseplugin@^1.0.1, docpad-baseplugin@^1.0.3:
+docpad-baseplugin@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/docpad-baseplugin/-/docpad-baseplugin-1.4.0.tgz#fdc43ef749e5801b84e8bdce637b085a95a507c4"
+  integrity sha512-WnOElWx6bW2E1OPNWb5rWlDM6bEsBHwhqvRzon16Cduw+XzGyL0SV15CiaEXrV6kq3fsgbALIcJs4r5GFP7Ucg==
+  dependencies:
+    eachr "^4.5.0"
+    errlop "^3.15.0"
+    extendr "^5.13.0"
+    typechecker "^7.13.0"
+
+docpad-baseplugin@^1.0.1, docpad-baseplugin@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/docpad-baseplugin/-/docpad-baseplugin-1.0.3.tgz#e7dfeca87027ede0d2e1e0c533da2e37c7fdc958"
   integrity sha512-CsUeQCvIuEfMBhlwea83G9QhLRpQaxWk7pLljUl4yFOsvIWB0J0YbjFXuEmCCC5FUZcAdBwtQJSIR8MKYZVtZg==
@@ -967,6 +977,11 @@ errlop@^1.1.1:
   integrity sha512-WX7QjiPHhsny7/PQvrhS5VMizXXKoKCS3udaBp8gjlARdbn+XmK300eKBAAN0hGyRaTCtRpOaxK+xFVPUJ3zkw==
   dependencies:
     editions "^2.1.2"
+
+errlop@^3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/errlop/-/errlop-3.15.0.tgz#b62dc18ebfa91bae538fc516a734104007305be5"
+  integrity sha512-kVoo/PhGXmmDXGjPG7vM0HZOpH/EqhiKPYJYe79f+SZjG/AFK3VpSrp10j68kLdpiUaIM4xOYNRRniMdSiYMjA==
 
 errno@^0.1.1:
   version "0.1.7"
@@ -3199,7 +3214,7 @@ typechecker@^7.11.0:
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.12.0.tgz#5c8890439607b402e3a110d411b6e9939d470ede"
   integrity sha512-EeV9UrzWg3EHFy/ey+Jk3JzVQV5spXm7iZZhdQQOsgx+I4RNLrFkjpc6GkF7+st7FVOHZU5ENBypuzzAJWMayQ==
 
-typechecker@^7.12.0:
+typechecker@^7.12.0, typechecker@^7.13.0:
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/typechecker/-/typechecker-7.13.0.tgz#5a09aed78d5cd43843485980a6bcfe5bb347feee"
   integrity sha512-Hyv1qjHAJ3jT/M6RVa4A8YVnC8Qy/LNm6pP55Ll6/Z2cJbGORKxMcmix2+arJ2d85XkD9CiSLMUGylhOlgqJ1A==

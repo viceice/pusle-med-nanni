@@ -27,7 +27,7 @@
   "license": "MIT",
   "main": "./index.js",
   "dependencies": {
-    "docpad-baseplugin": "1.0.3",
+    "docpad-baseplugin": "1.4.0",
     "underscore": "1.10.2",
     "underscore.string": "3.3.5"
   },

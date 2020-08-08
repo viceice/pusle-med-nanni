@@ -772,7 +772,7 @@ docpad-baseplugin@1.4.0, docpad-baseplugin@^1.4.0:
     extendr "^5.13.0"
     typechecker "^7.13.0"
 
-docpad-baseplugin@^1.0.1, docpad-baseplugin@^1.0.3:
+docpad-baseplugin@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/docpad-baseplugin/-/docpad-baseplugin-1.0.3.tgz#e7dfeca87027ede0d2e1e0c533da2e37c7fdc958"
   integrity sha512-CsUeQCvIuEfMBhlwea83G9QhLRpQaxWk7pLljUl4yFOsvIWB0J0YbjFXuEmCCC5FUZcAdBwtQJSIR8MKYZVtZg==
@@ -783,13 +783,13 @@ docpad-baseplugin@^1.0.1, docpad-baseplugin@^1.0.3:
     extendr "^3.3.0"
     typechecker "^4.5.0"
 
-docpad-plugin-consolidate@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/docpad-plugin-consolidate/-/docpad-plugin-consolidate-2.3.0.tgz#76a1dbaefe95defb0ecf17d84bd2f9c81762113e"
-  integrity sha512-yNb6z+TAIHv9kRrBcNmAf0zWDVF5hwSU9F86REfDpFeWYbc9/get7V5f7TM7MG5sgYEOPY89AO7NEmwZDSvuFw==
+docpad-plugin-consolidate@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-consolidate/-/docpad-plugin-consolidate-2.4.0.tgz#ed41e55830db200a0bbf5a573ea632b458bd5505"
+  integrity sha512-XH0xX22BaHjoQRqSvvoSQvp8ywoL32PoV0DTCnlmkwlFA3elawR1yIDVvgD+/ePqG31PgHqXPut3DKcbIs4nyg==
   dependencies:
     consolidate "~0.15.1"
-    docpad-baseplugin "^1.0.3"
+    docpad-baseplugin "^1.4.0"
 
 docpad-plugin-less@2.6.0:
   version "2.6.0"

@@ -27,7 +27,7 @@
     "waypoints": "4.0.1"
   },
   "devDependencies": {
-    "docpad": "6.82.5",
+    "docpad": "6.83.1",
     "docpad-plugin-consolidate": "2.3.0",
     "docpad-plugin-less": "2.6.0",
     "docpad-plugin-livereload": "2.10.0",

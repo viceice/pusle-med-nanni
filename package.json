@@ -29,7 +29,7 @@
   "devDependencies": {
     "docpad": "6.83.1",
     "docpad-plugin-consolidate": "2.4.0",
-    "docpad-plugin-less": "2.6.0",
+    "docpad-plugin-less": "2.7.0",
     "docpad-plugin-livereload": "2.10.0",
     "docpad-plugin-marked": "2.5.0",
     "docpad-plugin-partials": "2.13.0",

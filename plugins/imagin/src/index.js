@@ -87,11 +87,7 @@ class Imagin extends BasePlugin {
                     return img.quality(args.q).resize(args.w, args.h);
                 },
                 zoomcrop(img, args) {
-                    return img
-                        .quality(args.q)
-                        .gravity('Center')
-                        .resize(args.w, args.h, '^')
-                        .crop(args.w, args.h);
+                    return img.quality(args.q).gravity('Center').resize(args.w, args.h, '^').crop(args.w, args.h);
                 },
             },
 
@@ -112,7 +108,7 @@ class Imagin extends BasePlugin {
         const me = this;
         const { templateData } = options;
 
-        templateData.getThumbnail = function(src, ...args) {
+        templateData.getThumbnail = function (src, ...args) {
             // return a thumbnail url, generating the image if necessary
             let relativeOutDirPath;
             const sourceFile = this.getFileAtPath(src);
@@ -120,7 +116,9 @@ class Imagin extends BasePlugin {
             if (sourceFile) {
                 ({ attributes } = sourceFile);
             } else {
-                const extendedSources = fs.readdirSync(docpad.config.srcPath).filter(file => fs.statSync(path.join(docpad.config.srcPath, file)).isDirectory());
+                const extendedSources = fs
+                    .readdirSync(docpad.config.srcPath)
+                    .filter((file) => fs.statSync(path.join(docpad.config.srcPath, file)).isDirectory());
                 for (let extendedSource of Array.from(extendedSources)) {
                     const sourceFilePath = path.join(docpad.config.srcPath, extendedSource, src);
                     if (fs.existsSync(sourceFilePath)) {
@@ -241,7 +239,7 @@ class Imagin extends BasePlugin {
         return this;
     }
 
-    writeAfter(opts, next) {
+    writeAfter(_opts, next) {
         //Prepare
         const { docpad, config } = this;
         let failures = 0;
@@ -251,7 +249,7 @@ class Imagin extends BasePlugin {
             return next();
         }
 
-        const tasks = new taskgroup.TaskGroup({ concurrency: 1 }).done(function(err, results) {
+        const tasks = new taskgroup.TaskGroup({ concurrency: 1 }).done(function (err, results) {
             if (err == null) {
                 docpad.log('info', 'Imagin generation completed successfully');
             } else {
@@ -260,7 +258,7 @@ class Imagin extends BasePlugin {
             return typeof next === 'function' ? next() : undefined;
         });
 
-        eachr(this.thumbnailsToGenerate, function(item, dst) {
+        eachr(this.thumbnailsToGenerate, function (item, dst) {
             const dstPath = dst;
             const srcPath = item.src;
             const { targets } = item;
@@ -268,7 +266,7 @@ class Imagin extends BasePlugin {
 
             fs.ensureDirSync(path.dirname(dstPath));
 
-            return tasks.addTask(function(complete) {
+            return tasks.addTask(function (complete) {
                 let img;
                 if (config.imageMagick) {
                     const im = gm.subClass({ imageMagick: true });
@@ -282,7 +280,7 @@ class Imagin extends BasePlugin {
                     const target_handler = config.targets[t];
                     img = target_handler(img, params);
                 }
-                return img.noProfile().write(dstPath, function(err) {
+                return img.noProfile().write(dstPath, function (err) {
                     if (err) {
                         docpad.log('warn', `Failed to generate: ${dstPath}`);
                         docpad.error(err);
@@ -302,10 +300,13 @@ class Imagin extends BasePlugin {
         return this;
     }
 
-    generateAfter() {
+    generateAfter(_opts, next) {
         this.docpad.log('debug', 'imagin: generateAfter');
         this.thumbnailsToGenerate = {};
-        return (this.thumbnailsToGenerateLength = 0);
+        this.thumbnailsToGenerateLength = 0;
+
+        // Chain
+        return next();
     }
 }
 

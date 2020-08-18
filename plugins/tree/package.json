@@ -25,19 +25,20 @@
     }
   ],
   "license": "MIT",
-  "main": "./index.js",
+  "main": "src/index.js",
+  "type": "commonjs",
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
     "underscore": "1.10.2",
     "underscore.string": "3.3.5"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "editions": [
     {
       "description": "esnext source code with require for modules",
-      "directory": "",
+      "directory": "src",
       "entry": "index.js",
       "syntaxes": [
         "javascript",
@@ -45,9 +46,11 @@
         "require"
       ],
       "engines": {
-        "node": ">=10",
-        "browsers": false
+        "node": ">=12"
       }
     }
-  ]
+  ],
+  "scripts": {
+    "test": "docpad-plugintester"
+  }
 }

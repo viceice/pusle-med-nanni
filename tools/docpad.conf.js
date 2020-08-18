@@ -1,16 +1,11 @@
 'use strict';
 
-/*
- * decaffeinate suggestions:
- * DS102: Remove unnecessary code created because of implicit returns
- * DS104: Avoid inline assignments
- * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
- */
 // DocPad Configuration File
 // http://docpad.org/docs/config
 
 const moment = require('moment');
 const _ = require('lodash');
+const safeps = require('safeps');
 
 // Define the DocPad Configuration
 const docpadConfig = {
@@ -108,7 +103,6 @@ Willkommen bei pusle med Nanni.\
         // Used to minify our assets with grunt
         writeAfter(opts, next) {
             // Prepare
-            const safeps = require('safeps');
             const { docpad } = this;
             const { rootPath } = docpad.getConfig();
             const env = docpad.getConfig().env || 'development';

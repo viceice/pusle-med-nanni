@@ -739,10 +739,10 @@ docpad-plugin-partials@2.14.0:
     extendr "^5.13.0"
     taskgroup "^7.14.0"
 
-docpad-plugin-serve@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/docpad-plugin-serve/-/docpad-plugin-serve-2.2.0.tgz#08faba0aad48605547964485970b29da2d0ad500"
-  integrity sha512-RcQpM/Nn9bCKXxIrUEkgYhs7zmtE4sjCgT14XSkGsR4U+wBTzY2XtFiLpsN6go0KZuf+s7I1HLaCofA9z2MlTA==
+docpad-plugin-serve@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-serve/-/docpad-plugin-serve-2.1.0.tgz#60bb90c8eed507847d51776b98432e53b2527575"
+  integrity sha512-5QB8X6vWZ+0wtaXdqWXA4sn/oYpXXtaj6AacMTPo1ahOneNmRR7PaMuUhVXUYC+7oFz9luYGZSh3t5YQ4k7W3w==
   dependencies:
     docpad-baseplugin "^1.4.0"
     hostenv "^3.11.0"

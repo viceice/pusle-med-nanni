@@ -1,5 +1,0 @@
-{
-    "options": {
-        "include": [ "name", "version", "description" ]
-    }
-}

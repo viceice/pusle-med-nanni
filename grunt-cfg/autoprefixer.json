@@ -1,8 +1,0 @@
-{
-    "options": { },
-    "bootstrap": {
-        "src": [ "<%= path.css %>bootstrap.css", "<%= path.css %>visualon.sharepoint.css" ],
-        "options": {
-        }
-    }
-}

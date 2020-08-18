@@ -1383,13 +1383,6 @@ grunt-legacy-util@~1.1.1:
     underscore.string "~3.3.4"
     which "~1.3.0"
 
-grunt-sync-pkg@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/grunt-sync-pkg/-/grunt-sync-pkg-0.1.2.tgz#23e4d81f1faddf2aac6e0c1f788324640cf2e6cd"
-  integrity sha1-I+TYHx+t3yqsbgwfeIMkZAzy5s0=
-  dependencies:
-    lodash "~2.4.0"
-
 grunt@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/grunt/-/grunt-1.2.1.tgz#5a1fcdfc222841108893e4e50c1a46f413a564ab"
@@ -1739,6 +1732,11 @@ jit-grunt@0.10.0:
   resolved "https://registry.yarnpkg.com/jit-grunt/-/jit-grunt-0.10.0.tgz#008c3a7fe1e96bd0d84e260ea1fa1783457f79c2"
   integrity sha1-AIw6f+Hpa9DYTiYOofoXg0V/ecI=
 
+jquery-migrate@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery-migrate/-/jquery-migrate-3.3.1.tgz#0f8e2b7531228fda5d88be58dc0e7d5848e52fd1"
+  integrity sha512-QAXfshB6xqaANDX8OPExKnnooLtX0cSDCKfRnqhdv+3CVEVD9L1v3zNAhZum/4AukKlWUWUoxM6ywJJcLMXLSA==
+
 jquery@3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
@@ -1892,11 +1890,6 @@ lodash@^4.17.19:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
-
-lodash@~2.4.0:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-  integrity sha1-+t2DS5aDBz2hebPq5tnA0VBT9z4=
 
 lodash@~4.17.10, lodash@~4.17.5:
   version "4.17.11"

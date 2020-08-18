@@ -25,7 +25,6 @@ Willkommen bei pusle med Nanni.\
             author: 'Susanne Kriese',
         },
 
-
         useWith: true,
 
         // -----------------------------
@@ -65,12 +64,12 @@ Willkommen bei pusle med Nanni.\
         },
 
         groupMenu(pages) {
-            const grps = pages.reduce(function(res, cur) {
+            const grps = pages.reduce(function (res, cur) {
                 let name;
                 (res[(name = cur.meta.group || '')] || (res[name] = [])).push(cur);
                 return res;
             }, {});
-            return Object.keys(grps).map(function(k) {
+            return Object.keys(grps).map(function (k) {
                 const res = {
                     name: k,
                     pages: grps[k],
@@ -119,6 +118,11 @@ Willkommen bei pusle med Nanni.\
     },
 
     environments: {
+        development: {
+            enabledPlugins: {
+                livereload: true,
+            },
+        },
         static: {
             outPath: 'dist',
         },

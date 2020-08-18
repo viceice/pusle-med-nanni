@@ -22,6 +22,7 @@
     "cookieconsent": "3.1.1",
     "font-awesome": "4.7.0",
     "jquery": "3.5.1",
+    "jquery-migrate": "3.3.1",
     "metro-ui": "3.0.15",
     "metro4": "4.3.10",
     "waypoints": "4.0.1"
@@ -40,7 +41,6 @@
     "grunt-contrib-copy": "1.0.0",
     "grunt-contrib-cssmin": "3.0.0",
     "grunt-contrib-uglify": "5.0.0",
-    "grunt-sync-pkg": "0.1.2",
     "load-grunt-config": "3.0.1",
     "moment": "2.27.0",
     "prettier": "2.0.5",

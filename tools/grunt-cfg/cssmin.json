@@ -1,0 +1,20 @@
+{
+    "options": {
+        "compatibility": "*",
+        "keepSpecialComments": "*",
+        "advanced": false
+    },
+    "bin": {
+        "files": [
+            {
+                "cwd": "<%= path.css %>",
+                "src": [ "**/*.css",  "!**/*.min.css" ],
+                "dest": "<%= path.css %>",
+                "ext": ".css",
+                "expand": true,
+                "extDot": "last"
+            }
+        ]
+
+    }
+}

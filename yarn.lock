@@ -2518,7 +2518,7 @@ safefs@^4.1.0:
     editions "^1.1.1"
     graceful-fs "^4.1.4"
 
-safefs@^6.10.0, safefs@^6.11.0:
+safefs@^6.10.0:
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/safefs/-/safefs-6.11.0.tgz#ea47807be2a63e5a436ac5828df457af0270562a"
   integrity sha512-ACQvJfBKGkKe2lzqbtwwb9LimB99iiOXT6fBRJB65WK41EfIhv/pe7Eop1fhfkfGgKgPZ9bzqlck7yx7zPaung==
@@ -2532,17 +2532,7 @@ safefs@^6.12.0, safefs@^6.13.0:
   dependencies:
     graceful-fs "^4.2.4"
 
-safeps@10.13.0:
-  version "10.13.0"
-  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.13.0.tgz#c99df2eef3a3d6af91e75b3180251fb0d317957e"
-  integrity sha512-fMSwsvWoOjA92Teky/8n1NUpv2w0zIi1/e1ne1bq6sCxk07CBhttWCoeuIh0YWtBNNuA59In6jwcQDRnh4looQ==
-  dependencies:
-    extract-opts "^4.3.0"
-    safefs "^6.11.0"
-    taskgroup "^7.14.0"
-    typechecker "^7.13.0"
-
-safeps@^10.14.0:
+safeps@10.14.0, safeps@^10.14.0:
   version "10.14.0"
   resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.14.0.tgz#bc27602177de5ae1f309d4cffc94cd3004b50fdc"
   integrity sha512-soA717WY1d2+PNHt/RmjZKpgNyoitE7WmQVqlf+2G0ttH4v23HQ4iozRoWdFS1WkI/r6xQC2GB7hI2+ITOJitQ==

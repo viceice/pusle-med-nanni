@@ -694,10 +694,10 @@ docpad-baseplugin@1.4.0, docpad-baseplugin@^1.4.0:
     extendr "^5.13.0"
     typechecker "^7.13.0"
 
-docpad-plugin-consolidate@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/docpad-plugin-consolidate/-/docpad-plugin-consolidate-2.4.0.tgz#ed41e55830db200a0bbf5a573ea632b458bd5505"
-  integrity sha512-XH0xX22BaHjoQRqSvvoSQvp8ywoL32PoV0DTCnlmkwlFA3elawR1yIDVvgD+/ePqG31PgHqXPut3DKcbIs4nyg==
+docpad-plugin-consolidate@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-consolidate/-/docpad-plugin-consolidate-2.6.0.tgz#62f49518d8f55525c61e7f80318f545df84228bf"
+  integrity sha512-yfWXKpGL88uQIU4WmW4Joq1egILfz8qQPlTGGzS3HXRkKbsPXqFYFzmYVk8twfxPoPIP+CGRVFofWowTyWHsug==
   dependencies:
     consolidate "~0.15.1"
     docpad-baseplugin "^1.4.0"

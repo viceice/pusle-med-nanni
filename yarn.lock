@@ -721,10 +721,10 @@ docpad-plugin-livereload@2.11.0:
     primus "^7.3.5"
     ws "^7.3.1"
 
-docpad-plugin-marked@2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/docpad-plugin-marked/-/docpad-plugin-marked-2.7.0.tgz#fec09a6a841a1a977cac62979327e97e14d54e73"
-  integrity sha512-oMoaND5KbAlS8rSVq/cbW+x1nclMZmgOtC1G1leIBcsj/IOm+zWgHJG7dRZM4gUED/EI9hD4GlyqNleAKe7pBg==
+docpad-plugin-marked@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-marked/-/docpad-plugin-marked-2.9.0.tgz#b9f5d378e55494d73c09219f54fd7d4e136a32e9"
+  integrity sha512-75z+h5aCxoBQlxCWDrHkAaJKxQu2Uc3bne0qUIefEl3dxE7RTsjpktgpiYCME0wq3reLplZTWe6T2fgOmvPAxg==
   dependencies:
     docpad-baseplugin "^1.4.0"
     marked "~1.1.1"

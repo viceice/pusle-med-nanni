@@ -1958,10 +1958,10 @@ metro-ui@3.0.15:
   resolved "https://registry.yarnpkg.com/metro-ui/-/metro-ui-3.0.15.tgz#d8096f9688f59d1081c8111c2e64ac4999ce8aa7"
   integrity sha1-2Alvloj1nRCByBEcLmSsSZnOiqc=
 
-metro4@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.4.0.tgz#be67a2ba9b7454783d77c28938c045af3b8bb72e"
-  integrity sha512-3ay5LqeU3WR7p1JCWHpn2TqF4YmLMc8lgoRMFBuUY960BMFkScQtsfz1GpNkMG3nDh/5kkrPhwC6lAUXwqTqiw==
+metro4@4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/metro4/-/metro4-4.4.1.tgz#d5a4e669afad699757403a4c3d7a383c6f0174b4"
+  integrity sha512-n+GJItQlVhyOSy39/NRRZHhWA2QFphcursOeXj0xmr392DDWHRxVZjgj8a++tWCJVuQ+yjso2pQW7icGWzD/xw==
 
 micromatch@^3.0.4:
   version "3.1.10"

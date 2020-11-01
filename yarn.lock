@@ -994,7 +994,7 @@ extendible@0.1.x:
   resolved "https://registry.yarnpkg.com/extendible/-/extendible-0.1.1.tgz#e2a37ed87129fb4f9533e8a8d7506230a539c905"
   integrity sha1-4qN+2HEp+0+VM+io11BiMKU5yQU=
 
-extendr@5.16.0:
+extendr@5.16.0, extendr@^5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/extendr/-/extendr-5.16.0.tgz#50be94ff8120c7df70407bcc0dd4033fce552f14"
   integrity sha512-3D2fd7SJE3RYRZ3QDu598FEbGezuLo7ZWWc/Ks+Ha+ECneU7BmrIUXdreJNzzKPlAZYe7fmDIwQy0O03QCBseQ==
@@ -2806,15 +2806,15 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-taskgroup@7.16.0, taskgroup@^7.16.0:
-  version "7.16.0"
-  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.16.0.tgz#da3360b9279f52b57b66b581b934ff4de7c887b9"
-  integrity sha512-QlUkq68hrXg54eWRq0Hqremk4+sJL/2dTlYbiomE10XuVCaqoLvAgDowhwkjDzuWVmZ7it+TYb7/uKNzCvKdYw==
+taskgroup@7.17.0:
+  version "7.17.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.17.0.tgz#f03b63fc55d0502edc3e86a54c68a17f1ad66d7e"
+  integrity sha512-pcU4o71C02CKEVIzFc1kTHPB5u8kKPkbygayzsDMGPuH8JyN/QexpPM9BJGkergHj4+Wj67pBDIubHl90zkQ0A==
   dependencies:
     ambi "3.2.0"
     eachr "^4.5.0"
-    extendr "^5.15.0"
-    unbounded "^3.11.0"
+    extendr "^5.16.0"
+    unbounded "^3.12.0"
 
 taskgroup@^4.0.5:
   version "4.3.1"
@@ -2844,6 +2844,16 @@ taskgroup@^7.13.0, taskgroup@^7.14.0:
     eachr "^4.5.0"
     extendr "^5.13.0"
     unbounded "^3.9.0"
+
+taskgroup@^7.16.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.16.0.tgz#da3360b9279f52b57b66b581b934ff4de7c887b9"
+  integrity sha512-QlUkq68hrXg54eWRq0Hqremk4+sJL/2dTlYbiomE10XuVCaqoLvAgDowhwkjDzuWVmZ7it+TYb7/uKNzCvKdYw==
+  dependencies:
+    ambi "3.2.0"
+    eachr "^4.5.0"
+    extendr "^5.15.0"
+    unbounded "^3.11.0"
 
 text-hex@1.0.x:
   version "1.0.0"

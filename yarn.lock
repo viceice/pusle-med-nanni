@@ -702,13 +702,13 @@ docpad-plugin-consolidate@2.7.0:
     consolidate "~0.16.0"
     docpad-baseplugin "^1.4.0"
 
-docpad-plugin-less@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/docpad-plugin-less/-/docpad-plugin-less-2.9.0.tgz#63ea28e9fd93d499b49fd5eafb4fd5cb53e0c139"
-  integrity sha512-qBeQ2oRQ+ielQj6gIWQ+ySbN5W4DOPI4BLJ1RS4ZsaOt/laz+V3ry8lAOGjFJEi9sl25z260vzdXcf6tng83hA==
+docpad-plugin-less@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-less/-/docpad-plugin-less-2.10.0.tgz#068d43f9cb87482d0453e3796a377d7e512655f2"
+  integrity sha512-4pVAGIkr7G0FOWl8bZS5YZes9dkfi0SyMsmczcZxgylktD+qKBf5e8BEfGeZrJtRJZ0CukJOV0k/DspXU3+THg==
   dependencies:
     docpad-baseplugin "^1.4.0"
-    extendr "^5.15.0"
+    extendr "^5.16.0"
     less "^3.12.2"
 
 docpad-plugin-livereload@2.11.0:

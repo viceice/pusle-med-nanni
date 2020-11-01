@@ -721,13 +721,13 @@ docpad-plugin-livereload@2.11.0:
     primus "^7.3.5"
     ws "^7.3.1"
 
-docpad-plugin-marked@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/docpad-plugin-marked/-/docpad-plugin-marked-2.9.0.tgz#b9f5d378e55494d73c09219f54fd7d4e136a32e9"
-  integrity sha512-75z+h5aCxoBQlxCWDrHkAaJKxQu2Uc3bne0qUIefEl3dxE7RTsjpktgpiYCME0wq3reLplZTWe6T2fgOmvPAxg==
+docpad-plugin-marked@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-marked/-/docpad-plugin-marked-2.10.0.tgz#887aec5d5348636ad80e15dd7e4aa738e917dd43"
+  integrity sha512-u4pB9jtLYdObT0+kEzLrqRWRiWSjOTUYZbSuum0fAy9+nIojqSU7SpPxSjshd8E8OJNNDKiddYuLCB77UQMyeA==
   dependencies:
     docpad-baseplugin "^1.4.0"
-    marked "~1.1.1"
+    marked "~1.2.2"
 
 docpad-plugin-partials@2.14.0:
   version "2.14.0"
@@ -1945,10 +1945,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@~1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.1.1.tgz#e5d61b69842210d5df57b05856e0c91572703e6a"
-  integrity sha512-mJzT8D2yPxoPh7h0UXkB+dBj4FykPJ2OIfxAWeIHrvoHDkFxukV/29QxoFQoPM6RLEwhIFdJpmKBlqVM3s2ZIw==
+marked@~1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.2.tgz#5d77ffb789c4cb0ae828bfe76250f7140b123f70"
+  integrity sha512-5jjKHVl/FPo0Z6ocP3zYhKiJLzkwJAw4CZoLjv57FkvbUuwOX4LIBBGGcXjAY6ATcd1q9B8UTj5T9Umauj0QYQ==
 
 maxmin@^2.1.0:
   version "2.1.0"

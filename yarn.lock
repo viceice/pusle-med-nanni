@@ -2539,7 +2539,17 @@ safefs@^6.12.0, safefs@^6.13.0:
   dependencies:
     graceful-fs "^4.2.4"
 
-safeps@10.14.0, safeps@^10.14.0:
+safeps@10.15.0:
+  version "10.15.0"
+  resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.15.0.tgz#57709f92d90b34b96a9aa084a5152c7c6bd790e3"
+  integrity sha512-E0oZTK7OpV0Ex4XwSFyi/oMBxtdRVFc6fe5bbB//p3Al/pGBkaWuNAUZlK244QNoqt7qQqLx5ZMmntYzFk8/ZQ==
+  dependencies:
+    extract-opts "^4.3.0"
+    safefs "^6.13.0"
+    taskgroup "^7.16.0"
+    typechecker "^7.16.0"
+
+safeps@^10.14.0:
   version "10.14.0"
   resolved "https://registry.yarnpkg.com/safeps/-/safeps-10.14.0.tgz#bc27602177de5ae1f309d4cffc94cd3004b50fdc"
   integrity sha512-soA717WY1d2+PNHt/RmjZKpgNyoitE7WmQVqlf+2G0ttH4v23HQ4iozRoWdFS1WkI/r6xQC2GB7hI2+ITOJitQ==

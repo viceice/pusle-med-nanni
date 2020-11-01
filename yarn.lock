@@ -264,10 +264,10 @@ binaryextensions@^4.14.0:
   resolved "https://registry.yarnpkg.com/binaryextensions/-/binaryextensions-4.14.0.tgz#83367ca2ef1ac853814b6dafdc5eb97c1e5949a8"
   integrity sha512-UtjVslm7QYvKyVdoc1njm/L1tFUcx2m4x4ceGk/zqZXzdDYuH6/SasK4Bh5UltmObqBPbA9JH7f6Y0Igq2tF5w==
 
-bluebird@^3.1.1:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
-  integrity sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
+bluebird@^3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
+  integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -519,12 +519,12 @@ connected@0.0.x:
   resolved "https://registry.yarnpkg.com/connected/-/connected-0.0.2.tgz#7b5755b216ce31ffabccc38e9f4e1dfc1c3b7c6d"
   integrity sha1-e1dVshbOMf+rzMOOn04d/Bw7fG0=
 
-consolidate@~0.15.1:
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/consolidate/-/consolidate-0.15.1.tgz#21ab043235c71a07d45d9aad98593b0dba56bab7"
-  integrity sha512-DW46nrsMJgy9kqAbPt5rKaCr7uFtpo4mSUvLHIUbJEjm0vo+aY5QLwBUq3FK4tRnJr/X0Psc0C4jf/h+HtXSMw==
+consolidate@~0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/consolidate/-/consolidate-0.16.0.tgz#a11864768930f2f19431660a65906668f5fbdc16"
+  integrity sha512-Nhl1wzCslqXYTJVDyJCu3ODohy9OfBMB5uD2BiBTzd7w+QY0lBzafkR8y8755yMYHAaMD4NuzbAw03/xzfw+eQ==
   dependencies:
-    bluebird "^3.1.1"
+    bluebird "^3.7.2"
 
 content-disposition@0.5.2:
   version "0.5.2"
@@ -694,12 +694,12 @@ docpad-baseplugin@1.4.0, docpad-baseplugin@^1.4.0:
     extendr "^5.13.0"
     typechecker "^7.13.0"
 
-docpad-plugin-consolidate@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/docpad-plugin-consolidate/-/docpad-plugin-consolidate-2.6.0.tgz#62f49518d8f55525c61e7f80318f545df84228bf"
-  integrity sha512-yfWXKpGL88uQIU4WmW4Joq1egILfz8qQPlTGGzS3HXRkKbsPXqFYFzmYVk8twfxPoPIP+CGRVFofWowTyWHsug==
+docpad-plugin-consolidate@2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-consolidate/-/docpad-plugin-consolidate-2.7.0.tgz#596b5dcc3e2181ec2a0239a8e1d33206071ce3b6"
+  integrity sha512-cB/H5Q62kTZeg68+VGQL37EvEBNiV9XFxQYNASgreBqogYCY7M+27kWplmIwSoc/fZkRu9vYlNTuLNxXBKTGEg==
   dependencies:
-    consolidate "~0.15.1"
+    consolidate "~0.16.0"
     docpad-baseplugin "^1.4.0"
 
 docpad-plugin-less@2.9.0:

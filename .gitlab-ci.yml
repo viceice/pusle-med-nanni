@@ -17,7 +17,7 @@ stages:
 build:
   interruptible: true
   stage: build
-  image: node:14.15.0-alpine
+  image: ghcr.io/visualon/node:14.15.0@sha256:b6f8f55cdaab9065041ae9fa040d5fc798e432197a6452c53a588b7adf23022e
   variables:
     YARN_CACHE_FOLDER: '.yarn-cache'
   cache:

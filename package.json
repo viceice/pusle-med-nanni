@@ -24,7 +24,7 @@
     "jquery": "3.5.1",
     "jquery-migrate": "3.3.1",
     "metro-ui": "3.0.15",
-    "metro4": "4.4.1",
+    "metro4": "4.4.2",
     "waypoints": "4.0.1"
   },
   "devDependencies": {

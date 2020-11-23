@@ -43,7 +43,7 @@
     "grunt-contrib-uglify": "5.0.0",
     "load-grunt-config": "3.0.1",
     "moment": "2.29.1",
-    "prettier": "2.1.2",
+    "prettier": "2.2.0",
     "safeps": "10.15.0",
     "vash": "0.13.0"
   },

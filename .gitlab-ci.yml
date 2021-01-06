@@ -17,7 +17,7 @@ stages:
 build:
   interruptible: true
   stage: build
-  image: ghcr.kriese.eu/visualon/node:14.15.3
+  image: ghcr.kriese.eu/visualon/node:14.15.4
   variables:
     YARN_CACHE_FOLDER: '.yarn-cache'
   cache:

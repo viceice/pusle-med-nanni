@@ -39,7 +39,7 @@
     "grunt-autoprefixer": "3.0.4",
     "grunt-changed": "3.0.0",
     "grunt-contrib-copy": "1.0.0",
-    "grunt-contrib-cssmin": "3.0.0",
+    "grunt-contrib-cssmin": "4.0.0",
     "grunt-contrib-uglify": "5.0.0",
     "load-grunt-config": "3.0.1",
     "moment": "2.29.1",

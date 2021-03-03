@@ -4,7 +4,7 @@ stages:
 
 .deploy:
   interruptible: true
-  image: registry.kriese.eu/jobs/docker/base@sha256:4de8d9a60cf78987ae0dbccea37e14e31c9b8252979efc3a3fba1ffd6998fa3a
+  image: registry.kriese.eu/jobs/docker/base@sha256:bf981dc379a2141b09f44f9b29071972235cd64c0687de01c6a87863fc040de0
   stage: deploy
   before_script:
     - eval $(ssh-agent -s)

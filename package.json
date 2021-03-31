@@ -40,7 +40,7 @@
     "grunt-changed": "3.0.0",
     "grunt-contrib-copy": "1.0.0",
     "grunt-contrib-cssmin": "4.0.0",
-    "grunt-contrib-uglify": "5.0.0",
+    "grunt-contrib-uglify": "5.0.1",
     "load-grunt-config": "3.0.1",
     "moment": "2.29.1",
     "prettier": "2.2.1",

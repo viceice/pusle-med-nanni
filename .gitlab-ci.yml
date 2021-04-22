@@ -12,7 +12,7 @@ stages:
   script:
     - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063.ovh.net:/opt/docker/html/de.pusle-med-nanni.${CI_ENVIRONMENT_SLUG}/
   only:
-    - master
+    - main
 
 build:
   interruptible: true
@@ -58,4 +58,4 @@ pages:
       - public
   when: manual
   only:
-    - master
+    - main

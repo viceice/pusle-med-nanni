@@ -2369,15 +2369,15 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-taskgroup@7.17.0:
-  version "7.17.0"
-  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.17.0.tgz#f03b63fc55d0502edc3e86a54c68a17f1ad66d7e"
-  integrity sha512-pcU4o71C02CKEVIzFc1kTHPB5u8kKPkbygayzsDMGPuH8JyN/QexpPM9BJGkergHj4+Wj67pBDIubHl90zkQ0A==
+taskgroup@7.19.0, taskgroup@^7.18.0:
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.19.0.tgz#1b90dca38d2baab43cf3785455b5f30a93f0c1c6"
+  integrity sha512-SWwM8bGfOZF0rwP3Wna5T51vf6JZOK3eSnVBqo27DVVf8UJLih6arif24qiS8DspFbWt2cE9SgOEwIW3rgWQtA==
   dependencies:
     ambi "3.2.0"
     eachr "^4.5.0"
-    extendr "^5.16.0"
-    unbounded "^3.12.0"
+    extendr "^5.19.0"
+    unbounded "^3.14.0"
 
 taskgroup@^4.0.5:
   version "4.3.1"
@@ -2417,16 +2417,6 @@ taskgroup@^7.16.0:
     eachr "^4.5.0"
     extendr "^5.15.0"
     unbounded "^3.11.0"
-
-taskgroup@^7.18.0:
-  version "7.19.0"
-  resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-7.19.0.tgz#1b90dca38d2baab43cf3785455b5f30a93f0c1c6"
-  integrity sha512-SWwM8bGfOZF0rwP3Wna5T51vf6JZOK3eSnVBqo27DVVf8UJLih6arif24qiS8DspFbWt2cE9SgOEwIW3rgWQtA==
-  dependencies:
-    ambi "3.2.0"
-    eachr "^4.5.0"
-    extendr "^5.19.0"
-    unbounded "^3.14.0"
 
 text-hex@1.0.x:
   version "1.0.0"

@@ -1572,10 +1572,10 @@ liftup@~3.0.1:
     rechoir "^0.7.0"
     resolve "^1.19.0"
 
-load-grunt-config@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/load-grunt-config/-/load-grunt-config-4.0.0.tgz#1f69b617044167ed1b72dc1c9ac58ceb201480af"
-  integrity sha512-vtLdSktxgkeCb4e8fL0iswqFIKbz/8LoqNSC56q61QktkWkCWh/JDXmbChbhbcwGYe0H+AttWQqPGjOF4PMxTQ==
+load-grunt-config@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/load-grunt-config/-/load-grunt-config-4.0.1.tgz#f33d713db347e9cc311454f88635864fc9a8fc71"
+  integrity sha512-F3CD28C1WFocVvdTRSKnV73q7JvGY2OrqoeUeflbOQg58AhkFROIFc2BQXOU2xdrYJqWZx53glT5PZp1vrr9qA==
   dependencies:
     cson "7.20.0"
     glob "7.1.7"

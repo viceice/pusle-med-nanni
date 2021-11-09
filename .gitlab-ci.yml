@@ -55,6 +55,8 @@ deploy_prod:
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       when: manual
+      allow_failure: true
+
 
 pages:
   stage: deploy
@@ -66,5 +68,6 @@ pages:
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       when: manual
+      allow_failure: true
   needs:
     - build

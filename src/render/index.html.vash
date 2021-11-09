@@ -15,7 +15,7 @@ hidden: false
         <div class="cell size4">
             @* model.partial('Aboreum', false) *@
             @* model.partial('Flohmarkt', false) *@
-            @model.partial('Weihnachtskreativmarkt', false)
+            @* model.partial('Weihnachtskreativmarkt', false) *@
             <div class="h-card">
                 <div class="image-container" style="float:right">
                     <div class="frame">

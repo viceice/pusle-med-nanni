@@ -21,11 +21,16 @@ build:
   variables:
     YARN_CACHE_FOLDER: '.yarn-cache'
   cache:
-    key: ${CI_COMMIT_REF_SLUG}-build
-    paths:
-      - node_modules/
-      - .yarn-cache
-      - dist/
+    - key: ${CI_COMMIT_REF_SLUG}-build
+      paths:
+        - dist/
+    - key:
+        prefix: node-deps
+        files:
+          - yarn.lock
+      paths:
+        - node_modules/
+        - .yarn-cache
   before_script:
     - apk add --no-cache graphicsmagick git
     - yarn install --frozen-lockfile

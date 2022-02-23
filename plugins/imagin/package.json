@@ -23,7 +23,7 @@
     "docpad-baseplugin": "1.4.0",
     "eachr": "4.5.0",
     "extendr": "5.19.0",
-    "fs-extra": "10.0.0",
+    "fs-extra": "10.0.1",
     "gm": "1.23.1",
     "taskgroup": "7.19.0"
   },

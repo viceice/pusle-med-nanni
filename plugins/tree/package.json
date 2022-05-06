@@ -32,6 +32,9 @@
     "underscore": "1.13.3",
     "underscore.string": "3.3.6"
   },
+  "peerDependencies": {
+    "docpad": "^6.83.0"
+  },
   "engines": {
     "node": "^14.15.0 || >=16.13.0"
   },

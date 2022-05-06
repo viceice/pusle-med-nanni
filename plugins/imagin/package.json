@@ -27,6 +27,9 @@
     "gm": "1.23.1",
     "taskgroup": "7.19.0"
   },
+  "peerDependencies": {
+    "docpad": "^6.83.0"
+  },
   "engines": {
     "node": "^14.15.0 || >=16.13.0"
   },

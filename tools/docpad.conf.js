@@ -3,7 +3,7 @@
 // DocPad Configuration File
 // http://docpad.org/docs/config
 
-const moment = require('moment');
+const { DateTime } = require('luxon');
 const _ = require('lodash');
 const safeps = require('safeps');
 
@@ -31,7 +31,7 @@ Willkommen bei pusle med Nanni.\
         // Helper Functions
 
         getPreparedDate() {
-            return moment(this.document.date).format('DD.MM.YYYY HH:mm:ss');
+            return DateTime.fromJSDate(this.document.date).toFormat('dd.MM.yyyy HH:mm:ss');
         },
 
         _() {

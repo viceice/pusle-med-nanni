@@ -2130,6 +2130,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"luxon@npm:2.3.2":
+  version: 2.3.2
+  resolution: "luxon@npm:2.3.2"
+  checksum: ba4f9daa56d03771c2ddf00e3bf996ec7937badfdc2f85f5b58d63c75bb511369b3316f54ab9ce5ab42bfc9118513971f6599128529b68620b876a4b7c16570b
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^2.1.0":
   version: 2.1.0
   resolution: "make-dir@npm:2.1.0"
@@ -2282,13 +2289,6 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
-  languageName: node
-  linkType: hard
-
-"moment@npm:2.29.3":
-  version: 2.29.3
-  resolution: "moment@npm:2.29.3"
-  checksum: 2e780e36d9a1823c08a1b6313cbb08bd01ecbb2a9062095820a34f42c878991ccba53abaa6abb103fd5c01e763724f295162a8c50b7e95b4f1c992ef0772d3f0
   languageName: node
   linkType: hard
 
@@ -2666,9 +2666,10 @@ __metadata:
     jquery: 3.6.0
     jquery-migrate: 3.4.0
     load-grunt-config: 4.0.1
+    lodash: 4.17.21
+    luxon: 2.3.2
     metro-ui: 3.0.15
     metro4: 4.5.0
-    moment: 2.29.3
     prettier: 2.6.2
     safeps: 10.17.0
     vash: 0.13.0

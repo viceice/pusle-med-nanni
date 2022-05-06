@@ -15,7 +15,6 @@ workflow:
   image: registry.kriese.eu/jobs/docker/base@sha256:ebe8118dfb6c67acf9fae4a77c913ff0a217116d13aa10c1722ff799ecab1a3d
   stage: deploy
   before_script:
-    - install-apt graphicsmagick
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:

@@ -726,7 +726,7 @@ __metadata:
     gm: 1.23.1
     taskgroup: 7.19.0
   peerDependencies:
-    docpad: ^6.83.0
+    docpad: "*"
   languageName: unknown
   linkType: soft
 
@@ -798,7 +798,7 @@ __metadata:
     underscore: 1.13.3
     underscore.string: 3.3.6
   peerDependencies:
-    docpad: ^6.83.0
+    docpad: "*"
   languageName: unknown
   linkType: soft
 

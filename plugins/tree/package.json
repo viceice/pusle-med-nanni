@@ -33,7 +33,7 @@
     "underscore.string": "3.3.6"
   },
   "peerDependencies": {
-    "docpad": "^6.83.0"
+    "docpad": "*"
   },
   "engines": {
     "node": "^14.15.0 || >=16.13.0"

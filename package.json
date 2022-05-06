@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://src.kriese.eu/kriese/pusle-med-nanni.git"
   },
   "author": "Michael Kriese <michael.kriese@gmx.de>",
   "main": "node_modules/.bin/docpad-server",
@@ -17,7 +17,7 @@
   },
   "engines": {
     "node": "^14.15.0 || >=16.13.0",
-    "yarn": "^1.22.0"
+    "yarn": "^3.2.0"
   },
   "dependencies": {
     "cookieconsent": "3.1.1",
@@ -48,6 +48,7 @@
     "safeps": "10.17.0",
     "vash": "0.13.0"
   },
+  "packageManager": "yarn@3.2.0",
   "workspaces": [
     "plugins/imagin",
     "plugins/tree"

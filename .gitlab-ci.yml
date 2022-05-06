@@ -32,8 +32,6 @@ build:
   interruptible: true
   stage: build
   image: ghcr.io/visualon/builder:2.2.2@sha256:1018d19896382361999e33b83ec7c929954f4eda8645f3cc0afd0ebded26781e
-  variables:
-    YARN_CACHE_FOLDER: '.yarn-cache'
   cache:
     - key: ${CI_COMMIT_REF_SLUG}-build
       paths:
@@ -43,11 +41,10 @@ build:
         files:
           - yarn.lock
       paths:
-        - node_modules/
-        - .yarn-cache
+        - .yarn/cache
   before_script:
     - install-apt graphicsmagick
-    - yarn install --frozen-lockfile
+    - yarn install
   script:
     - yarn build
     - find dist/images/ -type f -iname '*.jpg' -not -name '*.thumb*' -delete

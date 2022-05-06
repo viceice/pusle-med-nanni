@@ -2,22 +2,37 @@ stages:
   - build
   - deploy
 
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS && $CI_PIPELINE_SOURCE == "push"
+      when: never
+    - if: $CI_COMMIT_BRANCH
+
+
 .deploy:
   interruptible: true
   image: registry.kriese.eu/jobs/docker/base@sha256:ebe8118dfb6c67acf9fae4a77c913ff0a217116d13aa10c1722ff799ecab1a3d
   stage: deploy
   before_script:
+    - install-apt graphicsmagick
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
   script:
     - rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063.ovh.net:/opt/docker/html/de.pusle-med-nanni.${CI_ENVIRONMENT_SLUG}/
   needs:
     - build
+  rules:
+    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      allow_failure: true
 
 build:
   interruptible: true
   stage: build
-  image: ghcr.io/visualon/node:14.19.1
+  image: ghcr.io/visualon/builder:2.2.2@sha256:1018d19896382361999e33b83ec7c929954f4eda8645f3cc0afd0ebded26781e
   variables:
     YARN_CACHE_FOLDER: '.yarn-cache'
   cache:
@@ -32,7 +47,7 @@ build:
         - node_modules/
         - .yarn-cache
   before_script:
-    - apk add --no-cache graphicsmagick git
+    - install-apt graphicsmagick
     - yarn install --frozen-lockfile
   script:
     - yarn build
@@ -50,6 +65,8 @@ deploy_dev:
     name: dev
     url: https://dev.pusle-med-nanni.de
   rules:
+    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      when: never
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
 deploy_prod:
@@ -57,10 +74,6 @@ deploy_prod:
   environment:
     name: www
     url: https://www.pusle-med-nanni.de
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-      when: manual
-      allow_failure: true
 
 
 pages:
@@ -71,6 +84,8 @@ pages:
     paths:
       - public
   rules:
+    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      when: never
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       when: manual
       allow_failure: true

@@ -1519,15 +1519,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"grunt-contrib-uglify@npm:5.2.1":
-  version: 5.2.1
-  resolution: "grunt-contrib-uglify@npm:5.2.1"
+"grunt-contrib-uglify@npm:5.2.2":
+  version: 5.2.2
+  resolution: "grunt-contrib-uglify@npm:5.2.2"
   dependencies:
     chalk: ^4.1.2
     maxmin: ^3.0.0
-    uglify-js: ^3.15.4
+    uglify-js: ^3.16.1
     uri-path: ^1.0.0
-  checksum: 1aa71de46a6d5fa61639e7bbae333bb8b29d605903f34bce39d6f14d95e41834689a43f33f22284ccdee7bd7c7f7f3a9ec965358204ebbc5c77a56cb306b9285
+  checksum: 20a580e69ba32df85aa21e63ecbbbb80475999438334f74ad1dae0ece3ecffe3a1c8905a89e246b5351e455721f352f679241b818f68be4f6d1195617dccd440
   languageName: node
   linkType: hard
 
@@ -2666,7 +2666,7 @@ __metadata:
     grunt-changed: 3.0.0
     grunt-contrib-copy: 1.0.0
     grunt-contrib-cssmin: 4.0.0
-    grunt-contrib-uglify: 5.2.1
+    grunt-contrib-uglify: 5.2.2
     jquery: 3.6.0
     jquery-migrate: 3.4.0
     load-grunt-config: 4.0.1
@@ -3274,12 +3274,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uglify-js@npm:^3.15.4":
-  version: 3.15.4
-  resolution: "uglify-js@npm:3.15.4"
+"uglify-js@npm:^3.16.1":
+  version: 3.17.0
+  resolution: "uglify-js@npm:3.17.0"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: 5f673c5dd7f3b3dd15d1d26aebfe29bccbb1b896c4b5423ec70a2e8b9506c70b6fb6a53dec83df5ad65a717ec9a850adf08e0aedf9b1711eac5eb080216615fa
+  checksum: 20d1fcac05e74db949a9579a36f9a1af88430e590bc9c22410b76686035c55cef65247ca1935d2f6440c78928227684219c8b1ddfcd858213049cb2890821392
   languageName: node
   linkType: hard
 

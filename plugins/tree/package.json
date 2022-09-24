@@ -29,7 +29,7 @@
   "type": "commonjs",
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
-    "underscore": "1.13.4",
+    "underscore": "1.13.6",
     "underscore.string": "3.3.6"
   },
   "peerDependencies": {

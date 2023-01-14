@@ -45,7 +45,7 @@
     "load-grunt-config": "4.0.1",
     "lodash": "4.17.21",
     "luxon": "2.5.2",
-    "prettier": "2.8.2",
+    "prettier": "2.8.3",
     "safeps": "10.17.0",
     "vash": "0.13.0"
   },

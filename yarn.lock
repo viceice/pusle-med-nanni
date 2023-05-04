@@ -408,12 +408,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clean-css@npm:^5.0.1":
-  version: 5.1.0
-  resolution: "clean-css@npm:5.1.0"
+"clean-css@npm:^5.3.2":
+  version: 5.3.2
+  resolution: "clean-css@npm:5.3.2"
   dependencies:
     source-map: ~0.6.0
-  checksum: 7b5788f0bc4ae76b84356c63353aaffe043165d174045e2c3f20099b616963aaa7638cb5c49d0603b128628587936220c8085a7ef6a27e78268452e687872fc0
+  checksum: 8787b281acc9878f309b5f835d410085deedfd4e126472666773040a6a8a72f472a1d24185947d23b87b1c419bf2c5ed429395d5c5ff8279c98b05d8011e9758
   languageName: node
   linkType: hard
 
@@ -1484,14 +1484,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"grunt-contrib-cssmin@npm:4.0.0":
-  version: 4.0.0
-  resolution: "grunt-contrib-cssmin@npm:4.0.0"
+"grunt-contrib-cssmin@npm:5.0.0":
+  version: 5.0.0
+  resolution: "grunt-contrib-cssmin@npm:5.0.0"
   dependencies:
-    chalk: ^4.1.0
-    clean-css: ^5.0.1
+    chalk: ^4.1.2
+    clean-css: ^5.3.2
     maxmin: ^3.0.0
-  checksum: 427b1ca862eae0acf8b1d5bdb97b6e9bcf2a3974852c95538aa3401683f539fecbab9ca641a1d1f0b9c27975149e06ed937b8ed99608850b2534449e884ddbf3
+  checksum: 8cb8669564bba41f9a2697f0500f5fa43c76b5ed8ac21a315f28ddf3df5e5f9c4d6a4f0af614dda12f8a985fd7f419144fa811b548ed805ee6511a3bd55335c1
   languageName: node
   linkType: hard
 
@@ -2665,7 +2665,7 @@ __metadata:
     grunt-autoprefixer: 3.0.4
     grunt-changed: 3.0.0
     grunt-contrib-copy: 1.0.0
-    grunt-contrib-cssmin: 4.0.0
+    grunt-contrib-cssmin: 5.0.0
     grunt-contrib-uglify: 5.2.2
     jquery: 3.6.4
     jquery-migrate: 3.4.1

@@ -1,3 +1,3 @@
-FROM nginx:stable-alpine@sha256:b7db705c8986070be8aa99ec0886886ddb3c75b1e46301f54865b16db79e9e52
+FROM nginx:stable-alpine@sha256:cbd6dc486c5d9cb35bfccd2526e255943d5e65e67c655e13184c0b1dc8799021
 
 COPY build /usr/share/nginx/html/

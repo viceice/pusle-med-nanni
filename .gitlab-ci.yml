@@ -31,7 +31,7 @@ workflow:
 build:
   interruptible: true
   stage: build
-  image: ghcr.io/visualon/builder:3.3.32@sha256:ac3cae97d824b837a993acf644c5b7bd2f286e96364a1d96300509dc1a8ce80a
+  image: ghcr.io/visualon/builder:3.3.33@sha256:b73adff041b3120d9e4429aea3cdf989fe397a188aca031ea3c1e2f3a4a4bb9e
   cache:
     - key: ${CI_COMMIT_REF_SLUG}-build
       paths:

@@ -1089,7 +1089,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:5.20.0":
+"extendr@npm:5.20.0, extendr@npm:^5.20.0":
   version: 5.20.0
   resolution: "extendr@npm:5.20.0"
   dependencies:
@@ -2684,7 +2684,7 @@ __metadata:
     metro-ui: 3.0.15
     metro4: 4.5.4
     prettier: 2.8.8
-    safeps: 10.17.0
+    safeps: 10.18.0
     vash: 0.13.0
     waypoints: 4.0.1
   languageName: unknown
@@ -2865,7 +2865,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safefs@npm:^6.15.0":
+"safefs@npm:^6.16.0":
   version: 6.16.0
   resolution: "safefs@npm:6.16.0"
   dependencies:
@@ -2874,15 +2874,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safeps@npm:10.17.0":
-  version: 10.17.0
-  resolution: "safeps@npm:10.17.0"
+"safeps@npm:10.18.0":
+  version: 10.18.0
+  resolution: "safeps@npm:10.18.0"
   dependencies:
     extract-opts: ^4.3.0
-    safefs: ^6.15.0
-    taskgroup: ^7.18.0
-    typechecker: ^7.17.0
-  checksum: 0a6236e3e7108793071d56cbb96a0791820a0a4549842dd0588da82f705bdf14eb337b32cf1822acb4a61f0809dde8240eef63999a920c4ab54d351ca96f881d
+    safefs: ^6.16.0
+    taskgroup: ^7.19.0
+    typechecker: ^7.18.0
+  checksum: 814985ba173fcacc5095c51057641045deca3b23b90bfad52fabf64dfe8e8020b86b6e7f688ce05e29662a824ed07612dd8eb7a2fd9f8ede931037c253d029b1
   languageName: node
   linkType: hard
 
@@ -3127,7 +3127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:7.19.0, taskgroup@npm:^7.18.0":
+"taskgroup@npm:7.19.0":
   version: 7.19.0
   resolution: "taskgroup@npm:7.19.0"
   dependencies:
@@ -3183,6 +3183,18 @@ __metadata:
     extendr: ^5.15.0
     unbounded: ^3.11.0
   checksum: 4211ec114a127af57ba62814cf6c1dff8d4508dd5eb0b7bc5d67f4e4a4025ca48c2fc320d50f19d714a0ed55f26dd8fe71963f6a27b5de420af33f218fb7e19a
+  languageName: node
+  linkType: hard
+
+"taskgroup@npm:^7.19.0":
+  version: 7.20.0
+  resolution: "taskgroup@npm:7.20.0"
+  dependencies:
+    ambi: 3.2.0
+    eachr: ^4.5.0
+    extendr: ^5.20.0
+    unbounded: ^3.15.0
+  checksum: 919ec162eec89c1b4b40f68d6bf84a90d5f6a8ba069300a06c08c82be19b62065efdbc9d236dca5ecee9b9af0dfb5438efb8e53e5015446de83509f025e43d31
   languageName: node
   linkType: hard
 
@@ -3331,6 +3343,13 @@ __metadata:
   version: 3.15.0
   resolution: "unbounded@npm:3.15.0"
   checksum: 4f1aeb509b9e8b4c26f7212cf4610d2376804a1aab34e61a1d5b947bce9cd5e51ae83dd315cc08f3ffd9a8fe1ec014bee5313c55396f73eb91e030aead60d004
+  languageName: node
+  linkType: hard
+
+"unbounded@npm:^3.15.0":
+  version: 3.16.0
+  resolution: "unbounded@npm:3.16.0"
+  checksum: d7c59274732d76e1c55126edf5a79056596fcb4001318e3a40c0929da08c7da75b16c9d1dfb9bb9d93a4275fee2a1875824bb7f6b2ecfebb6cd001f1e0ee352f
   languageName: node
   linkType: hard
 

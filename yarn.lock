@@ -724,7 +724,7 @@ __metadata:
     extendr: 5.20.0
     fs-extra: 11.1.1
     gm: 1.25.0
-    taskgroup: 7.19.0
+    taskgroup: 7.20.0
   peerDependencies:
     docpad: "*"
   languageName: unknown
@@ -1132,15 +1132,6 @@ __metadata:
   dependencies:
     typechecker: ^7.16.0
   checksum: 9db515316da608d79f7fe20549b991d92a7218329ecb46a3a355453c40ba3d6835c076f781e97b916b4bd0135c1c1c605397f2e4bb994597e6c2be64cc5cf857
-  languageName: node
-  linkType: hard
-
-"extendr@npm:^5.19.0":
-  version: 5.19.0
-  resolution: "extendr@npm:5.19.0"
-  dependencies:
-    typechecker: ^7.17.0
-  checksum: a3e00029f68f5e83efadfbdb4689f6e29965e8602151f421b0e90f2eba906fdaedd58d43ac9d13a11f753fdb983f7cccb56fd193c38fc74ac60ddb9cd8604a47
   languageName: node
   linkType: hard
 
@@ -3127,15 +3118,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:7.19.0":
-  version: 7.19.0
-  resolution: "taskgroup@npm:7.19.0"
+"taskgroup@npm:7.20.0, taskgroup@npm:^7.19.0":
+  version: 7.20.0
+  resolution: "taskgroup@npm:7.20.0"
   dependencies:
     ambi: 3.2.0
     eachr: ^4.5.0
-    extendr: ^5.19.0
-    unbounded: ^3.14.0
-  checksum: 1077836bdf36fa7f92b26a3e83eedff6686b7fdd2851f4f9500d6cb231895ebf790e6b5d2c6e8a1a203b4901063043e926c341bb28b16012cab904bcc4ddf5e1
+    extendr: ^5.20.0
+    unbounded: ^3.15.0
+  checksum: 919ec162eec89c1b4b40f68d6bf84a90d5f6a8ba069300a06c08c82be19b62065efdbc9d236dca5ecee9b9af0dfb5438efb8e53e5015446de83509f025e43d31
   languageName: node
   linkType: hard
 
@@ -3183,18 +3174,6 @@ __metadata:
     extendr: ^5.15.0
     unbounded: ^3.11.0
   checksum: 4211ec114a127af57ba62814cf6c1dff8d4508dd5eb0b7bc5d67f4e4a4025ca48c2fc320d50f19d714a0ed55f26dd8fe71963f6a27b5de420af33f218fb7e19a
-  languageName: node
-  linkType: hard
-
-"taskgroup@npm:^7.19.0":
-  version: 7.20.0
-  resolution: "taskgroup@npm:7.20.0"
-  dependencies:
-    ambi: 3.2.0
-    eachr: ^4.5.0
-    extendr: ^5.20.0
-    unbounded: ^3.15.0
-  checksum: 919ec162eec89c1b4b40f68d6bf84a90d5f6a8ba069300a06c08c82be19b62065efdbc9d236dca5ecee9b9af0dfb5438efb8e53e5015446de83509f025e43d31
   languageName: node
   linkType: hard
 
@@ -3288,7 +3267,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typechecker@npm:^7.17.0, typechecker@npm:^7.18.0":
+"typechecker@npm:^7.18.0":
   version: 7.18.0
   resolution: "typechecker@npm:7.18.0"
   checksum: e24bad5f72a535a75e9f2e6c7927509d081993b71edf1828967d27905acc0272ab7a2b38d88ee39c49dc203e2d74d2fedfabe823992d04626bd6c01cec440e8d
@@ -3336,13 +3315,6 @@ __metadata:
   version: 3.12.0
   resolution: "unbounded@npm:3.12.0"
   checksum: 443ce4f43416a8c0c3d6f7871b0f342aa599b83a9d942caf3c7c6eb2c8f83fb277285c9005fb29a328f32cc9af9412ef91dedf79cf21637523da7e7fd8a148f7
-  languageName: node
-  linkType: hard
-
-"unbounded@npm:^3.14.0":
-  version: 3.15.0
-  resolution: "unbounded@npm:3.15.0"
-  checksum: 4f1aeb509b9e8b4c26f7212cf4610d2376804a1aab34e61a1d5b947bce9cd5e51ae83dd315cc08f3ffd9a8fe1ec014bee5313c55396f73eb91e030aead60d004
   languageName: node
   linkType: hard
 

@@ -2187,10 +2187,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro4@npm:4.5.4":
-  version: 4.5.4
-  resolution: "metro4@npm:4.5.4"
-  checksum: e36babbee4438c43823dc8ccd1341c929ed3608f6f780003c59b43d3059c2a3b4db327fca1556303ea5062f7b018e0a58b40170b31f7192a652f00746c1e5825
+"metro4@npm:4.5.5":
+  version: 4.5.5
+  resolution: "metro4@npm:4.5.5"
+  checksum: 167eceaed6048d8aff6af698a1feb87ce455c2b3b6c1166b7eea19bd38da060ee112b912104f3a8d0663dafd4d4850d73cbeed130fdc00a7ddeec28ca8463da0
   languageName: node
   linkType: hard
 
@@ -2673,7 +2673,7 @@ __metadata:
     lodash: 4.17.21
     luxon: 3.4.4
     metro-ui: 3.0.15
-    metro4: 4.5.4
+    metro4: 4.5.5
     prettier: 2.8.8
     safeps: 10.18.0
     vash: 0.13.0

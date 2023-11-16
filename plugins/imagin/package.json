@@ -25,7 +25,7 @@
     "extendr": "7.0.0",
     "fs-extra": "11.1.1",
     "gm": "1.25.0",
-    "taskgroup": "7.20.0"
+    "taskgroup": "9.1.0"
   },
   "peerDependencies": {
     "docpad": "*"

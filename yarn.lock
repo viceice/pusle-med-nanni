@@ -933,7 +933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editions@npm:^6.10.0, editions@npm:^6.13.0":
+"editions@npm:^6.10.0, editions@npm:^6.11.0, editions@npm:^6.13.0":
   version: 6.13.0
   resolution: "editions@npm:6.13.0"
   dependencies:
@@ -1207,7 +1207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extract-opts@npm:^5.0.0":
+"extract-opts@npm:^5.1.0":
   version: 5.2.0
   resolution: "extract-opts@npm:5.2.0"
   dependencies:
@@ -2728,7 +2728,7 @@ __metadata:
     metro-ui: 3.0.15
     metro4: 4.5.7
     prettier: 2.8.8
-    safeps: 11.0.0
+    safeps: 11.1.0
     vash: 0.13.0
     waypoints: 4.0.1
   languageName: unknown
@@ -2921,7 +2921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safefs@npm:^8.1.0":
+"safefs@npm:^8.2.0":
   version: 8.3.0
   resolution: "safefs@npm:8.3.0"
   dependencies:
@@ -2931,16 +2931,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safeps@npm:11.0.0":
-  version: 11.0.0
-  resolution: "safeps@npm:11.0.0"
+"safeps@npm:11.1.0":
+  version: 11.1.0
+  resolution: "safeps@npm:11.1.0"
   dependencies:
-    editions: ^6.10.0
-    extract-opts: ^5.0.0
-    safefs: ^8.1.0
-    taskgroup: ^9.0.0
-    typechecker: ^8.0.0
-  checksum: efa24b971dc6ffccdc24e69d5a4433bd8a8f413b5202f7ef4aa77d48adf41aa0b043db1e4996e754f9e327b867a1dd3bb92343aa4272d63739b381c8880de25d
+    editions: ^6.11.0
+    extract-opts: ^5.1.0
+    safefs: ^8.2.0
+    taskgroup: ^9.1.0
+    typechecker: ^8.1.0
+  checksum: 6544abfa09e7ce070c4915d7afb844e9c4ea3436c7544495185972364ad1c60537e177905caf39259f8fa72db1f27cf02251c7b3153f9dd013bb38b9a97b40d2
   languageName: node
   linkType: hard
 
@@ -3245,7 +3245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:^9.0.0":
+"taskgroup@npm:^9.1.0":
   version: 9.3.0
   resolution: "taskgroup@npm:9.3.0"
   dependencies:
@@ -3348,7 +3348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typechecker@npm:^8.0.0, typechecker@npm:^8.2.0":
+"typechecker@npm:^8.0.0, typechecker@npm:^8.1.0, typechecker@npm:^8.2.0":
   version: 8.2.0
   resolution: "typechecker@npm:8.2.0"
   dependencies:

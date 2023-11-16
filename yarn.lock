@@ -2206,10 +2206,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro4@npm:4.5.5":
-  version: 4.5.5
-  resolution: "metro4@npm:4.5.5"
-  checksum: 167eceaed6048d8aff6af698a1feb87ce455c2b3b6c1166b7eea19bd38da060ee112b912104f3a8d0663dafd4d4850d73cbeed130fdc00a7ddeec28ca8463da0
+"metro4@npm:4.5.7":
+  version: 4.5.7
+  resolution: "metro4@npm:4.5.7"
+  dependencies:
+    rollup-plugin-no-emit: ^1.1.1
+  checksum: c16680d88491a622d7b4e5af9ebd2d3dcbcd076ee13a547d376e26bbd0fe7e530886948b019f35805c1d0a42cb86d53cc92eaa541bb1cb253417d79793f78971
   languageName: node
   linkType: hard
 
@@ -2692,7 +2694,7 @@ __metadata:
     lodash: 4.17.21
     luxon: 3.4.4
     metro-ui: 3.0.15
-    metro4: 4.5.5
+    metro4: 4.5.7
     prettier: 2.8.8
     safeps: 10.18.0
     vash: 0.13.0
@@ -2819,6 +2821,18 @@ __metadata:
   bin:
     rimraf: bin.js
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
+  languageName: node
+  linkType: hard
+
+"rollup-plugin-no-emit@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "rollup-plugin-no-emit@npm:1.1.1"
+  peerDependencies:
+    rollup: ^1.20.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 2370bde57da92626d32e15fe8beec3763e6867fd42814e689c256afe7a763f3c72eac8da436b3b91683b673e7644dd769cd6e4820559a7b960c6809eb3dc4b94
   languageName: node
   linkType: hard
 

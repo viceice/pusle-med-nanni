@@ -720,7 +720,7 @@ __metadata:
   resolution: "docpad-plugin-imagin@workspace:plugins/imagin"
   dependencies:
     docpad-baseplugin: 1.4.0
-    eachr: 4.5.0
+    eachr: 6.0.0
     extendr: 5.20.0
     fs-extra: 11.1.1
     gm: 1.25.0
@@ -857,12 +857,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eachr@npm:4.5.0, eachr@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "eachr@npm:4.5.0"
+"eachr@npm:6.0.0":
+  version: 6.0.0
+  resolution: "eachr@npm:6.0.0"
   dependencies:
-    typechecker: ^6.2.0
-  checksum: abe3142b5109a34a9a2cf3f5503eb775e6b3973984468a2c011f2571d858c80214deee0d363c0f8a85d93ab0dad885d34d6a120e2d45742f1a61230d25d22569
+    editions: ^6.10.0
+    typechecker: ^8.0.0
+  checksum: 18a66743d6208e3889831bb654b5b85dc58fcf494807155d90dceade9193d56b6a0bc97e292831751a3bf5990412e3bfdf9de9ca09afd5ef0bb6970050459518
   languageName: node
   linkType: hard
 
@@ -873,6 +874,15 @@ __metadata:
     editions: ^1.1.1
     typechecker: ^4.3.0
   checksum: 091ad725a986d45f1c33fd2724ba4efe821a3a5f01540baea3fce9b6d61519010ab0928825e6b3c3946986d326859f05c9234a4dad40960c7edf3c2c90ff52e4
+  languageName: node
+  linkType: hard
+
+"eachr@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "eachr@npm:4.5.0"
+  dependencies:
+    typechecker: ^6.2.0
+  checksum: abe3142b5109a34a9a2cf3f5503eb775e6b3973984468a2c011f2571d858c80214deee0d363c0f8a85d93ab0dad885d34d6a120e2d45742f1a61230d25d22569
   languageName: node
   linkType: hard
 
@@ -910,6 +920,15 @@ __metadata:
     errlop: ^3.16.0
     semver: 6.3.0
   checksum: 8b788787d99f530c9ae516d81a5a5bf42f114e3984cea2a4e932d7a16593440f250dd34a113c942484cb3b787752d6f87c01cc964e1565689c2ada686a2fd92f
+  languageName: node
+  linkType: hard
+
+"editions@npm:^6.10.0, editions@npm:^6.13.0":
+  version: 6.13.0
+  resolution: "editions@npm:6.13.0"
+  dependencies:
+    version-range: ^3.2.0
+  checksum: 34e18053741d68f2fd5695b4809f501efa67e7b28d3b52e1e13b07a66de471c3ba99552a2643d46490fc3e3187f2f02411b2bf7922c36198f7507de9631c8b5e
   languageName: node
   linkType: hard
 
@@ -3274,6 +3293,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typechecker@npm:^8.0.0":
+  version: 8.2.0
+  resolution: "typechecker@npm:8.2.0"
+  dependencies:
+    editions: ^6.13.0
+  checksum: d7f103021777c296848b86ea795a7b3a9a2572efea9e61f9e988e09ba57221a885606a6cda944abfa873e11907100845e29ed0faece2129595b40f85c85d0a9c
+  languageName: node
+  linkType: hard
+
 "uglify-js@npm:^3.16.1":
   version: 3.17.0
   resolution: "uglify-js@npm:3.17.0"
@@ -3434,6 +3462,22 @@ __metadata:
   bin:
     vash: bin/vash
   checksum: c0ad536bdd1be6b6b857a8cbef4e6986d732805d2cb44703cf1aa94481e4596dac47e89b28ff20a8081931ed62de3c87c4b9b56def03ac28d1df18edf3905001
+  languageName: node
+  linkType: hard
+
+"version-compare@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "version-compare@npm:3.2.0"
+  checksum: 8a81c516236a0e9a1236d494978f96391069675c1066470e0bf6565359249efb1a8339ac2ba88d547ea81a5eb044ac5f4db47f642d0d3d87e654521569a707b2
+  languageName: node
+  linkType: hard
+
+"version-range@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "version-range@npm:3.2.0"
+  dependencies:
+    version-compare: ^3.2.0
+  checksum: 61e0b60f194d3e06b0e2a4a697abc663387a46f49604a47c9dd52a2f125e0444cbbca9a18ee660ede6df30652a009ddcc78d90c7de0f8f9617fe304ff2317d8d
   languageName: node
   linkType: hard
 

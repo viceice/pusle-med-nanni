@@ -720,7 +720,7 @@ __metadata:
   resolution: "docpad-plugin-imagin@workspace:plugins/imagin"
   dependencies:
     docpad-baseplugin: 1.4.0
-    eachr: 6.0.0
+    eachr: 6.1.0
     extendr: 7.0.0
     fs-extra: 11.1.1
     gm: 1.25.0
@@ -857,13 +857,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eachr@npm:6.0.0":
-  version: 6.0.0
-  resolution: "eachr@npm:6.0.0"
+"eachr@npm:6.1.0":
+  version: 6.1.0
+  resolution: "eachr@npm:6.1.0"
   dependencies:
-    editions: ^6.10.0
-    typechecker: ^8.0.0
-  checksum: 18a66743d6208e3889831bb654b5b85dc58fcf494807155d90dceade9193d56b6a0bc97e292831751a3bf5990412e3bfdf9de9ca09afd5ef0bb6970050459518
+    editions: ^6.11.0
+    typechecker: ^8.1.0
+  checksum: 6c8dc3fd511c4a1f24bf8dfa01b040841a5f57c915fdb5f19da6a7fe5118b4b5fd2f0445bf50cf4fff533a247436e2009f22f73da448d88a03faeb7881c7cdd5
   languageName: node
   linkType: hard
 

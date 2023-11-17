@@ -724,7 +724,7 @@ __metadata:
     extendr: 7.1.0
     fs-extra: 11.1.1
     gm: 1.25.0
-    taskgroup: 9.1.0
+    taskgroup: 9.3.0
   peerDependencies:
     docpad: "*"
   languageName: unknown
@@ -886,7 +886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eachr@npm:^6.0.0, eachr@npm:^6.3.0":
+"eachr@npm:^6.3.0":
   version: 6.3.0
   resolution: "eachr@npm:6.3.0"
   dependencies:
@@ -933,7 +933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editions@npm:^6.10.0, editions@npm:^6.11.0, editions@npm:^6.13.0":
+"editions@npm:^6.11.0, editions@npm:^6.13.0":
   version: 6.13.0
   resolution: "editions@npm:6.13.0"
   dependencies:
@@ -1165,7 +1165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:^7.0.0, extendr@npm:^7.2.0":
+"extendr@npm:^7.2.0":
   version: 7.2.0
   resolution: "extendr@npm:7.2.0"
   dependencies:
@@ -3185,16 +3185,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:9.1.0":
-  version: 9.1.0
-  resolution: "taskgroup@npm:9.1.0"
+"taskgroup@npm:9.3.0, taskgroup@npm:^9.1.0":
+  version: 9.3.0
+  resolution: "taskgroup@npm:9.3.0"
   dependencies:
     ambi: 3.2.0
-    eachr: ^6.0.0
-    editions: ^6.10.0
-    extendr: ^7.0.0
-    unbounded: ^5.0.0
-  checksum: 35d852cd82162fcc1c716310067807d829edd2c0c8de99e6587276baed09261d5734f2303f2dbad2483140c81eac941f4633f7ee029d48ceab4e6aef0a176863
+    eachr: ^6.3.0
+    editions: ^6.13.0
+    extendr: ^7.2.0
+    unbounded: ^5.2.0
+  checksum: 8762c74894aa90e52413bc16aa7fdc52fac4f1b90c2391c351a51cf66b5c68f72021a60defa9e557a70b20805f9a656f0bfd93ae4023d3278746166515bb29ea
   languageName: node
   linkType: hard
 
@@ -3242,19 +3242,6 @@ __metadata:
     extendr: ^5.15.0
     unbounded: ^3.11.0
   checksum: 4211ec114a127af57ba62814cf6c1dff8d4508dd5eb0b7bc5d67f4e4a4025ca48c2fc320d50f19d714a0ed55f26dd8fe71963f6a27b5de420af33f218fb7e19a
-  languageName: node
-  linkType: hard
-
-"taskgroup@npm:^9.1.0":
-  version: 9.3.0
-  resolution: "taskgroup@npm:9.3.0"
-  dependencies:
-    ambi: 3.2.0
-    eachr: ^6.3.0
-    editions: ^6.13.0
-    extendr: ^7.2.0
-    unbounded: ^5.2.0
-  checksum: 8762c74894aa90e52413bc16aa7fdc52fac4f1b90c2391c351a51cf66b5c68f72021a60defa9e557a70b20805f9a656f0bfd93ae4023d3278746166515bb29ea
   languageName: node
   linkType: hard
 
@@ -3408,7 +3395,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbounded@npm:^5.0.0, unbounded@npm:^5.2.0":
+"unbounded@npm:^5.2.0":
   version: 5.2.0
   resolution: "unbounded@npm:5.2.0"
   dependencies:

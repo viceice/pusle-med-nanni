@@ -721,7 +721,7 @@ __metadata:
   dependencies:
     docpad-baseplugin: 1.4.0
     eachr: 6.1.0
-    extendr: 7.0.0
+    extendr: 7.1.0
     fs-extra: 11.1.1
     gm: 1.25.0
     taskgroup: 9.1.0
@@ -1118,13 +1118,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:7.0.0":
-  version: 7.0.0
-  resolution: "extendr@npm:7.0.0"
+"extendr@npm:7.1.0":
+  version: 7.1.0
+  resolution: "extendr@npm:7.1.0"
   dependencies:
-    editions: ^6.10.0
-    typechecker: ^8.0.0
-  checksum: cb3b64825747a03f109c358bbaa5e5d48919730854c70672824f6dc71bada082b74068c870712f0aa8801f80a169c970d600570dec7d7ee779e893ed90888a51
+    editions: ^6.11.0
+    typechecker: ^8.1.0
+  checksum: 3f97a106f6ef6e80276a528b6fe277eb5ea3e64a395f8e291e6d34c2d624c891b9cf10467d69affa7b2e0f52e24ea1473a8cc9d34dcb64b775a8a275c3ac5eaf
   languageName: node
   linkType: hard
 
@@ -3348,7 +3348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typechecker@npm:^8.0.0, typechecker@npm:^8.1.0, typechecker@npm:^8.2.0":
+"typechecker@npm:^8.1.0, typechecker@npm:^8.2.0":
   version: 8.2.0
   resolution: "typechecker@npm:8.2.0"
   dependencies:

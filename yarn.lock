@@ -1207,7 +1207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extract-opts@npm:^5.1.0":
+"extract-opts@npm:^5.2.0":
   version: 5.2.0
   resolution: "extract-opts@npm:5.2.0"
   dependencies:
@@ -2728,7 +2728,7 @@ __metadata:
     metro-ui: 3.0.15
     metro4: 4.5.7
     prettier: 2.8.8
-    safeps: 11.1.0
+    safeps: 11.2.0
     vash: 0.13.0
     waypoints: 4.0.1
   languageName: unknown
@@ -2921,7 +2921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safefs@npm:^8.2.0":
+"safefs@npm:^8.3.0":
   version: 8.3.0
   resolution: "safefs@npm:8.3.0"
   dependencies:
@@ -2931,16 +2931,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safeps@npm:11.1.0":
-  version: 11.1.0
-  resolution: "safeps@npm:11.1.0"
+"safeps@npm:11.2.0":
+  version: 11.2.0
+  resolution: "safeps@npm:11.2.0"
   dependencies:
-    editions: ^6.11.0
-    extract-opts: ^5.1.0
-    safefs: ^8.2.0
-    taskgroup: ^9.1.0
-    typechecker: ^8.1.0
-  checksum: 6544abfa09e7ce070c4915d7afb844e9c4ea3436c7544495185972364ad1c60537e177905caf39259f8fa72db1f27cf02251c7b3153f9dd013bb38b9a97b40d2
+    editions: ^6.13.0
+    extract-opts: ^5.2.0
+    safefs: ^8.3.0
+    taskgroup: ^9.2.0
+    typechecker: ^8.2.0
+  checksum: 2e01a16dcf7fe44143dec01b3d259c7293ae853e7b33d5efd932f011921d8952498a94afafb249e27c66dfddd8644993cd19868b87a58fc310a43182850f4e73
   languageName: node
   linkType: hard
 
@@ -3185,7 +3185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:9.3.0, taskgroup@npm:^9.1.0":
+"taskgroup@npm:9.3.0, taskgroup@npm:^9.2.0":
   version: 9.3.0
   resolution: "taskgroup@npm:9.3.0"
   dependencies:

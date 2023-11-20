@@ -2218,12 +2218,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metro4@npm:4.5.7":
-  version: 4.5.7
-  resolution: "metro4@npm:4.5.7"
+"metro4@npm:4.5.9":
+  version: 4.5.9
+  resolution: "metro4@npm:4.5.9"
   dependencies:
     rollup-plugin-no-emit: ^1.1.1
-  checksum: c16680d88491a622d7b4e5af9ebd2d3dcbcd076ee13a547d376e26bbd0fe7e530886948b019f35805c1d0a42cb86d53cc92eaa541bb1cb253417d79793f78971
+  checksum: 2943aa222e9f549dfb09f2a2f8b1db137931fff7ff169d1554446e5b31df96e739f4e4d8a350c67e61a11fc023f6138a44a51de75251cd2788d453e22e7602aa
   languageName: node
   linkType: hard
 
@@ -2706,7 +2706,7 @@ __metadata:
     lodash: 4.17.21
     luxon: 3.4.4
     metro-ui: 3.0.15
-    metro4: 4.5.7
+    metro4: 4.5.9
     prettier: 2.8.8
     safeps: 11.2.0
     vash: 0.13.0

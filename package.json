@@ -49,7 +49,7 @@
     "safeps": "11.2.0",
     "vash": "0.13.0"
   },
-  "packageManager": "yarn@3.6.4",
+  "packageManager": "yarn@3.7.0",
   "workspaces": [
     "plugins/imagin",
     "plugins/tree"

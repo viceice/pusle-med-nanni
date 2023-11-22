@@ -720,7 +720,7 @@ __metadata:
   resolution: "docpad-plugin-imagin@workspace:plugins/imagin"
   dependencies:
     docpad-baseplugin: 1.4.0
-    eachr: 6.3.0
+    eachr: 6.4.0
     extendr: 7.2.0
     fs-extra: 11.1.1
     gm: 1.25.0
@@ -857,13 +857,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eachr@npm:6.3.0, eachr@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "eachr@npm:6.3.0"
+"eachr@npm:6.4.0":
+  version: 6.4.0
+  resolution: "eachr@npm:6.4.0"
   dependencies:
     editions: ^6.13.0
     typechecker: ^8.2.0
-  checksum: 165995a87df88b173b4954c3b0c1e17f4ed3f58136fe86b6e9458a935e193bbbb8f29003a59d886a2f72d3ddea50afee54002b9e3b412b16632d62123e215c69
+  checksum: f736d429a1cea287c46d5fed3ee9f1706cadf99570bf29e2c3c7c3d5bf7f83f4afaaebdcca768c634f57f9030f0ed3ae4dd4732c9f43c1a12a422398345f4dd4
   languageName: node
   linkType: hard
 
@@ -883,6 +883,16 @@ __metadata:
   dependencies:
     typechecker: ^6.2.0
   checksum: abe3142b5109a34a9a2cf3f5503eb775e6b3973984468a2c011f2571d858c80214deee0d363c0f8a85d93ab0dad885d34d6a120e2d45742f1a61230d25d22569
+  languageName: node
+  linkType: hard
+
+"eachr@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "eachr@npm:6.3.0"
+  dependencies:
+    editions: ^6.13.0
+    typechecker: ^8.2.0
+  checksum: 165995a87df88b173b4954c3b0c1e17f4ed3f58136fe86b6e9458a935e193bbbb8f29003a59d886a2f72d3ddea50afee54002b9e3b412b16632d62123e215c69
   languageName: node
   linkType: hard
 

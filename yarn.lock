@@ -896,6 +896,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eachr@npm:^6.5.0, eachr@npm:^6.6.0":
+  version: 6.6.0
+  resolution: "eachr@npm:6.6.0"
+  dependencies:
+    editions: ^6.15.0
+    typechecker: ^8.5.0
+  checksum: 832b66b6b252ae403747b07f823811ceaa4b6599b985c3f1d16248169e71d7eea093db1830899bbbade6bf603dad45403f070a32ee9435096f99fb2f23be5ce9
+  languageName: node
+  linkType: hard
+
 "editions@npm:^1.1.1, editions@npm:^1.3.3, editions@npm:^1.3.4":
   version: 1.3.4
   resolution: "editions@npm:1.3.4"
@@ -939,6 +949,15 @@ __metadata:
   dependencies:
     version-range: ^3.2.0
   checksum: 34e18053741d68f2fd5695b4809f501efa67e7b28d3b52e1e13b07a66de471c3ba99552a2643d46490fc3e3187f2f02411b2bf7922c36198f7507de9631c8b5e
+  languageName: node
+  linkType: hard
+
+"editions@npm:^6.15.0, editions@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "editions@npm:6.16.0"
+  dependencies:
+    version-range: ^4.7.0
+  checksum: 6c389a67f0a7931dcc516f40b002e96dcb2bd23cc40913017df0ec298f3e6897a23e7ecb1d3b8da083b9df31528c5c02ac5b8a980911af5e7d95886d8970a34c
   languageName: node
   linkType: hard
 
@@ -1165,6 +1184,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"extendr@npm:^7.3.0":
+  version: 7.4.0
+  resolution: "extendr@npm:7.4.0"
+  dependencies:
+    editions: ^6.16.0
+    typechecker: ^8.5.0
+  checksum: 4a8dfa6370c204c1bb76a2264c4445d381e5b31459cebbdab592c909e2f24f580d309d798b3ba658d3c0fef6f0885bc1d3a0352602776c7e1562def8994076b6
+  languageName: node
+  linkType: hard
+
 "external-editor@npm:^3.0.3":
   version: 3.0.3
   resolution: "external-editor@npm:3.0.3"
@@ -1197,14 +1226,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extract-opts@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "extract-opts@npm:5.2.0"
+"extract-opts@npm:^5.3.0":
+  version: 5.4.0
+  resolution: "extract-opts@npm:5.4.0"
   dependencies:
-    eachr: ^6.3.0
-    editions: ^6.13.0
-    typechecker: ^8.2.0
-  checksum: dd79b6b2086b55f58ae368bbfc8052b64c2edb0d29d95e94bafaed0173ccc8ebd280a7d3a01b3599455ee6ddb8710feca97a8183299bbc3bd4da0d745095800d
+    eachr: ^6.6.0
+    editions: ^6.16.0
+    typechecker: ^8.5.0
+  checksum: ee43839bd8d7e5ba15929c90ac684a52448d3ac531d2ba545b864551668dc0cdf8b1c72603b1e3bc7e0ae7e6f95b65d08ed1a6461e17c8e556de875466edc9f0
   languageName: node
   linkType: hard
 
@@ -2718,7 +2747,7 @@ __metadata:
     metro-ui: 3.0.15
     metro4: 4.5.9
     prettier: 2.8.8
-    safeps: 11.2.0
+    safeps: 11.3.0
     vash: 0.13.0
     waypoints: 4.0.1
   languageName: unknown
@@ -2911,26 +2940,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safefs@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "safefs@npm:8.3.0"
+"safefs@npm:^8.4.0":
+  version: 8.5.0
+  resolution: "safefs@npm:8.5.0"
   dependencies:
     graceful-fs: ^4.2.11
-    version-compare: ^3.2.0
-  checksum: 40a20648e2271c7960ae7d84c6addf623ec82eab7a2ecb9f000fa42eee82903240031620c2cba30dd38430d8fb05571cd66b9e8406d1d13b5462f7f27d43140e
+    version-compare: ^3.4.0
+  checksum: e9258045bdb6b25b58b969faf1587f6329a0f0c6441741b7d2545d8f0085321dbf3167b0a4838470da998f446bc48e4b1043c0a41597847102a60c8917d1598c
   languageName: node
   linkType: hard
 
-"safeps@npm:11.2.0":
-  version: 11.2.0
-  resolution: "safeps@npm:11.2.0"
+"safeps@npm:11.3.0":
+  version: 11.3.0
+  resolution: "safeps@npm:11.3.0"
   dependencies:
     editions: ^6.13.0
-    extract-opts: ^5.2.0
-    safefs: ^8.3.0
-    taskgroup: ^9.2.0
-    typechecker: ^8.2.0
-  checksum: 2e01a16dcf7fe44143dec01b3d259c7293ae853e7b33d5efd932f011921d8952498a94afafb249e27c66dfddd8644993cd19868b87a58fc310a43182850f4e73
+    extract-opts: ^5.3.0
+    safefs: ^8.4.0
+    taskgroup: ^9.3.0
+    typechecker: ^8.5.0
+  checksum: 52290c924c932c4b7502d47025f4b6e980f703fedc82aea82794b578a41a31f3f0252870297ad9c197836e8ebf8236157364ec547dc947e63f41512fc113fb5b
   languageName: node
   linkType: hard
 
@@ -3175,7 +3204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:9.3.0, taskgroup@npm:^9.2.0":
+"taskgroup@npm:9.3.0":
   version: 9.3.0
   resolution: "taskgroup@npm:9.3.0"
   dependencies:
@@ -3232,6 +3261,19 @@ __metadata:
     extendr: ^5.15.0
     unbounded: ^3.11.0
   checksum: 4211ec114a127af57ba62814cf6c1dff8d4508dd5eb0b7bc5d67f4e4a4025ca48c2fc320d50f19d714a0ed55f26dd8fe71963f6a27b5de420af33f218fb7e19a
+  languageName: node
+  linkType: hard
+
+"taskgroup@npm:^9.3.0":
+  version: 9.4.0
+  resolution: "taskgroup@npm:9.4.0"
+  dependencies:
+    ambi: 3.2.0
+    eachr: ^6.5.0
+    editions: ^6.13.0
+    extendr: ^7.3.0
+    unbounded: ^5.3.0
+  checksum: d5e89ef7f460c5dcae79e1042de7725aaaea5aabea28a839aac978e1d18dbeae4deb5c8f7db849610f56a020a997cfb73e833f0ff92349c0ae33d24fa1db83cf
   languageName: node
   linkType: hard
 
@@ -3334,6 +3376,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typechecker@npm:^8.5.0":
+  version: 8.5.0
+  resolution: "typechecker@npm:8.5.0"
+  dependencies:
+    editions: ^6.13.0
+  checksum: 9441d7643b92e5b1442e3e260749caf2e0e6660e0aa10fd5bc3c5835d26e3f6b511eb3bbeb9d21fdafa99f7069dc959f9b2736b81fc670526c699b1032b1fcac
+  languageName: node
+  linkType: hard
+
 "uglify-js@npm:^3.16.1":
   version: 3.17.0
   resolution: "uglify-js@npm:3.17.0"
@@ -3391,6 +3442,15 @@ __metadata:
   dependencies:
     editions: ^6.13.0
   checksum: dd0c319e765efd62293b9f4f7fe4a88c0f6982810c5ba00e77fed38089d48f166711bf1c58884451775975d986c36dc37e81803d3a6bdccca301e60af3a48ccb
+  languageName: node
+  linkType: hard
+
+"unbounded@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "unbounded@npm:5.3.0"
+  dependencies:
+    editions: ^6.13.0
+  checksum: 93c2a42f36be0f1e0996d1b3b7209984030f47774021fddcc9d726900fb278a13e78e9cbecec29f4b857b0237f7bdb954a53e3dc1e675f7acc733e749f4c71df
   languageName: node
   linkType: hard
 
@@ -3506,12 +3566,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"version-compare@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "version-compare@npm:3.4.0"
+  checksum: 46f8fb98ea155c82c16ca2890c5b7fb4bebd99dc9fba04905fa405fa2e16756fb5aed69f09e29cd913ae9baa0df3bfb952f623e1d203360d34aa6d3007e9b09e
+  languageName: node
+  linkType: hard
+
 "version-range@npm:^3.2.0":
   version: 3.2.0
   resolution: "version-range@npm:3.2.0"
   dependencies:
     version-compare: ^3.2.0
   checksum: 61e0b60f194d3e06b0e2a4a697abc663387a46f49604a47c9dd52a2f125e0444cbbca9a18ee660ede6df30652a009ddcc78d90c7de0f8f9617fe304ff2317d8d
+  languageName: node
+  linkType: hard
+
+"version-range@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "version-range@npm:4.7.0"
+  checksum: 36419c68154b7f525ea4e3a8a0695a92902df812f7cc4f6718ed6d294c02e8218bee49e6131d9f6f84c5297323661410d14afb9ca9cb7f85df205b5fa533e3a3
   languageName: node
   linkType: hard
 

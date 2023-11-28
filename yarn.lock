@@ -1164,7 +1164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:^7.3.0":
+"extendr@npm:^7.3.0, extendr@npm:^7.4.0":
   version: 7.4.0
   resolution: "extendr@npm:7.4.0"
   dependencies:
@@ -1206,7 +1206,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extract-opts@npm:^5.3.0":
+"extract-opts@npm:^5.4.0":
   version: 5.4.0
   resolution: "extract-opts@npm:5.4.0"
   dependencies:
@@ -2727,7 +2727,7 @@ __metadata:
     metro-ui: 3.0.15
     metro4: 4.5.9
     prettier: 2.8.8
-    safeps: 11.3.0
+    safeps: 11.4.0
     vash: 0.13.0
     waypoints: 4.0.1
   languageName: unknown
@@ -2920,7 +2920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safefs@npm:^8.4.0":
+"safefs@npm:^8.5.0":
   version: 8.5.0
   resolution: "safefs@npm:8.5.0"
   dependencies:
@@ -2930,16 +2930,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safeps@npm:11.3.0":
-  version: 11.3.0
-  resolution: "safeps@npm:11.3.0"
+"safeps@npm:11.4.0":
+  version: 11.4.0
+  resolution: "safeps@npm:11.4.0"
   dependencies:
-    editions: ^6.13.0
-    extract-opts: ^5.3.0
-    safefs: ^8.4.0
-    taskgroup: ^9.3.0
+    editions: ^6.16.0
+    extract-opts: ^5.4.0
+    safefs: ^8.5.0
+    taskgroup: ^9.4.0
     typechecker: ^8.5.0
-  checksum: 52290c924c932c4b7502d47025f4b6e980f703fedc82aea82794b578a41a31f3f0252870297ad9c197836e8ebf8236157364ec547dc947e63f41512fc113fb5b
+  checksum: c60f7dec3acc6cec43ba2d04464dc48e9e779463fdc91c305d6cd468136e99577c7c7d0d4cd419dea8c56cf99b152edc8a29b2ad37b9fe578025a863c61bc553
   languageName: node
   linkType: hard
 
@@ -3184,7 +3184,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:9.4.0, taskgroup@npm:^9.3.0":
+"taskgroup@npm:9.4.0":
   version: 9.4.0
   resolution: "taskgroup@npm:9.4.0"
   dependencies:
@@ -3241,6 +3241,19 @@ __metadata:
     extendr: ^5.15.0
     unbounded: ^3.11.0
   checksum: 4211ec114a127af57ba62814cf6c1dff8d4508dd5eb0b7bc5d67f4e4a4025ca48c2fc320d50f19d714a0ed55f26dd8fe71963f6a27b5de420af33f218fb7e19a
+  languageName: node
+  linkType: hard
+
+"taskgroup@npm:^9.4.0":
+  version: 9.5.0
+  resolution: "taskgroup@npm:9.5.0"
+  dependencies:
+    ambi: 3.2.0
+    eachr: ^6.6.0
+    editions: ^6.16.0
+    extendr: ^7.4.0
+    unbounded: ^5.3.0
+  checksum: cf7e2aa865493b419e384185137093664cb1a3993ca74db1a794e56532e66a6cb9d76bee7a36a15ed87320a8fb7a9918b4669065d5a0f0c4ae3cb0b5f215feb8
   languageName: node
   linkType: hard
 

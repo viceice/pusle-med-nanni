@@ -857,7 +857,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eachr@npm:6.6.0, eachr@npm:^6.6.0":
+"eachr@npm:6.6.0":
   version: 6.6.0
   resolution: "eachr@npm:6.6.0"
   dependencies:
@@ -893,6 +893,16 @@ __metadata:
     editions: ^6.19.0
     typechecker: ^9.2.0
   checksum: 699f27dd25f63b0f6b441b48251ed21436d020e946c9dd4561ab1842397d825aed446041d33af04a7f9427e075ca0628594ed991a92dc7459b8510ef654c943d
+  languageName: node
+  linkType: hard
+
+"eachr@npm:^7.4.0":
+  version: 7.4.0
+  resolution: "eachr@npm:7.4.0"
+  dependencies:
+    editions: ^6.21.0
+    typechecker: ^9.3.0
+  checksum: afcce82106fc5b86aed0258faf106e724af1f01d80377bc911c3c3354f2755b7161b3953628b713a6aae55db276f82c1c75b1e43975cc853b32738ce5552c259
   languageName: node
   linkType: hard
 
@@ -942,7 +952,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editions@npm:^6.15.0, editions@npm:^6.16.0":
+"editions@npm:^6.15.0":
   version: 6.16.0
   resolution: "editions@npm:6.16.0"
   dependencies:
@@ -960,7 +970,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editions@npm:^6.20.0":
+"editions@npm:^6.20.0, editions@npm:^6.21.0":
   version: 6.21.0
   resolution: "editions@npm:6.21.0"
   dependencies:
@@ -1192,16 +1202,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:^7.4.0":
-  version: 7.4.0
-  resolution: "extendr@npm:7.4.0"
-  dependencies:
-    editions: ^6.16.0
-    typechecker: ^8.5.0
-  checksum: 4a8dfa6370c204c1bb76a2264c4445d381e5b31459cebbdab592c909e2f24f580d309d798b3ba658d3c0fef6f0885bc1d3a0352602776c7e1562def8994076b6
-  languageName: node
-  linkType: hard
-
 "extendr@npm:^7.5.0":
   version: 7.7.0
   resolution: "extendr@npm:7.7.0"
@@ -1209,6 +1209,16 @@ __metadata:
     editions: ^6.19.0
     typechecker: ^9.2.0
   checksum: aa77edca91148424685fde3a95f046de2f5edc93373d1a78929902e157a417e4c68ac1592ab0e2030f8c4e6486843e52eb7f137c6dba7ce186d330eb3e9df571
+  languageName: node
+  linkType: hard
+
+"extendr@npm:^7.9.0":
+  version: 7.9.0
+  resolution: "extendr@npm:7.9.0"
+  dependencies:
+    editions: ^6.21.0
+    typechecker: ^9.3.0
+  checksum: e799d31a337574f9787b96779553baf92f0844b4ebc9d05464b288b9ca0dc435b8816cae852631588804e530782cd3888dcd45859d16e96bce79976538fa9728
   languageName: node
   linkType: hard
 
@@ -1244,14 +1254,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extract-opts@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "extract-opts@npm:5.4.0"
+"extract-opts@npm:^5.6.0":
+  version: 5.8.0
+  resolution: "extract-opts@npm:5.8.0"
   dependencies:
-    eachr: ^6.6.0
-    editions: ^6.16.0
-    typechecker: ^8.5.0
-  checksum: ee43839bd8d7e5ba15929c90ac684a52448d3ac531d2ba545b864551668dc0cdf8b1c72603b1e3bc7e0ae7e6f95b65d08ed1a6461e17c8e556de875466edc9f0
+    eachr: ^7.4.0
+    editions: ^6.21.0
+    typechecker: ^9.3.0
+  checksum: 5f18fb8937e452fa8b319a868f5273697a40f9caec1797777f25c55fcaf996138662f9dec6d6669a9af6b5d1466d35fca1112085397df1ad6eef15e96a39e939
   languageName: node
   linkType: hard
 
@@ -2765,7 +2775,7 @@ __metadata:
     metro-ui: 3.0.15
     metro4: 4.5.9
     prettier: 2.8.8
-    safeps: 11.4.0
+    safeps: 11.5.0
     vash: 0.13.0
     waypoints: 4.0.1
   languageName: unknown
@@ -2958,26 +2968,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safefs@npm:^8.5.0":
-  version: 8.5.0
-  resolution: "safefs@npm:8.5.0"
+"safefs@npm:^8.7.0":
+  version: 8.9.0
+  resolution: "safefs@npm:8.9.0"
   dependencies:
+    editions: ^6.21.0
     graceful-fs: ^4.2.11
-    version-compare: ^3.4.0
-  checksum: e9258045bdb6b25b58b969faf1587f6329a0f0c6441741b7d2545d8f0085321dbf3167b0a4838470da998f446bc48e4b1043c0a41597847102a60c8917d1598c
+    version-compare: ^3.10.0
+  checksum: a5cecb4d377b0c70e43016c86c727c6c7b8e41f313ddc1d0c0edfe8ea920b8ebcb99041daa1f82f35a4e4fe139e6adbf3c5cbd2a14631f235c54d56211527248
   languageName: node
   linkType: hard
 
-"safeps@npm:11.4.0":
-  version: 11.4.0
-  resolution: "safeps@npm:11.4.0"
+"safeps@npm:11.5.0":
+  version: 11.5.0
+  resolution: "safeps@npm:11.5.0"
   dependencies:
-    editions: ^6.16.0
-    extract-opts: ^5.4.0
-    safefs: ^8.5.0
-    taskgroup: ^9.4.0
-    typechecker: ^8.5.0
-  checksum: c60f7dec3acc6cec43ba2d04464dc48e9e779463fdc91c305d6cd468136e99577c7c7d0d4cd419dea8c56cf99b152edc8a29b2ad37b9fe578025a863c61bc553
+    editions: ^6.20.0
+    extract-opts: ^5.6.0
+    safefs: ^8.7.0
+    taskgroup: ^9.5.1
+    typechecker: ^9.3.0
+  checksum: f40318016de77b297d2c91035ae94525c5f9078cdf7c74ac0f66b652c331f0b6bf84b421b04782a56dbedec6d5e413c637766ffa4ed0e7ea56ee2209c0d29b79
   languageName: node
   linkType: hard
 
@@ -3282,16 +3293,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:^9.4.0":
-  version: 9.5.0
-  resolution: "taskgroup@npm:9.5.0"
+"taskgroup@npm:^9.5.1":
+  version: 9.7.0
+  resolution: "taskgroup@npm:9.7.0"
   dependencies:
     ambi: 3.2.0
-    eachr: ^6.6.0
-    editions: ^6.16.0
-    extendr: ^7.4.0
-    unbounded: ^5.3.0
-  checksum: cf7e2aa865493b419e384185137093664cb1a3993ca74db1a794e56532e66a6cb9d76bee7a36a15ed87320a8fb7a9918b4669065d5a0f0c4ae3cb0b5f215feb8
+    eachr: ^7.4.0
+    editions: ^6.21.0
+    extendr: ^7.9.0
+    unbounded: ^6.3.1
+  checksum: ad4d4f2d51a77ef191d25437c664f943d9f7ff877df2bc0af499cb520d52ba2f1c85ff6cff40a727558c7e99aa0dadccd7da6e736181ccf8ae6dfceadfb924b6
   languageName: node
   linkType: hard
 
@@ -3463,21 +3474,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbounded@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "unbounded@npm:5.3.0"
-  dependencies:
-    editions: ^6.13.0
-  checksum: 93c2a42f36be0f1e0996d1b3b7209984030f47774021fddcc9d726900fb278a13e78e9cbecec29f4b857b0237f7bdb954a53e3dc1e675f7acc733e749f4c71df
-  languageName: node
-  linkType: hard
-
 "unbounded@npm:^6.0.0":
   version: 6.1.0
   resolution: "unbounded@npm:6.1.0"
   dependencies:
     editions: ^6.19.0
   checksum: dc8b73c2472242747553812a7f758f67e7e1965f9c97ac3b1f2f5b9a94e3091417aa28b91920eb50b4f6983b46aa3569f0c63583223fc7080bbfa9bba33b6eb5
+  languageName: node
+  linkType: hard
+
+"unbounded@npm:^6.3.1":
+  version: 6.3.1
+  resolution: "unbounded@npm:6.3.1"
+  dependencies:
+    editions: ^6.21.0
+  checksum: 10fa1bc5aee35efa123b57802bce085e444796912766cb115ff38f10a76ab4e1dfcb6f8e9be3c2b09e88ae1d41e5c0df136bdc18498a4ea6e767d2502d665d9e
   languageName: node
   linkType: hard
 
@@ -3586,17 +3597,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"version-compare@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "version-compare@npm:3.10.0"
+  dependencies:
+    editions: ^6.20.0
+  checksum: 1d193d6e90d761cf4c739dc158ddc1c745e88f19f98d02a48c0d2cccb9a5bb1ba3c2aadd5bb359d4406faea6214f55a9b1650972c21d150d1f0a245c623cbb95
+  languageName: node
+  linkType: hard
+
 "version-compare@npm:^3.2.0":
   version: 3.2.0
   resolution: "version-compare@npm:3.2.0"
   checksum: 8a81c516236a0e9a1236d494978f96391069675c1066470e0bf6565359249efb1a8339ac2ba88d547ea81a5eb044ac5f4db47f642d0d3d87e654521569a707b2
-  languageName: node
-  linkType: hard
-
-"version-compare@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "version-compare@npm:3.4.0"
-  checksum: 46f8fb98ea155c82c16ca2890c5b7fb4bebd99dc9fba04905fa405fa2e16756fb5aed69f09e29cd913ae9baa0df3bfb952f623e1d203360d34aa6d3007e9b09e
   languageName: node
   linkType: hard
 

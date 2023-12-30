@@ -724,7 +724,7 @@ __metadata:
     extendr: 7.8.0
     fs-extra: 11.2.0
     gm: 1.25.0
-    taskgroup: 9.5.1
+    taskgroup: 9.6.0
   peerDependencies:
     docpad: "*"
   languageName: unknown
@@ -886,17 +886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eachr@npm:^7.1.0":
-  version: 7.2.0
-  resolution: "eachr@npm:7.2.0"
-  dependencies:
-    editions: ^6.19.0
-    typechecker: ^9.2.0
-  checksum: 699f27dd25f63b0f6b441b48251ed21436d020e946c9dd4561ab1842397d825aed446041d33af04a7f9427e075ca0628594ed991a92dc7459b8510ef654c943d
-  languageName: node
-  linkType: hard
-
-"eachr@npm:^7.4.0":
+"eachr@npm:^7.3.0, eachr@npm:^7.4.0":
   version: 7.4.0
   resolution: "eachr@npm:7.4.0"
   dependencies:
@@ -958,15 +948,6 @@ __metadata:
   dependencies:
     version-range: ^4.7.0
   checksum: 6c389a67f0a7931dcc516f40b002e96dcb2bd23cc40913017df0ec298f3e6897a23e7ecb1d3b8da083b9df31528c5c02ac5b8a980911af5e7d95886d8970a34c
-  languageName: node
-  linkType: hard
-
-"editions@npm:^6.18.0, editions@npm:^6.19.0":
-  version: 6.19.0
-  resolution: "editions@npm:6.19.0"
-  dependencies:
-    version-range: ^4.11.0
-  checksum: 18c9dea944c76d9fbed31d36d87efaa0f6e7091f3ab3ce6312bc5ab95e71514ada0efb2891c26f1a679ca1ac9b63bc963f5070175e1ecd80409d990fe4638538
   languageName: node
   linkType: hard
 
@@ -1202,17 +1183,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:^7.5.0":
-  version: 7.7.0
-  resolution: "extendr@npm:7.7.0"
-  dependencies:
-    editions: ^6.19.0
-    typechecker: ^9.2.0
-  checksum: aa77edca91148424685fde3a95f046de2f5edc93373d1a78929902e157a417e4c68ac1592ab0e2030f8c4e6486843e52eb7f137c6dba7ce186d330eb3e9df571
-  languageName: node
-  linkType: hard
-
-"extendr@npm:^7.9.0":
+"extendr@npm:^7.8.0, extendr@npm:^7.9.0":
   version: 7.9.0
   resolution: "extendr@npm:7.9.0"
   dependencies:
@@ -3233,16 +3204,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:9.5.1":
-  version: 9.5.1
-  resolution: "taskgroup@npm:9.5.1"
+"taskgroup@npm:9.6.0":
+  version: 9.6.0
+  resolution: "taskgroup@npm:9.6.0"
   dependencies:
     ambi: 3.2.0
-    eachr: ^7.1.0
-    editions: ^6.18.0
-    extendr: ^7.5.0
-    unbounded: ^6.0.0
-  checksum: f7d94fd4227a985a8d07f9ef60b70336c273bb5e34b0677a65d6a08069c0aa3ca8222964e83461c1e1b242bb49b30dacf243e7c2d1854824cc209c50ae06d13f
+    eachr: ^7.3.0
+    editions: ^6.20.0
+    extendr: ^7.8.0
+    unbounded: ^6.2.0
+  checksum: fe5180d6d293357d88c020b9ceb71930af2d41b53b056d49bab67d199bd6b3666936c231e37295aa06e3c4d772cd1a80fb5e6e0a0cf3f30d7cc66a3dde84fbf0
   languageName: node
   linkType: hard
 
@@ -3405,15 +3376,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typechecker@npm:^9.2.0":
-  version: 9.2.0
-  resolution: "typechecker@npm:9.2.0"
-  dependencies:
-    editions: ^6.19.0
-  checksum: 9425e6cd3c6916ee11ff24c5d6e68a653906ea5c335b2306ee7774cd53b230804f5faf6eb0ebc46409578a8fecb9a6d768b70f5840135bc5f1d616d7caa412ce
-  languageName: node
-  linkType: hard
-
 "typechecker@npm:^9.3.0":
   version: 9.3.0
   resolution: "typechecker@npm:9.3.0"
@@ -3474,16 +3436,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbounded@npm:^6.0.0":
-  version: 6.1.0
-  resolution: "unbounded@npm:6.1.0"
-  dependencies:
-    editions: ^6.19.0
-  checksum: dc8b73c2472242747553812a7f758f67e7e1965f9c97ac3b1f2f5b9a94e3091417aa28b91920eb50b4f6983b46aa3569f0c63583223fc7080bbfa9bba33b6eb5
-  languageName: node
-  linkType: hard
-
-"unbounded@npm:^6.3.1":
+"unbounded@npm:^6.2.0, unbounded@npm:^6.3.1":
   version: 6.3.1
   resolution: "unbounded@npm:6.3.1"
   dependencies:
@@ -3619,13 +3572,6 @@ __metadata:
   dependencies:
     version-compare: ^3.2.0
   checksum: 61e0b60f194d3e06b0e2a4a697abc663387a46f49604a47c9dd52a2f125e0444cbbca9a18ee660ede6df30652a009ddcc78d90c7de0f8f9617fe304ff2317d8d
-  languageName: node
-  linkType: hard
-
-"version-range@npm:^4.11.0":
-  version: 4.11.0
-  resolution: "version-range@npm:4.11.0"
-  checksum: a2e064cb8a3cd329129d0d05beb19f146945833397d88e90500a36e9bcab499aab6ff64b11206fa4a59b2e7c58394ac3aec1f04f5c78ed8d1750f3bcfdc7c100
   languageName: node
   linkType: hard
 

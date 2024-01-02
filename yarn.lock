@@ -724,7 +724,7 @@ __metadata:
     extendr: 7.9.0
     fs-extra: 11.2.0
     gm: 1.25.0
-    taskgroup: 9.6.0
+    taskgroup: 9.7.0
   peerDependencies:
     docpad: "*"
   languageName: unknown
@@ -886,7 +886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eachr@npm:^7.3.0, eachr@npm:^7.4.0":
+"eachr@npm:^7.4.0":
   version: 7.4.0
   resolution: "eachr@npm:7.4.0"
   dependencies:
@@ -1136,7 +1136,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:7.9.0, extendr@npm:^7.8.0, extendr@npm:^7.9.0":
+"extendr@npm:7.9.0, extendr@npm:^7.9.0":
   version: 7.9.0
   resolution: "extendr@npm:7.9.0"
   dependencies:
@@ -3194,16 +3194,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:9.6.0":
-  version: 9.6.0
-  resolution: "taskgroup@npm:9.6.0"
+"taskgroup@npm:9.7.0, taskgroup@npm:^9.6.0":
+  version: 9.7.0
+  resolution: "taskgroup@npm:9.7.0"
   dependencies:
     ambi: 3.2.0
-    eachr: ^7.3.0
-    editions: ^6.20.0
-    extendr: ^7.8.0
-    unbounded: ^6.2.0
-  checksum: fe5180d6d293357d88c020b9ceb71930af2d41b53b056d49bab67d199bd6b3666936c231e37295aa06e3c4d772cd1a80fb5e6e0a0cf3f30d7cc66a3dde84fbf0
+    eachr: ^7.4.0
+    editions: ^6.21.0
+    extendr: ^7.9.0
+    unbounded: ^6.3.1
+  checksum: ad4d4f2d51a77ef191d25437c664f943d9f7ff877df2bc0af499cb520d52ba2f1c85ff6cff40a727558c7e99aa0dadccd7da6e736181ccf8ae6dfceadfb924b6
   languageName: node
   linkType: hard
 
@@ -3251,19 +3251,6 @@ __metadata:
     extendr: ^5.15.0
     unbounded: ^3.11.0
   checksum: 4211ec114a127af57ba62814cf6c1dff8d4508dd5eb0b7bc5d67f4e4a4025ca48c2fc320d50f19d714a0ed55f26dd8fe71963f6a27b5de420af33f218fb7e19a
-  languageName: node
-  linkType: hard
-
-"taskgroup@npm:^9.6.0":
-  version: 9.7.0
-  resolution: "taskgroup@npm:9.7.0"
-  dependencies:
-    ambi: 3.2.0
-    eachr: ^7.4.0
-    editions: ^6.21.0
-    extendr: ^7.9.0
-    unbounded: ^6.3.1
-  checksum: ad4d4f2d51a77ef191d25437c664f943d9f7ff877df2bc0af499cb520d52ba2f1c85ff6cff40a727558c7e99aa0dadccd7da6e736181ccf8ae6dfceadfb924b6
   languageName: node
   linkType: hard
 
@@ -3426,7 +3413,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbounded@npm:^6.2.0, unbounded@npm:^6.3.1":
+"unbounded@npm:^6.3.1":
   version: 6.3.1
   resolution: "unbounded@npm:6.3.1"
   dependencies:

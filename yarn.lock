@@ -724,7 +724,7 @@ __metadata:
     extendr: 7.10.0
     fs-extra: 11.2.0
     gm: 1.25.0
-    taskgroup: 9.7.0
+    taskgroup: 9.8.0
   peerDependencies:
     docpad: "*"
   languageName: unknown
@@ -1136,7 +1136,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extendr@npm:7.10.0":
+"extendr@npm:7.10.0, extendr@npm:^7.10.0":
   version: 7.10.0
   resolution: "extendr@npm:7.10.0"
   dependencies:
@@ -3204,16 +3204,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"taskgroup@npm:9.7.0, taskgroup@npm:^9.6.0":
-  version: 9.7.0
-  resolution: "taskgroup@npm:9.7.0"
+"taskgroup@npm:9.8.0":
+  version: 9.8.0
+  resolution: "taskgroup@npm:9.8.0"
   dependencies:
     ambi: 3.2.0
     eachr: ^7.4.0
     editions: ^6.21.0
-    extendr: ^7.9.0
+    extendr: ^7.10.0
     unbounded: ^6.3.1
-  checksum: ad4d4f2d51a77ef191d25437c664f943d9f7ff877df2bc0af499cb520d52ba2f1c85ff6cff40a727558c7e99aa0dadccd7da6e736181ccf8ae6dfceadfb924b6
+  checksum: 3c9519c3c3f6d57601da1634cb193f28dd309ca3f8f0b46f6b3d08b6f66152fdf716078e7cbb96dbcd81ab208574978aa35e8153cb607b7edc26a1c17f03f2e7
   languageName: node
   linkType: hard
 
@@ -3261,6 +3261,19 @@ __metadata:
     extendr: ^5.15.0
     unbounded: ^3.11.0
   checksum: 4211ec114a127af57ba62814cf6c1dff8d4508dd5eb0b7bc5d67f4e4a4025ca48c2fc320d50f19d714a0ed55f26dd8fe71963f6a27b5de420af33f218fb7e19a
+  languageName: node
+  linkType: hard
+
+"taskgroup@npm:^9.6.0":
+  version: 9.7.0
+  resolution: "taskgroup@npm:9.7.0"
+  dependencies:
+    ambi: 3.2.0
+    eachr: ^7.4.0
+    editions: ^6.21.0
+    extendr: ^7.9.0
+    unbounded: ^6.3.1
+  checksum: ad4d4f2d51a77ef191d25437c664f943d9f7ff877df2bc0af499cb520d52ba2f1c85ff6cff40a727558c7e99aa0dadccd7da6e736181ccf8ae6dfceadfb924b6
   languageName: node
   linkType: hard
 

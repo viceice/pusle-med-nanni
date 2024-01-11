@@ -11,7 +11,7 @@ const safeps = require('safeps');
 const docpadConfig = {
     templateData: {
         site: {
-            url: 'http://pusle-med-nanni.de',
+            url: 'https://www.pusle-med-nanni.de',
 
             title: 'Pusle med Nanni',
             // The website description (for SEO)

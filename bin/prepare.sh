@@ -16,3 +16,7 @@ echo "loading encrypted key"
 ssh-add - <(sops -d .github/secrets/ssh-pk.enc.pem)
 
 echo "vps577063.ovh.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFuuDnpHPBfoW7jZjEqTVrbkQXdG42sAX4bDscc90utS" >> ~/.ssh/known_hosts
+
+ssh gitlab@vps577063.ovh.net ps
+
+exit 1

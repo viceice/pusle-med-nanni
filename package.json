@@ -14,6 +14,7 @@
     "docpad": "docpad",
     "grunt": "grunt",
     "build": "docpad generate --env static",
+    "prettier:check": "prettier --cache -c -u .",
     "prettier:fix": "prettier --cache -w -u ."
   },
   "engines": {

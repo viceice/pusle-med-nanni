@@ -1,6 +1,6 @@
 ---
-title: "Blog"
-layout: "default"
+title: 'Blog'
+layout: 'default'
 ignored: true
 hidden: true
 order: 5

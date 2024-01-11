@@ -1,7 +1,6 @@
 {
-    "files.associations": {
-    },
-    "[vash]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "files.associations": {},
+  "[vash]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

@@ -1,8 +1,9 @@
 ---
-title: "Impressum"
-layout: "base"
+title: 'Impressum'
+layout: 'base'
 hidden: true
 ---
+
 # Impressum
 
 ## Angaben gemäß § 5 TMG:

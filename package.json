@@ -13,7 +13,8 @@
     "docker": "docker run -it -v %cd%:/usr/src/app --rm -w /usr/src/app node:lts yarn",
     "docpad": "docpad",
     "grunt": "grunt",
-    "build": "docpad generate --env static"
+    "build": "docpad generate --env static",
+    "prettier:fix": "prettier --cache -w -u ."
   },
   "engines": {
     "node": "^16.13.0 || >= 18.12.0",

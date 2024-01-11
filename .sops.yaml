@@ -1,7 +1,7 @@
 creation_rules:
-  - path_regex: \.ya?ml$
-    encrypted_regex: '^(data|stringData)$'
-    age: age1gm6lvex2naent68flaxhrvvznnzppveewlz3m48g2u5h5j87d4kqnhvp82
-  - path_regex: \.json$
-    age: age1gm6lvex2naent68flaxhrvvznnzppveewlz3m48g2u5h5j87d4kqnhvp82
-  - age: age1gm6lvex2naent68flaxhrvvznnzppveewlz3m48g2u5h5j87d4kqnhvp82
+    - path_regex: \.ya?ml$
+      encrypted_regex: '^(data|stringData)$'
+      age: age1gm6lvex2naent68flaxhrvvznnzppveewlz3m48g2u5h5j87d4kqnhvp82
+    - path_regex: \.json$
+      age: age1gm6lvex2naent68flaxhrvvznnzppveewlz3m48g2u5h5j87d4kqnhvp82
+    - age: age1gm6lvex2naent68flaxhrvvznnzppveewlz3m48g2u5h5j87d4kqnhvp82

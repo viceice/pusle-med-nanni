@@ -12,7 +12,7 @@ class Tree {
         // whenever a URL is handled internally and should never be used to
         // manipulate URLs defined in DocPad core.
         var urlRegex = (this.urlRegex = /^\/|\/$|index\.\w*$/g);
-        var addChild = function(doc, parts, parent, index) {
+        var addChild = function (doc, parts, parent, index) {
             var part = parts[index];
             // Intialize the new context if it doesn't exist
             var current = (parent[part] = parent[part] || { children: {} });
@@ -28,7 +28,7 @@ class Tree {
                 addChild(doc, parts, current.children, index + 1);
             }
         };
-        collection.forEach(function(doc) {
+        collection.forEach(function (doc) {
             // Split the document URL into an array
             var parts = _.compact(doc.url.replace(urlRegex, '').split('/'));
             if (includeRoot) {
@@ -43,7 +43,7 @@ class Tree {
         var output = [],
             documents = this.documents,
             urlRegex = this.urlRegex;
-        var addDocument = function(parent, current) {
+        var addDocument = function (parent, current) {
             if (current.hidden) {
                 return;
             }
@@ -59,7 +59,7 @@ class Tree {
                 current.current = contextUrl === currentUrl;
             }
             // Grab all child documents of the current document and sort them
-            var children = _.sortBy(current.children, function(doc) {
+            var children = _.sortBy(current.children, function (doc) {
                 return parseFloat(doc.order);
             });
             if (_.isEmpty(children)) {
@@ -67,15 +67,15 @@ class Tree {
             }
             // Re-initialize document children as array
             current.children = [];
-            Object.keys(children).forEach(function(child) {
+            Object.keys(children).forEach(function (child) {
                 addDocument(current.children, children[child]);
             });
         };
         // Sort all 'first-level' documents
-        documents = _.sortBy(documents, function(doc) {
+        documents = _.sortBy(documents, function (doc) {
             return parseFloat(doc.order);
         });
-        Object.keys(documents).forEach(function(child) {
+        Object.keys(documents).forEach(function (child) {
             addDocument(output, documents[child]);
         });
         return output;
@@ -83,7 +83,6 @@ class Tree {
 }
 
 class TreePlugin extends BasePlugin {
-
     get name() {
         return 'tree';
     }
@@ -92,7 +91,7 @@ class TreePlugin extends BasePlugin {
         const { docpad } = this;
         const { templateData } = options;
 
-        templateData.tree = function(collection, context, includeRoot) {
+        templateData.tree = function (collection, context, includeRoot) {
             if (collection === null) {
                 collection = 'documents';
             }

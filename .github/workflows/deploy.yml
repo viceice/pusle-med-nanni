@@ -28,15 +28,32 @@ jobs:
     needs:
       - build
 
-    permissions:
-      pages: write
-      id-token: write
-
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: www
+      url: https://www.pusle-med-nanni.de
 
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@7a9bd943aa5e5175aeb8502edcc6c1c02d398e10 # v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          show-progress: false
+
+      - name: prepare
+        run: |
+          ./bin/prepare.sh
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+
+      - name: Download pages artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pages
+          path: dist
+
+      - name: deploy
+        run: |
+          rsync -aPhh --chmod=D775,F664 --delete ./dist/ --exclude-from=.rsyncignore gitlab@vps577063.ovh.net:/opt/docker/html/de.pusle-med-nanni.www/
+
+      - name: cleanup
+        if: ${{ always() }}
+        run: |
+          ssh-agent -k

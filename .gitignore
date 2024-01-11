@@ -2,8 +2,6 @@ node_modules/
 bower_components/
 /.yarn-cache
 out/
-obj/
-bin/
 .vs/
 build/
 dist/

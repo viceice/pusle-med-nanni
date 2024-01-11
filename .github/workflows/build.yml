@@ -15,8 +15,9 @@ jobs:
           corepack enable
           sudo apt install graphicsmagick
 
-      - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          show-progress: false
 
       - name: Setup Node
         uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4
@@ -42,7 +43,10 @@ jobs:
           yarn build
           find dist/images/ -type f -iname '*.jpg' -not -name '*.thumb*' -delete
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@0252fc4ba7626f0298f0cf00902a25c6afc77fa8 # v3
+      - name: Upload pages artifact
+        uses: actions/upload-artifact@v4
         with:
+          name: pages
           path: ./dist
+          if-no-files-found: error
+          retention-days: 1

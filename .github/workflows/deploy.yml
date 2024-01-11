@@ -38,7 +38,7 @@ jobs:
           show-progress: false
 
       - name: Setup SOPS
-        uses: nhedger/setup-sops@v2.0.0
+        uses: nhedger/setup-sops@358bac533e4e92f9ce9f9da563d6265929c88cda # v2.0.0
 
       - name: prepare
         run: |
@@ -47,7 +47,7 @@ jobs:
           SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
 
       - name: Download pages artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@6b208ae046db98c579e8a3aa621ab581ff575935 # v4
         with:
           name: pages
           path: dist

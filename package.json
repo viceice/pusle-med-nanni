@@ -1,10 +1,10 @@
 {
   "name": "pusle-med-nanni",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://src.kriese.eu/kriese/pusle-med-nanni.git"
+    "url": "https://github.com/viceice/pusle-med-nanni.git"
   },
   "author": "Michael Kriese <michael.kriese@gmx.de>",
   "main": "node_modules/.bin/docpad-server",

@@ -3,7 +3,7 @@
   "extends": ["visualon/renovate-config"],
   "packageRules": [
     {
-      "matchPaths": ["plugins/*/package.json"],
+      "matchFileNames": ["plugins/*/package.json"],
       "extends": [":automergeMinor", "schedule:nonOfficeHours"],
       "automergeType": "pr",
       "dependencyDashboardApproval": false,

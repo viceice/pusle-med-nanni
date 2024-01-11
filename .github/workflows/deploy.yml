@@ -17,15 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Setup SOPS
-        uses: nhedger/setup-sops@v2.0.0
-      - run: sops --version
-
   build:
-    needs: test
     uses: ./.github/workflows/build.yml
     permissions:
       contents: read

@@ -209,7 +209,7 @@ class Imagin extends BasePlugin {
                         // check if the thumbnail already exists and is up to date
                         const stats = fs.statSync(dstPath);
                         if (stats.mtime < mtime) {
-                            docpad.log('info', `Imagin mtime diff ${dstPath}: ${stats.mtime.toISOString()} != ${mtime.toISOString()}`);
+                            docpad.log('info', `Imagin mtime diff ${dstPath}: ${stats.mtime.toISOString()} < ${mtime.toISOString()}`);
                             generate = true;
                         }
                     } catch (err) {

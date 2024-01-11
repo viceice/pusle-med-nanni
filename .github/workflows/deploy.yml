@@ -17,22 +17,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
-        with:
-          show-progress: false
-
-      - name: Setup SOPS
-        uses: nhedger/setup-sops@v2.0.0
-
-      - name: prepare
-        run: |
-          ./bin/prepare.sh
-        env:
-          SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
-
   build:
     needs: test
     uses: ./.github/workflows/build.yml
@@ -41,9 +25,6 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-
-    needs:
-      - build
 
     environment:
       name: www

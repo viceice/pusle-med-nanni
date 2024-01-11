@@ -19,7 +19,3 @@ if [ ! -d ~/.ssh ]; then
 fi
 echo "vps577063.ovh.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFuuDnpHPBfoW7jZjEqTVrbkQXdG42sAX4bDscc90utS" >> ~/.ssh/known_hosts
 
-echo testing connection
-ssh gitlab@vps577063.ovh.net id
-
-exit 1

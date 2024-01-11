@@ -18,11 +18,7 @@ module.exports = function (grunt) {
         },
         loadGruntTasks: false,
         jitGrunt: {
-            staticMappings: {
-                nugetpack: 'grunt-nuget',
-                nugetpush: 'grunt-nuget',
-                sync: 'grunt-sync-pkg',
-            },
+            staticMappings: {},
             customTasksDir: 'tasks',
         },
     });

@@ -16,3 +16,9 @@ desktop.ini
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# sops
+*.raw.pem
+*.raw.json
+*.raw.yaml

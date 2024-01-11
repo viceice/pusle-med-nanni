@@ -17,7 +17,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sops --version
+
   build:
+    needs: test
     uses: ./.github/workflows/build.yml
     permissions:
       contents: read
@@ -41,7 +47,7 @@ jobs:
         run: |
           ./bin/prepare.sh
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+          SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
 
       - name: Download pages artifact
         uses: actions/download-artifact@v4

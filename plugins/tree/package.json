@@ -7,6 +7,7 @@
     "navigation",
     "tree"
   ],
+  "license": "MIT",
   "author": {
     "name": "Kasper Isager",
     "email": "kasperisager@gmail.com",
@@ -24,9 +25,11 @@
       "url": "https://github.com/viceice"
     }
   ],
-  "license": "MIT",
-  "main": "src/index.js",
   "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "docpad-plugintester"
+  },
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
     "underscore": "1.13.6",
@@ -52,8 +55,5 @@
         "node": "^14.15.0 || >=16.13.0"
       }
     }
-  ],
-  "scripts": {
-    "test": "docpad-plugintester"
-  }
+  ]
 }

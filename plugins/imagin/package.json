@@ -8,6 +8,7 @@
     "resize",
     "thumbnail"
   ],
+  "license": "MIT",
   "author": "Almero Digital Marketing (http://almero.com)",
   "contributors": [
     {
@@ -16,9 +17,11 @@
       "url": "https://github.com/viceice"
     }
   ],
-  "license": "MIT",
-  "main": "src/index.js",
   "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "docpad-plugintester"
+  },
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
     "eachr": "6.6.0",
@@ -47,8 +50,5 @@
         "node": "^14.15.0 || >=16.13.0"
       }
     }
-  ],
-  "scripts": {
-    "test": "docpad-plugintester"
-  }
+  ]
 }

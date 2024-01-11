@@ -8,18 +8,18 @@
   },
   "author": "Michael Kriese <michael.kriese@gmx.de>",
   "main": "node_modules/.bin/docpad-server",
+  "workspaces": [
+    "plugins/imagin",
+    "plugins/tree"
+  ],
   "scripts": {
-    "start": "docpad run",
+    "build": "docpad generate --env static",
     "docker": "docker run -it -v %cd%:/usr/src/app --rm -w /usr/src/app node:lts yarn",
     "docpad": "docpad",
     "grunt": "grunt",
-    "build": "docpad generate --env static",
     "prettier:check": "prettier --cache -c -u .",
-    "prettier:fix": "prettier --cache -w -u ."
-  },
-  "engines": {
-    "node": "^16.13.0 || >= 18.12.0",
-    "pnpm": "^8.0.0"
+    "prettier:fix": "prettier --cache -w -u .",
+    "start": "docpad run"
   },
   "dependencies": {
     "cookieconsent": "3.1.1",
@@ -49,12 +49,13 @@
     "lodash": "4.17.21",
     "luxon": "3.4.4",
     "prettier": "3.1.1",
+    "prettier-plugin-packagejson": "2.4.9",
     "safeps": "11.6.0",
     "vash": "0.13.0"
   },
   "packageManager": "pnpm@8.14.0",
-  "workspaces": [
-    "plugins/imagin",
-    "plugins/tree"
-  ]
+  "engines": {
+    "node": "^16.13.0 || >= 18.12.0",
+    "pnpm": "^8.0.0"
+  }
 }

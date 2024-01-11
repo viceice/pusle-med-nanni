@@ -18,7 +18,7 @@
   },
   "engines": {
     "node": "^16.13.0 || >= 18.12.0",
-    "yarn": "^3.2.0"
+    "pnpm": "^8.0.0"
   },
   "dependencies": {
     "cookieconsent": "3.1.1",
@@ -32,11 +32,13 @@
   "devDependencies": {
     "docpad": "6.83.2",
     "docpad-plugin-consolidate": "2.7.0",
+    "docpad-plugin-imagin": "workspace:*",
     "docpad-plugin-less": "2.10.0",
     "docpad-plugin-livereload": "2.11.0",
     "docpad-plugin-marked": "2.10.0",
     "docpad-plugin-partials": "2.14.0",
     "docpad-plugin-serve": "2.1.0",
+    "docpad-plugin-tree": "workspace:*",
     "grunt": "1.6.1",
     "grunt-autoprefixer": "3.0.4",
     "grunt-changed": "3.0.0",
@@ -50,7 +52,7 @@
     "safeps": "11.6.0",
     "vash": "0.13.0"
   },
-  "packageManager": "yarn@3.7.0",
+  "packageManager": "pnpm@8.14.0",
   "workspaces": [
     "plugins/imagin",
     "plugins/tree"

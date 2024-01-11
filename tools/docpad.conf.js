@@ -128,8 +128,6 @@ Willkommen bei pusle med Nanni.\
         },
     },
 
-    pluginPaths: ['docpad-plugin-imagin', 'docpad-plugin-tree'],
-
     plugins: {
         imagin: {
             presets: {

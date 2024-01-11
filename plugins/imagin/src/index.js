@@ -173,7 +173,7 @@ class Imagin extends BasePlugin {
                         } else if (a in config.presets) {
                             params = merge(params, config.presets[a]);
                         } else {
-                            docpad.log('warn', `Unknown parameter '${a}' for image '${srcPath}'`);
+                            docpad.log('warn', `imagin: Unknown parameter '${a}' for image '${srcPath}'`);
                         }
                     }
                 }
@@ -209,9 +209,11 @@ class Imagin extends BasePlugin {
                         // check if the thumbnail already exists and is up to date
                         const stats = fs.statSync(dstPath);
                         if (stats.mtime < mtime) {
+                            docpad.log('info', `Imagin mtime diff ${dstPath}: ${stats.mtime.toISOString()} != ${mtime.toISOString()}`);
                             generate = true;
                         }
                     } catch (err) {
+                        docpad.log('info', `Imagin error while stat ${dstPath}: ${err}`);
                         generate = true;
                     }
 

@@ -32,8 +32,7 @@ jobs:
         with:
           path: |
             dist
-          # Generate a new cache whenever packages or source files change.
-          key: dist-${{ hashFiles('.node-version', 'yarn.lock', 'src/**') }}
+          key: dist-${{ github.sha }}
           restore-keys: |
             dist-
 

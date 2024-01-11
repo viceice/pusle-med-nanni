@@ -10,10 +10,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Prepare runner
+        run: |
+          corepack enable
+          sudo apt install graphicsmagick
+
       - name: Checkout
         uses: actions/checkout@v4
-
-      - run: corepack enable
 
       - name: Setup Node
         uses: actions/setup-node@v4

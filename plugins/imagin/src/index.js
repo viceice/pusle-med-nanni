@@ -16,7 +16,6 @@ const sharp = require('sharp');
 const path = require('path');
 const fs = require('fs-extra');
 const extendr = require('extendr');
-const taskgroup = require('taskgroup');
 
 function merge(obj1, obj2) {
     return extendr.extend(extendr.extend({}, obj1), obj2);
@@ -218,7 +217,7 @@ class Imagin extends BasePlugin {
                     }
 
                     if (generate) {
-                        docpad.log('info', `Imagin is adding to queue: ${relPath}`);
+                        docpad.log('debug', `Imagin is adding to queue: ${relPath}`);
 
                         // add to queue
                         me.thumbnailsToGenerate[dstPath] = {
@@ -252,7 +251,7 @@ class Imagin extends BasePlugin {
             return next();
         }
 
-        const tasks = new taskgroup.TaskGroup({ concurrency: config.concurrency ?? 0 }).done(function (err) {
+        const tasks = new docpad.createTaskGroup({ concurrency: config.concurrency ?? 0 }).done(function (err) {
             if (err == null) {
                 docpad.log('info', 'Imagin generation completed successfully');
             } else {
@@ -284,7 +283,7 @@ class Imagin extends BasePlugin {
                         docpad.error(err);
                         ++failures;
                     } else {
-                        docpad.log('info', `Finished generating: ${relPath}`);
+                        docpad.log('debug', `Finished generating: ${relPath}`);
                     }
                     complete();
                 });

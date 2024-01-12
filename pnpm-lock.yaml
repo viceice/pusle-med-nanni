@@ -114,9 +114,6 @@ importers:
       sharp:
         specifier: 0.33.1
         version: 0.33.1
-      taskgroup:
-        specifier: 9.8.0
-        version: 9.8.0
 
   plugins/serve:
     dependencies:
@@ -1191,6 +1188,7 @@ packages:
     dependencies:
       editions: 6.21.0
       typechecker: 9.3.0
+    dev: true
 
   /editions@1.3.4:
     resolution: {integrity: sha512-gzao+mxnYDzIysXKMQi/+M1mjy/rjestjg6OPoYTtI+3Izp23oiGZitsl9lPDPiTGXbcSIk1iJWhliSaglxnUg==}
@@ -3027,6 +3025,7 @@ packages:
       editions: 6.21.0
       extendr: 7.10.0
       unbounded: 6.3.1
+    dev: true
 
   /text-hex@1.0.0:
     resolution: {integrity: sha512-uuVGNWzgJ4yhRaNSiubPY7OjISw4sw4E5Uv0wbjp+OzcbmVU/rsT8ujgcXJhn9ypzsgr5vlzpPqP+MBBKcGvbg==}
@@ -3129,6 +3128,7 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       editions: 6.21.0
+    dev: true
 
   /unc-path-regex@0.1.2:
     resolution: {integrity: sha512-eXL4nmJT7oCpkZsHZUOJo8hcX3GbsiDOa0Qu9F646fi8dT3XuSVopVqAcEiVzSKKH7UoDti23wNX3qGFxcW5Qg==}

@@ -2,9 +2,9 @@ name: test
 
 on:
   push:
-    branches:
-      - renovate/**
-
+    branches-ignore:
+      - main
+      - gh-readonly-queue/**
 permissions:
   contents: read
 

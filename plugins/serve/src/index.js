@@ -19,7 +19,7 @@ class ServePlugin extends BasePlugin {
     }
 
     // Create the server
-    docpadReady(opts, next) {
+    runBefore(opts, next) {
         this.createServer(opts, next);
     }
     createServer(opts, next) {

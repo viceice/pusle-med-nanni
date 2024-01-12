@@ -251,7 +251,7 @@ class Imagin extends BasePlugin {
             return next();
         }
 
-        const tasks = new docpad.createTaskGroup({ concurrency: config.concurrency ?? 0 }).done(function (err) {
+        const tasks = docpad.createTaskGroup({ concurrency: config.concurrency ?? 0 }).done(function (err) {
             if (err == null) {
                 docpad.log('info', 'Imagin generation completed successfully');
             } else {

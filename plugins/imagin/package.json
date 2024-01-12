@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-imagin",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -24,10 +24,9 @@
   },
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
-    "eachr": "7.4.0",
     "extendr": "7.10.0",
     "fs-extra": "11.2.0",
-    "gm": "1.25.0",
+    "sharp": "0.33.1",
     "taskgroup": "9.8.0"
   },
   "peerDependencies": {

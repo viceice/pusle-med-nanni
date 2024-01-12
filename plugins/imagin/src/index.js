@@ -12,11 +12,10 @@
 
 // External
 const BasePlugin = require('docpad-baseplugin');
-const gm = require('gm');
+const sharp = require('sharp');
 const path = require('path');
 const fs = require('fs-extra');
 const extendr = require('extendr');
-const eachr = require('eachr');
 const taskgroup = require('taskgroup');
 
 function merge(obj1, obj2) {
@@ -83,12 +82,14 @@ class Imagin extends BasePlugin {
             },
 
             targets: {
-                default(img, args) {
-                    return img.quality(args.q).resize(args.w, args.h);
+                default(/** @type {sharp.Sharp } */ img, args) {
+                    // TODO: quality `args.q`
+                    return img.resize(args.w, args.h);
                 },
-                zoomcrop(img, args) {
-                    return img.quality(args.q).gravity('Center').resize(args.w, args.h, '^').crop(args.w, args.h);
-                },
+                // not supported yet
+                // zoomcrop(img, args) {
+                //     return img.quality(args.q).gravity('Center').resize(args.w, args.h, '^').crop(args.w, args.h);
+                // },
             },
 
             imageMagick: false,
@@ -142,6 +143,7 @@ class Imagin extends BasePlugin {
 
             if (attributes != null) {
                 const srcPath = attributes.fullPath;
+                const relPath = attributes.relativePath ?? path.relative(docpad.config.srcPath, srcPath);
                 const { outDirPath } = attributes;
                 const relOutDirPath = attributes.relativeOutDirPath;
                 const { mtime } = attributes;
@@ -150,7 +152,7 @@ class Imagin extends BasePlugin {
 
                 // first check that file extension is a valid image format
                 if (!Array.from(config.extensions).includes(ext)) {
-                    const msg = `Thumbnail source file extension '${ext}' not recognised`;
+                    const msg = `Thumbnail source file extension '${ext}' not recognised: ${relPath}`;
                     docpad.error(msg);
                     return '';
                 }
@@ -173,7 +175,7 @@ class Imagin extends BasePlugin {
                         } else if (a in config.presets) {
                             params = merge(params, config.presets[a]);
                         } else {
-                            docpad.log('warn', `imagin: Unknown parameter '${a}' for image '${srcPath}'`);
+                            docpad.log('warn', `imagin: Unknown parameter '${a}' for image: ${relPath}`);
                         }
                     }
                 }
@@ -209,16 +211,14 @@ class Imagin extends BasePlugin {
                         // check if the thumbnail already exists and is up to date
                         const stats = fs.statSync(dstPath);
                         if (stats.mtime < mtime) {
-                            docpad.log('info', `Imagin mtime diff ${dstPath}: ${stats.mtime.toISOString()} < ${mtime.toISOString()}`);
                             generate = true;
                         }
                     } catch (err) {
-                        docpad.log('info', `Imagin error while stat ${dstPath}: ${err}`);
                         generate = true;
                     }
 
                     if (generate) {
-                        docpad.log('info', `Imagin is adding ${dstPath} to queue`);
+                        docpad.log('info', `Imagin is adding to queue: ${relPath}`);
 
                         // add to queue
                         me.thumbnailsToGenerate[dstPath] = {
@@ -226,6 +226,7 @@ class Imagin extends BasePlugin {
                             src: srcPath,
                             targets,
                             params,
+                            relPath,
                         };
                         me.thumbnailsToGenerateLength++;
                     }
@@ -251,7 +252,7 @@ class Imagin extends BasePlugin {
             return next();
         }
 
-        const tasks = new taskgroup.TaskGroup({ concurrency: 1 }).done(function (err, results) {
+        const tasks = new taskgroup.TaskGroup({ concurrency: config.concurrency ?? 0 }).done(function (err) {
             if (err == null) {
                 docpad.log('info', 'Imagin generation completed successfully');
             } else {
@@ -260,41 +261,35 @@ class Imagin extends BasePlugin {
             return typeof next === 'function' ? next() : undefined;
         });
 
-        eachr(this.thumbnailsToGenerate, function (item, dst) {
+        for (const [dst, item] of Object.entries(this.thumbnailsToGenerate)) {
             const dstPath = dst;
             const srcPath = item.src;
-            const { targets } = item;
+            const { targets, relPath } = item;
             const { params } = item;
 
             fs.ensureDirSync(path.dirname(dstPath));
 
-            return tasks.addTask(function (complete) {
-                let img;
-                if (config.imageMagick) {
-                    const im = gm.subClass({ imageMagick: true });
-                    img = im(srcPath);
-                } else {
-                    img = gm(srcPath);
-                }
+            tasks.addTask(function (complete) {
+                let img = sharp(srcPath);
 
                 // execute the target chain
                 for (let t of Array.from(targets)) {
                     const target_handler = config.targets[t];
                     img = target_handler(img, params);
                 }
-                return img.noProfile().write(dstPath, function (err) {
+
+                img.toFile(dstPath, function (err) {
                     if (err) {
-                        docpad.log('warn', `Failed to generate: ${dstPath}`);
+                        docpad.log('warn', `Failed to generate: ${relPath}`);
                         docpad.error(err);
                         ++failures;
                     } else {
-                        docpad.log('info', `Finished generating ${dstPath}`);
+                        docpad.log('info', `Finished generating: ${relPath}`);
                     }
-
-                    return complete();
+                    complete();
                 });
             });
-        });
+        }
 
         tasks.run();
 

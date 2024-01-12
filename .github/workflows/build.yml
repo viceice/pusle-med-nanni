@@ -24,7 +24,7 @@ jobs:
       # Fix timestamps
       # https://git.wiki.kernel.org/index.php/Git_FAQ#Why_isn.27t_Git_preserving_modification_time_on_files.3F
       - name: restore timestamps
-        uses: chetan/git-restore-mtime-action@v2
+        uses: chetan/git-restore-mtime-action@075f9bc9d159805603419d50f794bd9f33252ebe # v2
 
       - name: Setup Node
         uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4.0.1

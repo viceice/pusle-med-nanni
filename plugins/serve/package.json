@@ -1,13 +1,14 @@
 {
   "name": "docpad-plugin-serve",
   "version": "3.0.0",
-  "license": "MIT", "keywords": [
+  "keywords": [
     "docpad",
     "docpad-plugin",
     "esnext",
     "node",
     "serve"
   ],
+  "license": "MIT",
   "author": "2018+ Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
   "contributors": [
     {

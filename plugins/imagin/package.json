@@ -26,7 +26,7 @@
     "docpad-baseplugin": "1.4.0",
     "extendr": "7.10.0",
     "fs-extra": "11.2.0",
-    "sharp": "0.33.1"
+    "sharp": "0.33.2"
   },
   "peerDependencies": {
     "docpad": "*"

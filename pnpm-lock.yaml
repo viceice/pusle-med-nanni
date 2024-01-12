@@ -103,8 +103,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0(docpad@6.83.2)
       eachr:
-        specifier: 6.6.0
-        version: 6.6.0
+        specifier: 7.4.0
+        version: 7.4.0
       extendr:
         specifier: 7.10.0
         version: 7.10.0
@@ -941,14 +941,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       typechecker: 6.4.0
-
-  /eachr@6.6.0:
-    resolution: {integrity: sha512-e3ck9m2B8SWtJSPm8V5pK/2nteaCpzeekgRR7VnOQt1Bpu9uyf6mBoy/ZHeHlQuZrAQ/dcxTxZJ4keDMmbcJ0w==}
-    engines: {node: '>=4'}
-    dependencies:
-      editions: 6.21.0
-      typechecker: 8.6.0
-    dev: false
 
   /eachr@7.4.0:
     resolution: {integrity: sha512-d6v/ERRrwxZ5oNHJz2Z5Oouge0Xc3rFxeaGNHjAhTDUCkLhy8t583ieH9/Qop1UNDTcZXOSEs8dqawmbHaEEkA==}

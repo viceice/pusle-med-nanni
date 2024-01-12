@@ -53,6 +53,9 @@
     "safeps": "11.6.0",
     "vash": "0.13.0"
   },
+  "resolutions": {
+    "consolidate": "npm:@ladjs/consolidate@1.0.3"
+  },
   "packageManager": "pnpm@8.14.1",
   "engines": {
     "node": "^18.12.0 || >=20.0.0",

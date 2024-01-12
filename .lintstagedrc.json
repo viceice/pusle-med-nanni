@@ -1,0 +1,3 @@
+{
+  "*": "prettier --cache --ignore-unknown --write"
+}

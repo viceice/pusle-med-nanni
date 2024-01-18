@@ -29,7 +29,13 @@ Willkommen bei pusle med Nanni.\
 
         // Get the prepared site/document keywords
         getCanonicalUrl(doc) {
-            return this.site.url + (doc ?? this.document).url.replace(/index\.html$/, '');
+            let url = (doc ?? this.document).url;
+            if (/index\.html$/i.test(url)) {
+                url = url.replace(/index\.html$/, '');
+            } else if (/\.html$/i.test(url)) {
+                url = url.replace(/\.html$/, '');
+            }
+            return `${this.site.url}${url}`;
         },
 
         // -----------------------------

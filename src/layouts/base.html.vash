@@ -1,40 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link href="/favicon.ico" rel="shortcut icon">
-    <link rel="canonical" href="@model.getCanonicalUrl()">
-    <title>@model.getPreparedTitle()</title>
-    <meta name="description" content="@model.getPreparedDescription()" />
-    <meta name="keywords" content="@model.getPreparedKeywords()" />
-    <meta name="author" content="@model.site.author" />
-    @html.raw(model.getBlock("meta").toHTML())
-    @html.raw(model.getBlock("styles").add(["/css/metro.css", "/css/font-awesome.css", "/css/style.css"]).toHTML())
-</head>
-<body>
-    <div class="header">
-        @model.partial("menu", false, { partial: model.partial, menuItems: model.tree("sitemap", model.document) })
-    </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <link href="/favicon.ico" rel="shortcut icon" />
+        <link rel="canonical" href="@model.getCanonicalUrl()" />
+        <title>@model.getPreparedTitle()</title>
+        <meta name="description" content="@model.getPreparedDescription()" />
+        <meta name="keywords" content="@model.getPreparedKeywords()" />
+        <meta name="author" content="@model.site.author" />
+        @html.raw(model.getBlock("meta").toHTML()) @html.raw(model.getBlock("styles").add(["/css/metro.css", "/css/font-awesome.css",
+        "/css/style.css"]).toHTML())
+    </head>
+    <body>
+        <div class="header">@model.partial("menu", false, { partial: model.partial, menuItems: model.tree("sitemap", model.document) })</div>
 
-    <div class="container content">
-        @html.raw(model.content)
-    </div>
+        <div class="container content">@html.raw(model.content)</div>
 
-    <div class="footer">
-        <div class="container">
-            <p class="fg-grayLight">Geändert am: @model.getPreparedDate()</p>
+        <div class="footer">
+            <div class="container">
+                <p class="fg-grayLight">Geändert am: @model.getPreparedDate()</p>
+            </div>
         </div>
-    </div>
 
-    <div id="preview" style="visibility:hidden" data-role="dialog"
-         data-overlay="true"
-         data-overlay-click-close="true"
-         data-overlay-color="op-dark"
-         data-close-button="true">
-        <img class="dlg-preview"/>
-    </div>
+        <div
+            id="preview"
+            style="visibility: hidden"
+            data-role="dialog"
+            data-overlay="true"
+            data-overlay-click-close="true"
+            data-overlay-color="op-dark"
+            data-close-button="true"
+        >
+            <img class="dlg-preview" />
+        </div>
 
-    @html.raw(model.getBlock("scripts").add(["/js/jquery.js", "/js/jquery-migrate.js", "/js/metro.js", "/js/main.js"]).toHTML())
-</body>
+        @html.raw(model.getBlock("scripts").add(["/js/jquery.js", "/js/jquery-migrate.js", "/js/metro.js", "/js/main.js"]).toHTML())
+    </body>
 </html>

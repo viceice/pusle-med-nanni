@@ -1,18 +1,17 @@
 ---
-layout: "ebay-ka"
-title: "Loop"
+layout: 'ebay-ka'
+title: 'Loop'
 order: 4
 ebay:
-    title: "Loop, Schal, Rundschal Strickring Rot Orange Bordeaux"
+    title: 'Loop, Schal, Rundschal Strickring Rot Orange Bordeaux'
     links:
-        - "288913593"
-        - "288911496"
+        - '288913593'
+        - '288911496'
 ---
+
 <div class="grid">
     <div class="row cells2">
-        <div class="cell">
-            ...
-        </div>
+        <div class="cell">...</div>
         <div class="cell">
             <dl class="horizontal">
                 <dt>Größe</dt>
@@ -25,4 +24,3 @@ ebay:
 </div>
 
 @partial('mtiles', { path: document.relativeDirPath })
-

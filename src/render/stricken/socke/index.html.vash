@@ -1,14 +1,12 @@
 ---
-title: "Chipsocke"
-layout: "default"
+title: 'Chipsocke'
+layout: 'default'
 order: 3
 ---
-<p>
-    Eine Idee war die Chipsocken als Geschenkkarte zu gestalten.
-</p>
+
+<p>Eine Idee war die Chipsocken als Geschenkkarte zu gestalten.</p>
 
 <div class="tile-container">
-    @partial('tile', {src: 'stricken/socke/eine', label: 'Eine Chipsocke' })
-    @partial('tile', {src: 'stricken/socke/mehrere', label: 'Verschiedene Chipsocken' })
-    @partial('tile', {src: 'stricken/socke/karten', label: 'Chipsocke als Karte' })
+    @partial('tile', {src: 'stricken/socke/eine', label: 'Eine Chipsocke' }) @partial('tile', {src: 'stricken/socke/mehrere', label: 'Verschiedene Chipsocken'
+    }) @partial('tile', {src: 'stricken/socke/karten', label: 'Chipsocke als Karte' })
 </div>

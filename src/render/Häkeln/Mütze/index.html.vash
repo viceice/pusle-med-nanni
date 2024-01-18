@@ -1,21 +1,21 @@
 ---
-layout: "ebay-ka"
-title: "Zipfelmütze für Mini- Kulturtöpfe"
-description: "Zipfelmütze für Mini- Kulturtöpfe Schicke Wintergarnitur"
-keywords: "Häkeln, Zipfelmütze, Mütze"
-menu: "Zipfelmütze"
+layout: 'ebay-ka'
+title: 'Zipfelmütze für Mini- Kulturtöpfe'
+description: 'Zipfelmütze für Mini- Kulturtöpfe Schicke Wintergarnitur'
+keywords: 'Häkeln, Zipfelmütze, Mütze'
+menu: 'Zipfelmütze'
 order: 1
 ebay:
-    title: "Zipfelmütze für Mini- Kulturtöpfe Schicke Wintergarnitur"
+    title: 'Zipfelmütze für Mini- Kulturtöpfe Schicke Wintergarnitur'
     links:
-        - "137317654"
+        - '137317654'
 ---
 
 <div class="flex-grid">
     <div class="row cell-auto-size">
         <div class="cell">
             <p>Schicke Wintergarnitur</p>
-            <p>Ein perfektes Geschenk  in der Advents- und Weihnachtszeit</p>
+            <p>Ein perfektes Geschenk in der Advents- und Weihnachtszeit</p>
             <p>Gehäkelter &quot;Übertopf&quot;. Passt für ein Teelichthalter von Ikea.</p>
         </div>
         <div class="cell size4">

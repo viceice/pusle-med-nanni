@@ -1,37 +1,24 @@
 ---
-layout: "default"
-title: "Schlafbrille"
-description: "Maximaler Lichtschutzfaktor mit einer nach lavendel duftenden Schlafbrille"
-keywords: "Nähen, Schlafbrille, Lavendel"
+layout: 'default'
+title: 'Schlafbrille'
+description: 'Maximaler Lichtschutzfaktor mit einer nach lavendel duftenden Schlafbrille'
+keywords: 'Nähen, Schlafbrille, Lavendel'
 order: 3
 ---
 
 <div class="flex-grid">
     <div class="row cell-auto-size">
         <div class="cell">
+            <p>Wer braucht eine Schlafbrille? Ich!!</p>
+            <p>In meinem früheren Leben war ich Schichtarbeiter und musste auch am Tage schlafen.</p>
+            <p>Jetzt bin ich befristeter EU-Rentner und muss meinen Mittagsschlaf haben. Ohne Pausen geht nichts mehr.</p>
+            <p>Da Lavendel beruhigend wirken soll und in meinem Garten wächst, war eine neue Nähidee geboren.</p>
             <p>
-                Wer braucht eine Schlafbrille? Ich!!
+                Schaut euch mal meine <a href="/material/baumwolle">Baumwollstoffe</a> an. Da ist für jeden die passende Farbe und Muster dabei. Dank dem
+                Holländerstoffmarkt findet man immer das passende Schrägband zum Stoff.
             </p>
-            <p>
-                In meinem früheren Leben war ich Schichtarbeiter und musste auch am Tage schlafen.
-            </p>
-            <p>
-                Jetzt bin ich befristeter EU-Rentner und muss meinen Mittagsschlaf haben. Ohne Pausen geht nichts mehr.
-            </p>
-            <p>
-                Da Lavendel beruhigend wirken soll und in meinem Garten wächst, war eine neue Nähidee geboren.
-            </p>
-            <p>
-                Schaut euch mal meine <a href="/material/baumwolle">Baumwollstoffe</a> an.
-                Da ist für jeden die passende Farbe und Muster dabei.
-                Dank dem Holländerstoffmarkt findet man immer das passende Schrägband zum Stoff.
-            </p>
-            <p>
-                Und es hilft wirklich! Ein bisschen reiben an der Brille und der Lavendelduft entströmt.
-            </p>
-            <p>
-                Wünsche einen guten und erholsamen Schlaf.
-            </p>
+            <p>Und es hilft wirklich! Ein bisschen reiben an der Brille und der Lavendelduft entströmt.</p>
+            <p>Wünsche einen guten und erholsamen Schlaf.</p>
         </div>
         <div class="cell size4">
             <dl class="horizontal">

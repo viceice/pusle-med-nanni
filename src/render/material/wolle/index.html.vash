@@ -1,27 +1,19 @@
 ---
-title: "Wolle"
-layout: "default"
+title: 'Wolle'
+layout: 'default'
 order: 4
-keywords: "Fransenwolle, Fransengarn, Bändchengarn"
+keywords: 'Fransenwolle, Fransengarn, Bändchengarn'
 ---
 
-
-<p>
-    Zum Stricken und Häkeln werden verschiedene Wollarten genutzt.
-</p>
+<p>Zum Stricken und Häkeln werden verschiedene Wollarten genutzt.</p>
 
 <h3 id="Bändchengarn">Bändchengarn</h3>
 
 <div class="grid">
     <div class="row cells2">
-        <div class="cell">
-           ...
-        </div>
-        <div class="cell">
-            @partial('mtiles', { path: "Material/Wolle/Bändchengarn" })
-        </div>
+        <div class="cell">...</div>
+        <div class="cell">@partial('mtiles', { path: "Material/Wolle/Bändchengarn" })</div>
     </div>
-
 </div>
 
 <h3 id="FlowerColor">Flower color Wolle</h3>
@@ -29,16 +21,10 @@ keywords: "Fransenwolle, Fransengarn, Bändchengarn"
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Flower color von Gründl
-            </p>
-
+            <p>Flower color von Gründl</p>
         </div>
-        <div class="cell">
-            @partial('mtiles', { path: "Material/Wolle/Flower Color" })
-        </div>
+        <div class="cell">@partial('mtiles', { path: "Material/Wolle/Flower Color" })</div>
     </div>
-
 </div>
 
 <h3 id="Fransenwolle">Fransenwolle <small>Fransengarn</small></h3>
@@ -46,15 +32,9 @@ keywords: "Fransenwolle, Fransengarn, Bändchengarn"
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Die Fransenwolle ....
-            </p>
-            <p>
-                Sie wird zum Stricken von <a href="/stricken/eule">Eulen</a> und <a href="/stricken/huhn">Hühner</a> verwendet.
-            </p>
+            <p>Die Fransenwolle ....</p>
+            <p>Sie wird zum Stricken von <a href="/stricken/eule">Eulen</a> und <a href="/stricken/huhn">Hühner</a> verwendet.</p>
         </div>
-        <div class="cell">
-            @partial('mtiles', { path: "Material/Wolle/Fransenwolle" })
-        </div>
+        <div class="cell">@partial('mtiles', { path: "Material/Wolle/Fransenwolle" })</div>
     </div>
 </div>

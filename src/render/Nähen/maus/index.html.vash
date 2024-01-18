@@ -1,19 +1,14 @@
 ---
-title: "Lesemaus"
-layout: "default"
+title: 'Lesemaus'
+layout: 'default'
 order: 9
 ---
 
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Eine süße hilfreiche Lesemaus, die in vielen Farben aus <a href="/material/filz">Filz</a> entstehen.
-                Viele Variationen möglich!!
-            </p>
-            <p>
-                Jedes Lesezeichen ein Unikat!
-            </p>
+            <p>Eine süße hilfreiche Lesemaus, die in vielen Farben aus <a href="/material/filz">Filz</a> entstehen. Viele Variationen möglich!!</p>
+            <p>Jedes Lesezeichen ein Unikat!</p>
         </div>
         <div class="cell">
             <dl class="horizontal">

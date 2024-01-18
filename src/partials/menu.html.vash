@@ -18,7 +18,7 @@ cacheable: true
 <div class="app-bar fixed-top orange" data-role="appbar">
     <div class="container">
         <a class="app-bar-element branding" href="/">
-            <img src="/images/logo.png" style="height: 28px; display: inline-block; margin-right: 10px;" /> Pusle med Nanni
+            <img src="/images/logo.png" style="height: 28px; display: inline-block; margin-right: 10px" /> Pusle med Nanni
         </a>
 
         <ul class="app-bar-menu">
@@ -29,14 +29,10 @@ cacheable: true
 
         <ul class="app-bar-menu place-right">
             <li>
-                <a href="/privacy">
-                    Datenschutz
-                </a>
+                <a href="/privacy"> Datenschutz </a>
             </li>
             <li>
-                <a href="/about">
-                    Impressum
-                </a>
+                <a href="/about"> Impressum </a>
             </li>
         </ul>
     </div>

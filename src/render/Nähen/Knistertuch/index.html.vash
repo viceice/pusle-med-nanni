@@ -1,18 +1,16 @@
 ---
-layout: "default"
-title: "Knistertuch"
-description: "Knistertuch für kleine Babyhände"
-stitle: "für kleine Babyhände"
-keywords: "Knistertuch, Schmusetuch, Babyspieltuch, Motorik, Tuch"
+layout: 'default'
+title: 'Knistertuch'
+description: 'Knistertuch für kleine Babyhände'
+stitle: 'für kleine Babyhände'
+keywords: 'Knistertuch, Schmusetuch, Babyspieltuch, Motorik, Tuch'
 order: 10
 ---
 
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Das Knistertuch schärft Babys Sinne: Knisterfolie zum Hören, Bänder zum Tasten und Bilder zum Anschauen
-            </p>
+            <p>Das Knistertuch schärft Babys Sinne: Knisterfolie zum Hören, Bänder zum Tasten und Bilder zum Anschauen</p>
         </div>
         <div class="cell">
             <dl class="horizontal">

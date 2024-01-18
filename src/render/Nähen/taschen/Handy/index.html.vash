@@ -1,9 +1,9 @@
 ---
-layout: "default"
-title: "Ladetasche für Handy und Smartphone"
-description: "Eine Tasche zum Aufbewahren von Handys und Smartphones während sie aufgeladen werden"
-keywords: "Nähen, Handy, Smartphone, Tasche"
-menu: "Handyladetasche"
+layout: 'default'
+title: 'Ladetasche für Handy und Smartphone'
+description: 'Eine Tasche zum Aufbewahren von Handys und Smartphones während sie aufgeladen werden'
+keywords: 'Nähen, Handy, Smartphone, Tasche'
+menu: 'Handyladetasche'
 order: 3
 ---
 
@@ -11,13 +11,12 @@ order: 3
     <div class="row cell-auto-size">
         <div class="cell">
             <p>
-                Was ist denn das? Ich fand eine Nähanleitung in einem Buch.
-                Also erstmals das Internet gefragt und siehe da, eine neue Nähidee für meine wunderschönen <a href="/material/baumwolle">Baumwollstoffe</a>.
+                Was ist denn das? Ich fand eine Nähanleitung in einem Buch. Also erstmals das Internet gefragt und siehe da, eine neue Nähidee für meine
+                wunderschönen <a href="/material/baumwolle">Baumwollstoffe</a>.
             </p>
             <p>
-                Hello Kitty für meine Nichte und Ikea- Kråkris für uns.
-                Endlich liegt das Handy zum Laden nicht irgendwo rum.
-                Unsere Steckdosen sind noch in alter Bauweise kurz über dem Boden, aber in den Neubauten findest du sie oft unter den Lichtschaltern.
+                Hello Kitty für meine Nichte und Ikea- Kråkris für uns. Endlich liegt das Handy zum Laden nicht irgendwo rum. Unsere Steckdosen sind noch in
+                alter Bauweise kurz über dem Boden, aber in den Neubauten findest du sie oft unter den Lichtschaltern.
             </p>
         </div>
         <div class="cell size4">

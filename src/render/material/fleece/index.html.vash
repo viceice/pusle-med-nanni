@@ -1,14 +1,13 @@
 ---
-title: "Fleece"
-layout: "default"
+title: 'Fleece'
+layout: 'default'
 order: 3
 ---
+
+<p>Kråkris, wer Ikea liebt, kennt dieses Stoffmuster. Da gibt es als Kissen, Decke und Bettwäsche.</p>
 <p>
-    Kråkris, wer Ikea liebt, kennt dieses Stoffmuster.
-    Da gibt es als Kissen, Decke und Bettwäsche.
-</p><p>
-    Passen dazu gibt es von mir <a href="/Nähen/Utensilo">Utensilo</a> und <a href="/Nähen/Taschen/Handy">Handyladestationstasche</a>.
-    Andere Accessoires kann ich gern für euch nähen.
+    Passen dazu gibt es von mir <a href="/Nähen/Utensilo">Utensilo</a> und <a href="/Nähen/Taschen/Handy">Handyladestationstasche</a>. Andere Accessoires kann
+    ich gern für euch nähen.
 </p>
 
 @partial('mtiles', { path: document.relativeDirPath })

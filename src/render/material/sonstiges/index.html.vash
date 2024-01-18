@@ -1,29 +1,21 @@
 ---
-title: "Sonstige Materialien"
-layout: "default"
+title: 'Sonstige Materialien'
+layout: 'default'
 order: 20
 ---
 
-<p>
-    ...
-</p>
+<p>...</p>
 
 <h3 id="teekuvert">Teekuvert</h3>
 
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Teekuvert von Teekanne und anderen ....
-            </p>
-            <p>
-                Es wird zum Falten von <a href="/papier/kugel">Blumenkugeln</a> verwendet.
-            </p>
+            <p>Teekuvert von Teekanne und anderen ....</p>
+            <p>Es wird zum Falten von <a href="/papier/kugel">Blumenkugeln</a> verwendet.</p>
         </div>
         <div class="cell">
-            <div class="tile-container">
-                @partial('tile', {src: 'material/sonstiges/teekanne-01', size:'tile' })
-            </div>
+            <div class="tile-container">@partial('tile', {src: 'material/sonstiges/teekanne-01', size:'tile' })</div>
         </div>
     </div>
 </div>
@@ -33,9 +25,7 @@ order: 20
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Tassimo und vielen anderen Kaffeesorten
-            </p>
+            <p>Tassimo und vielen anderen Kaffeesorten</p>
             <p>
                 <!--Es wird zum Falten von <a href="/papier/kugel">Blumenkugeln</a> verwendet.-->
             </p>
@@ -64,9 +54,7 @@ order: 20
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Schokoladenpapier von Milka
-            </p>
+            <p>Schokoladenpapier von Milka</p>
             <p>
                 <!--Es wird zum Falten von <a href="/papier/kugel">Blumenkugeln</a> verwendet.-->
             </p>

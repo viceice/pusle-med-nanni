@@ -1,19 +1,14 @@
-@{ function menuGenBc(menuItem){
-    @if(menuItem.active) {
+@{ function menuGenBc(menuItem){ @if(menuItem.active) {
 <li>
-    @if(menuItem.current){
-        @menuItem.title
-    } else {
-        <a href="@menuItem.url.replace(/index\.\w+$/g, '')">@menuItem.title</a>
+    @if(menuItem.current){ @menuItem.title } else {
+    <a href="@menuItem.url.replace(/index\.\w+$/g, '')">@menuItem.title</a>
     }
 </li>
-        if(menuItem.children){
-            @menuItem.children.forEach(menuGenBc)
-        }
-    }
-}}
+if(menuItem.children){ @menuItem.children.forEach(menuGenBc) } } }}
 
 <ul class="breadcrumbs">
-    <li><a href="/"><span class="icon mif-home"></span></a></li>
+    <li>
+        <a href="/"><span class="icon mif-home"></span></a>
+    </li>
     @model.menuItems.forEach(menuGenBc)
 </ul>

@@ -1,12 +1,11 @@
 ---
-title: "Filz"
-layout: "default"
+title: 'Filz'
+layout: 'default'
 order: 3
 ---
 
 <p>
-    Meine kleinen Lieblinge, die <a href="/Nähen/Maus">Lesemäuse</a>, entstehen aus Filz.
-    Dank verschiedener Bastelpackungen gibt es den Filz auch in vielen schönen Farben.
-    Da ist für jedes Buch das passende Lesezeichen dabei.
+    Meine kleinen Lieblinge, die <a href="/Nähen/Maus">Lesemäuse</a>, entstehen aus Filz. Dank verschiedener Bastelpackungen gibt es den Filz auch in vielen
+    schönen Farben. Da ist für jedes Buch das passende Lesezeichen dabei.
 </p>
 @partial('mtiles', { path: document.relativeDirPath })

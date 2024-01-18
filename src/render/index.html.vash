@@ -1,40 +1,46 @@
 ---
-layout: "base"
+layout: 'base'
 hidden: false
 ---
-<p>
-    Willkommen auf der Bastelseite von "Pusle med Nanni".
-</p>
 
+<p>Willkommen auf der Bastelseite von "Pusle med Nanni".</p>
 
 <div class="flex-grid">
     <div class="row cell-auto-size">
-        <div class="cell">
-            @model.partial('mtiles', {path: 'home', size: 'tile' })
-        </div>
+        <div class="cell">@model.partial('mtiles', {path: 'home', size: 'tile' })</div>
         <div class="cell size4">
-            @* model.partial('Aboreum', false) *@
-            @* model.partial('Flohmarkt', false) *@
-            @* model.partial('Weihnachtskreativmarkt', false) *@
-            @* model.partial('wmarkt-baltic-freizeit', false) *@
+            @* model.partial('Aboreum', false) *@ @* model.partial('Flohmarkt', false) *@ @* model.partial('Weihnachtskreativmarkt', false) *@ @*
+            model.partial('wmarkt-baltic-freizeit', false) *@
             <div class="h-card">
-                <div class="image-container" style="float:right">
+                <div class="image-container" style="float: right">
                     <div class="frame">
                         <img src="@model.getTile('ich','tile')" alt="Susanne Kriese" class="u-photo" />
                     </div>
                 </div>
                 <h3>Über mich</h3>
                 <p>
-                    Mein Name ist <span class="p-name">Susanne Kriese</span>, Jahrgang 1963, und wohne im schönen Havelland in einem kleinen Dorf. Ich bin verheiratet und habe 2 Kinder. Handarbeiten habe ich schon früher sehr gern gemacht. Von meinem Opa, der Schneider war, habe ich das Nähen gelernt.
-                </p><p>
-                    Zu meinem 50. Geburtstag bekam ich eine schlimme Diagnose: Brustkrebs. Nach Amputation, Chemo, Bestrahlung und Reha-Kur musste ich mein Leben neu ordnen.
-                </p><p>
-                    Eine weitere Behandlung ist die Ergotherapie, die Nebenwirkungen der Chemo (Schädigung der Nerven in Händen und Füßen) bekämpfen soll. Nach unzähligen Bascettasternen, die ich in der Familie, an Freunde und Bekannte   verschenkt habe, brauchte ich neue Ideen/Beschäftigungen. Meine alte Liebe zu Handarbeiten gibt mir nun einen neuen Lebensinhalt. In guten Zeiten sitze ich wieder gern an der Nähmaschine oder bastle mit Papier, Wolle und anderen Materialien.
-                </p><p>
-                    Leider sind die Arbeitsmaterialien teuer und ich brauchte einen neue Idee, meine Handarbeiten zu verkaufen. Ebay und <a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=11886451" target="_blank" rel="external">eBay Kleinanzeigen</a> helfen mir, meine neuen Projekte zu bezahlen.
-                </p><p>
-                    Mein neuestes Projekt ist diese Internetseite. Mein lieber Administrator (mein Sohn) hilft mir mit den fachlichen Sachen. Ich hätte nie gedacht, wie schwierig das ist. Es fängt schon mit den Fotos an… Ich bin kein Profi, aber ich arbeite daran.
-
+                    Mein Name ist <span class="p-name">Susanne Kriese</span>, Jahrgang 1963, und wohne im schönen Havelland in einem kleinen Dorf. Ich bin
+                    verheiratet und habe 2 Kinder. Handarbeiten habe ich schon früher sehr gern gemacht. Von meinem Opa, der Schneider war, habe ich das Nähen
+                    gelernt.
+                </p>
+                <p>
+                    Zu meinem 50. Geburtstag bekam ich eine schlimme Diagnose: Brustkrebs. Nach Amputation, Chemo, Bestrahlung und Reha-Kur musste ich mein
+                    Leben neu ordnen.
+                </p>
+                <p>
+                    Eine weitere Behandlung ist die Ergotherapie, die Nebenwirkungen der Chemo (Schädigung der Nerven in Händen und Füßen) bekämpfen soll. Nach
+                    unzähligen Bascettasternen, die ich in der Familie, an Freunde und Bekannte verschenkt habe, brauchte ich neue Ideen/Beschäftigungen. Meine
+                    alte Liebe zu Handarbeiten gibt mir nun einen neuen Lebensinhalt. In guten Zeiten sitze ich wieder gern an der Nähmaschine oder bastle mit
+                    Papier, Wolle und anderen Materialien.
+                </p>
+                <p>
+                    Leider sind die Arbeitsmaterialien teuer und ich brauchte einen neue Idee, meine Handarbeiten zu verkaufen. Ebay und
+                    <a href="https://www.ebay-kleinanzeigen.de/s-bestandsliste.html?userId=11886451" target="_blank" rel="external">eBay Kleinanzeigen</a>
+                    helfen mir, meine neuen Projekte zu bezahlen.
+                </p>
+                <p>
+                    Mein neuestes Projekt ist diese Internetseite. Mein lieber Administrator (mein Sohn) hilft mir mit den fachlichen Sachen. Ich hätte nie
+                    gedacht, wie schwierig das ist. Es fängt schon mit den Fotos an… Ich bin kein Profi, aber ich arbeite daran.
                 </p>
             </div>
         </div>

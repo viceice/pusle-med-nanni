@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     @model.getCollection("sitemap").toJSON().forEach(function(file) {
     <url>
-        <loc>@(model.getCanonicalUrl(file))</loc>
+        <loc>@(model.getCanonicalUrl(file, false))</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>

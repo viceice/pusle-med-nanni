@@ -28,14 +28,14 @@ Willkommen bei pusle med Nanni.\
         useWith: true,
 
         // Get the prepared site/document keywords
-        getCanonicalUrl(doc) {
-            let url = (doc ?? this.document).url;
+        getCanonicalUrl(doc, relative = true) {
+            let url = doc.url;
             if (/index\.html$/i.test(url)) {
-                url = url.replace(/index\.html$/, '');
+                url = url.replace(/\/index\.html$/, '');
             } else if (/\.html$/i.test(url)) {
                 url = url.replace(/\.html$/, '');
             }
-            return `${this.site.url}${url}`;
+            return `${relative ? '' : this.site.url}${url}`;
         },
 
         // -----------------------------

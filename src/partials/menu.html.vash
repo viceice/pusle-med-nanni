@@ -10,7 +10,7 @@ cacheable: true
         @menuItem.children.forEach(menuGen)
     </ul>
     } else {
-    <a href="@menuItem.url.replace(/index\.\w*$/g, '')">@menuItem.title</a>
+    <a href="@model.getCanonicalUrl(menuItem)">@menuItem.title</a>
     }
 </li>
 }}

@@ -1,7 +1,7 @@
 @{ function menuGenBc(menuItem){ @if(menuItem.active) {
 <li>
     @if(menuItem.current){ @menuItem.title } else {
-    <a href="@menuItem.url.replace(/index\.\w+$/g, '')">@menuItem.title</a>
+    <a href="@model.getCanonicalUrl(menuItem)">@menuItem.title</a>
     }
 </li>
 if(menuItem.children){ @menuItem.children.forEach(menuGenBc) } } }}

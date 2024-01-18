@@ -7,4 +7,4 @@ layout: 'base'
     <small>@model.document.stitle</small>
     }
 </h1>
-@model.partial("breadcrumb", false, {menuItems: model.tree("sitemap", model.document)}) @html.raw(model.content)
+@model.partial("breadcrumb", false, {menuItems: model.tree("sitemap", model.document), getCanonicalUrl: model.getCanonicalUrl}) @html.raw(model.content)

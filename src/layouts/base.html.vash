@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
         <link href="/favicon.ico" rel="shortcut icon" />
-        <link rel="canonical" href="@model.getCanonicalUrl()" />
+        <link rel="canonical" href="@model.getCanonicalUrl(model.document, false)" />
         <title>@model.getPreparedTitle()</title>
         <meta name="description" content="@model.getPreparedDescription()" />
         <meta name="keywords" content="@model.getPreparedKeywords()" />
@@ -13,7 +13,9 @@
         "/css/style.css"]).toHTML())
     </head>
     <body>
-        <div class="header">@model.partial("menu", false, { partial: model.partial, menuItems: model.tree("sitemap", model.document) })</div>
+        <div class="header">
+            @model.partial("menu", false, { partial: model.partial, menuItems: model.tree("sitemap", model.document), getCanonicalUrl: model.getCanonicalUrl })
+        </div>
 
         <div class="container content">@html.raw(model.content)</div>
 

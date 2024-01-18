@@ -4,4 +4,4 @@ layout: 'default'
 order: 2
 ---
 
-@partial('sub', false, { tree: tree("sitemap", document) })
+@partial('sub', false, { tree: tree("sitemap", document), getCanonicalUrl: model.getCanonicalUrl })

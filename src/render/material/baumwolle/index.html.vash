@@ -1,47 +1,27 @@
 ---
-title: "Baumwolle"
-layout: "default"
+title: 'Baumwolle'
+layout: 'default'
 order: 1
 ---
 
 <p>
-    Meine Nähmaschine ist mein neuer Freund geworden. Ich bin immer wieder glücklich, wenn ich ein neues Teil fertig genäht habe.
-    Zu meinem 51. Geburtstag kam zu meiner alten Veritas eine Overlook dazu.
-    Damit macht die Verarbeitung von <a href="/Material/Jersey">Jersey</a> Stoffen  noch mehr Spaß, obwohl ich bei der Anschaffung Bedenken wegen der Ausnutzung hatte.
-    Aber ein Besuch auf dem Holländer Stoffmarkt hat mich überzeugt, das Leben geht weiter!
-    Dieser Stoffmarkt ist wie eine Droge für mich.
-    Beim ersten Besuch war ich noch planlos, aber mittlerweile liebe ich diese Besuche und freue mich über die tolle Stoffauswahl, die es dort gibt.
-    Baumwollstoffe gibt es dort als Meterware oder in Stücken in jeder Qualität.
-    Meine <a href="/Nähen/Brille">Schlafbrillen</a>, <a href="/Nähen/Huhn">Stoffhühner</a>, <a href="/Nähen/Tatüta">Tatütas</a>, <a href="/Nähen/Utensilo">Utensilos</a>,
-    <a href="/Nähen/Herz">Kirschkernherzen</a> und <a href="/Nähen/Kopftuch">Kinderkopftücher</a> begleiten mich in Gedanken, auf der Suche nach neuen Stoffen.
-</p><p>
-    Wenn dir ein Stoff gefällt, kannst du gern mit mir Kontakt aufnehmen. Ich nähe dir gern dein Lieblingsteil.
+    Meine Nähmaschine ist mein neuer Freund geworden. Ich bin immer wieder glücklich, wenn ich ein neues Teil fertig genäht habe. Zu meinem 51. Geburtstag kam
+    zu meiner alten Veritas eine Overlook dazu. Damit macht die Verarbeitung von <a href="/Material/Jersey">Jersey</a> Stoffen noch mehr Spaß, obwohl ich bei
+    der Anschaffung Bedenken wegen der Ausnutzung hatte. Aber ein Besuch auf dem Holländer Stoffmarkt hat mich überzeugt, das Leben geht weiter! Dieser
+    Stoffmarkt ist wie eine Droge für mich. Beim ersten Besuch war ich noch planlos, aber mittlerweile liebe ich diese Besuche und freue mich über die tolle
+    Stoffauswahl, die es dort gibt. Baumwollstoffe gibt es dort als Meterware oder in Stücken in jeder Qualität. Meine
+    <a href="/Nähen/Brille">Schlafbrillen</a>, <a href="/Nähen/Huhn">Stoffhühner</a>, <a href="/Nähen/Tatüta">Tatütas</a>,
+    <a href="/Nähen/Utensilo">Utensilos</a>, <a href="/Nähen/Herz">Kirschkernherzen</a> und <a href="/Nähen/Kopftuch">Kinderkopftücher</a> begleiten mich in
+    Gedanken, auf der Suche nach neuen Stoffen.
 </p>
+<p>Wenn dir ein Stoff gefällt, kannst du gern mit mir Kontakt aufnehmen. Ich nähe dir gern dein Lieblingsteil.</p>
 
-<div class="">
-    @partial('mtiles', {title: '100 weiß creme', path: 'material/baumwolle/100 weiß creme', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '200 gelb-orange', path: 'material/baumwolle/200 gelb-orange', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '300 rot', path: 'material/baumwolle/300 rot', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '400 rosa pink', path: 'material/baumwolle/400 rosa pink', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '500 lila', path: 'material/baumwolle/500 lila', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '600 blau', path: 'material/baumwolle/600 blau', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '700 grün', path: 'material/baumwolle/700 grün', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '800 braun', path: 'material/baumwolle/800 braun', size: 'tile' })
-</div>
-<div class="">
-    @partial('mtiles', {title: '900 grau schwarz', path: 'material/baumwolle/900 grau schwarz', size: 'tile' })
-</div>
+<div class="">@partial('mtiles', {title: '100 weiß creme', path: 'material/baumwolle/100 weiß creme', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '200 gelb-orange', path: 'material/baumwolle/200 gelb-orange', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '300 rot', path: 'material/baumwolle/300 rot', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '400 rosa pink', path: 'material/baumwolle/400 rosa pink', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '500 lila', path: 'material/baumwolle/500 lila', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '600 blau', path: 'material/baumwolle/600 blau', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '700 grün', path: 'material/baumwolle/700 grün', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '800 braun', path: 'material/baumwolle/800 braun', size: 'tile' })</div>
+<div class="">@partial('mtiles', {title: '900 grau schwarz', path: 'material/baumwolle/900 grau schwarz', size: 'tile' })</div>

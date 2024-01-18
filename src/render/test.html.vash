@@ -1,6 +1,6 @@
 ---
-title: "Test"
-layout: "default"
+title: 'Test'
+layout: 'default'
 hidden: true
 ignore: true
 ---

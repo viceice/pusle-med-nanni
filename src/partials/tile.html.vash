@@ -2,18 +2,14 @@
     <div class="tile-content">
         <div class="image-container">
             <div class="frame">
-                <img src="@model.getTile(model.src, model.size || 'tile-large')" alt="@model.label">
+                <img src="@model.getTile(model.src, model.size || 'tile-large')" alt="@model.label" />
             </div>
             @if(model.overlay){
-            <div class="image-overlay">
-                @model.overlay
-            </div>
+            <div class="image-overlay">@model.overlay</div>
             }
         </div>
         @if(model.label){
-        <div class="tile-label op-grayLighter @(model.labelCss || '')">
-            @model.label
-        </div>
+        <div class="tile-label op-grayLighter @(model.labelCss || '')">@model.label</div>
         }
     </div>
 </div>

@@ -1,28 +1,24 @@
 ---
-layout: "ebay-ka"
-title: "Eule"
+layout: 'ebay-ka'
+title: 'Eule'
 order: 1
 ebay:
-    title: "Eule kuschlig handgestrickt Fransenwolle"
+    title: 'Eule kuschlig handgestrickt Fransenwolle'
     links:
-        - "391178848"
-        - "309719861"
+        - '391178848'
+        - '309719861'
 ---
 
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Wunderschöne gestrickte kuschlig-weiche Eulen, die in vielen Farben aus <a href="/material/wolle#Fransenwolle">Fransenwolle</a> entstehen.
-            </p>
-            <p>
-                Sobald ein Rest <a href="/material/wolle#Fransenwolle">Fransenwolle</a> zur Verfügung steht, wird eine neue Eule geboren.
-            </p>
+            <p>Wunderschöne gestrickte kuschlig-weiche Eulen, die in vielen Farben aus <a href="/material/wolle#Fransenwolle">Fransenwolle</a> entstehen.</p>
+            <p>Sobald ein Rest <a href="/material/wolle#Fransenwolle">Fransenwolle</a> zur Verfügung steht, wird eine neue Eule geboren.</p>
         </div>
         <div class="cell">
             <dl class="horizontal">
                 <dt>Größe</dt>
-                <dd>Ca. 9x11 bis 10x13 cm </dd>
+                <dd>Ca. 9x11 bis 10x13 cm</dd>
                 <dt>Material</dt>
                 <dd><a href="/material/wolle#Fransenwolle">Fransenwolle</a></dd>
                 <dt>Füllung</dt>

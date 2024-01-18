@@ -1,19 +1,18 @@
 ---
-layout: "ebay-ka"
-title: "Gestrickte kuschlig-weiche Hühner"
-menu: "Huhn"
+layout: 'ebay-ka'
+title: 'Gestrickte kuschlig-weiche Hühner'
+menu: 'Huhn'
 order: 2
 ebay:
-    title: "Huhn handgestrickt kuschlig Deko"
+    title: 'Huhn handgestrickt kuschlig Deko'
     links:
-        - "188474755"
+        - '188474755'
 ---
+
 <div class="grid">
     <div class="row cells2">
         <div class="cell">
-            <p>
-                Wunderschöne gestrickte kuschlig-weiche Hühner, die in vielen Farben aus <a href="/material/wolle#Fransenwolle">Fransenwolle</a> entstehen.
-            </p>
+            <p>Wunderschöne gestrickte kuschlig-weiche Hühner, die in vielen Farben aus <a href="/material/wolle#Fransenwolle">Fransenwolle</a> entstehen.</p>
         </div>
         <div class="cell">
             <dl class="horizontal">
@@ -29,4 +28,3 @@ ebay:
 </div>
 
 @partial('mtiles', { path: document.relativeDirPath })
-

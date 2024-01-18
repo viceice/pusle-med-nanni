@@ -27,6 +27,11 @@ Willkommen bei pusle med Nanni.\
 
         useWith: true,
 
+        // Get the prepared site/document keywords
+        getCanonicalUrl(doc) {
+            return this.site.url + (doc ?? this.document).url.replace(/index\.html$/, '');
+        },
+
         // -----------------------------
         // Helper Functions
 

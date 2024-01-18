@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    @model.getCollection("sitemap").toJSON().forEach(function(file){
+    @model.getCollection("sitemap").toJSON().forEach(function(file) {
+    @if (file.url === "/404.html") {
+        return;
+    }
     <url>
-        <loc>@(model.site.url + file.url.replace(/index\.html$/i, ""))</loc>
+        <loc>@(model.getCanonicalUrl(file))</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>

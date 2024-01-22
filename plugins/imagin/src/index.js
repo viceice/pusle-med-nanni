@@ -81,9 +81,10 @@ class Imagin extends BasePlugin {
             },
 
             targets: {
-                default(/** @type {sharp.Sharp } */ img, args) {
+                async default(/** @type {sharp.Sharp } */ img, args) {
                     // TODO: quality `args.q`
-                    return img.resize(args.w, args.h);
+                    const meta = await img.metadata();
+                    return img.resize(args.w, args.h).toFormat(meta.format, { quality: args.q, mozjpeg: true });
                 },
                 // not supported yet
                 // zoomcrop(img, args) {
@@ -245,6 +246,7 @@ class Imagin extends BasePlugin {
         //Prepare
         const { docpad, config } = this;
         let failures = 0;
+        let completed = 0;
 
         if (!this.thumbnailsToGenerateLength) {
             docpad.log('debug', 'Imagin has nothing to generate');
@@ -253,9 +255,9 @@ class Imagin extends BasePlugin {
 
         const tasks = docpad.createTaskGroup({ concurrency: config.concurrency ?? 0 }).done(function (err) {
             if (err == null) {
-                docpad.log('info', 'Imagin generation completed successfully');
+                docpad.log('info', `Imagin generation completed successfully (${completed} images)`);
             } else {
-                docpad.log('error', `Imagin generation failed ${err}`);
+                docpad.log('error', `Imagin generation failed ${err} (${failures} failures, ${completed} completed))`);
             }
             return typeof next === 'function' ? next() : undefined;
         });
@@ -268,14 +270,16 @@ class Imagin extends BasePlugin {
 
             fs.ensureDirSync(path.dirname(dstPath));
 
-            tasks.addTask(function (complete) {
+            tasks.addTask(async function (complete) {
                 let img = sharp(srcPath);
 
                 // execute the target chain
                 for (let t of Array.from(targets)) {
                     const target_handler = config.targets[t];
-                    img = target_handler(img, params);
+                    img = await target_handler(img, params);
                 }
+
+                await fs.rm(path.join(docpad.config.outPath, relPath), { force: true });
 
                 img.toFile(dstPath, function (err) {
                     if (err) {
@@ -283,6 +287,7 @@ class Imagin extends BasePlugin {
                         docpad.error(err);
                         ++failures;
                     } else {
+                        completed++;
                         docpad.log('debug', `Finished generating: ${relPath}`);
                     }
                     complete();

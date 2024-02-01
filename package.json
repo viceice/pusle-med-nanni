@@ -59,7 +59,7 @@
     "safeps": "11.6.0",
     "vash": "0.13.0"
   },
-  "packageManager": "pnpm@8.14.3",
+  "packageManager": "pnpm@8.15.1",
   "engines": {
     "node": "^18.12.0 || >=20.0.0",
     "pnpm": "^8.0.0"

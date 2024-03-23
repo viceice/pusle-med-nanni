@@ -21,7 +21,7 @@
   "main": "src/index.js",
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
-    "express": "4.19.0"
+    "express": "4.19.1"
   },
   "peerDependencies": {
     "docpad": "*"

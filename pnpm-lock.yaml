@@ -573,10 +573,8 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@olton/datetime@3.0.3:
-    resolution: {integrity: sha512-5B07HFUDqswxe3aBS3b4ZLCKSoznNHHVlhIEPvSXXI+46X5fjdGNvQZpbrdw8fSXUp0u/H7FKzpe/CXK2OU/2w==}
-    dependencies:
-      rollup-plugin-progress: 1.1.2
+  /@olton/datetime@3.0.4:
+    resolution: {integrity: sha512-Gil8gub8uBuulbC1llp4iefTUFUH1uBqEZ2WLM1+QLeBimm42yUP6tWMLuhRBGB+XswNXh1pTn6T5Hgyl/nm/w==}
     dev: false
 
   /@olton/string@0.4.4:
@@ -2569,7 +2567,7 @@ packages:
   /metro4@4.5.12:
     resolution: {integrity: sha512-jDwN2nhVkFc+46eVYsP6Wce+F/cMHwFtZrO2+SROJqSzECKswlS9LL7aVB6nrfQXPaNZaDp32/7DtSnz6Jqg+Q==}
     dependencies:
-      '@olton/datetime': 3.0.3
+      '@olton/datetime': 3.0.4
       '@olton/string': 0.4.4
     transitivePeerDependencies:
       - rollup

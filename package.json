@@ -17,7 +17,7 @@
     "docker": "docker run -it -v %cd%:/usr/src/app --rm -w /usr/src/app node:lts yarn",
     "docpad": "docpad",
     "grunt": "grunt",
-    "prepare": "husky install",
+    "prepare": "husky",
     "prettier:check": "prettier --cache -c -u .",
     "prettier:fix": "prettier --cache -w -u .",
     "start": "docpad run"

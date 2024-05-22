@@ -1666,7 +1666,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.6
+      micromatch: 4.0.7
     dev: true
 
   /fastq@1.17.1:
@@ -1720,7 +1720,7 @@ packages:
     dependencies:
       detect-file: 1.0.0
       is-glob: 4.0.3
-      micromatch: 4.0.6
+      micromatch: 4.0.7
       resolve-dir: 1.0.1
     dev: true
 
@@ -1730,7 +1730,7 @@ packages:
     dependencies:
       detect-file: 1.0.0
       is-glob: 4.0.3
-      micromatch: 4.0.6
+      micromatch: 4.0.7
       resolve-dir: 1.0.1
     dev: true
 
@@ -2581,6 +2581,14 @@ packages:
       picomatch: 4.0.2
     dev: true
 
+  /micromatch@4.0.7:
+    resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
+    engines: {node: '>=8.6'}
+    dependencies:
+      braces: 3.0.3
+      picomatch: 2.3.1
+    dev: true
+
   /millisecond@0.1.2:
     resolution: {integrity: sha512-BJ8XtxY+woL+5TkP6uS6XvOArm0JVrX2otkgtWZseHpIax0oOOPW3cnwhOjRqbEJg7YRO/BDF7fO/PTWNT3T9Q==}
     dev: true
@@ -2870,7 +2878,6 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
-    dev: false
 
   /picomatch@4.0.2:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}

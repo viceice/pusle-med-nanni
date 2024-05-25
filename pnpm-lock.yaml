@@ -2567,6 +2567,7 @@ packages:
 
   /metro4@4.5.12:
     resolution: {integrity: sha512-jDwN2nhVkFc+46eVYsP6Wce+F/cMHwFtZrO2+SROJqSzECKswlS9LL7aVB6nrfQXPaNZaDp32/7DtSnz6Jqg+Q==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       '@olton/datetime': 3.0.4
       '@olton/string': 0.4.4

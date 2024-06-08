@@ -573,8 +573,8 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@olton/datetime@3.0.4:
-    resolution: {integrity: sha512-Gil8gub8uBuulbC1llp4iefTUFUH1uBqEZ2WLM1+QLeBimm42yUP6tWMLuhRBGB+XswNXh1pTn6T5Hgyl/nm/w==}
+  /@olton/datetime@3.0.5:
+    resolution: {integrity: sha512-Faa/wfwpQiy3Kr8n24n5SZ0Xs5nv4ySjCQdcxc+D45qHEDtem61fKX8PYUUTp2yQ4Zrp/E2GX6fNhdKdiVXPRA==}
     dev: false
 
   /@olton/string@0.4.4:
@@ -2430,7 +2430,7 @@ packages:
       micromatch: 4.0.7
       pidtree: 0.6.0
       string-argv: 0.3.2
-      yaml: 2.4.3
+      yaml: 2.4.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2571,7 +2571,7 @@ packages:
     resolution: {integrity: sha512-jDwN2nhVkFc+46eVYsP6Wce+F/cMHwFtZrO2+SROJqSzECKswlS9LL7aVB6nrfQXPaNZaDp32/7DtSnz6Jqg+Q==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
-      '@olton/datetime': 3.0.4
+      '@olton/datetime': 3.0.5
       '@olton/string': 0.4.4
     transitivePeerDependencies:
       - rollup
@@ -3757,8 +3757,8 @@ packages:
         optional: true
     dev: true
 
-  /yaml@2.4.3:
-    resolution: {integrity: sha512-sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==}
+  /yaml@2.4.4:
+    resolution: {integrity: sha512-wle6DEiBMLgJAdEPZ+E8BPFauoWbwPujfuGJJFErxYiU4txXItppe8YqeFPAaWnW5CxduQ995X6b5e1NqrmxtA==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: true

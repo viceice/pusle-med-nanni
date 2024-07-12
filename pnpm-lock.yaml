@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  consolidate: npm:@ladjs/consolidate@1.0.3
+  consolidate: npm:@ladjs/consolidate@1.0.4
 
 importers:
 
@@ -398,8 +398,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: false
 
-  /@ladjs/consolidate@1.0.3(lodash@4.17.21)(vash@0.13.0):
-    resolution: {integrity: sha512-zyUeV5nkEFz7FH88pz+moVeMMOygTx1zL5bjXGHCVX5MMpmAtFf5piaQlBDk3nClGoUs8vjYI9TKsbXldGv0VA==}
+  /@ladjs/consolidate@1.0.4(lodash@4.17.21)(vash@0.13.0):
+    resolution: {integrity: sha512-ErvBg5acSqns86V/xW7gjqqnBBs6thnpMB0gGc3oM7WHsV8PWrnBtKI6dumHDT3UT/zEOfGzp7dmSFqWoCXKWQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/core': ^7.22.5
@@ -1222,7 +1222,7 @@ packages:
     peerDependencies:
       docpad: ^6.83.2
     dependencies:
-      consolidate: /@ladjs/consolidate@1.0.3(lodash@4.17.21)(vash@0.13.0)
+      consolidate: /@ladjs/consolidate@1.0.4(lodash@4.17.21)(vash@0.13.0)
       docpad: 6.83.2
       docpad-baseplugin: 1.4.0(docpad@6.83.2)
     transitivePeerDependencies:

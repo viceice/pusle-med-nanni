@@ -23,7 +23,7 @@
     "start": "docpad run"
   },
   "resolutions": {
-    "consolidate": "npm:@ladjs/consolidate@1.0.3"
+    "consolidate": "npm:@ladjs/consolidate@1.0.4"
   },
   "dependencies": {
     "cookieconsent": "3.1.1",

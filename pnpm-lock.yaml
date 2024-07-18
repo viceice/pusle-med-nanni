@@ -21,8 +21,8 @@ importers:
         specifier: 3.7.1
         version: 3.7.1
       jquery-migrate:
-        specifier: 3.5.0
-        version: 3.5.0(jquery@3.7.1)
+        specifier: 3.5.2
+        version: 3.5.2(jquery@3.7.1)
       metro-ui:
         specifier: 3.0.15
         version: 3.0.15
@@ -2313,8 +2313,8 @@ packages:
       grunt: 1.6.1
     dev: true
 
-  /jquery-migrate@3.5.0(jquery@3.7.1):
-    resolution: {integrity: sha512-aZYJ6aB/cduyKKSxKrNhmi8uni1viLswP8M/NiV0gOpauBPStO4WNGGX2TJ/fpAXS5SIexvRhtXbiNEk9Tec8g==}
+  /jquery-migrate@3.5.2(jquery@3.7.1):
+    resolution: {integrity: sha512-GGvcVWK3aei2/98r7pA4UkOYvs4xVeCGvquNXADFUp9+Sr6VeOw0ktlQ9z4YlBbEFpsXBlRioAgpH/fLWinj4Q==}
     peerDependencies:
       jquery: '>=3 <4'
     dependencies:

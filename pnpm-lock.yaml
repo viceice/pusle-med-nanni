@@ -142,8 +142,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0(docpad@6.83.2)
       underscore:
-        specifier: 1.13.6
-        version: 1.13.6
+        specifier: 1.13.7
+        version: 1.13.7
       underscore.string:
         specifier: 3.3.6
         version: 3.3.6
@@ -793,7 +793,7 @@ packages:
   /backbone@1.6.0:
     resolution: {integrity: sha512-13PUjmsgw/49EowNcQvfG4gmczz1ximTMhUktj0Jfrjth0MVaTxehpU+qYYX4MxnuIuhmvBLC6/ayxuAGnOhbA==}
     dependencies:
-      underscore: 1.13.6
+      underscore: 1.13.7
 
   /bal-util@2.8.0:
     resolution: {integrity: sha512-4krTXfpVnB1IOVBHqu8S86GrWJOd7hRts/nruO/GrhlPrVYwyOW8tHSjY2TbytZ4oVoKJXU8chaW+C0bnBiwjw==}
@@ -1365,7 +1365,7 @@ packages:
       taskgroup: 7.20.0
       typechecker: 7.18.0
       unbounded: 3.16.0
-      underscore: 1.13.6
+      underscore: 1.13.7
       watchr: 6.11.0
       yamljs: 0.3.0
 
@@ -3635,8 +3635,8 @@ packages:
       sprintf-js: 1.1.3
       util-deprecate: 1.0.2
 
-  /underscore@1.13.6:
-    resolution: {integrity: sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==}
+  /underscore@1.13.7:
+    resolution: {integrity: sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==}
 
   /universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}

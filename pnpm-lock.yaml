@@ -2434,7 +2434,7 @@ packages:
       debug: 4.3.6
       execa: 8.0.1
       lilconfig: 3.1.2
-      listr2: 8.2.3
+      listr2: 8.2.4
       micromatch: 4.0.7
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -2443,8 +2443,8 @@ packages:
       - supports-color
     dev: true
 
-  /listr2@8.2.3:
-    resolution: {integrity: sha512-Lllokma2mtoniUOS94CcOErHWAug5iu7HOmDrvWgpw8jyQH2fomgB+7lZS4HWZxytUuQwkGOwe49FvwVaA85Xw==}
+  /listr2@8.2.4:
+    resolution: {integrity: sha512-opevsywziHd3zHCVQGAj8zu+Z3yHNkkoYhWIGnq54RrCVwLz0MozotJEDnKsIBLvkfLGN6BLOyAeRrYI0pKA4g==}
     engines: {node: '>=18.0.0'}
     dependencies:
       cli-truncate: 4.0.0

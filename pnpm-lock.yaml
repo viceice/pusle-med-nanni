@@ -620,7 +620,7 @@ packages:
     dependencies:
       serialize-javascript: 6.0.2
       smob: 1.5.0
-      terser: 5.31.5
+      terser: 5.31.6
     dev: false
 
   /@rollup/pluginutils@5.1.0:
@@ -3529,8 +3529,8 @@ packages:
       unbounded: 6.3.1
     dev: true
 
-  /terser@5.31.5:
-    resolution: {integrity: sha512-YPmas0L0rE1UyLL/llTWA0SiDOqIcAQYLeUj7cJYzXHlRTAnMSg9pPe4VJ5PlKvTrPQsdVFuiRiwyeNlYgwh2Q==}
+  /terser@5.31.6:
+    resolution: {integrity: sha512-PQ4DAriWzKj+qgehQ7LK5bQqCFNMmlhjR2PFFLuqGCpuCAauxemVBWwWOxo3UIwWQx8+Pr61Df++r76wDmkQBg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:

@@ -772,8 +772,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /async@3.2.5:
-    resolution: {integrity: sha512-baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==}
+  /async@3.2.6:
+    resolution: {integrity: sha512-htCUDlxyyCLMgaM3xXg0C0LW2xqfuQ6p05pCEIsXuyQ+a1koYKTuBMzRNwmybfLgvJDMd0r1LTn4+E0Ti6C2AA==}
     dev: true
 
   /asyncemit@3.0.1(eventemitter3@4.0.7):
@@ -1917,7 +1917,7 @@ packages:
     peerDependencies:
       grunt: '>=0.4.0'
     dependencies:
-      async: 3.2.5
+      async: 3.2.6
       grunt: 1.6.1
       mkdirp: 0.5.6
       rimraf: 2.7.1
@@ -1989,7 +1989,7 @@ packages:
     resolution: {integrity: sha512-2bQiD4fzXqX8rhNdXkAywCadeqiPiay0oQny77wA2F3WF4grPJXCvAcyoWUJV+po/b15glGkxuSiQCK299UC2w==}
     engines: {node: '>=10'}
     dependencies:
-      async: 3.2.5
+      async: 3.2.6
       exit: 0.1.2
       getobject: 1.0.2
       hooker: 0.2.3

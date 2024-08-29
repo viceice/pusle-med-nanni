@@ -1958,7 +1958,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       maxmin: 3.0.0
-      uglify-js: 3.19.2
+      uglify-js: 3.19.3
       uri-path: 1.0.0
     dev: true
 
@@ -3608,8 +3608,8 @@ packages:
     dependencies:
       editions: 6.21.0
 
-  /uglify-js@3.19.2:
-    resolution: {integrity: sha512-S8KA6DDI47nQXJSi2ctQ629YzwOVs+bQML6DAtvy0wgNdpi+0ySpQK0g2pxBq2xfF2z3YCscu7NNA8nXT9PlIQ==}
+  /uglify-js@3.19.3:
+    resolution: {integrity: sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     dev: true
@@ -3690,7 +3690,7 @@ packages:
     dependencies:
       commander: 5.1.0
       debug: 4.3.6
-      uglify-js: 3.19.2
+      uglify-js: 3.19.3
     transitivePeerDependencies:
       - supports-color
     dev: true

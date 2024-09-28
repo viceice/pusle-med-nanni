@@ -2104,8 +2104,8 @@ packages:
     resolution: {integrity: sha512-RxOdv2e17kjXXbk4oXt3I4iRHO193kOL+SxDclBsefF+53FJHA4m0khh49CCStzjrMPeT49KxIcwLzzjwMiGGw==}
     engines: {node: '>=4'}
 
-  terser@5.34.0:
-    resolution: {integrity: sha512-y5NUX+U9HhVsK/zihZwoq4r9dICLyV2jXGOriDAVOeKhq3LKVjgJbGO90FisozXLlJfvjHqgckGmJFBb9KYoWQ==}
+  terser@5.34.1:
+    resolution: {integrity: sha512-FsJZ7iZLd/BXkz+4xrRTGJ26o/6VTjQytUk8b8OxkwcD2I+79VPJlz7qss1+zE7h8GNIScFqXcDyJ/KqBYZFVA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2445,7 +2445,7 @@ snapshots:
     dependencies:
       serialize-javascript: 6.0.2
       smob: 1.5.0
-      terser: 5.34.0
+      terser: 5.34.1
 
   '@rollup/pluginutils@5.1.2':
     dependencies:
@@ -4246,7 +4246,7 @@ snapshots:
       extendr: 7.10.0
       unbounded: 6.3.1
 
-  terser@5.34.0:
+  terser@5.34.1:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.12.1

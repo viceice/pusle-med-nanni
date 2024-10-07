@@ -49,8 +49,8 @@ importers:
         specifier: 2.11.0
         version: 2.11.0(docpad@6.83.2)
       docpad-plugin-marked:
-        specifier: 2.10.0
-        version: 2.10.0(docpad@6.83.2)
+        specifier: workspace:*
+        version: link:plugins/marked
       docpad-plugin-partials:
         specifier: 2.14.0
         version: 2.14.0(docpad@6.83.2)
@@ -120,6 +120,18 @@ importers:
       sharp:
         specifier: 0.33.5
         version: 0.33.5
+
+  plugins/marked:
+    dependencies:
+      docpad:
+        specifier: '*'
+        version: 6.83.2
+      docpad-baseplugin:
+        specifier: 1.4.0
+        version: 1.4.0(docpad@6.83.2)
+      marked:
+        specifier: 14.1.2
+        version: 14.1.2
 
   plugins/serve:
     dependencies:
@@ -864,12 +876,6 @@ packages:
     resolution: {integrity: sha512-ciRYLB20kbwnZ0yL7szmpdPd0p0Fi7tYIH/SjxyTrTFGqBRSaJCDkkS275mcVkG5kTzK3b7Bchc1IWJ80vzd7Q==}
     engines: {node: '>=10'}
 
-  docpad-plugin-marked@2.10.0:
-    resolution: {integrity: sha512-u4pB9jtLYdObT0+kEzLrqRWRiWSjOTUYZbSuum0fAy9+nIojqSU7SpPxSjshd8E8OJNNDKiddYuLCB77UQMyeA==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      docpad: ^6.83.2
-
   docpad-plugin-partials@2.14.0:
     resolution: {integrity: sha512-7tA42B/1yWwtHmcPfG3Jw+k2SHe+vYk4idrSrPogi8acb0nEzX9Ihg+FiqDfmSzPeOQ/KJlH4U1/IM7VyK8SGQ==}
     engines: {node: '>=10'}
@@ -1518,9 +1524,9 @@ packages:
     resolution: {integrity: sha512-8y/eV9QQZCiyn1SprXSrCmqJN0yNRATe+PO8ztwqrvrbdRLA3eYJF0yaR0YayLWkMbsQSKWS9N2gPcGEc4UsZg==}
     engines: {node: '>=0.10.0'}
 
-  marked@1.2.9:
-    resolution: {integrity: sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==}
-    engines: {node: '>= 8.16.2'}
+  marked@14.1.2:
+    resolution: {integrity: sha512-f3r0yqpz31VXiDB/wj9GaOB0a2PRLQl6vJmXiFrniNwjkKdvakqJRULhjFKJpxOchlCRiG5fcacoUZY5Xa6PEQ==}
+    engines: {node: '>= 18'}
     hasBin: true
 
   maxmin@3.0.0:
@@ -2865,12 +2871,6 @@ snapshots:
       - docpad
       - utf-8-validate
 
-  docpad-plugin-marked@2.10.0(docpad@6.83.2):
-    dependencies:
-      docpad: 6.83.2
-      docpad-baseplugin: 1.4.0(docpad@6.83.2)
-      marked: 1.2.9
-
   docpad-plugin-partials@2.14.0(docpad@6.83.2):
     dependencies:
       docpad-baseplugin: 1.4.0(docpad@6.83.2)
@@ -3647,7 +3647,7 @@ snapshots:
 
   map-cache@0.2.2: {}
 
-  marked@1.2.9: {}
+  marked@14.1.2: {}
 
   maxmin@3.0.0:
     dependencies:

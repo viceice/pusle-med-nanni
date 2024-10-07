@@ -17,5 +17,5 @@ if [ ! -d ~/.ssh ]; then
   mkdir ~/.ssh
   touch ~/.ssh/known_hosts
 fi
-echo "vps577063.ovh.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFuuDnpHPBfoW7jZjEqTVrbkQXdG42sAX4bDscc90utS" >> ~/.ssh/known_hosts
+echo "vps577063.ovh.net ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIBrQnysJ/Dt/fUXnTDQhXqkQscdImiAFzpXgEp37Sa7" >> ~/.ssh/known_hosts
 

@@ -1,0 +1,49 @@
+{
+  "name": "docpad-plugin-marked",
+  "version": "3.0.0",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "markdown",
+    "markup"
+  ],
+  "license": "MIT",
+  "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me), 2011 Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
+  "contributors": [
+    {
+      "name": "Michael Kriese",
+      "email": "michael.kriesse@gmx.de",
+      "url": "https://github.com/viceice"
+    }
+  ],
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "docpad-plugintester"
+  },
+  "dependencies": {
+    "docpad-baseplugin": "1.4.0",
+    "marked": "14.1.2"
+  },
+  "peerDependencies": {
+    "docpad": "*"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "editions": [
+    {
+      "description": "esnext source code with require for modules",
+      "directory": "src",
+      "entry": "index.js",
+      "syntaxes": [
+        "javascript",
+        "esnext",
+        "require"
+      ],
+      "engines": {
+        "node": ">=20.9.0"
+      }
+    }
+  ]
+}

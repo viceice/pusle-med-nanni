@@ -40,7 +40,7 @@
     "docpad-plugin-imagin": "workspace:*",
     "docpad-plugin-less": "2.10.0",
     "docpad-plugin-livereload": "2.11.0",
-    "docpad-plugin-marked": "2.10.0",
+    "docpad-plugin-marked": "workspace:*",
     "docpad-plugin-partials": "2.14.0",
     "docpad-plugin-serve": "workspace:*",
     "docpad-plugin-tree": "workspace:*",

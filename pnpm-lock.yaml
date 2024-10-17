@@ -518,8 +518,8 @@ packages:
   access-control@1.0.1:
     resolution: {integrity: sha512-H5aqjkogmFxfaOrfn/e42vyspHVXuJ8er63KuljJXpOyJ1ZO/U5CrHfO8BLKIy2w7mBM02L5quL0vbfQqrGQbA==}
 
-  acorn@8.12.1:
-    resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
+  acorn@8.13.0:
+    resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -2111,8 +2111,8 @@ packages:
     resolution: {integrity: sha512-RxOdv2e17kjXXbk4oXt3I4iRHO193kOL+SxDclBsefF+53FJHA4m0khh49CCStzjrMPeT49KxIcwLzzjwMiGGw==}
     engines: {node: '>=4'}
 
-  terser@5.34.1:
-    resolution: {integrity: sha512-FsJZ7iZLd/BXkz+4xrRTGJ26o/6VTjQytUk8b8OxkwcD2I+79VPJlz7qss1+zE7h8GNIScFqXcDyJ/KqBYZFVA==}
+  terser@5.36.0:
+    resolution: {integrity: sha512-IYV9eNMuFAV4THUspIRXkLakHnV6XO7FEdtKjf/mDyrnqUg9LnlOn6/RwRvM9SZjR4GUq8Nk8zj67FzVARr74w==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2452,7 +2452,7 @@ snapshots:
     dependencies:
       serialize-javascript: 6.0.2
       smob: 1.5.0
-      terser: 5.34.1
+      terser: 5.36.0
 
   '@rollup/pluginutils@5.1.2':
     dependencies:
@@ -2479,7 +2479,7 @@ snapshots:
       setheader: 1.0.2
       vary: 1.1.2
 
-  acorn@8.12.1: {}
+  acorn@8.13.0: {}
 
   ambi@2.5.0:
     dependencies:
@@ -4247,10 +4247,10 @@ snapshots:
       extendr: 7.10.0
       unbounded: 6.3.1
 
-  terser@5.34.1:
+  terser@5.36.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.12.1
+      acorn: 8.13.0
       commander: 2.20.3
       source-map-support: 0.5.21
 

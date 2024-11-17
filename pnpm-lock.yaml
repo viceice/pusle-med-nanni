@@ -462,8 +462,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@olton/datetime@3.0.5':
-    resolution: {integrity: sha512-Faa/wfwpQiy3Kr8n24n5SZ0Xs5nv4ySjCQdcxc+D45qHEDtem61fKX8PYUUTp2yQ4Zrp/E2GX6fNhdKdiVXPRA==}
+  '@olton/datetime@3.1.0':
+    resolution: {integrity: sha512-liTqMOraSG7hDRbDvLBT5YFL7GXNc0+8lTik2xquq8n7Lk/epN1Bz++pPRNoHZkxSu0BB6/bp1OFophYCXGaMw==}
 
   '@olton/string@0.4.4':
     resolution: {integrity: sha512-TVOWF0nEnKdZhyInt9UpGUPO8cOZxk9BX5BF01QfnCjVpAnX6yJr/bWctNtcqD94byxm8EVKAADN18UAOnuBiA==}
@@ -2432,7 +2432,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@olton/datetime@3.0.5': {}
+  '@olton/datetime@3.1.0': {}
 
   '@olton/string@0.4.4':
     dependencies:
@@ -3675,7 +3675,7 @@ snapshots:
 
   metro4@4.5.12:
     dependencies:
-      '@olton/datetime': 3.0.5
+      '@olton/datetime': 3.1.0
       '@olton/string': 0.4.4
     transitivePeerDependencies:
       - rollup

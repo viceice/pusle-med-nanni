@@ -450,8 +450,8 @@ packages:
       whiskers:
         optional: true
 
-  '@olton/datetime@3.1.0':
-    resolution: {integrity: sha512-liTqMOraSG7hDRbDvLBT5YFL7GXNc0+8lTik2xquq8n7Lk/epN1Bz++pPRNoHZkxSu0BB6/bp1OFophYCXGaMw==}
+  '@olton/datetime@3.2.0':
+    resolution: {integrity: sha512-tgJth1cJHL2KDW0mUM+UEKYDHOlj6suN9vwjfTvnish9oY5CFARlfdWC/vzJEHJ01dLO4PX3Xk0Mf9QNzGwdIQ==}
 
   '@olton/string@0.4.4':
     resolution: {integrity: sha512-TVOWF0nEnKdZhyInt9UpGUPO8cOZxk9BX5BF01QfnCjVpAnX6yJr/bWctNtcqD94byxm8EVKAADN18UAOnuBiA==}
@@ -2375,7 +2375,7 @@ snapshots:
       underscore: 1.13.7
       vash: 0.13.0
 
-  '@olton/datetime@3.1.0': {}
+  '@olton/datetime@3.2.0': {}
 
   '@olton/string@0.4.4':
     dependencies:
@@ -3590,7 +3590,7 @@ snapshots:
 
   metro4@4.5.12:
     dependencies:
-      '@olton/datetime': 3.1.0
+      '@olton/datetime': 3.2.0
       '@olton/string': 0.4.4
     transitivePeerDependencies:
       - rollup

@@ -133,8 +133,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0(docpad@6.83.2)
       marked:
-        specifier: 14.1.4
-        version: 14.1.4
+        specifier: 15.0.2
+        version: 15.0.2
 
   plugins/serve:
     dependencies:
@@ -1500,8 +1500,8 @@ packages:
     resolution: {integrity: sha512-8y/eV9QQZCiyn1SprXSrCmqJN0yNRATe+PO8ztwqrvrbdRLA3eYJF0yaR0YayLWkMbsQSKWS9N2gPcGEc4UsZg==}
     engines: {node: '>=0.10.0'}
 
-  marked@14.1.4:
-    resolution: {integrity: sha512-vkVZ8ONmUdPnjCKc5uTRvmkRbx4EAi2OkTOXmfTDhZz3OFqMNBM1oTTWwTr4HY4uAEojhzPf+Fy8F1DWa3Sndg==}
+  marked@15.0.2:
+    resolution: {integrity: sha512-85RUkoYKIVB21PbMKrnD6aCl9ws+XKEyhJNMbLn206NyD3jbBo7Ec7Wi4Jrsn4dV1a2ng7K/jfkmIN0DNoS41w==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -3551,7 +3551,7 @@ snapshots:
 
   map-cache@0.2.2: {}
 
-  marked@14.1.4: {}
+  marked@15.0.2: {}
 
   maxmin@3.0.0:
     dependencies:

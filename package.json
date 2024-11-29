@@ -58,13 +58,15 @@
   },
   "packageManager": "pnpm@9.14.3",
   "engines": {
-    "node": ">=20.9.0",
+    "node": "^20.9.0 || ^22.11.0",
     "pnpm": "^9.0.0"
   },
   "pnpm": {
     "overrides": {
       "consolidate": "npm:@ladjs/consolidate@1.0.4",
-      "express>cookie": "1.0.2"
+      "express>cookie": "1.0.2",
+      "safefs": "8.10.0",
+      "safeps": "11.6.0"
     }
   }
 }

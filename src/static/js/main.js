@@ -23,7 +23,8 @@ $('body').on('click', 'div[data-role=tile]', function () {
 
     var dlg = $('#preview');
     dlg.find('img.dlg-preview').attr('src', src);
-    dlg.data('dialog').open();
+    // let the image load first
+    setTimeout(() => dlg.data('dialog').open(), 50);
 });
 
 window.cookieconsent_options = {

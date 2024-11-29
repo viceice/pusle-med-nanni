@@ -64,7 +64,7 @@
   "pnpm": {
     "overrides": {
       "consolidate": "npm:@ladjs/consolidate@1.0.4",
-      "express>cookie": "0.7.2"
+      "express>cookie": "1.0.2"
     }
   }
 }

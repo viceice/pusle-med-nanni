@@ -64,6 +64,7 @@
     "overrides": {
       "consolidate": "npm:@ladjs/consolidate@1.0.4",
       "express>cookie": "1.0.2",
+      "primus>nanoid": "3.3.8",
       "safefs": "8.10.0",
       "safeps": "11.6.0"
     }

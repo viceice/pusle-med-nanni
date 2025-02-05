@@ -23,7 +23,7 @@ jobs:
       contents: read
 
   deploy:
-    runs-on: ubuntu-2024
+    runs-on: ubuntu-20.24
 
     needs:
       - build

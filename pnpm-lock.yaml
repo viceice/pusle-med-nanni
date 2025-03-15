@@ -7,7 +7,7 @@ settings:
 overrides:
   consolidate: npm:@ladjs/consolidate@1.0.4
   express>cookie: 1.0.2
-  primus>nanoid: 3.3.9
+  primus>nanoid: 3.3.10
   safefs: 8.10.0
   safeps: 11.6.0
 
@@ -1504,8 +1504,8 @@ packages:
   mute-stream@0.0.8:
     resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
 
-  nanoid@3.3.9:
-    resolution: {integrity: sha512-SppoicMGpZvbF1l3z4x7No3OlIjP7QJvC9XR7AhZr1kL133KHnKPztkKDc+Ir4aJ/1VhTySrtKhrsycmrMQfvg==}
+  nanoid@3.3.10:
+    resolution: {integrity: sha512-vSJJTG+t/dIKAUhUDw/dLdZ9s//5OxcHqLaDWWrW4Cdq7o6tdLIczUkMXt2MBNmk6sJRZBZRXVixs7URY1CmIg==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -3445,7 +3445,7 @@ snapshots:
 
   mute-stream@0.0.8: {}
 
-  nanoid@3.3.9: {}
+  nanoid@3.3.10: {}
 
   native-request@1.1.2:
     optional: true
@@ -3592,7 +3592,7 @@ snapshots:
       eventemitter3: 4.0.7
       forwarded-for: 1.1.0
       fusing: 1.0.0
-      nanoid: 3.3.9
+      nanoid: 3.3.10
       setheader: 1.0.2
       ultron: 1.1.1
 

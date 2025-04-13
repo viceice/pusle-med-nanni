@@ -171,8 +171,8 @@ packages:
     resolution: {integrity: sha512-NqKFKbtBSz1EVEZHx4Vg2RklR7oIADcORnn2fkkn5X5nyg0UCUxqbNxVC0eNnY5Jl0U5guVn++P44vzwkPSXLw==}
     engines: {node: '>=10'}
 
-  '@emnapi/runtime@1.4.0':
-    resolution: {integrity: sha512-64WYIf4UYcdLnbKn/umDlNjQDSS8AgZrI/R9+x5ilkUVFxXcA1Ebl+gQLc/6mERA4407Xof0R7wEyEuj091CVw==}
+  '@emnapi/runtime@1.4.1':
+    resolution: {integrity: sha512-LMshMVP0ZhACNjQNYXiU1iZJ6QCcv0lUdPDPugqGvCGXt5xtRVBPdtA0qU12pEXZzpWAhWlZYptfdAFq10DOVQ==}
 
   '@img/sharp-darwin-arm64@0.34.1':
     resolution: {integrity: sha512-pn44xgBtgpEbZsu+lWf2KNb6OAf70X68k+yk69Ic2Xz11zHR/w24/U49XT7AeRwJ0Px+mhALhU5LPci1Aymk7A==}
@@ -531,8 +531,8 @@ packages:
     peerDependencies:
       eventemitter3: '>=1.1.0'
 
-  backbone@1.6.0:
-    resolution: {integrity: sha512-13PUjmsgw/49EowNcQvfG4gmczz1ximTMhUktj0Jfrjth0MVaTxehpU+qYYX4MxnuIuhmvBLC6/ayxuAGnOhbA==}
+  backbone@1.6.1:
+    resolution: {integrity: sha512-YQzWxOrIgL6BoFnZjThVN99smKYhyEXXFyJJ2lsF1wJLyo4t+QjmkLrH8/fN22FZ4ykF70Xq7PgTugJVR4zS9Q==}
 
   bal-util@2.8.0:
     resolution: {integrity: sha512-4krTXfpVnB1IOVBHqu8S86GrWJOd7hRts/nruO/GrhlPrVYwyOW8tHSjY2TbytZ4oVoKJXU8chaW+C0bnBiwjw==}
@@ -1375,8 +1375,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  listr2@8.2.5:
-    resolution: {integrity: sha512-iyAZCeyD+c1gPyE9qpFu8af0Y+MRtmKOncdGoA2S5EY8iFq99dmmvkNnHiWo+pj0s7yH7l3KPIgee77tKpXPWQ==}
+  listr2@8.3.2:
+    resolution: {integrity: sha512-vsBzcU4oE+v0lj4FhVLzr9dBTv4/fHIa57l+GCwovP8MoFNZJTOhGU8PXd4v2VJCbECAaijBiHntiekFMLvo0g==}
     engines: {node: '>=18.0.0'}
 
   load-grunt-config@4.0.1:
@@ -2150,7 +2150,7 @@ snapshots:
       typechecker: 8.6.0
       version-range: 4.14.0
 
-  '@emnapi/runtime@1.4.0':
+  '@emnapi/runtime@1.4.1':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -2224,7 +2224,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.34.1':
     dependencies:
-      '@emnapi/runtime': 1.4.0
+      '@emnapi/runtime': 1.4.1
     optional: true
 
   '@img/sharp-win32-ia32@0.34.1':
@@ -2314,7 +2314,7 @@ snapshots:
     dependencies:
       eventemitter3: 4.0.7
 
-  backbone@1.6.0:
+  backbone@1.6.1:
     dependencies:
       underscore: 1.13.7
 
@@ -2637,7 +2637,7 @@ snapshots:
       '@bevry/pluginloader': 4.13.0
       ambi: 3.2.0
       ansistyles: 0.1.3
-      backbone: 1.6.0
+      backbone: 1.6.1
       bal-util: 2.8.0
       cac: 6.7.14
       caterpillar: 6.12.0
@@ -3315,7 +3315,7 @@ snapshots:
       debug: 4.4.0
       execa: 8.0.1
       lilconfig: 3.1.3
-      listr2: 8.2.5
+      listr2: 8.3.2
       micromatch: 4.0.8
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -3323,7 +3323,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  listr2@8.2.5:
+  listr2@8.3.2:
     dependencies:
       cli-truncate: 4.0.0
       colorette: 2.0.20

@@ -38,7 +38,7 @@ jobs:
           show-progress: false
 
       - name: Setup SOPS
-        uses: nhedger/setup-sops@4cb6513348c5f59a83644dfeb1d93bcb63158c58 # v2.0.2
+        uses: nhedger/setup-sops@187c90dbb4e28c3225263886266a5b92baa7e5a1 # v2.1.1
 
       - name: prepare
         run: |

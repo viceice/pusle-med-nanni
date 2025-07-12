@@ -89,8 +89,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       luxon:
-        specifier: 3.6.1
-        version: 3.6.1
+        specifier: 3.7.1
+        version: 3.7.1
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -1388,8 +1388,8 @@ packages:
     resolution: {integrity: sha512-9ie8ItPR6tjY5uYJh8K/Zrv/RMZ5VOlOWvtZdEHYSTFKZfIBPQa9tOAEeAWhd+AnIneLJ22w5fjOYtoutpWq5w==}
     engines: {node: '>=18'}
 
-  luxon@3.6.1:
-    resolution: {integrity: sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ==}
+  luxon@3.7.1:
+    resolution: {integrity: sha512-RkRWjA926cTvz5rAb1BqyWkKbbjzCGchDUIKMCUvNi17j6f6j8uHGDV82Aqcqtzd+icoYpELmG3ksgGiFNNcNg==}
     engines: {node: '>=12'}
 
   make-dir@2.1.0:
@@ -3307,7 +3307,7 @@ snapshots:
       strip-ansi: 7.1.0
       wrap-ansi: 9.0.0
 
-  luxon@3.6.1: {}
+  luxon@3.7.1: {}
 
   make-dir@2.1.0:
     dependencies:

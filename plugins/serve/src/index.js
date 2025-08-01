@@ -50,7 +50,11 @@ class ServePlugin extends BasePlugin {
         };
 
         // start listening on the server
-        this.server = app.listen(opts, () => {
+        this.server = app.listen(opts, (error) => {
+            if (error) {
+                docpad.log('error', `Failed to start server: ${error}`);
+                return next(error);
+            }
             // fetch
             const { port, address } = this.server.address();
             // apply
@@ -59,12 +63,12 @@ class ServePlugin extends BasePlugin {
             me.host = opts.host;
             me.url = `http://${opts.host}:${opts.port}`;
             // log
-            this.docpad.log('info', `...server started on ${me.url}`);
+            docpad.log('info', `...server started on ${me.url}`);
             next();
         });
 
-        this.server.on('error', this.docpad.error);
-        this.server.on('clientError', this.docpad.warn);
+        this.server.on('error', docpad.error);
+        this.server.on('clientError', docpad.warn);
     }
 
     // Destroy the server

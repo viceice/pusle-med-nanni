@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
-    "marked": "16.1.1"
+    "marked": "16.1.2"
   },
   "peerDependencies": {
     "docpad": "*"

@@ -63,6 +63,7 @@
   "pnpm": {
     "overrides": {
       "consolidate": "npm:@ladjs/consolidate@1.0.4",
+      "docpad>inquirer": "8.2.7",
       "express>cookie": "1.0.2",
       "primus>nanoid": "3.3.11",
       "safefs": "8.10.0",

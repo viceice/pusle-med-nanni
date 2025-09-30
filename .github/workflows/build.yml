@@ -24,7 +24,7 @@ jobs:
       # Fix timestamps
       # https://git.wiki.kernel.org/index.php/Git_FAQ#Why_isn.27t_Git_preserving_modification_time_on_files.3F
       - name: restore timestamps
-        uses: chetan/git-restore-mtime-action@cbf8161ddb4e9b162409104954fb540e8a38c1da # v2.1.1
+        uses: chetan/git-restore-mtime-action@bca85c11349c76b2dbac06d07edf6c2407dbab1e # v2.2
 
       - name: Lint
         run: pnpm prettier:check

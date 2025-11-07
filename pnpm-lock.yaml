@@ -132,8 +132,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0(docpad@6.83.2)
       marked:
-        specifier: 16.4.1
-        version: 16.4.1
+        specifier: 16.4.2
+        version: 16.4.2
 
   plugins/serve:
     dependencies:
@@ -1430,8 +1430,8 @@ packages:
     resolution: {integrity: sha512-8y/eV9QQZCiyn1SprXSrCmqJN0yNRATe+PO8ztwqrvrbdRLA3eYJF0yaR0YayLWkMbsQSKWS9N2gPcGEc4UsZg==}
     engines: {node: '>=0.10.0'}
 
-  marked@16.4.1:
-    resolution: {integrity: sha512-ntROs7RaN3EvWfy3EZi14H4YxmT6A5YvywfhO+0pm+cH/dnSQRmdAmoFIc3B9aiwTehyk7pESH4ofyBY+V5hZg==}
+  marked@16.4.2:
+    resolution: {integrity: sha512-TI3V8YYWvkVf3KJe1dRkpnjs68JUPyEa5vjKrp1XEEJUAOaQc+Qj+L1qWbPd0SJuAdQkFU0h73sXXqwDYxsiDA==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -3373,7 +3373,7 @@ snapshots:
 
   map-cache@0.2.2: {}
 
-  marked@16.4.1: {}
+  marked@16.4.2: {}
 
   math-intrinsics@1.1.0: {}
 

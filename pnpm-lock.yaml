@@ -7,7 +7,7 @@ settings:
 overrides:
   consolidate: npm:@ladjs/consolidate@1.0.4
   docpad>inquirer: 8.2.7
-  express>cookie: 1.0.2
+  express>cookie: 1.1.1
   primus>nanoid: 3.3.11
   safefs: 8.10.0
   safeps: 11.6.0
@@ -721,8 +721,8 @@ packages:
     resolution: {integrity: sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==}
     engines: {node: '>=6.6.0'}
 
-  cookie@1.0.2:
-    resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
+  cookie@1.1.1:
+    resolution: {integrity: sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==}
     engines: {node: '>=18'}
 
   cookieconsent@3.1.1:
@@ -2491,7 +2491,7 @@ snapshots:
 
   cookie-signature@1.2.2: {}
 
-  cookie@1.0.2: {}
+  cookie@1.1.1: {}
 
   cookieconsent@3.1.1: {}
 
@@ -2795,7 +2795,7 @@ snapshots:
       body-parser: 2.2.1
       content-disposition: 1.0.1
       content-type: 1.0.5
-      cookie: 1.0.2
+      cookie: 1.1.1
       cookie-signature: 1.2.2
       debug: 4.4.3
       depd: 2.0.0

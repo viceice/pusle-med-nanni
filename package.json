@@ -48,7 +48,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "load-grunt-config": "4.0.1",
-    "lodash": "4.17.21",
+    "lodash": "4.17.23",
     "luxon": "3.7.2",
     "prettier": "3.8.0",
     "prettier-plugin-packagejson": "2.5.22",

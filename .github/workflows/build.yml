@@ -17,7 +17,7 @@ jobs:
           filter: blob:none
 
       - name: ⚙️ Setup
-        uses: containerbase/internal-tools/setup@6bf3f1c9139edf40594b0aa52b9fa15a88e5fd21 # v4.0.8
+        uses: containerbase/internal-tools/setup@ad0a60a07c59598140bf8390ca80522b344aeb3d # v4.0.12
         with:
           checkout: false
 

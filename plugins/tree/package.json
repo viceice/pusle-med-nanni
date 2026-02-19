@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "docpad-baseplugin": "1.4.0",
-    "underscore": "1.13.7",
+    "underscore": "1.13.8",
     "underscore.string": "3.3.6"
   },
   "peerDependencies": {

@@ -81,8 +81,8 @@ importers:
         specifier: 9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: 16.3.3
-        version: 16.3.3
+        specifier: 16.3.4
+        version: 16.3.4
       load-grunt-config:
         specifier: 4.0.1
         version: 4.0.1(grunt@1.6.1)
@@ -1392,8 +1392,8 @@ packages:
     resolution: {integrity: sha512-yRHaiQDizWSzoXk3APcA71eOI/UuhEkNN9DiW2Tt44mhYzX4joFoCZlxsSOF7RyeLlfqzFLQI1ngFq3ggMPhOw==}
     engines: {node: '>=10'}
 
-  lint-staged@16.3.3:
-    resolution: {integrity: sha512-RLq2koZ5fGWrx7tcqx2tSTMQj4lRkfNJaebO/li/uunhCJbtZqwTuwPHpgIimAHHi/2nZIiGrkCHDCOeR1onxA==}
+  lint-staged@16.3.4:
+    resolution: {integrity: sha512-U5bxYjQA+yeKm4+8bVlkixlDlXdqlrJJU1Rx/h2h1B/FSlt7zW2rkPcnpRHFkSyjkNX8gLXfgfYaDwWkDXbvsQ==}
     engines: {node: '>=20.17'}
     hasBin: true
 
@@ -1962,8 +1962,8 @@ packages:
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
-  tinyexec@1.0.2:
-    resolution: {integrity: sha512-W/KYk+NFhkmsYpuHq5JykngiOCnxeVL8v8dFnqxSD8qEEdRfXk1SDM6JzNqcERbcGYj9tMrDQBYV9cjgnunFIg==}
+  tinyexec@1.0.4:
+    resolution: {integrity: sha512-u9r3uZC0bdpGOXtlxUIdwf9pkmvhqJdrVCH9fapQtgy/OeTTMZ1nqH7agtvEfmGui6e1XxjcdrlxvxJvc3sMqw==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.15:
@@ -3303,13 +3303,13 @@ snapshots:
       rechoir: 0.7.1
       resolve: 1.22.11
 
-  lint-staged@16.3.3:
+  lint-staged@16.3.4:
     dependencies:
       commander: 14.0.3
       listr2: 9.0.5
       micromatch: 4.0.8
       string-argv: 0.3.2
-      tinyexec: 1.0.2
+      tinyexec: 1.0.4
       yaml: 2.8.2
 
   listr2@9.0.5:
@@ -3930,7 +3930,7 @@ snapshots:
 
   through@2.3.8: {}
 
-  tinyexec@1.0.2: {}
+  tinyexec@1.0.4: {}
 
   tinyglobby@0.2.15:
     dependencies:

@@ -65,9 +65,14 @@
       "consolidate": "npm:@ladjs/consolidate@1.0.4",
       "docpad>inquirer": "8.2.7",
       "express>cookie": "1.1.1",
+      "grunt-legacy-log>lodash": "$lodash",
+      "grunt-legacy-util>lodash": "$lodash",
+      "grunt>minimatch": "3.1.5",
+      "load-grunt-config>js-yaml": "4.1.1",
+      "load-grunt-config>lodash": "$lodash",
       "primus>nanoid": "3.3.11",
       "safefs": "8.10.0",
-      "safeps": "11.6.0"
+      "safeps": "$safeps"
     },
     "ignoredBuiltDependencies": [
       "sharp",

@@ -1155,8 +1155,8 @@ packages:
     resolution: {integrity: sha512-GD7cTz0I4SAede1/+pAbmJRG44zFLPipVtdL9o3vqx9IEyb7b4/Y3s7r6ofI3CchR5GvYJ+8buCSioDv5dQLiA==}
     engines: {node: '>=0.10.0'}
 
-  grunt-legacy-log-utils@2.1.0:
-    resolution: {integrity: sha512-lwquaPXJtKQk0rUM1IQAop5noEpwFqOXasVoedLeNzaibf/OPWjKYvvdqnEHNmU+0T0CaReAXIbGo747ZD+Aaw==}
+  grunt-legacy-log-utils@2.1.3:
+    resolution: {integrity: sha512-sgG+QvKmdb44wZyzJP+ejDsy3jYxG2wzohpol+JTMlXqMUBDoZb01JPQ5jKAedtZBFwhmABAc88T9hEBLy3U+Q==}
     engines: {node: '>=10'}
 
   grunt-legacy-log@3.0.0:
@@ -3047,15 +3047,14 @@ snapshots:
 
   grunt-known-options@2.0.0: {}
 
-  grunt-legacy-log-utils@2.1.0:
+  grunt-legacy-log-utils@2.1.3:
     dependencies:
       chalk: 4.1.2
-      lodash: 4.17.23
 
   grunt-legacy-log@3.0.0:
     dependencies:
       colors: 1.1.2
-      grunt-legacy-log-utils: 2.1.0
+      grunt-legacy-log-utils: 2.1.3
       hooker: 0.2.3
       lodash: 4.17.23
 

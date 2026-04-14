@@ -40,7 +40,7 @@
     "docpad-plugin-partials": "2.14.0",
     "docpad-plugin-serve": "workspace:*",
     "docpad-plugin-tree": "workspace:*",
-    "grunt": "1.6.1",
+    "grunt": "1.6.2",
     "grunt-changed": "3.0.0",
     "grunt-contrib-copy": "1.0.0",
     "grunt-contrib-cssmin": "5.0.0",

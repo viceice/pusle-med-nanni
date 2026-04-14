@@ -68,11 +68,11 @@ importers:
         specifier: workspace:*
         version: link:plugins/tree
       grunt:
-        specifier: 1.6.1
-        version: 1.6.1
+        specifier: 1.6.2
+        version: 1.6.2
       grunt-changed:
         specifier: 3.0.0
-        version: 3.0.0(grunt@1.6.1)
+        version: 3.0.0(grunt@1.6.2)
       grunt-contrib-copy:
         specifier: 1.0.0
         version: 1.0.0
@@ -90,7 +90,7 @@ importers:
         version: 16.4.0
       load-grunt-config:
         specifier: 4.0.1
-        version: 4.0.1(grunt@1.6.1)
+        version: 4.0.1(grunt@1.6.2)
       lodash:
         specifier: 4.18.1
         version: 4.18.1
@@ -1172,8 +1172,8 @@ packages:
     resolution: {integrity: sha512-2bQiD4fzXqX8rhNdXkAywCadeqiPiay0oQny77wA2F3WF4grPJXCvAcyoWUJV+po/b15glGkxuSiQCK299UC2w==}
     engines: {node: '>=10'}
 
-  grunt@1.6.1:
-    resolution: {integrity: sha512-/ABUy3gYWu5iBmrUSRBP97JLpQUm0GgVveDCp6t3yRNIoltIYw7rEj3g5y1o2PGPR2vfTRGa7WC/LZHLTXnEzA==}
+  grunt@1.6.2:
+    resolution: {integrity: sha512-bUzh5nA/P5L66ihXTDP6J5BGnMB/8lXJXejYWSbH4Y4TvWM9t2S39sggQDYYQlx06cYcCsmu63HMYHGCIzUVfg==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -1545,12 +1545,13 @@ packages:
       encoding:
         optional: true
 
-  nopt@3.0.6:
-    resolution: {integrity: sha512-4GUt3kSEYmk4ITxzB/b9vaIDfUVWN/Ml1Fwl11IlnIG2iaJ9O6WXZ9SrYM9NLI8OCBieN2Y8SWC2oJV0RQ7qYg==}
-    hasBin: true
-
   nopt@4.0.3:
     resolution: {integrity: sha512-CvaGwVMztSMJLOeXPrez7fyfObdZqNUK1cPAEzLHrTybIua9pMdmmPR5YwtfNftIOMv3DPUhFaxsZMNTQO20Kg==}
+    hasBin: true
+
+  nopt@5.0.0:
+    resolution: {integrity: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==}
+    engines: {node: '>=6'}
     hasBin: true
 
   object-inspect@1.13.4:
@@ -3008,10 +3009,10 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  grunt-changed@3.0.0(grunt@1.6.1):
+  grunt-changed@3.0.0(grunt@1.6.2):
     dependencies:
       async: 3.2.6
-      grunt: 1.6.1
+      grunt: 1.6.2
       mkdirp: 0.5.6
       rimraf: 2.7.1
 
@@ -3064,7 +3065,7 @@ snapshots:
       underscore.string: 3.3.6
       which: 2.0.2
 
-  grunt@1.6.1:
+  grunt@1.6.2:
     dependencies:
       dateformat: 4.6.3
       eventemitter2: 0.4.14
@@ -3078,7 +3079,7 @@ snapshots:
       iconv-lite: 0.6.3
       js-yaml: 3.14.2
       minimatch: 3.1.5
-      nopt: 3.0.6
+      nopt: 5.0.0
 
   gzip-size@5.1.1:
     dependencies:
@@ -3232,9 +3233,9 @@ snapshots:
       binaryextensions: 4.19.0
       textextensions: 5.16.0
 
-  jit-grunt@0.10.0(grunt@1.6.1):
+  jit-grunt@0.10.0(grunt@1.6.2):
     dependencies:
-      grunt: 1.6.1
+      grunt: 1.6.2
 
   jquery-migrate@3.6.0(jquery@3.7.1):
     dependencies:
@@ -3319,22 +3320,22 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 9.0.2
 
-  load-grunt-config@4.0.1(grunt@1.6.1):
+  load-grunt-config@4.0.1(grunt@1.6.2):
     dependencies:
       cson: 7.20.0
       glob: 7.1.7
-      jit-grunt: 0.10.0(grunt@1.6.1)
+      jit-grunt: 0.10.0(grunt@1.6.2)
       js-yaml: 4.1.1
       js-yaml-js-types: 1.0.0
-      load-grunt-tasks: 5.1.0(grunt@1.6.1)
+      load-grunt-tasks: 5.1.0(grunt@1.6.2)
       lodash: 4.18.1
     transitivePeerDependencies:
       - grunt
 
-  load-grunt-tasks@5.1.0(grunt@1.6.1):
+  load-grunt-tasks@5.1.0(grunt@1.6.2):
     dependencies:
       arrify: 2.0.1
-      grunt: 1.6.1
+      grunt: 1.6.2
       multimatch: 4.0.0
       pkg-up: 3.1.0
       resolve-pkg: 2.0.0
@@ -3447,14 +3448,14 @@ snapshots:
     optionalDependencies:
       encoding: 0.1.13
 
-  nopt@3.0.6:
-    dependencies:
-      abbrev: 1.1.1
-
   nopt@4.0.3:
     dependencies:
       abbrev: 1.1.1
       osenv: 0.1.5
+
+  nopt@5.0.0:
+    dependencies:
+      abbrev: 1.1.1
 
   object-inspect@1.13.4: {}
 

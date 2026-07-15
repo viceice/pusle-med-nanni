@@ -13,7 +13,7 @@ overrides:
   grunt>minimatch: 3.1.5
   load-grunt-config>js-yaml: 4.3.0
   load-grunt-config>lodash: 4.18.1
-  primus>nanoid: 3.3.15
+  primus>nanoid: 3.3.16
   safefs: 8.10.0
   safeps: 11.6.0
 
@@ -1541,8 +1541,8 @@ packages:
   mute-stream@0.0.8:
     resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
 
-  nanoid@3.3.15:
-    resolution: {integrity: sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==}
+  nanoid@3.3.16:
+    resolution: {integrity: sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -3455,7 +3455,7 @@ snapshots:
 
   mute-stream@0.0.8: {}
 
-  nanoid@3.3.15: {}
+  nanoid@3.3.16: {}
 
   native-request@1.1.2:
     optional: true
@@ -3585,7 +3585,7 @@ snapshots:
       eventemitter3: 4.0.7
       forwarded-for: 1.1.0
       fusing: 1.0.0
-      nanoid: 3.3.15
+      nanoid: 3.3.16
       setheader: 1.0.2
       ultron: 1.1.1
 

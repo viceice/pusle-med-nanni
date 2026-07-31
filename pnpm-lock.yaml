@@ -68,11 +68,11 @@ importers:
         specifier: workspace:*
         version: link:plugins/tree
       grunt:
-        specifier: 1.6.2
-        version: 1.6.2
+        specifier: 1.6.3
+        version: 1.6.3
       grunt-changed:
         specifier: 3.0.0
-        version: 3.0.0(grunt@1.6.2)
+        version: 3.0.0(grunt@1.6.3)
       grunt-contrib-copy:
         specifier: 1.0.0
         version: 1.0.0
@@ -90,7 +90,7 @@ importers:
         version: 16.4.0
       load-grunt-config:
         specifier: 4.0.1
-        version: 4.0.1(grunt@1.6.2)
+        version: 4.0.1(grunt@1.6.3)
       lodash:
         specifier: 4.18.1
         version: 4.18.1
@@ -1189,8 +1189,8 @@ packages:
     resolution: {integrity: sha512-0xoDILyR4BVJel5uJwnhjdWN9evOQ8A0uXbQUIJ0hgVthIA6kloXHSoqATQPj6BRrHrHkcQtCeGVb0ixFoHyEQ==}
     engines: {node: '>=10'}
 
-  grunt@1.6.2:
-    resolution: {integrity: sha512-bUzh5nA/P5L66ihXTDP6J5BGnMB/8lXJXejYWSbH4Y4TvWM9t2S39sggQDYYQlx06cYcCsmu63HMYHGCIzUVfg==}
+  grunt@1.6.3:
+    resolution: {integrity: sha512-ng0CbpyNp/ox5e5CBY9TkZgVdAL4wK+nBHO6rNE8cXGa5kM++Lxlp0MpFBVZbpgOR2oCp/91V+T3CZVSWWLqMA==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -1376,8 +1376,8 @@ packages:
   js-yaml-js-types@1.0.0:
     resolution: {integrity: sha512-UNjPwuoaj4mcHkJCJSF6l4MgkzoFjG+JJkBXMYNvjgO3yE9gTeRt+E6PN022vduz/daZZ7HmlEiSEE36NrGE4w==}
 
-  js-yaml@3.14.2:
-    resolution: {integrity: sha512-PMSmkqxr106Xa156c2M265Z+FTrPl+oxd/rgOQy2tijQeK5TxQ43psO1ZCwhVOSdnn+RzkzlRz/eY4BgJBYVpg==}
+  js-yaml@3.15.1:
+    resolution: {integrity: sha512-S99WuO3HlhO3XN41EtYUNl9zzXjoJx7QvmipxsJVxtCBT0YHEFy+iOJhjSvrmV12nYhWpZaM8lPHkJm0yUMbag==}
     hasBin: true
 
   js-yaml@4.3.0:
@@ -3029,10 +3029,10 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  grunt-changed@3.0.0(grunt@1.6.2):
+  grunt-changed@3.0.0(grunt@1.6.3):
     dependencies:
       async: 3.2.6
-      grunt: 1.6.2
+      grunt: 1.6.3
       mkdirp: 0.5.6
       rimraf: 2.7.1
 
@@ -3085,7 +3085,7 @@ snapshots:
       underscore.string: 3.3.6
       which: 2.0.2
 
-  grunt@1.6.2:
+  grunt@1.6.3:
     dependencies:
       dateformat: 4.6.3
       eventemitter2: 0.4.14
@@ -3097,7 +3097,7 @@ snapshots:
       grunt-legacy-log: 3.0.1
       grunt-legacy-util: 2.0.2
       iconv-lite: 0.6.3
-      js-yaml: 3.14.2
+      js-yaml: 3.15.1
       minimatch: 3.1.5
       nopt: 5.0.0
 
@@ -3253,9 +3253,9 @@ snapshots:
       binaryextensions: 4.19.0
       textextensions: 5.16.0
 
-  jit-grunt@0.10.0(grunt@1.6.2):
+  jit-grunt@0.10.0(grunt@1.6.3):
     dependencies:
-      grunt: 1.6.2
+      grunt: 1.6.3
 
   jquery-migrate@3.6.0(jquery@3.7.1):
     dependencies:
@@ -3267,7 +3267,7 @@ snapshots:
     dependencies:
       esprima: 4.0.1
 
-  js-yaml@3.14.2:
+  js-yaml@3.15.1:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
@@ -3340,22 +3340,22 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 9.0.2
 
-  load-grunt-config@4.0.1(grunt@1.6.2):
+  load-grunt-config@4.0.1(grunt@1.6.3):
     dependencies:
       cson: 7.20.0
       glob: 7.1.7
-      jit-grunt: 0.10.0(grunt@1.6.2)
+      jit-grunt: 0.10.0(grunt@1.6.3)
       js-yaml: 4.3.0
       js-yaml-js-types: 1.0.0
-      load-grunt-tasks: 5.1.0(grunt@1.6.2)
+      load-grunt-tasks: 5.1.0(grunt@1.6.3)
       lodash: 4.18.1
     transitivePeerDependencies:
       - grunt
 
-  load-grunt-tasks@5.1.0(grunt@1.6.2):
+  load-grunt-tasks@5.1.0(grunt@1.6.3):
     dependencies:
       arrify: 2.0.1
-      grunt: 1.6.2
+      grunt: 1.6.3
       multimatch: 4.0.0
       pkg-up: 3.1.0
       resolve-pkg: 2.0.0

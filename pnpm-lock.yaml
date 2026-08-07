@@ -11,7 +11,7 @@ overrides:
   grunt-legacy-log>lodash: 4.18.1
   grunt-legacy-util>lodash: 4.18.1
   grunt>minimatch: 3.1.5
-  load-grunt-config>js-yaml: 4.3.0
+  load-grunt-config>js-yaml: 4.3.1
   load-grunt-config>lodash: 4.18.1
   primus>nanoid: 3.3.17
   safefs: 8.10.0
@@ -1380,8 +1380,8 @@ packages:
     resolution: {integrity: sha512-S99WuO3HlhO3XN41EtYUNl9zzXjoJx7QvmipxsJVxtCBT0YHEFy+iOJhjSvrmV12nYhWpZaM8lPHkJm0yUMbag==}
     hasBin: true
 
-  js-yaml@4.3.0:
-    resolution: {integrity: sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==}
+  js-yaml@4.3.1:
+    resolution: {integrity: sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==}
     hasBin: true
 
   jschardet@2.2.1:
@@ -3272,7 +3272,7 @@ snapshots:
       argparse: 1.0.10
       esprima: 4.0.1
 
-  js-yaml@4.3.0:
+  js-yaml@4.3.1:
     dependencies:
       argparse: 2.0.1
 
@@ -3345,7 +3345,7 @@ snapshots:
       cson: 7.20.0
       glob: 7.1.7
       jit-grunt: 0.10.0(grunt@1.6.3)
-      js-yaml: 4.3.0
+      js-yaml: 4.3.1
       js-yaml-js-types: 1.0.0
       load-grunt-tasks: 5.1.0(grunt@1.6.3)
       lodash: 4.18.1

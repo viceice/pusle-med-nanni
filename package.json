@@ -51,7 +51,7 @@
     "lodash": "4.18.1",
     "luxon": "3.7.2",
     "prettier": "3.9.10",
-    "prettier-plugin-packagejson": "3.0.2",
+    "prettier-plugin-packagejson": "3.0.3",
     "safeps": "11.6.0",
     "vash": "0.13.0"
   },

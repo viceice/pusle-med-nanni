@@ -28,11 +28,11 @@ importers:
         specifier: 4.7.0
         version: 4.7.0
       jquery:
-        specifier: 3.7.1
-        version: 3.7.1
+        specifier: 3.8.0
+        version: 3.8.0
       jquery-migrate:
         specifier: 3.6.0
-        version: 3.6.0(jquery@3.7.1)
+        version: 3.6.0(jquery@3.8.0)
       metro-ui:
         specifier: 3.0.15
         version: 3.0.15
@@ -1367,8 +1367,8 @@ packages:
     peerDependencies:
       jquery: '>=3 <4'
 
-  jquery@3.7.1:
-    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
+  jquery@3.8.0:
+    resolution: {integrity: sha512-AOYt0viqPysMUTq45O8gF9DuOnBT3Il/8WtM/TT8z/2QeGsZ70ImwSJtNFxznn2R71v8yIgaEunOGo82OY/f0g==}
 
   js-yaml-js-types@1.0.0:
     resolution: {integrity: sha512-UNjPwuoaj4mcHkJCJSF6l4MgkzoFjG+JJkBXMYNvjgO3yE9gTeRt+E6PN022vduz/daZZ7HmlEiSEE36NrGE4w==}
@@ -3253,11 +3253,11 @@ snapshots:
     dependencies:
       grunt: 1.6.3
 
-  jquery-migrate@3.6.0(jquery@3.7.1):
+  jquery-migrate@3.6.0(jquery@3.8.0):
     dependencies:
-      jquery: 3.7.1
+      jquery: 3.8.0
 
-  jquery@3.7.1: {}
+  jquery@3.8.0: {}
 
   js-yaml-js-types@1.0.0:
     dependencies:
